@@ -10,6 +10,8 @@ This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingri
 You can download the primary speech data for the Siberian Ingrian Finnish corpus here: 
 https://drive.google.com/drive/folders/1csw-_n2TzQa_AQObGBJP8x-S8ZH_h9E9
 
+**Stay tuned for more updates...**
+
 ## License
 
 The speech data of Siberian Ingrian Finnish are licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
