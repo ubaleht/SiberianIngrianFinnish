@@ -15,3 +15,15 @@ https://drive.google.com/drive/folders/1csw-_n2TzQa_AQObGBJP8x-S8ZH_h9E9
 ## License
 
 The speech data of Siberian Ingrian Finnish are licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+## Description of Speakers
+
+|The Code of the Speaker and Gender| The Year of Birth| Speech Data (Duration, In Minutes)|
+|---|---|---|
+|AAK-47 (M)|1947|12|
+|IAI-33 (F)|1933|33|
+|JuMS-28 (M)|1928|54|
+|KKM-34 (M)|1934|31,5|
+|MAP-49 (F)|1949|30,5|
+|MMM-39 (M)|1939|42,5|
+|SVM-29 (M)|1929|10,5|
