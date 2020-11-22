@@ -2,8 +2,10 @@
 This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingrian Finnish – is a language (dialect) used by the descendants of the settlers who spoke Lower Luga Ingrian Finnish varieties and Lower Luga Ingrian (Izhorian) who have been living in Omsk oblast (previously they lived also in other regions of the Siberia) for more than 200 years. The ancestors of the speakers of Siberian Ingrian Finnish came from the Lower Luga area in the early 19th century. They came from the Rosona river area, to be exact. This region is also called Estonian Ingria. Siberian Ingrian Finnish (Russian: Сибирский ингерманландский идиом) is the term introduced by D. V. Sidorkevich.
 
 **References:**
-1. D. V. Sidorkevich - PhD thesis: https://iling.spb.ru/dissovet/theses/sidorkevich/thesis.pdf
-2. D. V. Sidorkevich - On Domains of Adessive-Allative in Siberian Ingrian Finnish: https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
+1. Daria Sidorkevich - PhD thesis: https://iling.spb.ru/dissovet/theses/sidorkevich/thesis.pdf
+2. Daria Sidorkevich - On Domains of Adessive-Allative in Siberian Ingrian Finnish: https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
+3. Natalia Kuznetsova - Evolution of the Non-Initial Vocalic Length Contrast across the Finnic Varieties of Ingria and Adjacent Areas: https://www.researchgate.net/publication/299161205_Evolution_of_the_Non-Initial_Vocalic_Length_Contrast_across_the_Finnic_Varieties_of_Ingria_and_Adjacent_Areas
+The part of this paper about Siberian Ingrian Finnish (mixed Siberian Ingrian/Finnish dialect).
 
 ## Speech data of Siberian Ingrian Finnish
 
