@@ -4,7 +4,7 @@ This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingri
 **References:**
 1. Daria Sidorkevich - PhD thesis: https://iling.spb.ru/dissovet/theses/sidorkevich/thesis.pdf
 2. Daria Sidorkevich - On Domains of Adessive-Allative in Siberian Ingrian Finnish: https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
-3. Natalia Kuznetsova - Evolution of the Non-Initial Vocalic Length Contrast across the Finnic Varieties of Ingria and Adjacent Areas: https://www.researchgate.net/publication/299161205_Evolution_of_the_Non-Initial_Vocalic_Length_Contrast_across_the_Finnic_Varieties_of_Ingria_and_Adjacent_Areas
+3. Natalia Kuznetsova - Evolution of the Non-Initial Vocalic Length Contrast across the Finnic Varieties of Ingria and Adjacent Areas: https://publicatt.unicatt.it/retrieve/handle/10807/143760/240945/ling-2016-1-1-25%28uus%29.pdf
 The part of this paper about Siberian Ingrian Finnish (mixed Siberian Ingrian/Finnish dialect).
 4. Ivan Ubaleht - The Creation of Siberian Ingrian Finnish and Siberian Tatar Speech Corpora: https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
 
