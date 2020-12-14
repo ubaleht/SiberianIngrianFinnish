@@ -15,9 +15,13 @@ https://drive.google.com/drive/folders/1csw-_n2TzQa_AQObGBJP8x-S8ZH_h9E9
 
 **Stay tuned for more updates...**
 
+## Video data of Siberian Ingrian Finnish
+
+Speaker JuMS-28: https://www.youtube.com/watch?v=YqwrK6sItHI
+
 ## License
 
-The speech data of Siberian Ingrian Finnish are licensed under the CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+All data of Siberian Ingrian Finnish in this repository are licensed under the CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 ## Description of Speakers
 
