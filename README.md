@@ -25,12 +25,13 @@ All data of Siberian Ingrian Finnish in this repository are licensed under the C
 
 ## Description of Speakers
 
-|The Code of the Speaker and Gender| The Year of Birth| Speech Data (Duration, In Minutes)|
+|The Code of the Speaker and Gender| The Year of Birth| Speech Data (Duration)|
 |---|---|---|
-|AAK-47 (M)|1947|12|
-|IAI-33 (F)|1933|33|
-|JuMS-28 (M)|1928|54|
-|KKM-34 (M)|1934|31,5|
-|MAP-49 (F)|1949|30,5|
-|MMM-39 (M)|1939|42,5|
-|SVM-29 (M)|1929|10,5|
+|AAK-47 (M)|1947|40 min 57 s|
+|IAI-33 (F)|1933|33 min 14 s|
+|JuMS-28 (M)|1928|77 min 53 s|
+|KKM-34 (M)|1934|31 min 29 s|
+|MAP-49 (F)|1949|30 min 36 s|
+|MMM-39 (M)|1939|62 min 20 s|
+|PGM-56 (F)|1956|8 min 20 s
+|SVM-29 (M)|1929|10 min 36 s|
