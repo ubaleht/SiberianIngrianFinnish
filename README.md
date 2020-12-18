@@ -25,13 +25,13 @@ All data of Siberian Ingrian Finnish in this repository are licensed under the C
 
 ## Description of Speakers
 
-|The Code of the Speaker and Gender| The Year of Birth| Speech Data (Duration)|
-|---|---|---|
-|AAK-47 (M)|1947|40 min 57 s|
-|IAI-33 (F)|1933|33 min 14 s|
-|JuMS-28 (M)|1928|77 min 53 s|
-|KKM-34 (M)|1934|31 min 29 s|
-|MAP-49 (F)|1949|30 min 36 s|
-|MMM-39 (M)|1939|62 min 20 s|
-|PGM-56 (F)|1956|8 min 20 s
-|SVM-29 (M)|1929|10 min 36 s|
+|Code of the Speaker and Gender| Year of Birth|Current Place of Residence|Place of the Birth|Birthplace of parents|Speech Data (Duration)|
+|---|---|---|---|---|---|
+|AAK-47 (M)|1947|Ryzhkovo|Syade|mother: Ryzhkovo, father: no data |40 min 57 s|
+|IAI-33 (F)|1933|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|33 min 14 s|
+|JuMS-28 (M)|1928|Ryzhkovo (died)|Ryzhkovo|both parents: Ryzhkovo|77 min 53 s|
+|KKM-34 (M)|1934|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|31 min 29 s|
+|MAP-49 (F)|1949|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|30 min 36 s|
+|MMM-39 (M)|1939|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|62 min 20 s|
+|PGM-56 (F)|1956|Omsk|Finy|both parents: Finy|8 min 20 s
+|SVM-29 (M)|1929|Mikhailovka (died)|Larionovka|both parents: Yamburgsky Uyezd, Saint Petersburg Governorate|10 min 36 s|
