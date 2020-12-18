@@ -28,7 +28,7 @@ All data of Siberian Ingrian Finnish in this repository are licensed under the C
 |Code of the Speaker and Gender| Year of Birth|Current Place of Residence|Place of the Birth|Birthplace of parents|Speech Data (Duration)|
 |---|---|---|---|---|---|
 |AAK-47 (M)|1947|Ryzhkovo|Syade|mother: Ryzhkovo, father: no data |40 min 57 s|
-|IAI-33 (F)|1933|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|33 min 14 s|
+|IAI-33 (F)|1933|Oglukhino|Ryzhkovo|both parents: Ryzhkovo|33 min 14 s|
 |JuMS-28 (M)|1928|Ryzhkovo (died)|Ryzhkovo|both parents: Ryzhkovo|77 min 53 s|
 |KKM-34 (M)|1934|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|31 min 29 s|
 |MAP-49 (F)|1949|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|30 min 36 s|
