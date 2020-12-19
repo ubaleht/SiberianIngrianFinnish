@@ -2,11 +2,10 @@
 This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingrian Finnish – is a language (dialect) used by the descendants of the settlers who spoke Lower Luga Ingrian Finnish varieties and Lower Luga Ingrian (Izhorian) who have been living in Omsk oblast (previously they lived also in other regions of the Siberia) for more than 200 years. The ancestors of the speakers of Siberian Ingrian Finnish came from the Lower Luga area in the early 19th century. They came from the Rosona river area, to be exact. This region is also called Estonian Ingria. Siberian Ingrian Finnish (Russian: Сибирский ингерманландский идиом) is the term introduced by D. V. Sidorkevich.
 
 **References:**
-1. Daria Sidorkevich - PhD thesis: https://iling.spb.ru/dissovet/theses/sidorkevich/thesis.pdf
-2. Daria Sidorkevich - On Domains of Adessive-Allative in Siberian Ingrian Finnish: https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
-3. Natalia Kuznetsova - Evolution of the Non-Initial Vocalic Length Contrast across the Finnic Varieties of Ingria and Adjacent Areas: https://publicatt.unicatt.it/retrieve/handle/10807/143760/240945/ling-2016-1-1-25%28uus%29.pdf
-The part of this paper about Siberian Ingrian Finnish (mixed Siberian Ingrian/Finnish dialect).
-4. Ivan Ubaleht - The Creation of Siberian Ingrian Finnish and Siberian Tatar Speech Corpora: https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
+1. Сидоркевич, Д. В. (Sidorkevich, Daria) (2014). Язык ингерманландских переселенцев в Сибири: структура, диалектные особенности, контактные явления (Doctoral dissertation, Ин-т лингвист. исслед. РАН (СПб)). https://iling.spb.ru/dissovet/theses/sidorkevich/thesis.pdf (In Russian)
+2. Sidorkevich, Daria (2011). On domains of adessive-allative in Siberian Ingrian Finnish. Acta Linguistica Petropolitana, 7(3). https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
+3. Kuznetsova, Natalia (2016). Evolution of the non-initial vocalic length contrast across the Finnic varieties of Ingria and adjacent areas. Linguistica Uralica, 52(1), 1-25. https://publicatt.unicatt.it/retrieve/handle/10807/143760/240945/ling-2016-1-1-25%28uus%29.pdf The part of this paper about Siberian Ingrian Finnish (mixed Siberian Ingrian/Finnish dialect).
+4. Ubaleht, Ivan (2020). The Creation of Siberian Ingrian Finnish and Siberian Tatar Speech Corpora. Workshop on RESOURCEs and representations For Under-resourced Languages and domains (RESOURCEFUL-2020) at SLTC, Gothenburg, Sweden, 25th November 2020. https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
 
 ## Speech data of Siberian Ingrian Finnish
 
@@ -23,7 +22,11 @@ Speaker JuMS-28: https://www.youtube.com/watch?v=YqwrK6sItHI
 
 All data of Siberian Ingrian Finnish in this repository are licensed under the CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
-## Description of Speakers
+If you use this material, please publish reference to paper: https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
+or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngrianFinnish
+
+
+## Description of the Speakers
 
 |Code of the Speaker and Gender| Year of Birth|Current Place of Residence|Place of the Birth|Birthplace of parents|Speech Data (Duration)|
 |---|---|---|---|---|---|
