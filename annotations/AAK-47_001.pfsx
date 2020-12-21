@@ -2,26 +2,58 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1936,1056</Object>
+        <Object class="java.awt.Dimension">1920,1040</Object>
     </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">-8,-8</Object>
+        <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>default</String>
+        <String>General</String>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TierColors">
-        <pref key="default">
+        <pref key="AAK-47_Speech">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="Interviewer_Speech">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="AAK-47_Words">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="AAK-47_WordsRuTranslation">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="Interviewer_SpeechEnTranslation">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="AAK-47_WordsEnTranslation">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="AAK-47_SpeechEnTranslation">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="AAK-47_WordsComments">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.TierOrder">
-        <String>default</String>
+        <String>General</String>
+        <String>AAK-47_Speech</String>
+        <String>AAK-47_Words</String>
+        <String>AAK-47_WordsEnTranslation</String>
+        <String>AAK-47_WordsRuTranslation</String>
+        <String>AAK-47_WordsComments</String>
+        <String>AAK-47_SpeechEnTranslation</String>
+        <String>Interviewer_Speech</String>
+        <String>Interviewer_SpeechEnTranslation</String>
     </prefList>
+    <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
+    <prefGroup key="TierFonts"/>
 </preferences>

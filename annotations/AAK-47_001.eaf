@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-22T03:16:51+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-22T04:46:11+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -10,9 +10,40 @@
         <PROPERTY NAME="lastUsedAnnotationId">0</PROPERTY>
     </HEADER>
     <TIME_ORDER/>
-    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Speech"
+        PARENT_REF="General" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Speech"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
+        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words"/>
+    <TIER ANNOTATOR="Ivan Ubaleht"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsEnTranslation"/>
+    <TIER ANNOTATOR="Ivan Ubaleht"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsRuTranslation"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsComments"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_SpeechEnTranslation"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="Speech" PARENT_REF="General"
+        PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_Speech"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="Interviewer_Speech" PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_SpeechEnTranslation"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
-        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+        LINGUISTIC_TYPE_ID="GeneralType" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Speech" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Words" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="AnySymbolicAssociations" TIME_ALIGNABLE="false"/>
+    <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
     <CONSTRAINT
         DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT
