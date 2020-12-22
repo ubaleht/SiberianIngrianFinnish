@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-22T04:46:11+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-22T06:04:18+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,32 +7,135 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">0</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">14</PROPERTY>
     </HEADER>
-    <TIME_ORDER/>
-    <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General"/>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="3225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="13312"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="13312"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="15125"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="23954"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="24359"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="24360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="24765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="27891"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="29022"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>Fragment 01</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Fragment 02</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Fragment 3</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Speech"
-        PARENT_REF="General" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Speech"/>
+        PARENT_REF="General" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Speech">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>Not yet annotated</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
-        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words"/>
+        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Miä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Miä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
-        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsEnTranslation"/>
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
-        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsRuTranslation"/>
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsRuTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
-        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsComments"/>
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsComments">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Bad-quality,  audio overlay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_SpeechEnTranslation"/>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="Speech" PARENT_REF="General"
-        PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_Speech"/>
+        PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_Speech">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>По русски, а вы, по... на инкери.... да, на инкери</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="Interviewer_Speech" PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_SpeechEnTranslation"/>
+    <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
+        PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsDescription">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Personal pronoun: first person, singular</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Personal pronoun: first person, singular</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="GeneralType" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Included_In"

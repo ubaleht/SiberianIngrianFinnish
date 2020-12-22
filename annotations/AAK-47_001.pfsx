@@ -4,16 +4,99 @@
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1920,1040</Object>
     </pref>
-    <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,0</Object>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>7</Int>
     </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>General</String>
+        <String>AAK-47_WordsDescription</String>
     </pref>
+    <pref key="SelectionEndTime">
+        <Long>24765</Long>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>111.0</Float>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <prefGroup key="TierFonts"/>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="ActiveRecognizerName">
+        <String>AAM-LR Phone level audio segmentation</String>
+    </pref>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,0</Object>
+    </pref>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>111.0</Float>
+    </pref>
+    <pref key="DetachedEditor.Bounds">
+        <Object class="java.awt.Rectangle">810,390,300,300</Object>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>24360</Long>
+    </pref>
+    <prefGroup key="AAM-LR Phone level audio segmentation">
+        <pref key="base_url">
+            <String>http://lux17.mpi.nl/aamlr/</String>
+        </pref>
+        <pref key="source_audio">
+            <String>///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
+        </pref>
+    </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="TimeScaleBeginTime">
+        <Long>12504</Long>
+    </pref>
+    <pref key="MediaTime">
+        <Long>24765</Long>
+    </pref>
     <prefGroup key="TierColors">
         <pref key="AAK-47_Speech">
             <Object class="java.awt.Color">90,90,0</Object>
@@ -23,6 +106,9 @@
         </pref>
         <pref key="AAK-47_Words">
             <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="General">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="AAK-47_WordsRuTranslation">
             <Object class="java.awt.Color">90,0,90</Object>
@@ -47,13 +133,17 @@
         <String>AAK-47_WordsEnTranslation</String>
         <String>AAK-47_WordsRuTranslation</String>
         <String>AAK-47_WordsComments</String>
+        <String>AAK-47_WordsDescription</String>
         <String>AAK-47_SpeechEnTranslation</String>
         <String>Interviewer_Speech</String>
         <String>Interviewer_SpeechEnTranslation</String>
     </prefList>
     <prefGroup key="TierHighlightColors"/>
-    <pref key="LayoutManager.CurrentMode">
-        <Int>1</Int>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>277</Int>
     </pref>
-    <prefGroup key="TierFonts"/>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
 </preferences>
