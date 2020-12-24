@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-22T06:04:18+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-25T03:02:08+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">14</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">43</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -24,6 +24,22 @@
         <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="24765"/>
         <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="27891"/>
         <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="29022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="29022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="29022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="30256"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="30537"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="31119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="31119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="32267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="32267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="32267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="32267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="34795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="34795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="35308"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="35308"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="37260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="37260"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -39,33 +55,69 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
                 TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts14">
-                <ANNOTATION_VALUE>Fragment 3</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 03</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Fragment 04</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>Fragment 05</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Speech"
         PARENT_REF="General" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Speech">
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
                 TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts13">
                 <ANNOTATION_VALUE>Not yet annotated</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts19">
+                <ANNOTATION_VALUE>s-siä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>Teie</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
         PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words">
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
                 TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
                 <ANNOTATION_VALUE>Miä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
                 TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
                 <ANNOTATION_VALUE>Miä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts18" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>siä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Teie</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -73,13 +125,23 @@
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsEnTranslation">
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a6">
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a18">
                 <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a7">
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a19">
                 <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -87,13 +149,23 @@
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsRuTranslation">
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a6">
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a18">
                 <ANNOTATION_VALUE>Я</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a7">
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a19">
                 <ANNOTATION_VALUE>Я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>ты</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>вы</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -101,14 +173,30 @@
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsComments">
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6">
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a18">
                 <ANNOTATION_VALUE>Bad-quality,  audio overlay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>The speaker knows Estonian well, and may be at the moment he confused Estonian "You" and "You" in Siberian Ingrian Finnish.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
-        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_SpeechEnTranslation"/>
+        PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_SpeechEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="Speech" PARENT_REF="General"
         PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_Speech">
@@ -116,6 +204,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
                 TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts4">
                 <ANNOTATION_VALUE>По русски, а вы, по... на инкери.... да, на инкери</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>Потом "ты", "ты", .... "ага".</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35"
+                TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>ааа-м.... "Вы" .... ааа...., ... ага,  ааа...</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -126,13 +226,23 @@
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsDescription">
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a6">
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a18">
                 <ANNOTATION_VALUE>Personal pronoun: first person, singular</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a7">
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a19">
                 <ANNOTATION_VALUE>Personal pronoun: first person, singular</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>Personal pronoun: second person, singular</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>Personal pronoun: second person, plural</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>

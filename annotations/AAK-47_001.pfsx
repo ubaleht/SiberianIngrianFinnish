@@ -11,13 +11,13 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>AAK-47_WordsDescription</String>
+        <String>General</String>
     </pref>
     <pref key="SelectionEndTime">
         <Long>24765</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>111.0</Float>
+        <Float>290.99997</Float>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -74,7 +74,7 @@
         <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>111.0</Float>
+        <Float>290.99997</Float>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">810,390,300,300</Object>
@@ -83,11 +83,11 @@
         <Long>24360</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
-        <pref key="base_url">
-            <String>http://lux17.mpi.nl/aamlr/</String>
-        </pref>
         <pref key="source_audio">
             <String>///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
+        </pref>
+        <pref key="base_url">
+            <String>http://lux17.mpi.nl/aamlr/</String>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
