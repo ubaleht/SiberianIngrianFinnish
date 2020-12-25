@@ -11,10 +11,10 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>General</String>
+        <String>AAK-47_WordsComments</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>24765</Long>
+        <Long>35308</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>290.99997</Float>
@@ -80,22 +80,22 @@
         <Object class="java.awt.Rectangle">810,390,300,300</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>24360</Long>
+        <Long>34795</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
-        <pref key="source_audio">
-            <String>///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
-        </pref>
         <pref key="base_url">
             <String>http://lux17.mpi.nl/aamlr/</String>
+        </pref>
+        <pref key="source_audio">
+            <String>///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="TimeScaleBeginTime">
-        <Long>12504</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>24765</Long>
+        <Long>35420</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="AAK-47_Speech">
@@ -107,11 +107,11 @@
         <pref key="AAK-47_Words">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="General">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="AAK-47_WordsRuTranslation">
             <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="General">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="Interviewer_SpeechEnTranslation">
             <Object class="java.awt.Color">90,0,160</Object>
@@ -140,7 +140,7 @@
     </prefList>
     <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>277</Int>
+        <Int>185</Int>
     </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
