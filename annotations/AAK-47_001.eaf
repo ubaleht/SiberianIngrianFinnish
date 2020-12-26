@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-26T04:14:37+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-27T02:44:25+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">52</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">66</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -55,7 +55,21 @@
         <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="43677"/>
         <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="44286"/>
         <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="46330"/>
-        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="48707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="46571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="47590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="48707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="48707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="58259"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="58259"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="58259"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="60204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="60204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="60286"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="60953"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="62210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="62431"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="65496"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="65496"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -90,14 +104,26 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
-                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts38">
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts37">
                 <ANNOTATION_VALUE>Fragment 06</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48"
-                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts46">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts49">
                 <ANNOTATION_VALUE>Fragment 07</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>Fragment 08</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts59">
+                <ANNOTATION_VALUE>Fragment 09</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -128,9 +154,15 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56"
                 TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts45">
                 <ANNOTATION_VALUE>Pepäl' а по эстонски Kaugel</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57"
+                TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>rays' ? ... рядом</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -161,9 +193,15 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
                 TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts44">
                 <ANNOTATION_VALUE>pepäl'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>rays' ?</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -191,8 +229,13 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a50">
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a58">
                 <ANNOTATION_VALUE>far away | far | away | afar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE>nearby | beside | near</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -271,20 +314,38 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
-                TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts39">
+                TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts38">
                 <ANNOTATION_VALUE>Ага .... ааа...</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62"
                 TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts43">
                 <ANNOTATION_VALUE>Ну, про удалённый предмет,какой-нибудь</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63"
+                TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>"здесь", "тут", "близко"... вот</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64"
+                TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>ага ... угу ... здесь, ря... угу</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
-        PARENT_REF="Interviewer_Speech" PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_SpeechEnTranslation"/>
+        PARENT_REF="Interviewer_Speech" PARTICIPANT="Ivan Ubaleht" TIER_ID="Interviewer_SpeechEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>here, nearby</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
         PARENT_REF="AAK-47_Words" PARTICIPANT="AAK-47" TIER_ID="AAK-47_WordsDescription">
@@ -316,6 +377,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
                 TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
                 <ANNOTATION_VALUE>Teie</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66"
+                TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>aaa, aitäh</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
