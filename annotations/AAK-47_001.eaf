@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-27T02:44:25+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-28T01:24:43+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">66</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">74</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -70,6 +70,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="62431"/>
         <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="65496"/>
         <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="65496"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="65496"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="65496"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="66283"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="66522"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="66522"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="66973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="66973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="69500"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -122,8 +130,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55"
-                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts59">
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts61">
                 <ANNOTATION_VALUE>Fragment 09</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67"
+                TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>Fragment 10</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -156,13 +170,19 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56"
                 TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts45">
-                <ANNOTATION_VALUE>Pepäl' а по эстонски Kaugel</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Peppäl' а по эстонски Kaugel</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57"
                 TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts57">
                 <ANNOTATION_VALUE>rays' ? ... рядом</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68"
+                TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>peppäl'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -195,13 +215,19 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
                 TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts44">
-                <ANNOTATION_VALUE>pepäl'</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>peppäl'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
                 TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
                 <ANNOTATION_VALUE>rays' ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>peppäl'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -236,6 +262,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a59">
                 <ANNOTATION_VALUE>nearby | beside | near</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -276,6 +307,11 @@
                 <ANNOTATION_VALUE>The speaker knows Estonian well, and may be at the moment he confused Estonian "You" and "You" in Siberian Ingrian Finnish.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>Background noise</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -288,6 +324,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a36">
                 <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a68">
+                <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -332,8 +373,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64"
-                TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts60">
+                TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts62">
                 <ANNOTATION_VALUE>ага ... угу ... здесь, ря... угу</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts63">
+                <ANNOTATION_VALUE>Далеко</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -343,6 +390,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a63">
                 <ANNOTATION_VALUE>here, nearby</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a70">
+                <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
