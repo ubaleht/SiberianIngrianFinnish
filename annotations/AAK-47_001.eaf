@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-28T01:24:43+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-29T02:25:42+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">74</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">101</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -78,6 +78,38 @@
         <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="66973"/>
         <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="66973"/>
         <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="69500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="69500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="70070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="70975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="72656"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="73323"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="74449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="74711"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="75084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="75361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="75844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="76540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="78615"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="78615"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="78652"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="80450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="80472"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="80472"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="80862"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="80862"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="81811"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="83115"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="83196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="83196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="83774"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="83778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="83778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="84022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="84022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="84273"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="84273"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="84390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="85275"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -136,8 +168,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67"
-                TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts68">
+                TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts69">
                 <ANNOTATION_VALUE>Fragment 10</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75"
+                TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>Fragment 11</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>Fragment 12</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -185,6 +229,42 @@
                 <ANNOTATION_VALUE>peppäl'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76"
+                TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>ei voiol</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a77"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>Не может быть</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78"
+                TIME_SLOT_REF1="ts78" TIME_SLOT_REF2="ts79">
+                <ANNOTATION_VALUE>ei vaiole | ei voiole | ei voiol</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84"
+                TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>kaikk | kai.kk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85"
+                TIME_SLOT_REF1="ts90" TIME_SLOT_REF2="ts93">
+                <ANNOTATION_VALUE>kaikk | kai.kk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>kaikk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
         PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words">
@@ -230,6 +310,24 @@
                 <ANNOTATION_VALUE>peppäl'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts87">
+                <ANNOTATION_VALUE>kaikk | kai.kk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a88"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>kaikk | kai.kk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89"
+                TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>kaikk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -267,6 +365,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a72">
                 <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a87">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a88">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a89">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -312,6 +425,11 @@
                 <ANNOTATION_VALUE>Background noise</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a89">
+                <ANNOTATION_VALUE>noise</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -329,6 +447,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a68">
                 <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a77">
+                <ANNOTATION_VALUE>can not be</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a84">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a85">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a86">
+                <ANNOTATION_VALUE>all | everything in the world</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -383,6 +521,36 @@
                 <ANNOTATION_VALUE>Далеко</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80"
+                TIME_SLOT_REF1="ts70" TIME_SLOT_REF2="ts71">
+                <ANNOTATION_VALUE>Ну, "отрицание"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a81"
+                TIME_SLOT_REF1="ts74" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>ei ol...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a97"
+                TIME_SLOT_REF1="ts82" TIME_SLOT_REF2="ts83">
+                <ANNOTATION_VALUE>ну, вот такое "всё",вот...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98"
+                TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts89">
+                <ANNOTATION_VALUE>всё на свете, всё</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99"
+                TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts99">
+                <ANNOTATION_VALUE>kaik,ага</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -395,6 +563,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a70">
                 <ANNOTATION_VALUE>long away | away</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>well, /you tell:/ "no" | "negation"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a97">
+                <ANNOTATION_VALUE>well, /you tell:/ "all"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a98">
+                <ANNOTATION_VALUE>everything in the world, everything /all/</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
