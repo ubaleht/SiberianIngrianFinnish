@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-31T01:34:35+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-01T01:15:07+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">115</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">120</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -124,6 +124,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="90476"/>
         <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="91403"/>
         <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="92020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="92020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="92534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="93766"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="94340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="95177"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="96332"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -206,8 +212,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111"
-                TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts114">
+                TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts115">
                 <ANNOTATION_VALUE>Fragment 14</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116"
+                TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>Fragment 15</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -300,7 +312,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112"
                 TIME_SLOT_REF1="ts112" TIME_SLOT_REF2="ts113">
-                <ANNOTATION_VALUE>v-v-väha käin</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>v-v-väha ((vähä)) käin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117"
+                TIME_SLOT_REF1="ts118" TIME_SLOT_REF2="ts119">
+                <ANNOTATION_VALUE>kera (kerä) väha (vähä) käin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -538,6 +556,11 @@
                 <ANNOTATION_VALUE>several, some, a few</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>little, few</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="Speech" PARENT_REF="General"
@@ -632,6 +655,12 @@
                 <ANNOTATION_VALUE>Несколько, немного</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119"
+                TIME_SLOT_REF1="ts116" TIME_SLOT_REF2="ts117">
+                <ANNOTATION_VALUE>Мало</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -669,6 +698,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a114">
                 <ANNOTATION_VALUE>several, some, a few</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>little, few</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
