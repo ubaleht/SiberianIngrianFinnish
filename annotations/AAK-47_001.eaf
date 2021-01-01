@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-01T01:15:07+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-02T01:56:46+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">120</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">127</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -130,6 +130,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="94340"/>
         <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="95177"/>
         <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="96332"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="96332"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="96332"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="97277"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="97398"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="97398"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="97782"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="97782"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="98322"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -218,8 +226,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116"
-                TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts120">
+                TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts122">
                 <ANNOTATION_VALUE>Fragment 15</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a121"
+                TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>Fragment 16</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -321,6 +335,12 @@
                 <ANNOTATION_VALUE>kera (kerä) väha (vähä) käin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a122"
+                TIME_SLOT_REF1="ts124" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>toin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
         PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words">
@@ -390,6 +410,12 @@
                 <ANNOTATION_VALUE>Pal' | Pall'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a123"
+                TIME_SLOT_REF1="ts125" TIME_SLOT_REF2="ts127">
+                <ANNOTATION_VALUE>toin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -447,6 +473,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a104">
                 <ANNOTATION_VALUE>many</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a123">
+                <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -561,6 +592,11 @@
                 <ANNOTATION_VALUE>little, few</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a122">
+                <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="Speech" PARENT_REF="General"
@@ -661,6 +697,12 @@
                 <ANNOTATION_VALUE>Мало</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a126"
+                TIME_SLOT_REF1="ts120" TIME_SLOT_REF2="ts123">
+                <ANNOTATION_VALUE>другой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -703,6 +745,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a119">
                 <ANNOTATION_VALUE>little, few</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a126">
+                <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
