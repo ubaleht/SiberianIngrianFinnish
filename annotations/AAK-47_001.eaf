@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-02T01:56:46+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-03T23:45:56+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">127</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">140</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -138,6 +138,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="97782"/>
         <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="97782"/>
         <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="98322"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="98322"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="98568"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="101073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="101073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="101345"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="101447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="101460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="101781"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="104333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="104333"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -232,8 +242,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a121"
-                TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts128">
+                TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts129">
                 <ANNOTATION_VALUE>Fragment 16</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a128"
+                TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts137">
+                <ANNOTATION_VALUE>Fragment 17</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -341,6 +357,12 @@
                 <ANNOTATION_VALUE>toin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a129"
+                TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>yks, kaks, kolt, neli, viis, kuus, seitsen, kaheksan, yheksan, kummen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="Words"
         PARENT_REF="AAK-47_Speech" PARTICIPANT="AAK-47" TIER_ID="AAK-47_Words">
@@ -416,6 +438,18 @@
                 <ANNOTATION_VALUE>toin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a132"
+                TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>yks /superimposition of voices/</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a133"
+                TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>kaks</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -480,6 +514,16 @@
                 <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a134" ANNOTATION_REF="a132">
+                <ANNOTATION_VALUE>one</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a135" ANNOTATION_REF="a133">
+                <ANNOTATION_VALUE>two</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -504,6 +548,21 @@
                 <ANNOTATION_VALUE>вы</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a123">
+                <ANNOTATION_VALUE>другой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a137" ANNOTATION_REF="a132">
+                <ANNOTATION_VALUE>один</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a138" ANNOTATION_REF="a133">
+                <ANNOTATION_VALUE>два</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -526,6 +585,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a89">
                 <ANNOTATION_VALUE>noise</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a139" ANNOTATION_REF="a132">
+                <ANNOTATION_VALUE>superimposition of voices</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -595,6 +659,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a122">
                 <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a140" ANNOTATION_REF="a129">
+                <ANNOTATION_VALUE>one, two, three, four, five, six, seven, eight, nine, ten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -703,6 +772,12 @@
                 <ANNOTATION_VALUE>другой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a130"
+                TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>Ну теперь числительные, вот, один, два, до де...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -750,6 +825,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a126">
                 <ANNOTATION_VALUE>other</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a131" ANNOTATION_REF="a130">
+                <ANNOTATION_VALUE>Well, now, numerals, one, two, up to ten...</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
