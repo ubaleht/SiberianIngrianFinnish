@@ -14,10 +14,10 @@
         <String>AAK-47_WordsRuTranslation</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>101781</Long>
+        <Long>102336</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>980.99994</Float>
+        <Float>1091.0001</Float>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -74,13 +74,13 @@
         <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>980.99994</Float>
+        <Float>1091.0001</Float>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">810,390,300,300</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>101460</Long>
+        <Long>102091</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
@@ -92,10 +92,10 @@
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="TimeScaleBeginTime">
-        <Long>100724</Long>
+        <Long>101169</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>101460</Long>
+        <Long>102416</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="AAK-47_Speech">
@@ -104,11 +104,11 @@
         <pref key="Interviewer_Speech">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
-        <pref key="AAK-47_Words">
-            <Object class="java.awt.Color">160,90,0</Object>
-        </pref>
         <pref key="Interviewer_SpeechEnTranslation">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="AAK-47_Words">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="General">
             <Object class="java.awt.Color">0,160,160</Object>
