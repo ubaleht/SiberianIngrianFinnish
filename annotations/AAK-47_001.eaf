@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="Ivan Ubaleht"
-    DATE="2021-01-12T23:55:43+06:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2021-01-13T23:32:06+06:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">165</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">172</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -164,6 +164,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="104333"/>
         <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="104333"/>
         <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="104333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="104333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="104333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="106202"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="106202"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="106202"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="106738"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="109298"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="113170"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -264,8 +272,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a128"
-                TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts152">
+                TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts154">
                 <ANNOTATION_VALUE>Fragment 17</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a166"
+                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -375,8 +389,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a129"
-                TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts153">
+                TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts155">
                 <ANNOTATION_VALUE>yks, kaks, kolt, neli, viis, kuus, seitsen, kaeksan, yeksan, kummen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a167"
+                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts161">
+                <ANNOTATION_VALUE>ykstoist (ykstois), . . .</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -510,8 +530,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a162"
-                TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts154">
-                <ANNOTATION_VALUE>kymen</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>kymen (kymene)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a168"
+                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>ykstoist (ykstois)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -628,6 +654,11 @@
                 <ANNOTATION_VALUE>ten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a171" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>eleven</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -705,6 +736,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a162">
                 <ANNOTATION_VALUE>десять</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>одинадцать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -927,6 +963,12 @@
                 <ANNOTATION_VALUE>Ну теперь числительные, вот, один, два, до де...</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a169"
+                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts159">
+                <ANNOTATION_VALUE>а... одинадцать, двенадцать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -979,6 +1021,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a131" ANNOTATION_REF="a130">
                 <ANNOTATION_VALUE>Well, now, numerals, one, two, up to ten...</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a169">
+                <ANNOTATION_VALUE>eleven, twelve</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
