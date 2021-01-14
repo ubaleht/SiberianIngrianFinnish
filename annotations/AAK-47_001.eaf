@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="Ivan Ubaleht"
-    DATE="2021-01-13T23:32:06+06:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2021-01-14T23:47:42+06:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">172</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">175</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -169,9 +169,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="106202"/>
         <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="106202"/>
         <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="106202"/>
-        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="106738"/>
-        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="109298"/>
-        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="113170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="106737"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="106737"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="107317"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="109298"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="113170"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -278,7 +280,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a166"
-                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts162">
+                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts164">
                 <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -395,8 +397,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a167"
-                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts161">
-                <ANNOTATION_VALUE>ykstoist (ykstois), . . .</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts163">
+                <ANNOTATION_VALUE>ykstoist, kakstoist, . . .</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -540,6 +542,12 @@
                 <ANNOTATION_VALUE>ykstoist (ykstois)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a173"
+                TIME_SLOT_REF1="ts161" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>kakstoist</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -659,6 +667,11 @@
                 <ANNOTATION_VALUE>eleven</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>twelve</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -741,6 +754,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a168">
                 <ANNOTATION_VALUE>одинадцать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>двенадцать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
