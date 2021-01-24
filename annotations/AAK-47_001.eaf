@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="Ivan Ubaleht"
-    DATE="2021-01-23T23:51:05+06:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2021-01-24T23:58:33+06:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">234</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">236</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -230,6 +230,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="124168"/>
         <TIME_SLOT TIME_SLOT_ID="ts219" TIME_VALUE="124168"/>
         <TIME_SLOT TIME_SLOT_ID="ts220" TIME_VALUE="125030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts221" TIME_VALUE="125030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="125038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="125728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="127742"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -372,8 +376,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a227"
-                TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts220">
+                TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts221">
                 <ANNOTATION_VALUE>Fragment 24</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a235"
+                TIME_SLOT_REF1="ts220" TIME_SLOT_REF2="ts224">
+                <ANNOTATION_VALUE>Fragment 25</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1334,6 +1344,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a233"
                 TIME_SLOT_REF1="ts212" TIME_SLOT_REF2="ts215">
                 <ANNOTATION_VALUE>маленький</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a236"
+                TIME_SLOT_REF1="ts222" TIME_SLOT_REF2="ts223">
+                <ANNOTATION_VALUE>короткий</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
