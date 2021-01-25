@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="Ivan Ubaleht"
-    DATE="2021-01-25T00:10:51+06:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2021-01-25T23:16:41+06:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">242</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">250</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -238,6 +238,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="126269"/>
         <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="126269"/>
         <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="127742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts229" TIME_VALUE="127742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts230" TIME_VALUE="127742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts231" TIME_VALUE="128216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts232" TIME_VALUE="128664"/>
+        <TIME_SLOT TIME_SLOT_ID="ts233" TIME_VALUE="128664"/>
+        <TIME_SLOT TIME_SLOT_ID="ts234" TIME_VALUE="129187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts235" TIME_VALUE="129187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts236" TIME_VALUE="129920"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -386,8 +394,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a235"
-                TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts228">
+                TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts230">
                 <ANNOTATION_VALUE>Fragment 25</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a243"
+                TIME_SLOT_REF1="ts229" TIME_SLOT_REF2="ts236">
+                <ANNOTATION_VALUE>Fragment 26</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -553,6 +567,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a237"
                 TIME_SLOT_REF1="ts224" TIME_SLOT_REF2="ts226">
                 <ANNOTATION_VALUE>lyhen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a245"
+                TIME_SLOT_REF1="ts232" TIME_SLOT_REF2="ts234">
+                <ANNOTATION_VALUE>kitssas</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -762,6 +782,12 @@
                 <ANNOTATION_VALUE>lyhen</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a246"
+                TIME_SLOT_REF1="ts233" TIME_SLOT_REF2="ts235">
+                <ANNOTATION_VALUE>kitssas</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -936,6 +962,11 @@
                 <ANNOTATION_VALUE>short</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a247" ANNOTATION_REF="a246">
+                <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -1073,6 +1104,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a240" ANNOTATION_REF="a238">
                 <ANNOTATION_VALUE>короткий</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a248" ANNOTATION_REF="a246">
+                <ANNOTATION_VALUE>узкий</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1221,6 +1257,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a241" ANNOTATION_REF="a237">
                 <ANNOTATION_VALUE>short</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a245">
+                <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1383,6 +1424,12 @@
                 <ANNOTATION_VALUE>короткий</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a244"
+                TIME_SLOT_REF1="ts228" TIME_SLOT_REF2="ts231">
+                <ANNOTATION_VALUE>узкий</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht" DEFAULT_LOCALE="en"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -1475,6 +1522,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a242" ANNOTATION_REF="a236">
                 <ANNOTATION_VALUE>short</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a244">
+                <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
