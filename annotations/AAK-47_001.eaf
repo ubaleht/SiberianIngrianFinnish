@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="Ivan Ubaleht"
-    DATE="2021-01-27T23:56:34+06:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2021-01-28T00:25:10+06:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AAK-47-001.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:de4cb195-dcbd-4c24-8595-1c0a466f6e01</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">260</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">266</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -257,7 +257,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts245" TIME_VALUE="132770"/>
         <TIME_SLOT TIME_SLOT_ID="ts246" TIME_VALUE="132770"/>
         <TIME_SLOT TIME_SLOT_ID="ts247" TIME_VALUE="133651"/>
-        <TIME_SLOT TIME_SLOT_ID="ts248" TIME_VALUE="134442"/>
+        <TIME_SLOT TIME_SLOT_ID="ts248" TIME_VALUE="133872"/>
+        <TIME_SLOT TIME_SLOT_ID="ts249" TIME_VALUE="133872"/>
+        <TIME_SLOT TIME_SLOT_ID="ts250" TIME_VALUE="134229"/>
+        <TIME_SLOT TIME_SLOT_ID="ts251" TIME_VALUE="134229"/>
+        <TIME_SLOT TIME_SLOT_ID="ts252" TIME_VALUE="134442"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="Ivan Ubaleht" LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -424,7 +428,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259"
-                TIME_SLOT_REF1="ts245" TIME_SLOT_REF2="ts248">
+                TIME_SLOT_REF1="ts245" TIME_SLOT_REF2="ts252">
                 <ANNOTATION_VALUE>Fragment 28</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -603,6 +607,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a252"
                 TIME_SLOT_REF1="ts240" TIME_SLOT_REF2="ts242">
                 <ANNOTATION_VALUE>liahoikk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a261"
+                TIME_SLOT_REF1="ts248" TIME_SLOT_REF2="ts250">
+                <ANNOTATION_VALUE>nain</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -824,6 +834,12 @@
                 <ANNOTATION_VALUE>liahoikk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a262"
+                TIME_SLOT_REF1="ts249" TIME_SLOT_REF2="ts251">
+                <ANNOTATION_VALUE>nain</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -1008,6 +1024,11 @@
                 <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a263" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>women</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Ivan Ubaleht"
         LINGUISTIC_TYPE_REF="AnySymbolicAssociations"
@@ -1155,6 +1176,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a253">
                 <ANNOTATION_VALUE>тонкий</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a264" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>женщина</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1313,6 +1339,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a256" ANNOTATION_REF="a252">
                 <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a265" ANNOTATION_REF="a261">
+                <ANNOTATION_VALUE>women</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1595,6 +1626,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a258" ANNOTATION_REF="a257">
                 <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a266" ANNOTATION_REF="a260">
+                <ANNOTATION_VALUE>women</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
