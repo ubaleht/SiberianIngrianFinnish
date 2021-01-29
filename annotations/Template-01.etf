@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-29T23:53:40+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-01-30T00:37:39+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
     <TIME_ORDER/>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General"/>
-    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="SpeakerSpeech"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="Speaker-Speech"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Morphemes" TIER_ID="Speaker-MorphemeType"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-Phonemes"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Phonemes" TIER_ID="Speaker-PhonemeComments"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsEnTranslation"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-GrammaticalCategories"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsComments"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechEnTranslation"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechLanguage"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Relations"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="Interviewer-Speech"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-Relations"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="GeneralType" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
