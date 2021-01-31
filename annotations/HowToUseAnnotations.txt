@@ -6,6 +6,6 @@ We use ELAN version 6.0
 2. Copy *.eaf files to your local directory. 
 
 3. Copy audio files (*.wav) to your local directory from the reference in section: "Speech data of Siberian Ingrian Finnish" on the main page of this repository.
-Audio file names must match *.eaf file names. (for example, copy the AAK-47-001.WAV file to the directory with the AAK-47-001.eaf file).
+Audio file names must match *.eaf file names. (for example, copy the AAK-47-001.WAV file to the directory with the AAK-47_001.eaf file).
 
 4. Run the any *.eaf file in the Elan program.
