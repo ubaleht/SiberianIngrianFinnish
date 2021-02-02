@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-01T23:40:21+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-02T23:13:39+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">20</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">30</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -30,6 +30,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="9822"/>
         <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="9822"/>
         <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="11270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="11270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="11270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="11763"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="12281"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="12281"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="12750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="12750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="14096"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -46,8 +54,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
-                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts20">
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts22">
                 <ANNOTATION_VALUE>Fragment 03</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Fragment 04</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -64,6 +78,12 @@
                 <ANNOTATION_VALUE>siä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>hää</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words">
@@ -77,6 +97,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
                 TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts19">
                 <ANNOTATION_VALUE>siä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>hää</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -100,6 +126,11 @@
                 <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>he / she</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -113,9 +144,20 @@
                 <ANNOTATION_VALUE>ты</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>он / она / оно</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
-        PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech"/>
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>Personal pronoun: thrid person, singular</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-GrammaticalCategories"/>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
@@ -132,6 +174,11 @@
                 <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>he / she </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -143,6 +190,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a13">
                 <ANNOTATION_VALUE>ты</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>он / она / оно</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -169,6 +221,12 @@
                 <ANNOTATION_VALUE>ты</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>он</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -180,6 +238,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a19">
                 <ANNOTATION_VALUE>you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>he</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
