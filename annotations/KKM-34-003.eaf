@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-05T23:09:28+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-06T23:57:50+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">51</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">62</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -60,6 +60,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="30368"/>
         <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="30368"/>
         <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="31992"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="31992"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="32023"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="34026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="34026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="34026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="34528"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="34528"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="34887"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="34887"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="35375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="35375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="37586"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -100,8 +112,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
-                TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts50">
+                TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts51">
                 <ANNOTATION_VALUE>Fragment 07</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>Fragment 08</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -142,6 +160,18 @@
                 <ANNOTATION_VALUE>tämä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>tiä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55"
+                TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>sial'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words">
@@ -175,6 +205,18 @@
                 <ANNOTATION_VALUE>tämä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>tiä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>sial'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -206,6 +248,11 @@
                 <ANNOTATION_VALUE>this</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>there</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -227,6 +274,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a45">
                 <ANNOTATION_VALUE>этот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>там, удалённый предмет</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -275,6 +327,11 @@
                 <ANNOTATION_VALUE>this</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>there</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -301,6 +358,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a44">
                 <ANNOTATION_VALUE>этот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>там, удалённый предмет</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -351,6 +413,12 @@
                 <ANNOTATION_VALUE>этот,...ну там,... этот предмет, например, ... этот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>тот,...там предмет,...удалённый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -382,6 +450,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a50">
                 <ANNOTATION_VALUE>this,...this thing, for example,... this</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>that one,...there...</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
