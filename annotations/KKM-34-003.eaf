@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-10T23:56:32+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-11T23:51:40+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">77</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">86</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -86,6 +86,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="43126"/>
         <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="43126"/>
         <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="45064"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="45064"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="45596"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="46392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="47300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="47300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="47856"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="47856"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="48980"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -144,7 +152,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68"
-                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts76">
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>Fragment 10</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78"
+                TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts84">
                 <ANNOTATION_VALUE>Fragment 10</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -210,6 +224,12 @@
                 <ANNOTATION_VALUE>sial'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a79"
+                TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>mikä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words">
@@ -261,6 +281,12 @@
                 <ANNOTATION_VALUE>sial'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts83">
+                <ANNOTATION_VALUE>mikä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -302,6 +328,11 @@
                 <ANNOTATION_VALUE>there, away (away - ?)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>who</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -333,6 +364,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a70">
                 <ANNOTATION_VALUE>там, далеко</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>кто</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -401,6 +437,11 @@
                 <ANNOTATION_VALUE>there, away (away - ?)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a79">
+                <ANNOTATION_VALUE>who</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -437,6 +478,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a69">
                 <ANNOTATION_VALUE>там, далеко</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a79">
+                <ANNOTATION_VALUE>кто</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -505,6 +551,12 @@
                 <ANNOTATION_VALUE>там... делеко</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85"
+                TIME_SLOT_REF1="ts78" TIME_SLOT_REF2="ts79">
+                <ANNOTATION_VALUE>кто</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -551,6 +603,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a76">
                 <ANNOTATION_VALUE>there... away</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a85">
+                <ANNOTATION_VALUE>who</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
