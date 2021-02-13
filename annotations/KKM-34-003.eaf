@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-12T23:53:59+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-14T00:59:07+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">96</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">105</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -102,6 +102,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="51532"/>
         <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="51532"/>
         <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="55348"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="55348"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="55424"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="55976"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="56724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="56724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="57264"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="57264"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="66588"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -172,8 +180,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87"
-                TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts92">
+                TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts93">
                 <ANNOTATION_VALUE>Fragment 12</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a97"
+                TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>Fragment 13</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -250,6 +264,12 @@
                 <ANNOTATION_VALUE>mitä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98"
+                TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>kuss'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words">
@@ -313,6 +333,12 @@
                 <ANNOTATION_VALUE>mitä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99"
+                TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts99">
+                <ANNOTATION_VALUE>kuss'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -364,6 +390,11 @@
                 <ANNOTATION_VALUE>what</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a99">
+                <ANNOTATION_VALUE>where</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -405,6 +436,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a89">
                 <ANNOTATION_VALUE>что</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a99">
+                <ANNOTATION_VALUE>где</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -488,6 +524,11 @@
                 <ANNOTATION_VALUE>what</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a98">
+                <ANNOTATION_VALUE>where</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -534,6 +575,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a88">
                 <ANNOTATION_VALUE>что</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a98">
+                <ANNOTATION_VALUE>где</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -614,6 +660,12 @@
                 <ANNOTATION_VALUE>что</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a104"
+                TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts95">
+                <ANNOTATION_VALUE>где</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -670,6 +722,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a95">
                 <ANNOTATION_VALUE>what</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a104">
+                <ANNOTATION_VALUE>where</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
