@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-21T23:54:17+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-23T23:31:05+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">148</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">154</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -146,8 +146,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="83903"/>
         <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="84438"/>
         <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="85277"/>
-        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="94492"/>
-        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="96564"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="85482"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="86420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="87006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="87796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="94492"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="96564"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -248,7 +252,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a133"
-                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts138">
+                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts142">
                 <ANNOTATION_VALUE>Fragment 17</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -358,7 +362,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a134"
-                TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts137">
+                TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts141">
                 <ANNOTATION_VALUE>yks, kaks, kolt, neli, viis', kuus, seitsen, kaheksan, yheksan, kummen, ykstoist</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -473,6 +477,18 @@
                 <ANNOTATION_VALUE>neli</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a149"
+                TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>viis'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a150"
+                TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>kuus</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -564,6 +580,16 @@
                 <ANNOTATION_VALUE>four</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a151" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>five</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE>six</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -645,6 +671,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a148" ANNOTATION_REF="a146">
                 <ANNOTATION_VALUE>четыре</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>пять</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE>шесть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
