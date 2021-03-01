@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-28T23:11:15+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-01T23:56:46+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">169</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">178</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -162,6 +162,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="94410"/>
         <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="94492"/>
         <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="96564"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="96564"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="96582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="98216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="98582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="98582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="99297"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="99297"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="100524"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -262,8 +270,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a133"
-                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts152">
+                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts153">
                 <ANNOTATION_VALUE>Fragment 17</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a170"
+                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -374,6 +388,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a134"
                 TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts151">
                 <ANNOTATION_VALUE>yks, kaks, kolt, neli, viis', kuus, seitsen, kaheksan, yheksan, kummen, ykstoist</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171"
+                TIME_SLOT_REF1="ts156" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>suur</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -529,6 +549,12 @@
                 <ANNOTATION_VALUE>ykstoist</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172"
+                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts159">
+                <ANNOTATION_VALUE>suur</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -655,6 +681,11 @@
                 <ANNOTATION_VALUE>eleven</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>big</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -773,6 +804,11 @@
                 <ANNOTATION_VALUE>одинадцать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>большой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -879,6 +915,11 @@
                 <ANNOTATION_VALUE>one, two, three, four, five, six, seven, eight, nine, ten, eleven</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>big</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -950,6 +991,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a134">
                 <ANNOTATION_VALUE>один, два, три, четыре, пять, шесть, семь, восемь, девять, десять, одинадцать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>большой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1054,6 +1100,12 @@
                 <ANNOTATION_VALUE>теперь счёт от одного до одинадцати</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a177"
+                TIME_SLOT_REF1="ts154" TIME_SLOT_REF2="ts155">
+                <ANNOTATION_VALUE>теперь такое слово "большой"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1125,6 +1177,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a128">
                 <ANNOTATION_VALUE>how</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a177">
+                <ANNOTATION_VALUE>now, say: "big"</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
