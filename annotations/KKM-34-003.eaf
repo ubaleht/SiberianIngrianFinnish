@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-01T23:56:46+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-02T20:54:30+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">178</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">182</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -170,6 +170,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="99297"/>
         <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="99297"/>
         <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="100524"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="100524"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="100538"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="101359"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="101467"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="102333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="103126"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -276,8 +282,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a170"
-                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts160">
+                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts161">
                 <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a179"
+                TIME_SLOT_REF1="ts160" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>Fragment 19</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -394,6 +406,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171"
                 TIME_SLOT_REF1="ts156" TIME_SLOT_REF2="ts158">
                 <ANNOTATION_VALUE>suur</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a180"
+                TIME_SLOT_REF1="ts164" TIME_SLOT_REF2="ts165">
+                <ANNOTATION_VALUE>piitkk (pitk)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1106,6 +1124,12 @@
                 <ANNOTATION_VALUE>теперь такое слово "большой"</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
+                TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts163">
+                <ANNOTATION_VALUE>ааа, длинный</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1182,6 +1206,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a177">
                 <ANNOTATION_VALUE>now, say: "big"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>long</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
