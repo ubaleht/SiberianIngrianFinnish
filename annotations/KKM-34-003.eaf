@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-04T23:39:07+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-08T23:57:25+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">187</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">189</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -178,6 +178,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="102333"/>
         <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="102333"/>
         <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="103126"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="103126"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="103601"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="104482"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="106293"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -290,8 +294,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a179"
-                TIME_SLOT_REF1="ts160" TIME_SLOT_REF2="ts168">
+                TIME_SLOT_REF1="ts160" TIME_SLOT_REF2="ts169">
                 <ANNOTATION_VALUE>Fragment 19</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a188"
+                TIME_SLOT_REF1="ts168" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>Fragment 20</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1156,6 +1166,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
                 TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts163">
                 <ANNOTATION_VALUE>ааа, длинный</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a189"
+                TIME_SLOT_REF1="ts170" TIME_SLOT_REF2="ts171">
+                <ANNOTATION_VALUE>широкий</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
