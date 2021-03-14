@@ -6,6 +6,9 @@ This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingri
 2. Sidorkevich, Daria (2011). On domains of adessive-allative in Siberian Ingrian Finnish. Acta Linguistica Petropolitana, 7(3). https://cyberleninka.ru/article/n/on-domains-of-adessive-allative-in-siberian-ingrian-finnish/viewer
 3. Kuznetsova, Natalia (2016). Evolution of the non-initial vocalic length contrast across the Finnic varieties of Ingria and adjacent areas. Linguistica Uralica, 52(1), 1-25. https://publicatt.unicatt.it/retrieve/handle/10807/143760/240945/ling-2016-1-1-25%28uus%29.pdf The part of this paper about Siberian Ingrian Finnish (mixed Siberian Ingrian/Finnish dialect).
 4. Ubaleht, Ivan (2020). The Creation of Siberian Ingrian Finnish and Siberian Tatar Speech Corpora. Workshop on RESOURCEs and representations For Under-resourced Languages and domains (RESOURCEFUL-2020) at SLTC, Gothenburg, Sweden, 25th November 2020. https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
+5. Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
+https://journals.colorado.edu/index.php/computel/article/view/981
+https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
 
 ## Speech data of Siberian Ingrian Finnish
 
@@ -22,7 +25,14 @@ Speaker JuMS-28: https://www.youtube.com/watch?v=YqwrK6sItHI
 
 All data of Siberian Ingrian Finnish in this repository are licensed under the CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
-If you use this material, please publish reference to paper: https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
+If you use this material, please publish reference to paper: 
+Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
+
+or
+
+https://journals.colorado.edu/index.php/computel/article/view/981
+https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
+
 or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngrianFinnish
 
 
