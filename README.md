@@ -8,7 +8,6 @@ This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingri
 4. Ubaleht, Ivan (2020). The Creation of Siberian Ingrian Finnish and Siberian Tatar Speech Corpora. Workshop on RESOURCEs and representations For Under-resourced Languages and domains (RESOURCEFUL-2020) at SLTC, Gothenburg, Sweden, 25th November 2020. https://gu-clasp.github.io/resourceful-2020/papers/RESOURCEFUL-2020_paper_5.pdf
 5. Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
 https://journals.colorado.edu/index.php/computel/article/view/981 
-
 https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
 
 ## Speech data of Siberian Ingrian Finnish
