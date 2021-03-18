@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-17T23:57:40+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-18T23:52:08+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">245</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">257</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -234,6 +234,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="123715"/>
         <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="123715"/>
         <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="124726"/>
+        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="124726"/>
+        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="125244"/>
+        <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="125964"/>
+        <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="126332"/>
+        <TIME_SLOT TIME_SLOT_ID="ts229" TIME_VALUE="126918"/>
+        <TIME_SLOT TIME_SLOT_ID="ts230" TIME_VALUE="127651"/>
+        <TIME_SLOT TIME_SLOT_ID="ts231" TIME_VALUE="127651"/>
+        <TIME_SLOT TIME_SLOT_ID="ts232" TIME_VALUE="128171"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -388,8 +396,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a242"
-                TIME_SLOT_REF1="ts216" TIME_SLOT_REF2="ts224">
+                TIME_SLOT_REF1="ts216" TIME_SLOT_REF2="ts225">
                 <ANNOTATION_VALUE>Fragment 26</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a251"
+                TIME_SLOT_REF1="ts224" TIME_SLOT_REF2="ts232">
+                <ANNOTATION_VALUE>Fragment 27</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -554,6 +568,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a243"
                 TIME_SLOT_REF1="ts220" TIME_SLOT_REF2="ts222">
                 <ANNOTATION_VALUE>koikk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a252"
+                TIME_SLOT_REF1="ts228" TIME_SLOT_REF2="ts230">
+                <ANNOTATION_VALUE>naist nain</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -763,6 +783,12 @@
                 <ANNOTATION_VALUE>koikk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a253"
+                TIME_SLOT_REF1="ts229" TIME_SLOT_REF2="ts231">
+                <ANNOTATION_VALUE>nain</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -929,6 +955,16 @@
                 <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a246" ANNOTATION_REF="a244">
+                <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a254" ANNOTATION_REF="a253">
+                <ANNOTATION_VALUE>woman</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1087,6 +1123,16 @@
                 <ANNOTATION_VALUE>узкий</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a247" ANNOTATION_REF="a244">
+                <ANNOTATION_VALUE>тонкий</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a253">
+                <ANNOTATION_VALUE>женщина</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1233,6 +1279,11 @@
                 <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a248" ANNOTATION_REF="a243">
+                <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1344,6 +1395,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a239" ANNOTATION_REF="a234">
                 <ANNOTATION_VALUE>узкий</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a243">
+                <ANNOTATION_VALUE>тонкий</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1502,6 +1558,12 @@
                 <ANNOTATION_VALUE>тонкий</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a256"
+                TIME_SLOT_REF1="ts226" TIME_SLOT_REF2="ts227">
+                <ANNOTATION_VALUE>женщина</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1613,6 +1675,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a241" ANNOTATION_REF="a240">
                 <ANNOTATION_VALUE>narrow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a245">
+                <ANNOTATION_VALUE>thin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a257" ANNOTATION_REF="a256">
+                <ANNOTATION_VALUE>woman</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
