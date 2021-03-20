@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-19T23:45:12+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-20T23:46:50+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">266</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">275</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -250,6 +250,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts238" TIME_VALUE="130296"/>
         <TIME_SLOT TIME_SLOT_ID="ts239" TIME_VALUE="130296"/>
         <TIME_SLOT TIME_SLOT_ID="ts240" TIME_VALUE="131010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts241" TIME_VALUE="131010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts242" TIME_VALUE="131029"/>
+        <TIME_SLOT TIME_SLOT_ID="ts243" TIME_VALUE="132079"/>
+        <TIME_SLOT TIME_SLOT_ID="ts244" TIME_VALUE="132153"/>
+        <TIME_SLOT TIME_SLOT_ID="ts245" TIME_VALUE="132153"/>
+        <TIME_SLOT TIME_SLOT_ID="ts246" TIME_VALUE="132939"/>
+        <TIME_SLOT TIME_SLOT_ID="ts247" TIME_VALUE="132939"/>
+        <TIME_SLOT TIME_SLOT_ID="ts248" TIME_VALUE="134089"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -416,8 +424,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a258"
-                TIME_SLOT_REF1="ts232" TIME_SLOT_REF2="ts240">
+                TIME_SLOT_REF1="ts232" TIME_SLOT_REF2="ts241">
                 <ANNOTATION_VALUE>Fragment 28</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a267"
+                TIME_SLOT_REF1="ts240" TIME_SLOT_REF2="ts248">
+                <ANNOTATION_VALUE>Fragment 29</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -594,6 +608,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259"
                 TIME_SLOT_REF1="ts236" TIME_SLOT_REF2="ts238">
                 <ANNOTATION_VALUE>miess (mies)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a268"
+                TIME_SLOT_REF1="ts244" TIME_SLOT_REF2="ts246">
+                <ANNOTATION_VALUE>ihmen</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -815,6 +835,12 @@
                 <ANNOTATION_VALUE>miess (mies)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a269"
+                TIME_SLOT_REF1="ts245" TIME_SLOT_REF2="ts247">
+                <ANNOTATION_VALUE>ihmen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -996,6 +1022,11 @@
                 <ANNOTATION_VALUE>man (adult male)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a270" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>man (human being)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1169,6 +1200,11 @@
                 <ANNOTATION_VALUE>мужчина</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a271" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>человек</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1325,6 +1361,11 @@
                 <ANNOTATION_VALUE>man (adult male)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a272" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>man (human being)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1446,6 +1487,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a264" ANNOTATION_REF="a259">
                 <ANNOTATION_VALUE>мужчина</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a273" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>человек</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1616,6 +1662,12 @@
                 <ANNOTATION_VALUE>мужчина</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a274"
+                TIME_SLOT_REF1="ts242" TIME_SLOT_REF2="ts243">
+                <ANNOTATION_VALUE>человек</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1742,6 +1794,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a266" ANNOTATION_REF="a265">
                 <ANNOTATION_VALUE>man (adult male)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a274">
+                <ANNOTATION_VALUE>man (human being)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
