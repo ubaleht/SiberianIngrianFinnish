@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-24T23:40:09+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-25T23:54:49+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">302</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">309</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -282,6 +282,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts270" TIME_VALUE="141721"/>
         <TIME_SLOT TIME_SLOT_ID="ts271" TIME_VALUE="141721"/>
         <TIME_SLOT TIME_SLOT_ID="ts272" TIME_VALUE="142448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts273" TIME_VALUE="142448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts274" TIME_VALUE="142955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts275" TIME_VALUE="143841"/>
+        <TIME_SLOT TIME_SLOT_ID="ts276" TIME_VALUE="144448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts277" TIME_VALUE="145229"/>
+        <TIME_SLOT TIME_SLOT_ID="ts278" TIME_VALUE="145875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts279" TIME_VALUE="145899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts280" TIME_VALUE="146580"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -472,8 +480,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a294"
-                TIME_SLOT_REF1="ts264" TIME_SLOT_REF2="ts272">
+                TIME_SLOT_REF1="ts264" TIME_SLOT_REF2="ts273">
                 <ANNOTATION_VALUE>Fragment 32</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a303"
+                TIME_SLOT_REF1="ts272" TIME_SLOT_REF2="ts280">
+                <ANNOTATION_VALUE>Fragment 33</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -674,6 +688,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a295"
                 TIME_SLOT_REF1="ts268" TIME_SLOT_REF2="ts270">
                 <ANNOTATION_VALUE>mies</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a304"
+                TIME_SLOT_REF1="ts276" TIME_SLOT_REF2="ts279">
+                <ANNOTATION_VALUE>e.. mat' mamm</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -919,6 +939,12 @@
                 <ANNOTATION_VALUE>mies</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a305"
+                TIME_SLOT_REF1="ts277" TIME_SLOT_REF2="ts278">
+                <ANNOTATION_VALUE>mamm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1120,6 +1146,11 @@
                 <ANNOTATION_VALUE>husband</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a306" ANNOTATION_REF="a305">
+                <ANNOTATION_VALUE>mother</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1311,6 +1342,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a298" ANNOTATION_REF="a296">
                 <ANNOTATION_VALUE>муж</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a307" ANNOTATION_REF="a305">
+                <ANNOTATION_VALUE>мать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1824,6 +1860,12 @@
                 <ANNOTATION_VALUE>муж</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a308"
+                TIME_SLOT_REF1="ts274" TIME_SLOT_REF2="ts275">
+                <ANNOTATION_VALUE>мать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1970,6 +2012,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a302" ANNOTATION_REF="a301">
                 <ANNOTATION_VALUE>husband</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a309" ANNOTATION_REF="a308">
+                <ANNOTATION_VALUE>mother</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
