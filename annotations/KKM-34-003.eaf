@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-28T23:52:32+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-29T23:58:23+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">318</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">321</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -298,6 +298,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts286" TIME_VALUE="149303"/>
         <TIME_SLOT TIME_SLOT_ID="ts287" TIME_VALUE="149303"/>
         <TIME_SLOT TIME_SLOT_ID="ts288" TIME_VALUE="149303"/>
+        <TIME_SLOT TIME_SLOT_ID="ts289" TIME_VALUE="149303"/>
+        <TIME_SLOT TIME_SLOT_ID="ts290" TIME_VALUE="151792"/>
+        <TIME_SLOT TIME_SLOT_ID="ts291" TIME_VALUE="151792"/>
+        <TIME_SLOT TIME_SLOT_ID="ts292" TIME_VALUE="151792"/>
+        <TIME_SLOT TIME_SLOT_ID="ts293" TIME_VALUE="153809"/>
+        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="166166"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -500,8 +506,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a310"
-                TIME_SLOT_REF1="ts280" TIME_SLOT_REF2="ts286">
+                TIME_SLOT_REF1="ts280" TIME_SLOT_REF2="ts287">
                 <ANNOTATION_VALUE>Fragment 34</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a319"
+                TIME_SLOT_REF1="ts286" TIME_SLOT_REF2="ts292">
+                <ANNOTATION_VALUE>Fragment 35</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a320"
+                TIME_SLOT_REF1="ts291" TIME_SLOT_REF2="ts294">
+                <ANNOTATION_VALUE>Fragment 36</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -712,7 +730,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a311"
-                TIME_SLOT_REF1="ts284" TIME_SLOT_REF2="ts287">
+                TIME_SLOT_REF1="ts284" TIME_SLOT_REF2="ts288">
                 <ANNOTATION_VALUE>taatt</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -967,7 +985,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a312"
-                TIME_SLOT_REF1="ts285" TIME_SLOT_REF2="ts288">
+                TIME_SLOT_REF1="ts285" TIME_SLOT_REF2="ts289">
                 <ANNOTATION_VALUE>taatt</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1916,6 +1934,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a317"
                 TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts283">
                 <ANNOTATION_VALUE>отец</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a321"
+                TIME_SLOT_REF1="ts290" TIME_SLOT_REF2="ts293">
+                <ANNOTATION_VALUE>ну, зверь, дикое животное</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
