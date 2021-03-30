@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-29T23:58:23+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-03-31T00:00:01+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">321</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">329</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -303,7 +303,13 @@
         <TIME_SLOT TIME_SLOT_ID="ts291" TIME_VALUE="151792"/>
         <TIME_SLOT TIME_SLOT_ID="ts292" TIME_VALUE="151792"/>
         <TIME_SLOT TIME_SLOT_ID="ts293" TIME_VALUE="153809"/>
-        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="166166"/>
+        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="155505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts295" TIME_VALUE="157190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts296" TIME_VALUE="164669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts297" TIME_VALUE="164669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts298" TIME_VALUE="165391"/>
+        <TIME_SLOT TIME_SLOT_ID="ts299" TIME_VALUE="165391"/>
+        <TIME_SLOT TIME_SLOT_ID="ts300" TIME_VALUE="166166"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -518,7 +524,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a320"
-                TIME_SLOT_REF1="ts291" TIME_SLOT_REF2="ts294">
+                TIME_SLOT_REF1="ts291" TIME_SLOT_REF2="ts300">
                 <ANNOTATION_VALUE>Fragment 36</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -732,6 +738,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a311"
                 TIME_SLOT_REF1="ts284" TIME_SLOT_REF2="ts288">
                 <ANNOTATION_VALUE>taatt</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a322"
+                TIME_SLOT_REF1="ts296" TIME_SLOT_REF2="ts298">
+                <ANNOTATION_VALUE>luam</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -989,6 +1001,12 @@
                 <ANNOTATION_VALUE>taatt</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a323"
+                TIME_SLOT_REF1="ts297" TIME_SLOT_REF2="ts299">
+                <ANNOTATION_VALUE>luam</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1200,6 +1218,11 @@
                 <ANNOTATION_VALUE>father</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a324" ANNOTATION_REF="a323">
+                <ANNOTATION_VALUE>animal</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1403,6 +1426,11 @@
                 <ANNOTATION_VALUE>отец</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a325" ANNOTATION_REF="a323">
+                <ANNOTATION_VALUE>зверь, дикое животное</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1584,6 +1612,11 @@
                 <ANNOTATION_VALUE>father</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a326" ANNOTATION_REF="a322">
+                <ANNOTATION_VALUE>animal</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1730,6 +1763,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a316" ANNOTATION_REF="a311">
                 <ANNOTATION_VALUE>отец</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a327" ANNOTATION_REF="a322">
+                <ANNOTATION_VALUE>зверь, дикое животное</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1942,6 +1980,12 @@
                 <ANNOTATION_VALUE>ну, зверь, дикое животное</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a328"
+                TIME_SLOT_REF1="ts294" TIME_SLOT_REF2="ts295">
+                <ANNOTATION_VALUE>ну, какой-нибудь дикий лесной зверь</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2098,6 +2142,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a318" ANNOTATION_REF="a317">
                 <ANNOTATION_VALUE>father</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a329" ANNOTATION_REF="a328">
+                <ANNOTATION_VALUE>animal</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
