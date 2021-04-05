@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-04T23:53:47+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-05T23:54:02+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">367</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">376</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -344,6 +344,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts332" TIME_VALUE="178371"/>
         <TIME_SLOT TIME_SLOT_ID="ts333" TIME_VALUE="178371"/>
         <TIME_SLOT TIME_SLOT_ID="ts334" TIME_VALUE="178660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts335" TIME_VALUE="178660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts336" TIME_VALUE="179367"/>
+        <TIME_SLOT TIME_SLOT_ID="ts337" TIME_VALUE="180106"/>
+        <TIME_SLOT TIME_SLOT_ID="ts338" TIME_VALUE="187951"/>
+        <TIME_SLOT TIME_SLOT_ID="ts339" TIME_VALUE="187951"/>
+        <TIME_SLOT TIME_SLOT_ID="ts340" TIME_VALUE="188658"/>
+        <TIME_SLOT TIME_SLOT_ID="ts341" TIME_VALUE="188658"/>
+        <TIME_SLOT TIME_SLOT_ID="ts342" TIME_VALUE="189256"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -582,8 +590,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a357"
-                TIME_SLOT_REF1="ts324" TIME_SLOT_REF2="ts334">
+                TIME_SLOT_REF1="ts324" TIME_SLOT_REF2="ts335">
                 <ANNOTATION_VALUE>Fragment 40</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a368"
+                TIME_SLOT_REF1="ts334" TIME_SLOT_REF2="ts342">
+                <ANNOTATION_VALUE>Fragment 41</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -826,6 +840,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a358"
                 TIME_SLOT_REF1="ts328" TIME_SLOT_REF2="ts332">
                 <ANNOTATION_VALUE>tai täjj</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a369"
+                TIME_SLOT_REF1="ts338" TIME_SLOT_REF2="ts340">
+                <ANNOTATION_VALUE>sysälikk (sysälik)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1119,6 +1139,12 @@
                 <ANNOTATION_VALUE>täjj</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a370"
+                TIME_SLOT_REF1="ts339" TIME_SLOT_REF2="ts341">
+                <ANNOTATION_VALUE>sysälikk (sysälik)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1355,6 +1381,11 @@
                 <ANNOTATION_VALUE>louse</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a371" ANNOTATION_REF="a370">
+                <ANNOTATION_VALUE>snake</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1583,6 +1614,11 @@
                 <ANNOTATION_VALUE>вошь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a372" ANNOTATION_REF="a370">
+                <ANNOTATION_VALUE>змея</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1794,6 +1830,11 @@
                 <ANNOTATION_VALUE>louse louse</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a373" ANNOTATION_REF="a369">
+                <ANNOTATION_VALUE>snake</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1965,6 +2006,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a365" ANNOTATION_REF="a358">
                 <ANNOTATION_VALUE>вошь вошь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a374" ANNOTATION_REF="a369">
+                <ANNOTATION_VALUE>змея</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2207,6 +2253,12 @@
                 <ANNOTATION_VALUE>вошь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a375"
+                TIME_SLOT_REF1="ts336" TIME_SLOT_REF2="ts337">
+                <ANNOTATION_VALUE>змия</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2388,6 +2440,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a367" ANNOTATION_REF="a366">
                 <ANNOTATION_VALUE>louse</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a376" ANNOTATION_REF="a375">
+                <ANNOTATION_VALUE>snake</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
