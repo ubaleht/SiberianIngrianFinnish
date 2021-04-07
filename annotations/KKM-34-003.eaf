@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-06T23:44:00+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-07T23:52:05+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">385</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">394</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -360,6 +360,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts348" TIME_VALUE="193742"/>
         <TIME_SLOT TIME_SLOT_ID="ts349" TIME_VALUE="193742"/>
         <TIME_SLOT TIME_SLOT_ID="ts350" TIME_VALUE="194487"/>
+        <TIME_SLOT TIME_SLOT_ID="ts351" TIME_VALUE="194487"/>
+        <TIME_SLOT TIME_SLOT_ID="ts352" TIME_VALUE="195044"/>
+        <TIME_SLOT TIME_SLOT_ID="ts353" TIME_VALUE="195578"/>
+        <TIME_SLOT TIME_SLOT_ID="ts354" TIME_VALUE="196192"/>
+        <TIME_SLOT TIME_SLOT_ID="ts355" TIME_VALUE="196192"/>
+        <TIME_SLOT TIME_SLOT_ID="ts356" TIME_VALUE="196734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts357" TIME_VALUE="196734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts358" TIME_VALUE="197419"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -610,8 +618,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a377"
-                TIME_SLOT_REF1="ts342" TIME_SLOT_REF2="ts350">
+                TIME_SLOT_REF1="ts342" TIME_SLOT_REF2="ts351">
                 <ANNOTATION_VALUE>Fragment 42</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a386"
+                TIME_SLOT_REF1="ts350" TIME_SLOT_REF2="ts358">
+                <ANNOTATION_VALUE>Fragment 43</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -866,6 +880,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a378"
                 TIME_SLOT_REF1="ts346" TIME_SLOT_REF2="ts348">
                 <ANNOTATION_VALUE>mato</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a387"
+                TIME_SLOT_REF1="ts354" TIME_SLOT_REF2="ts356">
+                <ANNOTATION_VALUE>koiv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1171,6 +1191,12 @@
                 <ANNOTATION_VALUE>mato</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a388"
+                TIME_SLOT_REF1="ts355" TIME_SLOT_REF2="ts357">
+                <ANNOTATION_VALUE>koiv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1417,6 +1443,11 @@
                 <ANNOTATION_VALUE>worm</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a389" ANNOTATION_REF="a388">
+                <ANNOTATION_VALUE>tree</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1655,6 +1686,11 @@
                 <ANNOTATION_VALUE>червь (червяк)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a390" ANNOTATION_REF="a388">
+                <ANNOTATION_VALUE>дерево</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1876,6 +1912,11 @@
                 <ANNOTATION_VALUE>worm</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a387">
+                <ANNOTATION_VALUE>tree</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2057,6 +2098,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a383" ANNOTATION_REF="a378">
                 <ANNOTATION_VALUE>червь (червяк)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a392" ANNOTATION_REF="a387">
+                <ANNOTATION_VALUE>дерево</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2311,6 +2357,12 @@
                 <ANNOTATION_VALUE>червь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a393"
+                TIME_SLOT_REF1="ts352" TIME_SLOT_REF2="ts353">
+                <ANNOTATION_VALUE>дерево</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2502,6 +2554,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a385" ANNOTATION_REF="a384">
                 <ANNOTATION_VALUE>worm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a394" ANNOTATION_REF="a393">
+                <ANNOTATION_VALUE>tree</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
