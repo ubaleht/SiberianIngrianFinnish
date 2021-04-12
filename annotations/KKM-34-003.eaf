@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-11T23:58:00+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-12T23:53:21+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">415</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">424</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -385,11 +385,17 @@
         <TIME_SLOT TIME_SLOT_ID="ts373" TIME_VALUE="226533"/>
         <TIME_SLOT TIME_SLOT_ID="ts374" TIME_VALUE="236960"/>
         <TIME_SLOT TIME_SLOT_ID="ts375" TIME_VALUE="236960"/>
-        <TIME_SLOT TIME_SLOT_ID="ts376" TIME_VALUE="247027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts376" TIME_VALUE="236960"/>
         <TIME_SLOT TIME_SLOT_ID="ts377" TIME_VALUE="247027"/>
-        <TIME_SLOT TIME_SLOT_ID="ts378" TIME_VALUE="247051"/>
-        <TIME_SLOT TIME_SLOT_ID="ts379" TIME_VALUE="248372"/>
-        <TIME_SLOT TIME_SLOT_ID="ts380" TIME_VALUE="249434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts378" TIME_VALUE="247027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts379" TIME_VALUE="247027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts380" TIME_VALUE="247051"/>
+        <TIME_SLOT TIME_SLOT_ID="ts381" TIME_VALUE="248372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts382" TIME_VALUE="248375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts383" TIME_VALUE="248375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts384" TIME_VALUE="248863"/>
+        <TIME_SLOT TIME_SLOT_ID="ts385" TIME_VALUE="248863"/>
+        <TIME_SLOT TIME_SLOT_ID="ts386" TIME_VALUE="249434"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -664,13 +670,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a413"
-                TIME_SLOT_REF1="ts374" TIME_SLOT_REF2="ts377">
+                TIME_SLOT_REF1="ts374" TIME_SLOT_REF2="ts378">
                 <ANNOTATION_VALUE>Fragment 46</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a414"
-                TIME_SLOT_REF1="ts376" TIME_SLOT_REF2="ts380">
+                TIME_SLOT_REF1="ts377" TIME_SLOT_REF2="ts386">
                 <ANNOTATION_VALUE>Fragment 47</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -944,6 +950,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a406"
                 TIME_SLOT_REF1="ts370" TIME_SLOT_REF2="ts372">
                 <ANNOTATION_VALUE>e eli eli elivant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a416"
+                TIME_SLOT_REF1="ts382" TIME_SLOT_REF2="ts384">
+                <ANNOTATION_VALUE>puu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1267,6 +1279,12 @@
                 <ANNOTATION_VALUE>elivant</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a417"
+                TIME_SLOT_REF1="ts383" TIME_SLOT_REF2="ts385">
+                <ANNOTATION_VALUE>puu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1528,6 +1546,11 @@
                 <ANNOTATION_VALUE>elephant</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a418" ANNOTATION_REF="a417">
+                <ANNOTATION_VALUE>stick</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1781,6 +1804,11 @@
                 <ANNOTATION_VALUE>слон</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a419" ANNOTATION_REF="a417">
+                <ANNOTATION_VALUE>палка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1812,6 +1840,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a363" ANNOTATION_REF="a359">
                 <ANNOTATION_VALUE>probably mispronunciation</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a420" ANNOTATION_REF="a417">
+                <ANNOTATION_VALUE>poor quality</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2017,6 +2050,11 @@
                 <ANNOTATION_VALUE>elephant</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a421" ANNOTATION_REF="a416">
+                <ANNOTATION_VALUE>stick</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2213,6 +2251,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a411" ANNOTATION_REF="a406">
                 <ANNOTATION_VALUE>слон</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a416">
+                <ANNOTATION_VALUE>палка</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2486,8 +2529,14 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a423"
+                TIME_SLOT_REF1="ts376" TIME_SLOT_REF2="ts379">
+                <ANNOTATION_VALUE>ну то есть вы точно знаете, что "слон" скорее всего elevant и лев возможно тоже? интересно...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a415"
-                TIME_SLOT_REF1="ts378" TIME_SLOT_REF2="ts379">
+                TIME_SLOT_REF1="ts380" TIME_SLOT_REF2="ts381">
                 <ANNOTATION_VALUE>палка, ну</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -2697,6 +2746,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a412" ANNOTATION_REF="a405">
                 <ANNOTATION_VALUE>your word for a "lion" is "elivant" and the word "elephant" how?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a423">
+                <ANNOTATION_VALUE>Do you know for sure that the word "elephant" (rus. "slon") probably means "elevant" and the word "lion" (rus. "lev") probably too? This is interesting...</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
