@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-13T23:55:34+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-14T23:57:30+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">427</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">434</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -397,11 +397,13 @@
         <TIME_SLOT TIME_SLOT_ID="ts385" TIME_VALUE="248863"/>
         <TIME_SLOT TIME_SLOT_ID="ts386" TIME_VALUE="249434"/>
         <TIME_SLOT TIME_SLOT_ID="ts387" TIME_VALUE="249434"/>
-        <TIME_SLOT TIME_SLOT_ID="ts388" TIME_VALUE="261878"/>
-        <TIME_SLOT TIME_SLOT_ID="ts389" TIME_VALUE="261878"/>
-        <TIME_SLOT TIME_SLOT_ID="ts390" TIME_VALUE="263342"/>
-        <TIME_SLOT TIME_SLOT_ID="ts391" TIME_VALUE="263342"/>
-        <TIME_SLOT TIME_SLOT_ID="ts392" TIME_VALUE="266048"/>
+        <TIME_SLOT TIME_SLOT_ID="ts388" TIME_VALUE="250446"/>
+        <TIME_SLOT TIME_SLOT_ID="ts389" TIME_VALUE="261849"/>
+        <TIME_SLOT TIME_SLOT_ID="ts390" TIME_VALUE="261878"/>
+        <TIME_SLOT TIME_SLOT_ID="ts391" TIME_VALUE="261878"/>
+        <TIME_SLOT TIME_SLOT_ID="ts392" TIME_VALUE="263342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts393" TIME_VALUE="263342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts394" TIME_VALUE="266048"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -688,7 +690,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a425"
-                TIME_SLOT_REF1="ts386" TIME_SLOT_REF2="ts392">
+                TIME_SLOT_REF1="ts386" TIME_SLOT_REF2="ts394">
                 <ANNOTATION_VALUE>Fragment 48</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -972,7 +974,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a426"
-                TIME_SLOT_REF1="ts388" TIME_SLOT_REF2="ts390">
+                TIME_SLOT_REF1="ts390" TIME_SLOT_REF2="ts392">
                 <ANNOTATION_VALUE>polnenpuu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1305,7 +1307,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a427"
-                TIME_SLOT_REF1="ts389" TIME_SLOT_REF2="ts391">
+                TIME_SLOT_REF1="ts391" TIME_SLOT_REF2="ts393">
                 <ANNOTATION_VALUE>polnenpuu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1575,6 +1577,11 @@
                 <ANNOTATION_VALUE>stick</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a430" ANNOTATION_REF="a427">
+                <ANNOTATION_VALUE>fruit, fruit of tree or fruit tree?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1833,6 +1840,11 @@
                 <ANNOTATION_VALUE>палка</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a431" ANNOTATION_REF="a427">
+                <ANNOTATION_VALUE>плод, плод дерева или плодовое дерево (дерево на котором плоды)?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1869,6 +1881,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a420" ANNOTATION_REF="a417">
                 <ANNOTATION_VALUE>poor quality</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a428" ANNOTATION_REF="a427">
+                <ANNOTATION_VALUE>Poor sound quality and it is not clear how the informant understood the question "fruit" or "fruit tree".</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2079,6 +2096,11 @@
                 <ANNOTATION_VALUE>stick</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a432" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>fruit, fruit of tree or fruit tree?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2280,6 +2302,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a416">
                 <ANNOTATION_VALUE>палка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a433" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>плод,плод дерева или плодовое дерево (дерево на котором плоды)?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2564,6 +2591,12 @@
                 <ANNOTATION_VALUE>палка, ну</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a429"
+                TIME_SLOT_REF1="ts388" TIME_SLOT_REF2="ts389">
+                <ANNOTATION_VALUE>плод, дерева, например, плодовые деревья, плод, ну там яблоки, груши, в общем это как будет называться, мы вот говорим "плоды"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2775,6 +2808,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a423">
                 <ANNOTATION_VALUE>Do you know for sure that the word "elephant" (rus. "slon") probably means "elevant" and the word "lion" (rus. "lev") probably too? This is interesting...</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a434" ANNOTATION_REF="a429">
+                <ANNOTATION_VALUE>Fruit, fruit of a tree, for example. Fruit trees, fruit. Well, there are apples, pears, what it will be called in general? We say "fruits" (rus. "плоды")</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
