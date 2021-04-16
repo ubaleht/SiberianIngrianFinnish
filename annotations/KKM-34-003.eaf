@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-15T23:46:00+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-16T23:52:08+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">443</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">452</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -412,6 +412,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts400" TIME_VALUE="270387"/>
         <TIME_SLOT TIME_SLOT_ID="ts401" TIME_VALUE="271093"/>
         <TIME_SLOT TIME_SLOT_ID="ts402" TIME_VALUE="271714"/>
+        <TIME_SLOT TIME_SLOT_ID="ts403" TIME_VALUE="271714"/>
+        <TIME_SLOT TIME_SLOT_ID="ts404" TIME_VALUE="271765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts405" TIME_VALUE="272392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts406" TIME_VALUE="272705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts407" TIME_VALUE="272705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts408" TIME_VALUE="273784"/>
+        <TIME_SLOT TIME_SLOT_ID="ts409" TIME_VALUE="273784"/>
+        <TIME_SLOT TIME_SLOT_ID="ts410" TIME_VALUE="279323"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -704,8 +712,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a435"
-                TIME_SLOT_REF1="ts394" TIME_SLOT_REF2="ts402">
+                TIME_SLOT_REF1="ts394" TIME_SLOT_REF2="ts403">
                 <ANNOTATION_VALUE>Fragment 49</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a444"
+                TIME_SLOT_REF1="ts402" TIME_SLOT_REF2="ts410">
+                <ANNOTATION_VALUE>Fragment 50</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -996,6 +1010,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a436"
                 TIME_SLOT_REF1="ts398" TIME_SLOT_REF2="ts401">
                 <ANNOTATION_VALUE>siamen семя</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a445"
+                TIME_SLOT_REF1="ts406" TIME_SLOT_REF2="ts408">
+                <ANNOTATION_VALUE>leht</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1337,6 +1357,12 @@
                 <ANNOTATION_VALUE>siamen</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a446"
+                TIME_SLOT_REF1="ts407" TIME_SLOT_REF2="ts409">
+                <ANNOTATION_VALUE>leht</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1613,6 +1639,11 @@
                 <ANNOTATION_VALUE>seed</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a447" ANNOTATION_REF="a446">
+                <ANNOTATION_VALUE>leaf</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1881,6 +1912,11 @@
                 <ANNOTATION_VALUE>семя</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a448" ANNOTATION_REF="a446">
+                <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2142,6 +2178,11 @@
                 <ANNOTATION_VALUE>seed (sib. ingrian fi.) seed (rus.)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a449" ANNOTATION_REF="a445">
+                <ANNOTATION_VALUE>leaf</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2353,6 +2394,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a441" ANNOTATION_REF="a436">
                 <ANNOTATION_VALUE>семя семя (рус.)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a450" ANNOTATION_REF="a445">
+                <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2649,6 +2695,12 @@
                 <ANNOTATION_VALUE>вот, семя, вот растения, семя, семена</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a451"
+                TIME_SLOT_REF1="ts404" TIME_SLOT_REF2="ts405">
+                <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2870,6 +2922,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a443" ANNOTATION_REF="a442">
                 <ANNOTATION_VALUE>seed, plant seed, seed, seed (pl.)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a452" ANNOTATION_REF="a451">
+                <ANNOTATION_VALUE>leaf</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
