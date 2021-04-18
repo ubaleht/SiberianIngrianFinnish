@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-17T23:38:03+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-18T23:58:00+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">459</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">466</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -428,6 +428,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts416" TIME_VALUE="282925"/>
         <TIME_SLOT TIME_SLOT_ID="ts417" TIME_VALUE="282925"/>
         <TIME_SLOT TIME_SLOT_ID="ts418" TIME_VALUE="283635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts419" TIME_VALUE="283635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts420" TIME_VALUE="284309"/>
+        <TIME_SLOT TIME_SLOT_ID="ts421" TIME_VALUE="284960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts422" TIME_VALUE="286279"/>
+        <TIME_SLOT TIME_SLOT_ID="ts423" TIME_VALUE="288502"/>
+        <TIME_SLOT TIME_SLOT_ID="ts424" TIME_VALUE="289174"/>
+        <TIME_SLOT TIME_SLOT_ID="ts425" TIME_VALUE="289204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts426" TIME_VALUE="291604"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -732,8 +740,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a453"
-                TIME_SLOT_REF1="ts410" TIME_SLOT_REF2="ts418">
+                TIME_SLOT_REF1="ts410" TIME_SLOT_REF2="ts419">
                 <ANNOTATION_VALUE>Fragment 51</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a460"
+                TIME_SLOT_REF1="ts418" TIME_SLOT_REF2="ts426">
+                <ANNOTATION_VALUE>Fragment 52</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1036,6 +1050,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a454"
                 TIME_SLOT_REF1="ts414" TIME_SLOT_REF2="ts416">
                 <ANNOTATION_VALUE>ко... корень juurik</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a461"
+                TIME_SLOT_REF1="ts422" TIME_SLOT_REF2="ts425">
+                <ANNOTATION_VALUE>кора кхэ..кхэ tuah (tüah)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1389,6 +1409,12 @@
                 <ANNOTATION_VALUE>juurik</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a462"
+                TIME_SLOT_REF1="ts423" TIME_SLOT_REF2="ts424">
+                <ANNOTATION_VALUE>tuah (tüah)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1675,6 +1701,11 @@
                 <ANNOTATION_VALUE>root</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a463" ANNOTATION_REF="a462">
+                <ANNOTATION_VALUE>bark (of a tree)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1951,6 +1982,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a457" ANNOTATION_REF="a455">
                 <ANNOTATION_VALUE>корень</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a464" ANNOTATION_REF="a462">
+                <ANNOTATION_VALUE>кора</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2743,6 +2779,12 @@
                 <ANNOTATION_VALUE>корень</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a465"
+                TIME_SLOT_REF1="ts420" TIME_SLOT_REF2="ts421">
+                <ANNOTATION_VALUE>кора</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2974,6 +3016,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a459" ANNOTATION_REF="a458">
                 <ANNOTATION_VALUE>root</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a466" ANNOTATION_REF="a465">
+                <ANNOTATION_VALUE>bark (of a tree)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
