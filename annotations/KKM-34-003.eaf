@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-19T23:58:22+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-21T00:16:15+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">468</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">477</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -440,6 +440,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts428" TIME_VALUE="291652"/>
         <TIME_SLOT TIME_SLOT_ID="ts429" TIME_VALUE="294162"/>
         <TIME_SLOT TIME_SLOT_ID="ts430" TIME_VALUE="314920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts431" TIME_VALUE="314920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts432" TIME_VALUE="315404"/>
+        <TIME_SLOT TIME_SLOT_ID="ts433" TIME_VALUE="316241"/>
+        <TIME_SLOT TIME_SLOT_ID="ts434" TIME_VALUE="316848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts435" TIME_VALUE="316848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts436" TIME_VALUE="317796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts437" TIME_VALUE="317796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts438" TIME_VALUE="318548"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -756,8 +764,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a467"
-                TIME_SLOT_REF1="ts426" TIME_SLOT_REF2="ts430">
+                TIME_SLOT_REF1="ts426" TIME_SLOT_REF2="ts431">
                 <ANNOTATION_VALUE>Fragment 53</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a469"
+                TIME_SLOT_REF1="ts430" TIME_SLOT_REF2="ts438">
+                <ANNOTATION_VALUE>Fragment 55</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1066,6 +1080,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a461"
                 TIME_SLOT_REF1="ts422" TIME_SLOT_REF2="ts425">
                 <ANNOTATION_VALUE>кора кхэ..кхэ tuah (tüah)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a470"
+                TIME_SLOT_REF1="ts434" TIME_SLOT_REF2="ts436">
+                <ANNOTATION_VALUE>kuukk (kukk)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1425,6 +1445,12 @@
                 <ANNOTATION_VALUE>tuah (tüah)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a471"
+                TIME_SLOT_REF1="ts435" TIME_SLOT_REF2="ts437">
+                <ANNOTATION_VALUE>kuukk (kukk)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1716,6 +1742,11 @@
                 <ANNOTATION_VALUE>bark (of a tree)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a472" ANNOTATION_REF="a471">
+                <ANNOTATION_VALUE>flower</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1999,6 +2030,11 @@
                 <ANNOTATION_VALUE>кора</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a473" ANNOTATION_REF="a471">
+                <ANNOTATION_VALUE>цветок</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2265,6 +2301,11 @@
                 <ANNOTATION_VALUE>leaf</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a474" ANNOTATION_REF="a470">
+                <ANNOTATION_VALUE>flower</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2481,6 +2522,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a450" ANNOTATION_REF="a445">
                 <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a475" ANNOTATION_REF="a470">
+                <ANNOTATION_VALUE>цветок</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2801,6 +2847,12 @@
                 <ANNOTATION_VALUE>А вот Альвина Ивановна говорит "Bregach"</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a476"
+                TIME_SLOT_REF1="ts432" TIME_SLOT_REF2="ts433">
+                <ANNOTATION_VALUE>цветок</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3037,6 +3089,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a466" ANNOTATION_REF="a465">
                 <ANNOTATION_VALUE>bark (of a tree)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a477" ANNOTATION_REF="a476">
+                <ANNOTATION_VALUE>flower</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
