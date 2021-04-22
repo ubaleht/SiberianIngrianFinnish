@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-21T23:57:20+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-22T23:56:30+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">486</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">496</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -456,6 +456,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts444" TIME_VALUE="323312"/>
         <TIME_SLOT TIME_SLOT_ID="ts445" TIME_VALUE="323312"/>
         <TIME_SLOT TIME_SLOT_ID="ts446" TIME_VALUE="323312"/>
+        <TIME_SLOT TIME_SLOT_ID="ts447" TIME_VALUE="323312"/>
+        <TIME_SLOT TIME_SLOT_ID="ts448" TIME_VALUE="324248"/>
+        <TIME_SLOT TIME_SLOT_ID="ts449" TIME_VALUE="325121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts450" TIME_VALUE="325363"/>
+        <TIME_SLOT TIME_SLOT_ID="ts451" TIME_VALUE="325363"/>
+        <TIME_SLOT TIME_SLOT_ID="ts452" TIME_VALUE="326284"/>
+        <TIME_SLOT TIME_SLOT_ID="ts453" TIME_VALUE="326284"/>
+        <TIME_SLOT TIME_SLOT_ID="ts454" TIME_VALUE="328237"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -784,7 +792,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a478"
-                TIME_SLOT_REF1="ts438" TIME_SLOT_REF2="ts444">
+                TIME_SLOT_REF1="ts438" TIME_SLOT_REF2="ts445">
+                <ANNOTATION_VALUE>Fragment 56</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a487"
+                TIME_SLOT_REF1="ts444" TIME_SLOT_REF2="ts454">
                 <ANNOTATION_VALUE>Fragment 56</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1104,8 +1118,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a479"
-                TIME_SLOT_REF1="ts442" TIME_SLOT_REF2="ts445">
+                TIME_SLOT_REF1="ts442" TIME_SLOT_REF2="ts446">
                 <ANNOTATION_VALUE>a roho</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a488"
+                TIME_SLOT_REF1="ts450" TIME_SLOT_REF2="ts452">
+                <ANNOTATION_VALUE>nuar</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1473,8 +1493,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a480"
-                TIME_SLOT_REF1="ts443" TIME_SLOT_REF2="ts446">
+                TIME_SLOT_REF1="ts443" TIME_SLOT_REF2="ts447">
                 <ANNOTATION_VALUE>roho</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a489"
+                TIME_SLOT_REF1="ts451" TIME_SLOT_REF2="ts453">
+                <ANNOTATION_VALUE>nuar</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1778,6 +1804,11 @@
                 <ANNOTATION_VALUE>grass</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a490" ANNOTATION_REF="a489">
+                <ANNOTATION_VALUE>rope</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2071,6 +2102,11 @@
                 <ANNOTATION_VALUE>трава</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a491" ANNOTATION_REF="a489">
+                <ANNOTATION_VALUE>верёвка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2112,6 +2148,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a428" ANNOTATION_REF="a427">
                 <ANNOTATION_VALUE>Poor sound quality and it is not clear how the informant understood the question "fruit" or "fruit tree".</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a492" ANNOTATION_REF="a489">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2347,6 +2388,11 @@
                 <ANNOTATION_VALUE>a.. grass</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a493" ANNOTATION_REF="a488">
+                <ANNOTATION_VALUE>rope</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2573,6 +2619,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a484" ANNOTATION_REF="a479">
                 <ANNOTATION_VALUE>а.. трава</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a494" ANNOTATION_REF="a488">
+                <ANNOTATION_VALUE>верёвка</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2905,6 +2956,12 @@
                 <ANNOTATION_VALUE>трава</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a495"
+                TIME_SLOT_REF1="ts448" TIME_SLOT_REF2="ts449">
+                <ANNOTATION_VALUE>верёвка</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3151,6 +3208,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a486" ANNOTATION_REF="a485">
                 <ANNOTATION_VALUE>grass</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a496" ANNOTATION_REF="a495">
+                <ANNOTATION_VALUE>rope</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
