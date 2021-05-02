@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-04-29T23:54:53+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-05-02T23:54:47+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">12</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">18</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -32,6 +32,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="54115"/>
         <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="54115"/>
         <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="70624"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="70624"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="77757"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="77757"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="88873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="88873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="116710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="116710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="123753"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="123753"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="149009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="149009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="153168"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -72,8 +84,44 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
-                TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts22">
+                TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts23">
                 <ANNOTATION_VALUE>Fragment 07</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>Fragment 08</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>Fragment 09</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>Fragment 10</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts31">
+                <ANNOTATION_VALUE>Fragment 11</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>Fragment 12</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Fragment 13</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
