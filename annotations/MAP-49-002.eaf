@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-05-07T23:37:28+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-05-11T00:05:07+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">26</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">28</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -60,6 +60,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="224480"/>
         <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="229187"/>
         <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="230650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="230650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="243686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="243686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="257018"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -172,8 +176,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
-                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts50">
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts51">
                 <ANNOTATION_VALUE>Fragment 19</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>Fragment 20</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>Fragment 21</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
