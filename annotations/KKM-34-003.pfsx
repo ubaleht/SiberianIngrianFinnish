@@ -10,24 +10,27 @@
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
+    <pref key="LayoutManager.ControlPanelWidth">
+        <Int>203</Int>
+    </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>Speaker-SpeechRuTranslation</String>
+        <String>Speaker-WordsRuTranslation</String>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>223</Int>
+        <Int>287</Int>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>178371</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>510.00003</Float>
+        <Float>189.99901</Float>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Sender">
-            <Int>0</Int>
+            <Int>75</Int>
         </pref>
         <pref key="Comment">
             <Int>75</Int>
@@ -42,7 +45,7 @@
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
-            <Int>0</Int>
+            <Int>75</Int>
         </pref>
         <pref key="Start Time">
             <Int>75</Int>
@@ -77,10 +80,10 @@
         <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>510.00003</Float>
+        <Float>189.99901</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>177749</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
@@ -92,10 +95,10 @@
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="TimeScaleBeginTime">
-        <Long>5520</Long>
+        <Long>173650</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>6921</Long>
+        <Long>177749</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Speaker-PartOfSpeech">
@@ -125,11 +128,11 @@
         <pref key="Speaker-Speech">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
-        <pref key="Speaker-GrammaticalCategories">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
         <pref key="Speaker-WordsRuTranslation">
             <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="Speaker-GrammaticalCategories">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="General">
             <Object class="java.awt.Color">90,90,0</Object>
@@ -146,11 +149,11 @@
         <pref key="Speaker-PhonemeComments">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="Speaker-Relations">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
         <pref key="Interviewer-Relations">
             <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="Speaker-Relations">
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
         <pref key="Interviewer-Speech">
             <Object class="java.awt.Color">0,160,0</Object>
@@ -179,10 +182,7 @@
     </prefList>
     <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>212</Int>
+        <Int>270</Int>
     </pref>
-    <prefList key="CommentViewer.Columns.Hidden">
-        <String>Sender</String>
-        <String>Recipient</String>
-    </prefList>
+    <prefList key="CommentViewer.Columns.Hidden"/>
 </preferences>

@@ -11,20 +11,20 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>AAK-47_Words</String>
+        <String>AAK-47_WordsComments</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>24359</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>1531.0</Float>
+        <Float>1181.0011</Float>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Sender">
-            <Int>0</Int>
+            <Int>75</Int>
         </pref>
         <pref key="Comment">
             <Int>75</Int>
@@ -39,7 +39,7 @@
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
-            <Int>0</Int>
+            <Int>75</Int>
         </pref>
         <pref key="Start Time">
             <Int>75</Int>
@@ -74,28 +74,28 @@
         <Object class="java.awt.Point">0,0</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>1531.0</Float>
+        <Float>1181.0011</Float>
     </pref>
     <pref key="DetachedEditor.Bounds">
         <Object class="java.awt.Rectangle">810,390,300,300</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>23954</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
             <String>http://lux17.mpi.nl/aamlr/</String>
         </pref>
         <pref key="source_audio">
-            <String>///D:/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
+            <String>///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/AAK-47-001.wav</String>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="TimeScaleBeginTime">
-        <Long>96597</Long>
+        <Long>23412</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>100956</Long>
+        <Long>23897</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="AAK-47_Speech">
@@ -104,17 +104,17 @@
         <pref key="Interviewer_Speech">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
-        <pref key="AAK-47_Words">
-            <Object class="java.awt.Color">160,90,0</Object>
-        </pref>
         <pref key="AAK-47_WordsRuTranslation">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="General">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="Interviewer_SpeechEnTranslation">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="AAK-47_Words">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="General">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="AAK-47_WordsEnTranslation">
             <Object class="java.awt.Color">0,90,160</Object>
@@ -141,10 +141,7 @@
     </prefList>
     <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>211</Int>
+        <Int>185</Int>
     </pref>
-    <prefList key="CommentViewer.Columns.Hidden">
-        <String>Sender</String>
-        <String>Recipient</String>
-    </prefList>
+    <prefList key="CommentViewer.Columns.Hidden"/>
 </preferences>
