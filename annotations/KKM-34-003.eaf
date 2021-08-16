@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-08-16T16:32:22+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-08-16T21:07:12+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">523</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">533</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -488,6 +488,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts476" TIME_VALUE="342669"/>
         <TIME_SLOT TIME_SLOT_ID="ts477" TIME_VALUE="342669"/>
         <TIME_SLOT TIME_SLOT_ID="ts478" TIME_VALUE="345432"/>
+        <TIME_SLOT TIME_SLOT_ID="ts479" TIME_VALUE="345432"/>
+        <TIME_SLOT TIME_SLOT_ID="ts480" TIME_VALUE="345496"/>
+        <TIME_SLOT TIME_SLOT_ID="ts481" TIME_VALUE="346269"/>
+        <TIME_SLOT TIME_SLOT_ID="ts482" TIME_VALUE="347966"/>
+        <TIME_SLOT TIME_SLOT_ID="ts483" TIME_VALUE="347966"/>
+        <TIME_SLOT TIME_SLOT_ID="ts484" TIME_VALUE="348740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts485" TIME_VALUE="348740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts486" TIME_VALUE="350764"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -840,8 +848,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a515"
-                TIME_SLOT_REF1="ts470" TIME_SLOT_REF2="ts478">
+                TIME_SLOT_REF1="ts470" TIME_SLOT_REF2="ts479">
                 <ANNOTATION_VALUE>Fragment 60</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a524"
+                TIME_SLOT_REF1="ts478" TIME_SLOT_REF2="ts486">
+                <ANNOTATION_VALUE>Fragment 61</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1186,6 +1200,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a516"
                 TIME_SLOT_REF1="ts474" TIME_SLOT_REF2="ts476">
                 <ANNOTATION_VALUE>veri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a525"
+                TIME_SLOT_REF1="ts482" TIME_SLOT_REF2="ts484">
+                <ANNOTATION_VALUE>kont' - ?</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1581,6 +1601,12 @@
                 <ANNOTATION_VALUE>veri</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a526"
+                TIME_SLOT_REF1="ts483" TIME_SLOT_REF2="ts485">
+                <ANNOTATION_VALUE>kont' - ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1902,6 +1928,11 @@
                 <ANNOTATION_VALUE>blood</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a527" ANNOTATION_REF="a526">
+                <ANNOTATION_VALUE>bone</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2215,6 +2246,11 @@
                 <ANNOTATION_VALUE>кровь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a528" ANNOTATION_REF="a526">
+                <ANNOTATION_VALUE>кость</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2261,6 +2297,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a492" ANNOTATION_REF="a489">
                 <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a529" ANNOTATION_REF="a526">
+                <ANNOTATION_VALUE>Word "kont'" maybe wrong, need to check</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2516,6 +2557,11 @@
                 <ANNOTATION_VALUE>blood</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a530" ANNOTATION_REF="a525">
+                <ANNOTATION_VALUE>bone</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2762,6 +2808,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a521" ANNOTATION_REF="a516">
                 <ANNOTATION_VALUE>кровь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a531" ANNOTATION_REF="a525">
+                <ANNOTATION_VALUE>кость</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3118,6 +3169,12 @@
                 <ANNOTATION_VALUE>кровь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a532"
+                TIME_SLOT_REF1="ts480" TIME_SLOT_REF2="ts481">
+                <ANNOTATION_VALUE>кость</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3384,6 +3441,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a523" ANNOTATION_REF="a522">
                 <ANNOTATION_VALUE>blood</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a533" ANNOTATION_REF="a532">
+                <ANNOTATION_VALUE>bone</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
