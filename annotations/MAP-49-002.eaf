@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-07-18T23:53:47+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-03T18:51:35+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -504,7 +504,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a49">
-                <ANNOTATION_VALUE>Noun.SG-NOM</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Noun.SG-PART</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
