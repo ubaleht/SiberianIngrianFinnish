@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-02T23:56:52+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-06T23:58:32+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">552</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">561</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -514,6 +514,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts502" TIME_VALUE="366477"/>
         <TIME_SLOT TIME_SLOT_ID="ts503" TIME_VALUE="366477"/>
         <TIME_SLOT TIME_SLOT_ID="ts504" TIME_VALUE="367222"/>
+        <TIME_SLOT TIME_SLOT_ID="ts505" TIME_VALUE="367222"/>
+        <TIME_SLOT TIME_SLOT_ID="ts506" TIME_VALUE="367654"/>
+        <TIME_SLOT TIME_SLOT_ID="ts507" TIME_VALUE="368519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts508" TIME_VALUE="369030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts509" TIME_VALUE="369030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts510" TIME_VALUE="369967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts511" TIME_VALUE="369967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts512" TIME_VALUE="371413"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -837,60 +845,66 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a469"
                 TIME_SLOT_REF1="ts430" TIME_SLOT_REF2="ts439">
-                <ANNOTATION_VALUE>Fragment 55</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 54</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a478"
                 TIME_SLOT_REF1="ts438" TIME_SLOT_REF2="ts445">
-                <ANNOTATION_VALUE>Fragment 56</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 55</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a487"
                 TIME_SLOT_REF1="ts444" TIME_SLOT_REF2="ts455">
-                <ANNOTATION_VALUE>Fragment 57</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 56</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a497"
                 TIME_SLOT_REF1="ts454" TIME_SLOT_REF2="ts463">
-                <ANNOTATION_VALUE>Fragment 58</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 57</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a506"
                 TIME_SLOT_REF1="ts462" TIME_SLOT_REF2="ts471">
-                <ANNOTATION_VALUE>Fragment 59</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 58</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a515"
                 TIME_SLOT_REF1="ts470" TIME_SLOT_REF2="ts479">
-                <ANNOTATION_VALUE>Fragment 60</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 59</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a524"
                 TIME_SLOT_REF1="ts478" TIME_SLOT_REF2="ts487">
-                <ANNOTATION_VALUE>Fragment 61</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 60</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a534"
                 TIME_SLOT_REF1="ts486" TIME_SLOT_REF2="ts490">
-                <ANNOTATION_VALUE>Fragment 62</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 61</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a535"
                 TIME_SLOT_REF1="ts489" TIME_SLOT_REF2="ts497">
-                <ANNOTATION_VALUE>Fragment 63</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Fragment 62</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a544"
-                TIME_SLOT_REF1="ts496" TIME_SLOT_REF2="ts504">
+                TIME_SLOT_REF1="ts496" TIME_SLOT_REF2="ts505">
+                <ANNOTATION_VALUE>Fragment 63</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a553"
+                TIME_SLOT_REF1="ts504" TIME_SLOT_REF2="ts512">
                 <ANNOTATION_VALUE>Fragment 64</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1254,6 +1268,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a545"
                 TIME_SLOT_REF1="ts500" TIME_SLOT_REF2="ts502">
                 <ANNOTATION_VALUE>Sarv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a554"
+                TIME_SLOT_REF1="ts508" TIME_SLOT_REF2="ts510">
+                <ANNOTATION_VALUE>Hänt` (Hännt`)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1667,6 +1687,12 @@
                 <ANNOTATION_VALUE>Sarv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a555"
+                TIME_SLOT_REF1="ts509" TIME_SLOT_REF2="ts511">
+                <ANNOTATION_VALUE>Hänt` (Hännt`)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2003,6 +2029,11 @@
                 <ANNOTATION_VALUE>Horn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a556" ANNOTATION_REF="a555">
+                <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2331,6 +2362,11 @@
                 <ANNOTATION_VALUE>Рог</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a557" ANNOTATION_REF="a555">
+                <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2652,6 +2688,11 @@
                 <ANNOTATION_VALUE>Horn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a558" ANNOTATION_REF="a554">
+                <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2913,6 +2954,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a550" ANNOTATION_REF="a545">
                 <ANNOTATION_VALUE>Рог</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a559" ANNOTATION_REF="a554">
+                <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3287,6 +3333,12 @@
                 <ANNOTATION_VALUE>Рог</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a560"
+                TIME_SLOT_REF1="ts506" TIME_SLOT_REF2="ts507">
+                <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3568,6 +3620,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a552" ANNOTATION_REF="a551">
                 <ANNOTATION_VALUE>Horn</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a561" ANNOTATION_REF="a560">
+                <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
