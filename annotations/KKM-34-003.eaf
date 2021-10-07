@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-06T23:58:32+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-07T23:58:31+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">561</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">572</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -522,6 +522,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts510" TIME_VALUE="369967"/>
         <TIME_SLOT TIME_SLOT_ID="ts511" TIME_VALUE="369967"/>
         <TIME_SLOT TIME_SLOT_ID="ts512" TIME_VALUE="371413"/>
+        <TIME_SLOT TIME_SLOT_ID="ts513" TIME_VALUE="371413"/>
+        <TIME_SLOT TIME_SLOT_ID="ts514" TIME_VALUE="400383"/>
+        <TIME_SLOT TIME_SLOT_ID="ts515" TIME_VALUE="400383"/>
+        <TIME_SLOT TIME_SLOT_ID="ts516" TIME_VALUE="406802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts517" TIME_VALUE="406802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts518" TIME_VALUE="406826"/>
+        <TIME_SLOT TIME_SLOT_ID="ts519" TIME_VALUE="407630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts520" TIME_VALUE="408013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts521" TIME_VALUE="408013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts522" TIME_VALUE="408572"/>
+        <TIME_SLOT TIME_SLOT_ID="ts523" TIME_VALUE="408572"/>
+        <TIME_SLOT TIME_SLOT_ID="ts524" TIME_VALUE="410030"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -904,8 +916,26 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a553"
-                TIME_SLOT_REF1="ts504" TIME_SLOT_REF2="ts512">
+                TIME_SLOT_REF1="ts504" TIME_SLOT_REF2="ts513">
                 <ANNOTATION_VALUE>Fragment 64</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a562"
+                TIME_SLOT_REF1="ts512" TIME_SLOT_REF2="ts515">
+                <ANNOTATION_VALUE>Fragment 65</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a563"
+                TIME_SLOT_REF1="ts514" TIME_SLOT_REF2="ts517">
+                <ANNOTATION_VALUE>Fragment 66</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a564"
+                TIME_SLOT_REF1="ts516" TIME_SLOT_REF2="ts524">
+                <ANNOTATION_VALUE>Fragment 67</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1274,6 +1304,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a554"
                 TIME_SLOT_REF1="ts508" TIME_SLOT_REF2="ts510">
                 <ANNOTATION_VALUE>Hänt` (Hännt`)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a565"
+                TIME_SLOT_REF1="ts520" TIME_SLOT_REF2="ts522">
+                <ANNOTATION_VALUE>Pää</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1693,6 +1729,12 @@
                 <ANNOTATION_VALUE>Hänt` (Hännt`)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a566"
+                TIME_SLOT_REF1="ts521" TIME_SLOT_REF2="ts523">
+                <ANNOTATION_VALUE>Pää</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2034,6 +2076,11 @@
                 <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a567" ANNOTATION_REF="a566">
+                <ANNOTATION_VALUE>Head</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2367,6 +2414,11 @@
                 <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a568" ANNOTATION_REF="a566">
+                <ANNOTATION_VALUE>Голова</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2693,6 +2745,11 @@
                 <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a569" ANNOTATION_REF="a565">
+                <ANNOTATION_VALUE>Head</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2959,6 +3016,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a559" ANNOTATION_REF="a554">
                 <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a570" ANNOTATION_REF="a565">
+                <ANNOTATION_VALUE>Голова</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3339,6 +3401,12 @@
                 <ANNOTATION_VALUE>Хвост</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a571"
+                TIME_SLOT_REF1="ts518" TIME_SLOT_REF2="ts519">
+                <ANNOTATION_VALUE>Голова</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3625,6 +3693,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a561" ANNOTATION_REF="a560">
                 <ANNOTATION_VALUE>Tail</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a572" ANNOTATION_REF="a571">
+                <ANNOTATION_VALUE>Head</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
