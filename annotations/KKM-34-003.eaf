@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-19T23:47:17+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-20T23:46:44+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">617</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">626</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -574,6 +574,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts562" TIME_VALUE="423301"/>
         <TIME_SLOT TIME_SLOT_ID="ts563" TIME_VALUE="423301"/>
         <TIME_SLOT TIME_SLOT_ID="ts564" TIME_VALUE="423992"/>
+        <TIME_SLOT TIME_SLOT_ID="ts565" TIME_VALUE="423992"/>
+        <TIME_SLOT TIME_SLOT_ID="ts566" TIME_VALUE="424463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts567" TIME_VALUE="425214"/>
+        <TIME_SLOT TIME_SLOT_ID="ts568" TIME_VALUE="425730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts569" TIME_VALUE="425730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts570" TIME_VALUE="426462"/>
+        <TIME_SLOT TIME_SLOT_ID="ts571" TIME_VALUE="426462"/>
+        <TIME_SLOT TIME_SLOT_ID="ts572" TIME_VALUE="427365"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1004,8 +1012,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a609"
-                TIME_SLOT_REF1="ts556" TIME_SLOT_REF2="ts564">
+                TIME_SLOT_REF1="ts556" TIME_SLOT_REF2="ts565">
                 <ANNOTATION_VALUE>Fragment 72</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a618"
+                TIME_SLOT_REF1="ts564" TIME_SLOT_REF2="ts572">
+                <ANNOTATION_VALUE>Fragment 73</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1410,6 +1424,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a610"
                 TIME_SLOT_REF1="ts560" TIME_SLOT_REF2="ts562">
                 <ANNOTATION_VALUE>Hammas</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a619"
+                TIME_SLOT_REF1="ts568" TIME_SLOT_REF2="ts570">
+                <ANNOTATION_VALUE>Kün'ss'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1865,6 +1885,12 @@
                 <ANNOTATION_VALUE>Hammas</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a620"
+                TIME_SLOT_REF1="ts569" TIME_SLOT_REF2="ts571">
+                <ANNOTATION_VALUE>Kün'ss'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2236,6 +2262,11 @@
                 <ANNOTATION_VALUE>Tooth</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a621" ANNOTATION_REF="a620">
+                <ANNOTATION_VALUE>Fingernail</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2599,6 +2630,11 @@
                 <ANNOTATION_VALUE>Зуб</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a622" ANNOTATION_REF="a620">
+                <ANNOTATION_VALUE>Ноготь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2955,6 +2991,11 @@
                 <ANNOTATION_VALUE>Tooth</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a623" ANNOTATION_REF="a619">
+                <ANNOTATION_VALUE>Fingernail</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3251,6 +3292,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a615" ANNOTATION_REF="a610">
                 <ANNOTATION_VALUE>Зуб</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a624" ANNOTATION_REF="a619">
+                <ANNOTATION_VALUE>Ноготь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3667,6 +3713,12 @@
                 <ANNOTATION_VALUE>Зуб</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a625"
+                TIME_SLOT_REF1="ts566" TIME_SLOT_REF2="ts567">
+                <ANNOTATION_VALUE>Ноготь</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3983,6 +4035,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a617" ANNOTATION_REF="a616">
                 <ANNOTATION_VALUE>Tooth</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a626" ANNOTATION_REF="a625">
+                <ANNOTATION_VALUE>Fingernail</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
