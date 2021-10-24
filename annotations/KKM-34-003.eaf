@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-23T23:59:10+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-24T23:53:59+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">646</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">655</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -602,6 +602,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts590" TIME_VALUE="442247"/>
         <TIME_SLOT TIME_SLOT_ID="ts591" TIME_VALUE="442247"/>
         <TIME_SLOT TIME_SLOT_ID="ts592" TIME_VALUE="443490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts593" TIME_VALUE="443490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts594" TIME_VALUE="444056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts595" TIME_VALUE="444604"/>
+        <TIME_SLOT TIME_SLOT_ID="ts596" TIME_VALUE="445029"/>
+        <TIME_SLOT TIME_SLOT_ID="ts597" TIME_VALUE="445029"/>
+        <TIME_SLOT TIME_SLOT_ID="ts598" TIME_VALUE="445669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts599" TIME_VALUE="445669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts600" TIME_VALUE="446014"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1050,8 +1058,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a638"
-                TIME_SLOT_REF1="ts584" TIME_SLOT_REF2="ts592">
+                TIME_SLOT_REF1="ts584" TIME_SLOT_REF2="ts593">
                 <ANNOTATION_VALUE>Fragment 75</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a647"
+                TIME_SLOT_REF1="ts592" TIME_SLOT_REF2="ts600">
+                <ANNOTATION_VALUE>Fragment 76</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1480,6 +1494,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a639"
                 TIME_SLOT_REF1="ts588" TIME_SLOT_REF2="ts590">
                 <ANNOTATION_VALUE>Polv, Põlv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a648"
+                TIME_SLOT_REF1="ts596" TIME_SLOT_REF2="ts598">
+                <ANNOTATION_VALUE>Käsi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1959,6 +1979,12 @@
                 <ANNOTATION_VALUE>Polv, Põlv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a649"
+                TIME_SLOT_REF1="ts597" TIME_SLOT_REF2="ts599">
+                <ANNOTATION_VALUE>Käsi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2350,6 +2376,11 @@
                 <ANNOTATION_VALUE>Knee</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a650" ANNOTATION_REF="a649">
+                <ANNOTATION_VALUE>Hand</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2728,6 +2759,11 @@
                 <ANNOTATION_VALUE>Колено</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a651" ANNOTATION_REF="a649">
+                <ANNOTATION_VALUE>Рука</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3099,6 +3135,11 @@
                 <ANNOTATION_VALUE>Knee</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a652" ANNOTATION_REF="a648">
+                <ANNOTATION_VALUE>Hand</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3405,6 +3446,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a644" ANNOTATION_REF="a639">
                 <ANNOTATION_VALUE>Колено</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a653" ANNOTATION_REF="a648">
+                <ANNOTATION_VALUE>Рука</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3839,6 +3885,12 @@
                 <ANNOTATION_VALUE>Колено</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a654"
+                TIME_SLOT_REF1="ts594" TIME_SLOT_REF2="ts595">
+                <ANNOTATION_VALUE>Рука</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4170,6 +4222,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a646" ANNOTATION_REF="a645">
                 <ANNOTATION_VALUE>Knee</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a655" ANNOTATION_REF="a654">
+                <ANNOTATION_VALUE>Hand</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
