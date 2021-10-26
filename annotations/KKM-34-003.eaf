@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-25T23:08:48+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-27T00:04:04+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">664</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">674</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -618,6 +618,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts606" TIME_VALUE="448904"/>
         <TIME_SLOT TIME_SLOT_ID="ts607" TIME_VALUE="448904"/>
         <TIME_SLOT TIME_SLOT_ID="ts608" TIME_VALUE="450607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts609" TIME_VALUE="450607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts610" TIME_VALUE="467546"/>
+        <TIME_SLOT TIME_SLOT_ID="ts611" TIME_VALUE="467546"/>
+        <TIME_SLOT TIME_SLOT_ID="ts612" TIME_VALUE="470475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts613" TIME_VALUE="471104"/>
+        <TIME_SLOT TIME_SLOT_ID="ts614" TIME_VALUE="471104"/>
+        <TIME_SLOT TIME_SLOT_ID="ts615" TIME_VALUE="471112"/>
+        <TIME_SLOT TIME_SLOT_ID="ts616" TIME_VALUE="472304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts617" TIME_VALUE="472304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts618" TIME_VALUE="473364"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1078,8 +1088,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a656"
-                TIME_SLOT_REF1="ts600" TIME_SLOT_REF2="ts608">
+                TIME_SLOT_REF1="ts600" TIME_SLOT_REF2="ts609">
                 <ANNOTATION_VALUE>Fragment 77</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a665"
+                TIME_SLOT_REF1="ts608" TIME_SLOT_REF2="ts611">
+                <ANNOTATION_VALUE>Fragment 78</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a666"
+                TIME_SLOT_REF1="ts610" TIME_SLOT_REF2="ts618">
+                <ANNOTATION_VALUE>Fragment 79</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1520,6 +1542,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a657"
                 TIME_SLOT_REF1="ts604" TIME_SLOT_REF2="ts606">
                 <ANNOTATION_VALUE>Käsi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a667"
+                TIME_SLOT_REF1="ts613" TIME_SLOT_REF2="ts616">
+                <ANNOTATION_VALUE>Vats'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2011,6 +2039,12 @@
                 <ANNOTATION_VALUE>Käsi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a668"
+                TIME_SLOT_REF1="ts614" TIME_SLOT_REF2="ts617">
+                <ANNOTATION_VALUE>Vats'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2412,6 +2446,11 @@
                 <ANNOTATION_VALUE>Hand (not arm)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a669" ANNOTATION_REF="a668">
+                <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2800,6 +2839,11 @@
                 <ANNOTATION_VALUE>Рука (кисть)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a671" ANNOTATION_REF="a668">
+                <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3181,6 +3225,11 @@
                 <ANNOTATION_VALUE>Hand (not arm)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a672" ANNOTATION_REF="a667">
+                <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3497,6 +3546,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a662" ANNOTATION_REF="a657">
                 <ANNOTATION_VALUE>Рука (кисть)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a673" ANNOTATION_REF="a667">
+                <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3943,6 +3997,12 @@
                 <ANNOTATION_VALUE>Кисть та.. ж, тоже ру...</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a670"
+                TIME_SLOT_REF1="ts612" TIME_SLOT_REF2="ts615">
+                <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4284,6 +4344,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a664" ANNOTATION_REF="a663">
                 <ANNOTATION_VALUE>Hand too? (not arm, hand)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a674" ANNOTATION_REF="a670">
+                <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
