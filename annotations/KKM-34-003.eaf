@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-27T00:04:04+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-28T00:03:35+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">674</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">684</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -628,6 +628,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts616" TIME_VALUE="472304"/>
         <TIME_SLOT TIME_SLOT_ID="ts617" TIME_VALUE="472304"/>
         <TIME_SLOT TIME_SLOT_ID="ts618" TIME_VALUE="473364"/>
+        <TIME_SLOT TIME_SLOT_ID="ts619" TIME_VALUE="473364"/>
+        <TIME_SLOT TIME_SLOT_ID="ts620" TIME_VALUE="473402"/>
+        <TIME_SLOT TIME_SLOT_ID="ts621" TIME_VALUE="475566"/>
+        <TIME_SLOT TIME_SLOT_ID="ts622" TIME_VALUE="476972"/>
+        <TIME_SLOT TIME_SLOT_ID="ts623" TIME_VALUE="476977"/>
+        <TIME_SLOT TIME_SLOT_ID="ts624" TIME_VALUE="477711"/>
+        <TIME_SLOT TIME_SLOT_ID="ts625" TIME_VALUE="479768"/>
+        <TIME_SLOT TIME_SLOT_ID="ts626" TIME_VALUE="494735"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1100,8 +1108,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a666"
-                TIME_SLOT_REF1="ts610" TIME_SLOT_REF2="ts618">
+                TIME_SLOT_REF1="ts610" TIME_SLOT_REF2="ts619">
                 <ANNOTATION_VALUE>Fragment 79</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a675"
+                TIME_SLOT_REF1="ts618" TIME_SLOT_REF2="ts626">
+                <ANNOTATION_VALUE>Fragment 80</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1548,6 +1562,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a667"
                 TIME_SLOT_REF1="ts613" TIME_SLOT_REF2="ts616">
                 <ANNOTATION_VALUE>Vats'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a676"
+                TIME_SLOT_REF1="ts622" TIME_SLOT_REF2="ts625">
+                <ANNOTATION_VALUE>Suolet (Suonet), ei, net</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2045,6 +2065,12 @@
                 <ANNOTATION_VALUE>Vats'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a677"
+                TIME_SLOT_REF1="ts623" TIME_SLOT_REF2="ts624">
+                <ANNOTATION_VALUE>Suolet (Suonet)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2451,6 +2477,11 @@
                 <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a678" ANNOTATION_REF="a677">
+                <ANNOTATION_VALUE>Guts</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2844,6 +2875,11 @@
                 <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a679" ANNOTATION_REF="a677">
+                <ANNOTATION_VALUE>Кишки, кишечник</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2895,6 +2931,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a529" ANNOTATION_REF="a526">
                 <ANNOTATION_VALUE>Word "kont'" maybe wrong, need to check</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a680" ANNOTATION_REF="a677">
+                <ANNOTATION_VALUE>Speaker not sure about this word</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3230,6 +3271,11 @@
                 <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a681" ANNOTATION_REF="a676">
+                <ANNOTATION_VALUE>Guts, No (own language), No (russian language)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3551,6 +3597,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a673" ANNOTATION_REF="a667">
                 <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a682" ANNOTATION_REF="a676">
+                <ANNOTATION_VALUE>Кишки (кишечник), нет (на своём языке), нет (по русски)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4003,6 +4054,12 @@
                 <ANNOTATION_VALUE>Живот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a683"
+                TIME_SLOT_REF1="ts620" TIME_SLOT_REF2="ts621">
+                <ANNOTATION_VALUE>Ну, кижечник, кишки</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4349,6 +4406,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a674" ANNOTATION_REF="a670">
                 <ANNOTATION_VALUE>Belly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a684" ANNOTATION_REF="a683">
+                <ANNOTATION_VALUE>Well, guts?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
