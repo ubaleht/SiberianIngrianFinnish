@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-29T23:40:14+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-30T23:55:54+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">702</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">711</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -652,6 +652,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts640" TIME_VALUE="500933"/>
         <TIME_SLOT TIME_SLOT_ID="ts641" TIME_VALUE="500933"/>
         <TIME_SLOT TIME_SLOT_ID="ts642" TIME_VALUE="501623"/>
+        <TIME_SLOT TIME_SLOT_ID="ts643" TIME_VALUE="501623"/>
+        <TIME_SLOT TIME_SLOT_ID="ts644" TIME_VALUE="501654"/>
+        <TIME_SLOT TIME_SLOT_ID="ts645" TIME_VALUE="502334"/>
+        <TIME_SLOT TIME_SLOT_ID="ts646" TIME_VALUE="502785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts647" TIME_VALUE="502785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts648" TIME_VALUE="503605"/>
+        <TIME_SLOT TIME_SLOT_ID="ts649" TIME_VALUE="503605"/>
+        <TIME_SLOT TIME_SLOT_ID="ts650" TIME_VALUE="504357"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1142,8 +1150,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a694"
-                TIME_SLOT_REF1="ts634" TIME_SLOT_REF2="ts642">
+                TIME_SLOT_REF1="ts634" TIME_SLOT_REF2="ts643">
                 <ANNOTATION_VALUE>Fragment 82</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a703"
+                TIME_SLOT_REF1="ts642" TIME_SLOT_REF2="ts650">
+                <ANNOTATION_VALUE>Fragment 83</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1608,6 +1622,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a695"
                 TIME_SLOT_REF1="ts638" TIME_SLOT_REF2="ts640">
                 <ANNOTATION_VALUE>Sel'k</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a704"
+                TIME_SLOT_REF1="ts646" TIME_SLOT_REF2="ts648">
+                <ANNOTATION_VALUE>Rint (Rintu')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2123,6 +2143,12 @@
                 <ANNOTATION_VALUE>Sel'k</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a705"
+                TIME_SLOT_REF1="ts647" TIME_SLOT_REF2="ts649">
+                <ANNOTATION_VALUE>Rint (Rintu')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2544,6 +2570,11 @@
                 <ANNOTATION_VALUE>Back</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a706" ANNOTATION_REF="a705">
+                <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2952,6 +2983,11 @@
                 <ANNOTATION_VALUE>Спина</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a707" ANNOTATION_REF="a705">
+                <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3358,6 +3394,11 @@
                 <ANNOTATION_VALUE>Back</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a708" ANNOTATION_REF="a704">
+                <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3694,6 +3735,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a700" ANNOTATION_REF="a695">
                 <ANNOTATION_VALUE>Спина</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a709" ANNOTATION_REF="a704">
+                <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4164,6 +4210,12 @@
                 <ANNOTATION_VALUE>Спина</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a710"
+                TIME_SLOT_REF1="ts644" TIME_SLOT_REF2="ts645">
+                <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4525,6 +4577,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a702" ANNOTATION_REF="a701">
                 <ANNOTATION_VALUE>Back</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a711" ANNOTATION_REF="a710">
+                <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
