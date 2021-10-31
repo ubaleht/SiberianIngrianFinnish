@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-30T23:55:54+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-10-31T23:59:14+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">711</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">725</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -660,6 +660,20 @@
         <TIME_SLOT TIME_SLOT_ID="ts648" TIME_VALUE="503605"/>
         <TIME_SLOT TIME_SLOT_ID="ts649" TIME_VALUE="503605"/>
         <TIME_SLOT TIME_SLOT_ID="ts650" TIME_VALUE="504357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts651" TIME_VALUE="504357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts652" TIME_VALUE="506566"/>
+        <TIME_SLOT TIME_SLOT_ID="ts653" TIME_VALUE="506566"/>
+        <TIME_SLOT TIME_SLOT_ID="ts654" TIME_VALUE="516392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts655" TIME_VALUE="516392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts656" TIME_VALUE="516588"/>
+        <TIME_SLOT TIME_SLOT_ID="ts657" TIME_VALUE="517934"/>
+        <TIME_SLOT TIME_SLOT_ID="ts658" TIME_VALUE="518382"/>
+        <TIME_SLOT TIME_SLOT_ID="ts659" TIME_VALUE="518387"/>
+        <TIME_SLOT TIME_SLOT_ID="ts660" TIME_VALUE="519275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts661" TIME_VALUE="519412"/>
+        <TIME_SLOT TIME_SLOT_ID="ts662" TIME_VALUE="520318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts663" TIME_VALUE="520332"/>
+        <TIME_SLOT TIME_SLOT_ID="ts664" TIME_VALUE="520366"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1156,8 +1170,26 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a703"
-                TIME_SLOT_REF1="ts642" TIME_SLOT_REF2="ts650">
+                TIME_SLOT_REF1="ts642" TIME_SLOT_REF2="ts651">
                 <ANNOTATION_VALUE>Fragment 83</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a712"
+                TIME_SLOT_REF1="ts650" TIME_SLOT_REF2="ts653">
+                <ANNOTATION_VALUE>Fragment 84</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a713"
+                TIME_SLOT_REF1="ts652" TIME_SLOT_REF2="ts655">
+                <ANNOTATION_VALUE>Fragment 85</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a714"
+                TIME_SLOT_REF1="ts654" TIME_SLOT_REF2="ts664">
+                <ANNOTATION_VALUE>Fragment 86</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1628,6 +1660,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a704"
                 TIME_SLOT_REF1="ts646" TIME_SLOT_REF2="ts648">
                 <ANNOTATION_VALUE>Rint (Rintu')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a715"
+                TIME_SLOT_REF1="ts658" TIME_SLOT_REF2="ts663">
+                <ANNOTATION_VALUE>Jyan, juvv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2149,6 +2187,18 @@
                 <ANNOTATION_VALUE>Rint (Rintu')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a716"
+                TIME_SLOT_REF1="ts659" TIME_SLOT_REF2="ts660">
+                <ANNOTATION_VALUE>Jyan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a717"
+                TIME_SLOT_REF1="ts661" TIME_SLOT_REF2="ts662">
+                <ANNOTATION_VALUE>Juvv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2575,6 +2625,16 @@
                 <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a718" ANNOTATION_REF="a716">
+                <ANNOTATION_VALUE>I drink</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a719" ANNOTATION_REF="a717">
+                <ANNOTATION_VALUE>To drink</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2988,6 +3048,16 @@
                 <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a720" ANNOTATION_REF="a716">
+                <ANNOTATION_VALUE>Я пью</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a721" ANNOTATION_REF="a717">
+                <ANNOTATION_VALUE>Пить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3399,6 +3469,11 @@
                 <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a722" ANNOTATION_REF="a715">
+                <ANNOTATION_VALUE>I drink, to drink</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3740,6 +3815,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a709" ANNOTATION_REF="a704">
                 <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a723" ANNOTATION_REF="a715">
+                <ANNOTATION_VALUE>Я пью, пить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4216,6 +4296,12 @@
                 <ANNOTATION_VALUE>Грудь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a724"
+                TIME_SLOT_REF1="ts656" TIME_SLOT_REF2="ts657">
+                <ANNOTATION_VALUE>Пить ... воду</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4582,6 +4668,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a711" ANNOTATION_REF="a710">
                 <ANNOTATION_VALUE>Breast</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a725" ANNOTATION_REF="a724">
+                <ANNOTATION_VALUE>Drink ... water</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
