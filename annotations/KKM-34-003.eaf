@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-01T23:40:27+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-02T22:18:29+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">742</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">754</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -686,6 +686,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts674" TIME_VALUE="523341"/>
         <TIME_SLOT TIME_SLOT_ID="ts675" TIME_VALUE="523341"/>
         <TIME_SLOT TIME_SLOT_ID="ts676" TIME_VALUE="524525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts677" TIME_VALUE="524525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts678" TIME_VALUE="524700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts679" TIME_VALUE="525770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts680" TIME_VALUE="526189"/>
+        <TIME_SLOT TIME_SLOT_ID="ts681" TIME_VALUE="526190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts682" TIME_VALUE="527105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts683" TIME_VALUE="528016"/>
+        <TIME_SLOT TIME_SLOT_ID="ts684" TIME_VALUE="528334"/>
+        <TIME_SLOT TIME_SLOT_ID="ts685" TIME_VALUE="528350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts686" TIME_VALUE="529248"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1206,8 +1216,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a726"
-                TIME_SLOT_REF1="ts664" TIME_SLOT_REF2="ts676">
+                TIME_SLOT_REF1="ts664" TIME_SLOT_REF2="ts677">
                 <ANNOTATION_VALUE>Fragment 87</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a743"
+                TIME_SLOT_REF1="ts676" TIME_SLOT_REF2="ts686">
+                <ANNOTATION_VALUE>Fragment 88</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1690,6 +1706,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a727"
                 TIME_SLOT_REF1="ts669" TIME_SLOT_REF2="ts674">
                 <ANNOTATION_VALUE>Syav ... syav ... syvv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a744"
+                TIME_SLOT_REF1="ts680" TIME_SLOT_REF2="ts685">
+                <ANNOTATION_VALUE>Hampanka (hamponka) hy ... hy ... hya</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2241,6 +2263,18 @@
                 <ANNOTATION_VALUE>Syvv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a745"
+                TIME_SLOT_REF1="ts681" TIME_SLOT_REF2="ts682">
+                <ANNOTATION_VALUE>Hampanka (hamponka)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a746"
+                TIME_SLOT_REF1="ts683" TIME_SLOT_REF2="ts684">
+                <ANNOTATION_VALUE>Hya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2692,6 +2726,16 @@
                 <ANNOTATION_VALUE>To eat</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a747" ANNOTATION_REF="a745">
+                <ANNOTATION_VALUE>With teeth</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a748" ANNOTATION_REF="a746">
+                <ANNOTATION_VALUE>Bite</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3130,6 +3174,11 @@
                 <ANNOTATION_VALUE>Кушать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a749" ANNOTATION_REF="a746">
+                <ANNOTATION_VALUE>Кусать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3196,6 +3245,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a740" ANNOTATION_REF="a731">
                 <ANNOTATION_VALUE>What is this verb form?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a750" ANNOTATION_REF="a746">
+                <ANNOTATION_VALUE>Inaudible, no confidence in correctness</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3561,6 +3615,11 @@
                 <ANNOTATION_VALUE>Eat ... eat ... to eat</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a751" ANNOTATION_REF="a744">
+                <ANNOTATION_VALUE>With teeth bite</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -3912,6 +3971,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a742" ANNOTATION_REF="a727">
                 <ANNOTATION_VALUE>Кушать ... кушать ... кушать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a752" ANNOTATION_REF="a744">
+                <ANNOTATION_VALUE>Зубами кусать (дословно: с зубами кусать)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4400,6 +4464,12 @@
                 <ANNOTATION_VALUE>Кушать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a753"
+                TIME_SLOT_REF1="ts678" TIME_SLOT_REF2="ts679">
+                <ANNOTATION_VALUE>Кусать зубами</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4776,6 +4846,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a729" ANNOTATION_REF="a728">
                 <ANNOTATION_VALUE>Eat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a754" ANNOTATION_REF="a753">
+                <ANNOTATION_VALUE>Bite with teeth</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
