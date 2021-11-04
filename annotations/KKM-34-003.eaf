@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-03T23:45:53+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-04T23:36:56+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">763</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">772</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -704,6 +704,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts692" TIME_VALUE="531370"/>
         <TIME_SLOT TIME_SLOT_ID="ts693" TIME_VALUE="531370"/>
         <TIME_SLOT TIME_SLOT_ID="ts694" TIME_VALUE="532262"/>
+        <TIME_SLOT TIME_SLOT_ID="ts695" TIME_VALUE="532262"/>
+        <TIME_SLOT TIME_SLOT_ID="ts696" TIME_VALUE="532352"/>
+        <TIME_SLOT TIME_SLOT_ID="ts697" TIME_VALUE="532950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts698" TIME_VALUE="533333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts699" TIME_VALUE="533333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts700" TIME_VALUE="534215"/>
+        <TIME_SLOT TIME_SLOT_ID="ts701" TIME_VALUE="534215"/>
+        <TIME_SLOT TIME_SLOT_ID="ts702" TIME_VALUE="535295"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1236,8 +1244,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a755"
-                TIME_SLOT_REF1="ts686" TIME_SLOT_REF2="ts694">
+                TIME_SLOT_REF1="ts686" TIME_SLOT_REF2="ts695">
                 <ANNOTATION_VALUE>Fragment 89</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a764"
+                TIME_SLOT_REF1="ts694" TIME_SLOT_REF2="ts702">
+                <ANNOTATION_VALUE>Fragment 90</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1732,6 +1746,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a756"
                 TIME_SLOT_REF1="ts690" TIME_SLOT_REF2="ts692">
                 <ANNOTATION_VALUE>Imme</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a765"
+                TIME_SLOT_REF1="ts698" TIME_SLOT_REF2="ts700">
+                <ANNOTATION_VALUE>Syl'ke</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2301,6 +2321,12 @@
                 <ANNOTATION_VALUE>Imme</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a766"
+                TIME_SLOT_REF1="ts699" TIME_SLOT_REF2="ts701">
+                <ANNOTATION_VALUE>Syl'ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2767,6 +2793,11 @@
                 <ANNOTATION_VALUE>To suck</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a767" ANNOTATION_REF="a766">
+                <ANNOTATION_VALUE>To spit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3215,6 +3246,11 @@
                 <ANNOTATION_VALUE>Сосать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a768" ANNOTATION_REF="a766">
+                <ANNOTATION_VALUE>Плевать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3661,6 +3697,11 @@
                 <ANNOTATION_VALUE>To suck</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a769" ANNOTATION_REF="a765">
+                <ANNOTATION_VALUE>To spit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4022,6 +4063,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a761" ANNOTATION_REF="a756">
                 <ANNOTATION_VALUE>Сосать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a770" ANNOTATION_REF="a765">
+                <ANNOTATION_VALUE>Плевать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4522,6 +4568,12 @@
                 <ANNOTATION_VALUE>Сосать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a771"
+                TIME_SLOT_REF1="ts696" TIME_SLOT_REF2="ts697">
+                <ANNOTATION_VALUE>Плевать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -4908,6 +4960,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a763" ANNOTATION_REF="a762">
                 <ANNOTATION_VALUE>To suck</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a772" ANNOTATION_REF="a771">
+                <ANNOTATION_VALUE>To spit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
