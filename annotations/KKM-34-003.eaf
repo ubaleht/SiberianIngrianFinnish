@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-06T23:51:03+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-07T23:47:42+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">790</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">799</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -728,6 +728,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts716" TIME_VALUE="541709"/>
         <TIME_SLOT TIME_SLOT_ID="ts717" TIME_VALUE="541709"/>
         <TIME_SLOT TIME_SLOT_ID="ts718" TIME_VALUE="543038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts719" TIME_VALUE="543038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts720" TIME_VALUE="543076"/>
+        <TIME_SLOT TIME_SLOT_ID="ts721" TIME_VALUE="543742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts722" TIME_VALUE="544155"/>
+        <TIME_SLOT TIME_SLOT_ID="ts723" TIME_VALUE="544155"/>
+        <TIME_SLOT TIME_SLOT_ID="ts724" TIME_VALUE="544991"/>
+        <TIME_SLOT TIME_SLOT_ID="ts725" TIME_VALUE="544991"/>
+        <TIME_SLOT TIME_SLOT_ID="ts726" TIME_VALUE="545732"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1278,8 +1286,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a782"
-                TIME_SLOT_REF1="ts710" TIME_SLOT_REF2="ts718">
+                TIME_SLOT_REF1="ts710" TIME_SLOT_REF2="ts719">
                 <ANNOTATION_VALUE>Fragment 92</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a791"
+                TIME_SLOT_REF1="ts718" TIME_SLOT_REF2="ts726">
+                <ANNOTATION_VALUE>Fragment 93</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1792,6 +1806,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a783"
                 TIME_SLOT_REF1="ts714" TIME_SLOT_REF2="ts716">
                 <ANNOTATION_VALUE>Puhhu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a792"
+                TIME_SLOT_REF1="ts722" TIME_SLOT_REF2="ts724">
+                <ANNOTATION_VALUE>Hennet</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2379,6 +2399,12 @@
                 <ANNOTATION_VALUE>Puhhu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a793"
+                TIME_SLOT_REF1="ts723" TIME_SLOT_REF2="ts725">
+                <ANNOTATION_VALUE>Hennet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2860,6 +2886,11 @@
                 <ANNOTATION_VALUE>To blow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a794" ANNOTATION_REF="a793">
+                <ANNOTATION_VALUE>To breathe</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3323,6 +3354,11 @@
                 <ANNOTATION_VALUE>Дуть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a795" ANNOTATION_REF="a793">
+                <ANNOTATION_VALUE>Дышать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3784,6 +3820,11 @@
                 <ANNOTATION_VALUE>To blow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a796" ANNOTATION_REF="a792">
+                <ANNOTATION_VALUE>To breathe</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4160,6 +4201,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a788" ANNOTATION_REF="a783">
                 <ANNOTATION_VALUE>Дуть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a797" ANNOTATION_REF="a792">
+                <ANNOTATION_VALUE>Дышать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4678,6 +4724,12 @@
                 <ANNOTATION_VALUE>Дуть, о ветре</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a798"
+                TIME_SLOT_REF1="ts720" TIME_SLOT_REF2="ts721">
+                <ANNOTATION_VALUE>Дышать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5079,6 +5131,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a790" ANNOTATION_REF="a789">
                 <ANNOTATION_VALUE>To blow, about the wind</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a799" ANNOTATION_REF="a798">
+                <ANNOTATION_VALUE>To breathe</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
