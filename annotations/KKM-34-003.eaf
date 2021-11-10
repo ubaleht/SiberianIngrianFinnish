@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-09T23:53:35+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-10T23:08:29+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">817</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">826</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -752,6 +752,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts740" TIME_VALUE="550738"/>
         <TIME_SLOT TIME_SLOT_ID="ts741" TIME_VALUE="550738"/>
         <TIME_SLOT TIME_SLOT_ID="ts742" TIME_VALUE="551441"/>
+        <TIME_SLOT TIME_SLOT_ID="ts743" TIME_VALUE="551441"/>
+        <TIME_SLOT TIME_SLOT_ID="ts744" TIME_VALUE="551823"/>
+        <TIME_SLOT TIME_SLOT_ID="ts745" TIME_VALUE="552584"/>
+        <TIME_SLOT TIME_SLOT_ID="ts746" TIME_VALUE="552945"/>
+        <TIME_SLOT TIME_SLOT_ID="ts747" TIME_VALUE="552945"/>
+        <TIME_SLOT TIME_SLOT_ID="ts748" TIME_VALUE="553736"/>
+        <TIME_SLOT TIME_SLOT_ID="ts749" TIME_VALUE="553736"/>
+        <TIME_SLOT TIME_SLOT_ID="ts750" TIME_VALUE="554447"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1320,8 +1328,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a809"
-                TIME_SLOT_REF1="ts734" TIME_SLOT_REF2="ts742">
+                TIME_SLOT_REF1="ts734" TIME_SLOT_REF2="ts743">
                 <ANNOTATION_VALUE>Fragment 95</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a818"
+                TIME_SLOT_REF1="ts742" TIME_SLOT_REF2="ts750">
+                <ANNOTATION_VALUE>Fragment 96</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1852,6 +1866,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a810"
                 TIME_SLOT_REF1="ts738" TIME_SLOT_REF2="ts740">
                 <ANNOTATION_VALUE>Nähä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a819"
+                TIME_SLOT_REF1="ts746" TIME_SLOT_REF2="ts748">
+                <ANNOTATION_VALUE>Tieta</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2457,6 +2477,12 @@
                 <ANNOTATION_VALUE>Nähä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a820"
+                TIME_SLOT_REF1="ts747" TIME_SLOT_REF2="ts749">
+                <ANNOTATION_VALUE>Tieta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2953,6 +2979,11 @@
                 <ANNOTATION_VALUE>To see</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a821" ANNOTATION_REF="a820">
+                <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3431,6 +3462,11 @@
                 <ANNOTATION_VALUE>Видеть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a822" ANNOTATION_REF="a820">
+                <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3907,6 +3943,11 @@
                 <ANNOTATION_VALUE>To see</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a823" ANNOTATION_REF="a819">
+                <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4298,6 +4339,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a815" ANNOTATION_REF="a810">
                 <ANNOTATION_VALUE>Видеть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a824" ANNOTATION_REF="a819">
+                <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4834,6 +4880,12 @@
                 <ANNOTATION_VALUE>Видеть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a825"
+                TIME_SLOT_REF1="ts744" TIME_SLOT_REF2="ts745">
+                <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5250,6 +5302,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a817" ANNOTATION_REF="a816">
                 <ANNOTATION_VALUE>To see</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a826" ANNOTATION_REF="a825">
+                <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
