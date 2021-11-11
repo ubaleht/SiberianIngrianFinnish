@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-10T23:08:29+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-11T23:57:07+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">826</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">839</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -760,6 +760,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts748" TIME_VALUE="553736"/>
         <TIME_SLOT TIME_SLOT_ID="ts749" TIME_VALUE="553736"/>
         <TIME_SLOT TIME_SLOT_ID="ts750" TIME_VALUE="554447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts751" TIME_VALUE="554447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts752" TIME_VALUE="558387"/>
+        <TIME_SLOT TIME_SLOT_ID="ts753" TIME_VALUE="558387"/>
+        <TIME_SLOT TIME_SLOT_ID="ts754" TIME_VALUE="558415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts755" TIME_VALUE="559476"/>
+        <TIME_SLOT TIME_SLOT_ID="ts756" TIME_VALUE="559873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts757" TIME_VALUE="559881"/>
+        <TIME_SLOT TIME_SLOT_ID="ts758" TIME_VALUE="560326"/>
+        <TIME_SLOT TIME_SLOT_ID="ts759" TIME_VALUE="560326"/>
+        <TIME_SLOT TIME_SLOT_ID="ts760" TIME_VALUE="561158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts761" TIME_VALUE="561207"/>
+        <TIME_SLOT TIME_SLOT_ID="ts762" TIME_VALUE="564284"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1334,8 +1346,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a818"
-                TIME_SLOT_REF1="ts742" TIME_SLOT_REF2="ts750">
+                TIME_SLOT_REF1="ts742" TIME_SLOT_REF2="ts751">
                 <ANNOTATION_VALUE>Fragment 96</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a827"
+                TIME_SLOT_REF1="ts750" TIME_SLOT_REF2="ts753">
+                <ANNOTATION_VALUE>Fragment 97</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a828"
+                TIME_SLOT_REF1="ts752" TIME_SLOT_REF2="ts762">
+                <ANNOTATION_VALUE>Fragment 98</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1872,6 +1896,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a819"
                 TIME_SLOT_REF1="ts746" TIME_SLOT_REF2="ts748">
                 <ANNOTATION_VALUE>Tieta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a829"
+                TIME_SLOT_REF1="ts756" TIME_SLOT_REF2="ts761">
+                <ANNOTATION_VALUE>Tunta haisu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2483,6 +2513,18 @@
                 <ANNOTATION_VALUE>Tieta</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a830"
+                TIME_SLOT_REF1="ts757" TIME_SLOT_REF2="ts759">
+                <ANNOTATION_VALUE>Tunta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a831"
+                TIME_SLOT_REF1="ts758" TIME_SLOT_REF2="ts760">
+                <ANNOTATION_VALUE>Haisu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2984,6 +3026,16 @@
                 <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a832" ANNOTATION_REF="a830">
+                <ANNOTATION_VALUE>Feel</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a833" ANNOTATION_REF="a831">
+                <ANNOTATION_VALUE>Smell</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3467,6 +3519,16 @@
                 <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a834" ANNOTATION_REF="a830">
+                <ANNOTATION_VALUE>Чувствовать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a835" ANNOTATION_REF="a831">
+                <ANNOTATION_VALUE>Запах</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3948,6 +4010,11 @@
                 <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a836" ANNOTATION_REF="a829">
+                <ANNOTATION_VALUE>To smell (feel a smell)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4344,6 +4411,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a824" ANNOTATION_REF="a819">
                 <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a837" ANNOTATION_REF="a829">
+                <ANNOTATION_VALUE>Чувствовать запах</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4886,6 +4958,12 @@
                 <ANNOTATION_VALUE>Знать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a838"
+                TIME_SLOT_REF1="ts754" TIME_SLOT_REF2="ts755">
+                <ANNOTATION_VALUE>Чувствовать запах</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5307,6 +5385,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a826" ANNOTATION_REF="a825">
                 <ANNOTATION_VALUE>To know</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a839" ANNOTATION_REF="a838">
+                <ANNOTATION_VALUE>To smell</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
