@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-13T23:33:49+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-15T00:34:38+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">857</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">866</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -788,6 +788,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts776" TIME_VALUE="570084"/>
         <TIME_SLOT TIME_SLOT_ID="ts777" TIME_VALUE="570084"/>
         <TIME_SLOT TIME_SLOT_ID="ts778" TIME_VALUE="571291"/>
+        <TIME_SLOT TIME_SLOT_ID="ts779" TIME_VALUE="571291"/>
+        <TIME_SLOT TIME_SLOT_ID="ts780" TIME_VALUE="571407"/>
+        <TIME_SLOT TIME_SLOT_ID="ts781" TIME_VALUE="572091"/>
+        <TIME_SLOT TIME_SLOT_ID="ts782" TIME_VALUE="572408"/>
+        <TIME_SLOT TIME_SLOT_ID="ts783" TIME_VALUE="572408"/>
+        <TIME_SLOT TIME_SLOT_ID="ts784" TIME_VALUE="573260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts785" TIME_VALUE="573260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts786" TIME_VALUE="574160"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1386,8 +1394,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a849"
-                TIME_SLOT_REF1="ts770" TIME_SLOT_REF2="ts778">
+                TIME_SLOT_REF1="ts770" TIME_SLOT_REF2="ts779">
                 <ANNOTATION_VALUE>Fragment 100</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a858"
+                TIME_SLOT_REF1="ts778" TIME_SLOT_REF2="ts786">
+                <ANNOTATION_VALUE>Fragment 101</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1942,6 +1956,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a850"
                 TIME_SLOT_REF1="ts774" TIME_SLOT_REF2="ts776">
                 <ANNOTATION_VALUE>Makkat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a859"
+                TIME_SLOT_REF1="ts782" TIME_SLOT_REF2="ts784">
+                <ANNOTATION_VALUE>Ellä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2577,6 +2597,12 @@
                 <ANNOTATION_VALUE>Makkat</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a860"
+                TIME_SLOT_REF1="ts783" TIME_SLOT_REF2="ts785">
+                <ANNOTATION_VALUE>Ellä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3098,6 +3124,11 @@
                 <ANNOTATION_VALUE>To sleep</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a861" ANNOTATION_REF="a860">
+                <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3601,6 +3632,11 @@
                 <ANNOTATION_VALUE>Спать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a862" ANNOTATION_REF="a860">
+                <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4097,6 +4133,11 @@
                 <ANNOTATION_VALUE>To sleep</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a863" ANNOTATION_REF="a859">
+                <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4508,6 +4549,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a855" ANNOTATION_REF="a850">
                 <ANNOTATION_VALUE>Спать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a864" ANNOTATION_REF="a859">
+                <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5068,6 +5114,12 @@
                 <ANNOTATION_VALUE>Спать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a865"
+                TIME_SLOT_REF1="ts780" TIME_SLOT_REF2="ts781">
+                <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5504,6 +5556,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a857" ANNOTATION_REF="a856">
                 <ANNOTATION_VALUE>To Sleep</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a866" ANNOTATION_REF="a865">
+                <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
