@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-15T00:34:38+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-16T22:17:12+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">866</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">912</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -796,6 +796,44 @@
         <TIME_SLOT TIME_SLOT_ID="ts784" TIME_VALUE="573260"/>
         <TIME_SLOT TIME_SLOT_ID="ts785" TIME_VALUE="573260"/>
         <TIME_SLOT TIME_SLOT_ID="ts786" TIME_VALUE="574160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts787" TIME_VALUE="574160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts788" TIME_VALUE="574173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts789" TIME_VALUE="574861"/>
+        <TIME_SLOT TIME_SLOT_ID="ts790" TIME_VALUE="575195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts791" TIME_VALUE="575195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts792" TIME_VALUE="576036"/>
+        <TIME_SLOT TIME_SLOT_ID="ts793" TIME_VALUE="576036"/>
+        <TIME_SLOT TIME_SLOT_ID="ts794" TIME_VALUE="576864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts795" TIME_VALUE="576864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts796" TIME_VALUE="576922"/>
+        <TIME_SLOT TIME_SLOT_ID="ts797" TIME_VALUE="577799"/>
+        <TIME_SLOT TIME_SLOT_ID="ts798" TIME_VALUE="577946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts799" TIME_VALUE="577946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts800" TIME_VALUE="578835"/>
+        <TIME_SLOT TIME_SLOT_ID="ts801" TIME_VALUE="578835"/>
+        <TIME_SLOT TIME_SLOT_ID="ts802" TIME_VALUE="579884"/>
+        <TIME_SLOT TIME_SLOT_ID="ts803" TIME_VALUE="579884"/>
+        <TIME_SLOT TIME_SLOT_ID="ts804" TIME_VALUE="579966"/>
+        <TIME_SLOT TIME_SLOT_ID="ts805" TIME_VALUE="581347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts806" TIME_VALUE="581366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts807" TIME_VALUE="581366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts808" TIME_VALUE="583004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts809" TIME_VALUE="583071"/>
+        <TIME_SLOT TIME_SLOT_ID="ts810" TIME_VALUE="583878"/>
+        <TIME_SLOT TIME_SLOT_ID="ts811" TIME_VALUE="583878"/>
+        <TIME_SLOT TIME_SLOT_ID="ts812" TIME_VALUE="584498"/>
+        <TIME_SLOT TIME_SLOT_ID="ts813" TIME_VALUE="584510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts814" TIME_VALUE="585450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts815" TIME_VALUE="585450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts816" TIME_VALUE="585491"/>
+        <TIME_SLOT TIME_SLOT_ID="ts817" TIME_VALUE="586336"/>
+        <TIME_SLOT TIME_SLOT_ID="ts818" TIME_VALUE="586534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts819" TIME_VALUE="586535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts820" TIME_VALUE="587532"/>
+        <TIME_SLOT TIME_SLOT_ID="ts821" TIME_VALUE="587767"/>
+        <TIME_SLOT TIME_SLOT_ID="ts822" TIME_VALUE="588667"/>
+        <TIME_SLOT TIME_SLOT_ID="ts823" TIME_VALUE="588709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts824" TIME_VALUE="589175"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1400,8 +1438,32 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a858"
-                TIME_SLOT_REF1="ts778" TIME_SLOT_REF2="ts786">
+                TIME_SLOT_REF1="ts778" TIME_SLOT_REF2="ts787">
                 <ANNOTATION_VALUE>Fragment 101</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a867"
+                TIME_SLOT_REF1="ts786" TIME_SLOT_REF2="ts795">
+                <ANNOTATION_VALUE>Fragment 102</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a876"
+                TIME_SLOT_REF1="ts794" TIME_SLOT_REF2="ts802">
+                <ANNOTATION_VALUE>Fragment 103</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a885"
+                TIME_SLOT_REF1="ts803" TIME_SLOT_REF2="ts815">
+                <ANNOTATION_VALUE>Fragment 104</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a901"
+                TIME_SLOT_REF1="ts814" TIME_SLOT_REF2="ts824">
+                <ANNOTATION_VALUE>Fragment 105</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1962,6 +2024,30 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a859"
                 TIME_SLOT_REF1="ts782" TIME_SLOT_REF2="ts784">
                 <ANNOTATION_VALUE>Ellä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a868"
+                TIME_SLOT_REF1="ts790" TIME_SLOT_REF2="ts792">
+                <ANNOTATION_VALUE>Kuall</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a877"
+                TIME_SLOT_REF1="ts798" TIME_SLOT_REF2="ts800">
+                <ANNOTATION_VALUE>Tappa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a886"
+                TIME_SLOT_REF1="ts806" TIME_SLOT_REF2="ts813">
+                <ANNOTATION_VALUE>Voitemist Voitet Voitet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a902"
+                TIME_SLOT_REF1="ts818" TIME_SLOT_REF2="ts823">
+                <ANNOTATION_VALUE>Jahist, Jakist (Jahist)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2603,6 +2689,48 @@
                 <ANNOTATION_VALUE>Ellä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a869"
+                TIME_SLOT_REF1="ts791" TIME_SLOT_REF2="ts793">
+                <ANNOTATION_VALUE>Kuall</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a878"
+                TIME_SLOT_REF1="ts799" TIME_SLOT_REF2="ts801">
+                <ANNOTATION_VALUE>Tappa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a887"
+                TIME_SLOT_REF1="ts807" TIME_SLOT_REF2="ts808">
+                <ANNOTATION_VALUE>Voitemist</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a888"
+                TIME_SLOT_REF1="ts809" TIME_SLOT_REF2="ts811">
+                <ANNOTATION_VALUE>Voitet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a889"
+                TIME_SLOT_REF1="ts810" TIME_SLOT_REF2="ts812">
+                <ANNOTATION_VALUE>Voitet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a903"
+                TIME_SLOT_REF1="ts819" TIME_SLOT_REF2="ts820">
+                <ANNOTATION_VALUE>Jahist</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a904"
+                TIME_SLOT_REF1="ts821" TIME_SLOT_REF2="ts822">
+                <ANNOTATION_VALUE>Jakist (Jahist)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3129,6 +3257,41 @@
                 <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a870" ANNOTATION_REF="a869">
+                <ANNOTATION_VALUE>To die</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a879" ANNOTATION_REF="a878">
+                <ANNOTATION_VALUE>To kill</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a890" ANNOTATION_REF="a887">
+                <ANNOTATION_VALUE>To fight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a891" ANNOTATION_REF="a888">
+                <ANNOTATION_VALUE>To fight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a892" ANNOTATION_REF="a889">
+                <ANNOTATION_VALUE>To fight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a905" ANNOTATION_REF="a903">
+                <ANNOTATION_VALUE>To hunt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a906" ANNOTATION_REF="a904">
+                <ANNOTATION_VALUE>To hunt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3637,6 +3800,41 @@
                 <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a871" ANNOTATION_REF="a869">
+                <ANNOTATION_VALUE>Умирать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a880" ANNOTATION_REF="a878">
+                <ANNOTATION_VALUE>Убивать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a893" ANNOTATION_REF="a887">
+                <ANNOTATION_VALUE>Бороться, драться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a894" ANNOTATION_REF="a888">
+                <ANNOTATION_VALUE>Бороться, драться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a895" ANNOTATION_REF="a889">
+                <ANNOTATION_VALUE>Бороться, драться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a907" ANNOTATION_REF="a903">
+                <ANNOTATION_VALUE>Охотиться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a908" ANNOTATION_REF="a904">
+                <ANNOTATION_VALUE>Охотиться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -3708,6 +3906,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a750" ANNOTATION_REF="a746">
                 <ANNOTATION_VALUE>Inaudible, no confidence in correctness</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a896" ANNOTATION_REF="a887">
+                <ANNOTATION_VALUE>what is the form of the word?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4138,6 +4341,26 @@
                 <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a872" ANNOTATION_REF="a868">
+                <ANNOTATION_VALUE>To die</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a881" ANNOTATION_REF="a877">
+                <ANNOTATION_VALUE>To kill</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a897" ANNOTATION_REF="a886">
+                <ANNOTATION_VALUE>To fight (what is the form of the word) To fight To fight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a909" ANNOTATION_REF="a902">
+                <ANNOTATION_VALUE>To hunt, To hunt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4554,6 +4777,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a864" ANNOTATION_REF="a859">
                 <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a873" ANNOTATION_REF="a868">
+                <ANNOTATION_VALUE>Умирать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a882" ANNOTATION_REF="a877">
+                <ANNOTATION_VALUE>Убивать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a898" ANNOTATION_REF="a886">
+                <ANNOTATION_VALUE>Бороться (не понятна форма слова) Бороться Бороться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a910" ANNOTATION_REF="a902">
+                <ANNOTATION_VALUE>Охотиться, Охотиться</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5120,6 +5363,30 @@
                 <ANNOTATION_VALUE>Жить</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a874"
+                TIME_SLOT_REF1="ts788" TIME_SLOT_REF2="ts789">
+                <ANNOTATION_VALUE>Умирать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a883"
+                TIME_SLOT_REF1="ts796" TIME_SLOT_REF2="ts797">
+                <ANNOTATION_VALUE>Убивать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a899"
+                TIME_SLOT_REF1="ts804" TIME_SLOT_REF2="ts805">
+                <ANNOTATION_VALUE>Бороться, воевать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a911"
+                TIME_SLOT_REF1="ts816" TIME_SLOT_REF2="ts817">
+                <ANNOTATION_VALUE>Охотиться</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5561,6 +5828,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a866" ANNOTATION_REF="a865">
                 <ANNOTATION_VALUE>To live</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a875" ANNOTATION_REF="a874">
+                <ANNOTATION_VALUE>To die</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a884" ANNOTATION_REF="a883">
+                <ANNOTATION_VALUE>To kill</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a900" ANNOTATION_REF="a899">
+                <ANNOTATION_VALUE>To fight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a912" ANNOTATION_REF="a911">
+                <ANNOTATION_VALUE>To hunt</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
