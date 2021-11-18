@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-17T23:58:11+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-18T23:49:03+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">921</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">930</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -842,6 +842,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts830" TIME_VALUE="591174"/>
         <TIME_SLOT TIME_SLOT_ID="ts831" TIME_VALUE="591174"/>
         <TIME_SLOT TIME_SLOT_ID="ts832" TIME_VALUE="591946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts833" TIME_VALUE="591946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts834" TIME_VALUE="591977"/>
+        <TIME_SLOT TIME_SLOT_ID="ts835" TIME_VALUE="592825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts836" TIME_VALUE="592985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts837" TIME_VALUE="592985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts838" TIME_VALUE="593985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts839" TIME_VALUE="593985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts840" TIME_VALUE="594836"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1476,8 +1484,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a913"
-                TIME_SLOT_REF1="ts824" TIME_SLOT_REF2="ts832">
+                TIME_SLOT_REF1="ts824" TIME_SLOT_REF2="ts833">
                 <ANNOTATION_VALUE>Fragment 106</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a922"
+                TIME_SLOT_REF1="ts832" TIME_SLOT_REF2="ts840">
+                <ANNOTATION_VALUE>Fragment 107</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2068,6 +2082,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a914"
                 TIME_SLOT_REF1="ts828" TIME_SLOT_REF2="ts830">
                 <ANNOTATION_VALUE>Lyvv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a923"
+                TIME_SLOT_REF1="ts836" TIME_SLOT_REF2="ts838">
+                <ANNOTATION_VALUE>Leikat</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2757,6 +2777,12 @@
                 <ANNOTATION_VALUE>Lyvv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a924"
+                TIME_SLOT_REF1="ts837" TIME_SLOT_REF2="ts839">
+                <ANNOTATION_VALUE>Leikat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3323,6 +3349,11 @@
                 <ANNOTATION_VALUE>To hit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a925" ANNOTATION_REF="a924">
+                <ANNOTATION_VALUE>To cut</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -3871,6 +3902,11 @@
                 <ANNOTATION_VALUE>Ударить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a926" ANNOTATION_REF="a924">
+                <ANNOTATION_VALUE>Резать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4402,6 +4438,11 @@
                 <ANNOTATION_VALUE>To hit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a927" ANNOTATION_REF="a923">
+                <ANNOTATION_VALUE>To cut</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -4843,6 +4884,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a919" ANNOTATION_REF="a914">
                 <ANNOTATION_VALUE>Ударить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a928" ANNOTATION_REF="a923">
+                <ANNOTATION_VALUE>Резать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5439,6 +5485,12 @@
                 <ANNOTATION_VALUE>Ударить</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a929"
+                TIME_SLOT_REF1="ts834" TIME_SLOT_REF2="ts835">
+                <ANNOTATION_VALUE>Резать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -5905,6 +5957,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a921" ANNOTATION_REF="a920">
                 <ANNOTATION_VALUE>To hit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a930" ANNOTATION_REF="a929">
+                <ANNOTATION_VALUE>To cut</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
