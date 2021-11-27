@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-26T23:48:51+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-27T23:25:30+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">966</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">975</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -882,6 +882,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts870" TIME_VALUE="616995"/>
         <TIME_SLOT TIME_SLOT_ID="ts871" TIME_VALUE="616995"/>
         <TIME_SLOT TIME_SLOT_ID="ts872" TIME_VALUE="617964"/>
+        <TIME_SLOT TIME_SLOT_ID="ts873" TIME_VALUE="617964"/>
+        <TIME_SLOT TIME_SLOT_ID="ts874" TIME_VALUE="618759"/>
+        <TIME_SLOT TIME_SLOT_ID="ts875" TIME_VALUE="619428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts876" TIME_VALUE="619823"/>
+        <TIME_SLOT TIME_SLOT_ID="ts877" TIME_VALUE="619823"/>
+        <TIME_SLOT TIME_SLOT_ID="ts878" TIME_VALUE="620659"/>
+        <TIME_SLOT TIME_SLOT_ID="ts879" TIME_VALUE="620659"/>
+        <TIME_SLOT TIME_SLOT_ID="ts880" TIME_VALUE="621513"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1546,8 +1554,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a958"
-                TIME_SLOT_REF1="ts864" TIME_SLOT_REF2="ts872">
+                TIME_SLOT_REF1="ts864" TIME_SLOT_REF2="ts873">
                 <ANNOTATION_VALUE>Fragment 111</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a967"
+                TIME_SLOT_REF1="ts872" TIME_SLOT_REF2="ts880">
+                <ANNOTATION_VALUE>Fragment 112</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2168,6 +2182,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a959"
                 TIME_SLOT_REF1="ts868" TIME_SLOT_REF2="ts870">
                 <ANNOTATION_VALUE>Kaivaa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a968"
+                TIME_SLOT_REF1="ts876" TIME_SLOT_REF2="ts878">
+                <ANNOTATION_VALUE>Uuju</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2887,6 +2907,12 @@
                 <ANNOTATION_VALUE>Kaivaa</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a969"
+                TIME_SLOT_REF1="ts877" TIME_SLOT_REF2="ts879">
+                <ANNOTATION_VALUE>Uuju</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3478,6 +3504,11 @@
                 <ANNOTATION_VALUE>To dig</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a970" ANNOTATION_REF="a969">
+                <ANNOTATION_VALUE>To swim</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4051,6 +4082,11 @@
                 <ANNOTATION_VALUE>Копать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a971" ANNOTATION_REF="a969">
+                <ANNOTATION_VALUE>Плавать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4607,6 +4643,11 @@
                 <ANNOTATION_VALUE>To dig</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a972" ANNOTATION_REF="a968">
+                <ANNOTATION_VALUE>To swim</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5073,6 +5114,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a964" ANNOTATION_REF="a959">
                 <ANNOTATION_VALUE>Копать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a973" ANNOTATION_REF="a968">
+                <ANNOTATION_VALUE>Плавать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5699,6 +5745,12 @@
                 <ANNOTATION_VALUE>Ну копать, рыть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a974"
+                TIME_SLOT_REF1="ts874" TIME_SLOT_REF2="ts875">
+                <ANNOTATION_VALUE>Плавать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6190,6 +6242,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a966" ANNOTATION_REF="a965">
                 <ANNOTATION_VALUE>To dig</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a975" ANNOTATION_REF="a974">
+                <ANNOTATION_VALUE>To swim</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
