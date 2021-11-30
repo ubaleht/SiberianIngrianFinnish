@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-29T23:34:08+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-11-30T23:37:32+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">993</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1002</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -906,6 +906,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts894" TIME_VALUE="627684"/>
         <TIME_SLOT TIME_SLOT_ID="ts895" TIME_VALUE="627684"/>
         <TIME_SLOT TIME_SLOT_ID="ts896" TIME_VALUE="628834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts897" TIME_VALUE="628834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts898" TIME_VALUE="629175"/>
+        <TIME_SLOT TIME_SLOT_ID="ts899" TIME_VALUE="629988"/>
+        <TIME_SLOT TIME_SLOT_ID="ts900" TIME_VALUE="630422"/>
+        <TIME_SLOT TIME_SLOT_ID="ts901" TIME_VALUE="630422"/>
+        <TIME_SLOT TIME_SLOT_ID="ts902" TIME_VALUE="631195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts903" TIME_VALUE="631195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts904" TIME_VALUE="631707"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1588,8 +1596,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a985"
-                TIME_SLOT_REF1="ts888" TIME_SLOT_REF2="ts896">
+                TIME_SLOT_REF1="ts888" TIME_SLOT_REF2="ts897">
                 <ANNOTATION_VALUE>Fragment 114</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a994"
+                TIME_SLOT_REF1="ts896" TIME_SLOT_REF2="ts904">
+                <ANNOTATION_VALUE>Fragment 115</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2228,6 +2242,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a986"
                 TIME_SLOT_REF1="ts892" TIME_SLOT_REF2="ts894">
                 <ANNOTATION_VALUE>Kävv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a995"
+                TIME_SLOT_REF1="ts900" TIME_SLOT_REF2="ts902">
+                <ANNOTATION_VALUE>Tull</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2965,6 +2985,12 @@
                 <ANNOTATION_VALUE>Kävv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a996"
+                TIME_SLOT_REF1="ts901" TIME_SLOT_REF2="ts903">
+                <ANNOTATION_VALUE>Tull</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3571,6 +3597,11 @@
                 <ANNOTATION_VALUE>To walk</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a997" ANNOTATION_REF="a996">
+                <ANNOTATION_VALUE>To come</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4159,6 +4190,11 @@
                 <ANNOTATION_VALUE>Ходить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a998" ANNOTATION_REF="a996">
+                <ANNOTATION_VALUE>Приходить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4730,6 +4766,11 @@
                 <ANNOTATION_VALUE>To walk</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a999" ANNOTATION_REF="a995">
+                <ANNOTATION_VALUE>To come</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5211,6 +5252,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a991" ANNOTATION_REF="a986">
                 <ANNOTATION_VALUE>Ходить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1000" ANNOTATION_REF="a995">
+                <ANNOTATION_VALUE>Приходить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5855,6 +5901,12 @@
                 <ANNOTATION_VALUE>Ходить</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1001"
+                TIME_SLOT_REF1="ts898" TIME_SLOT_REF2="ts899">
+                <ANNOTATION_VALUE>Приходить</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6361,6 +6413,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a993" ANNOTATION_REF="a992">
                 <ANNOTATION_VALUE>To walk</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1002" ANNOTATION_REF="a1001">
+                <ANNOTATION_VALUE>To come</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
