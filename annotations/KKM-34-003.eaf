@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-04T23:49:16+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-05T23:30:02+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1038</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1047</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -946,6 +946,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts934" TIME_VALUE="644645"/>
         <TIME_SLOT TIME_SLOT_ID="ts935" TIME_VALUE="644645"/>
         <TIME_SLOT TIME_SLOT_ID="ts936" TIME_VALUE="646194"/>
+        <TIME_SLOT TIME_SLOT_ID="ts937" TIME_VALUE="646194"/>
+        <TIME_SLOT TIME_SLOT_ID="ts938" TIME_VALUE="646428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts939" TIME_VALUE="647082"/>
+        <TIME_SLOT TIME_SLOT_ID="ts940" TIME_VALUE="647409"/>
+        <TIME_SLOT TIME_SLOT_ID="ts941" TIME_VALUE="647409"/>
+        <TIME_SLOT TIME_SLOT_ID="ts942" TIME_VALUE="648309"/>
+        <TIME_SLOT TIME_SLOT_ID="ts943" TIME_VALUE="648309"/>
+        <TIME_SLOT TIME_SLOT_ID="ts944" TIME_VALUE="649605"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1658,8 +1666,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1030"
-                TIME_SLOT_REF1="ts928" TIME_SLOT_REF2="ts936">
+                TIME_SLOT_REF1="ts928" TIME_SLOT_REF2="ts937">
                 <ANNOTATION_VALUE>Fragment 119</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1039"
+                TIME_SLOT_REF1="ts936" TIME_SLOT_REF2="ts944">
+                <ANNOTATION_VALUE>Fragment 120</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2328,6 +2342,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1031"
                 TIME_SLOT_REF1="ts932" TIME_SLOT_REF2="ts934">
                 <ANNOTATION_VALUE>Kierät (Kierrät)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1040"
+                TIME_SLOT_REF1="ts940" TIME_SLOT_REF2="ts942">
+                <ANNOTATION_VALUE>tokku</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3095,6 +3115,12 @@
                 <ANNOTATION_VALUE>Kierät (Kierrät)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1041"
+                TIME_SLOT_REF1="ts941" TIME_SLOT_REF2="ts943">
+                <ANNOTATION_VALUE>tokku</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3726,6 +3752,11 @@
                 <ANNOTATION_VALUE>To turn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1042" ANNOTATION_REF="a1041">
+                <ANNOTATION_VALUE>to fall</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4339,6 +4370,11 @@
                 <ANNOTATION_VALUE>Повернуть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1043" ANNOTATION_REF="a1041">
+                <ANNOTATION_VALUE>падать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4935,6 +4971,11 @@
                 <ANNOTATION_VALUE>To turn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1044" ANNOTATION_REF="a1040">
+                <ANNOTATION_VALUE>to fall</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5441,6 +5482,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1036" ANNOTATION_REF="a1031">
                 <ANNOTATION_VALUE>Повернуть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1045" ANNOTATION_REF="a1040">
+                <ANNOTATION_VALUE>падать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6115,6 +6161,12 @@
                 <ANNOTATION_VALUE>Ну, повернуть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1046"
+                TIME_SLOT_REF1="ts938" TIME_SLOT_REF2="ts939">
+                <ANNOTATION_VALUE>падать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6646,6 +6698,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1038" ANNOTATION_REF="a1037">
                 <ANNOTATION_VALUE>Well, to turn</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1047" ANNOTATION_REF="a1046">
+                <ANNOTATION_VALUE>to fall</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
