@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-07T23:54:43+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-08T23:46:41+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1056</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1065</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -962,6 +962,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts950" TIME_VALUE="651636"/>
         <TIME_SLOT TIME_SLOT_ID="ts951" TIME_VALUE="651636"/>
         <TIME_SLOT TIME_SLOT_ID="ts952" TIME_VALUE="652732"/>
+        <TIME_SLOT TIME_SLOT_ID="ts953" TIME_VALUE="652732"/>
+        <TIME_SLOT TIME_SLOT_ID="ts954" TIME_VALUE="652794"/>
+        <TIME_SLOT TIME_SLOT_ID="ts955" TIME_VALUE="653641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts956" TIME_VALUE="653793"/>
+        <TIME_SLOT TIME_SLOT_ID="ts957" TIME_VALUE="653793"/>
+        <TIME_SLOT TIME_SLOT_ID="ts958" TIME_VALUE="654761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts959" TIME_VALUE="654761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts960" TIME_VALUE="656316"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1686,8 +1694,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1048"
-                TIME_SLOT_REF1="ts944" TIME_SLOT_REF2="ts952">
+                TIME_SLOT_REF1="ts944" TIME_SLOT_REF2="ts953">
                 <ANNOTATION_VALUE>Fragment 121</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1057"
+                TIME_SLOT_REF1="ts952" TIME_SLOT_REF2="ts960">
+                <ANNOTATION_VALUE>Fragment 122</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2368,6 +2382,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1049"
                 TIME_SLOT_REF1="ts948" TIME_SLOT_REF2="ts950">
                 <ANNOTATION_VALUE>anta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1058"
+                TIME_SLOT_REF1="ts956" TIME_SLOT_REF2="ts958">
+                <ANNOTATION_VALUE>pitkä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3147,6 +3167,12 @@
                 <ANNOTATION_VALUE>anta</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1059"
+                TIME_SLOT_REF1="ts957" TIME_SLOT_REF2="ts959">
+                <ANNOTATION_VALUE>pitkä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3788,6 +3814,11 @@
                 <ANNOTATION_VALUE>to give</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1060" ANNOTATION_REF="a1059">
+                <ANNOTATION_VALUE>to hold</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4411,6 +4442,11 @@
                 <ANNOTATION_VALUE>давать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1061" ANNOTATION_REF="a1059">
+                <ANNOTATION_VALUE>держать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -5017,6 +5053,11 @@
                 <ANNOTATION_VALUE>to give</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1062" ANNOTATION_REF="a1058">
+                <ANNOTATION_VALUE>to hold</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5533,6 +5574,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1054" ANNOTATION_REF="a1049">
                 <ANNOTATION_VALUE>давать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1063" ANNOTATION_REF="a1058">
+                <ANNOTATION_VALUE>держать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6219,6 +6265,12 @@
                 <ANNOTATION_VALUE>давать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1064"
+                TIME_SLOT_REF1="ts954" TIME_SLOT_REF2="ts955">
+                <ANNOTATION_VALUE>держать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6760,6 +6812,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1056" ANNOTATION_REF="a1055">
                 <ANNOTATION_VALUE>to give</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1065" ANNOTATION_REF="a1064">
+                <ANNOTATION_VALUE>to hold</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
