@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-09T23:24:04+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-10T23:52:28+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1074</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1083</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -978,6 +978,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts966" TIME_VALUE="660296"/>
         <TIME_SLOT TIME_SLOT_ID="ts967" TIME_VALUE="660296"/>
         <TIME_SLOT TIME_SLOT_ID="ts968" TIME_VALUE="661430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts969" TIME_VALUE="661430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts970" TIME_VALUE="661975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts971" TIME_VALUE="662648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts972" TIME_VALUE="663669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts973" TIME_VALUE="663669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts974" TIME_VALUE="664519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts975" TIME_VALUE="664519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts976" TIME_VALUE="664914"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1714,8 +1722,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1066"
-                TIME_SLOT_REF1="ts960" TIME_SLOT_REF2="ts968">
+                TIME_SLOT_REF1="ts960" TIME_SLOT_REF2="ts969">
                 <ANNOTATION_VALUE>Fragment 123</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1075"
+                TIME_SLOT_REF1="ts968" TIME_SLOT_REF2="ts976">
+                <ANNOTATION_VALUE>Fragment 124</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2408,6 +2422,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1067"
                 TIME_SLOT_REF1="ts964" TIME_SLOT_REF2="ts966">
                 <ANNOTATION_VALUE>pikistä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1076"
+                TIME_SLOT_REF1="ts972" TIME_SLOT_REF2="ts974">
+                <ANNOTATION_VALUE>hiero</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3199,6 +3219,12 @@
                 <ANNOTATION_VALUE>pikistä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1077"
+                TIME_SLOT_REF1="ts973" TIME_SLOT_REF2="ts975">
+                <ANNOTATION_VALUE>hiero</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3850,6 +3876,11 @@
                 <ANNOTATION_VALUE>to squeeze</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1078" ANNOTATION_REF="a1077">
+                <ANNOTATION_VALUE>to rub</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4483,6 +4514,11 @@
                 <ANNOTATION_VALUE>сжимать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1079" ANNOTATION_REF="a1077">
+                <ANNOTATION_VALUE>тереть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -5099,6 +5135,11 @@
                 <ANNOTATION_VALUE>to squeeze</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1080" ANNOTATION_REF="a1076">
+                <ANNOTATION_VALUE>to rub</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5625,6 +5666,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1072" ANNOTATION_REF="a1067">
                 <ANNOTATION_VALUE>сжимать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1081" ANNOTATION_REF="a1076">
+                <ANNOTATION_VALUE>тереть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6323,6 +6369,12 @@
                 <ANNOTATION_VALUE>сжимать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1082"
+                TIME_SLOT_REF1="ts970" TIME_SLOT_REF2="ts971">
+                <ANNOTATION_VALUE>тереть</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6874,6 +6926,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1074" ANNOTATION_REF="a1073">
                 <ANNOTATION_VALUE>to squeeze</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1083" ANNOTATION_REF="a1082">
+                <ANNOTATION_VALUE>to rub</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
