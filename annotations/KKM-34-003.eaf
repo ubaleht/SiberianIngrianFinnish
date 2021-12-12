@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-11T23:46:23+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-12T23:31:38+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1092</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1101</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -994,6 +994,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts982" TIME_VALUE="667262"/>
         <TIME_SLOT TIME_SLOT_ID="ts983" TIME_VALUE="667262"/>
         <TIME_SLOT TIME_SLOT_ID="ts984" TIME_VALUE="668357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts985" TIME_VALUE="668357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts986" TIME_VALUE="668682"/>
+        <TIME_SLOT TIME_SLOT_ID="ts987" TIME_VALUE="669500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts988" TIME_VALUE="669775"/>
+        <TIME_SLOT TIME_SLOT_ID="ts989" TIME_VALUE="669775"/>
+        <TIME_SLOT TIME_SLOT_ID="ts990" TIME_VALUE="670577"/>
+        <TIME_SLOT TIME_SLOT_ID="ts991" TIME_VALUE="670577"/>
+        <TIME_SLOT TIME_SLOT_ID="ts992" TIME_VALUE="671702"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1736,14 +1744,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1075"
-                TIME_SLOT_REF1="ts968" TIME_SLOT_REF2="ts977">
+                TIME_SLOT_REF1="ts968" TIME_SLOT_REF2="ts976">
                 <ANNOTATION_VALUE>Fragment 124</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1084"
-                TIME_SLOT_REF1="ts976" TIME_SLOT_REF2="ts984">
+                TIME_SLOT_REF1="ts977" TIME_SLOT_REF2="ts985">
                 <ANNOTATION_VALUE>Fragment 125</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1093"
+                TIME_SLOT_REF1="ts984" TIME_SLOT_REF2="ts992">
+                <ANNOTATION_VALUE>Fragment 126</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2448,6 +2462,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1085"
                 TIME_SLOT_REF1="ts980" TIME_SLOT_REF2="ts982">
                 <ANNOTATION_VALUE>pess'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1094"
+                TIME_SLOT_REF1="ts988" TIME_SLOT_REF2="ts990">
+                <ANNOTATION_VALUE>pyyhki (pyhki)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3251,6 +3271,12 @@
                 <ANNOTATION_VALUE>pess'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1095"
+                TIME_SLOT_REF1="ts989" TIME_SLOT_REF2="ts991">
+                <ANNOTATION_VALUE>pyyhki (pyhki)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -3912,6 +3938,11 @@
                 <ANNOTATION_VALUE>to wash</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1096" ANNOTATION_REF="a1095">
+                <ANNOTATION_VALUE>to wipe</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4555,6 +4586,11 @@
                 <ANNOTATION_VALUE>мыть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1097" ANNOTATION_REF="a1095">
+                <ANNOTATION_VALUE>вытирать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -5181,6 +5217,11 @@
                 <ANNOTATION_VALUE>to wash</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1098" ANNOTATION_REF="a1094">
+                <ANNOTATION_VALUE>to wipe</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5717,6 +5758,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1090" ANNOTATION_REF="a1085">
                 <ANNOTATION_VALUE>мыть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1099" ANNOTATION_REF="a1094">
+                <ANNOTATION_VALUE>вытирать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6427,6 +6473,12 @@
                 <ANNOTATION_VALUE>мыть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1100"
+                TIME_SLOT_REF1="ts986" TIME_SLOT_REF2="ts987">
+                <ANNOTATION_VALUE>вытирать</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -6988,6 +7040,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1092" ANNOTATION_REF="a1091">
                 <ANNOTATION_VALUE>to wash</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1101" ANNOTATION_REF="a1100">
+                <ANNOTATION_VALUE>to wipe</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
