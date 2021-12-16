@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-15T23:18:43+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-16T23:56:16+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1130</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1140</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1026,6 +1026,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1014" TIME_VALUE="678637"/>
         <TIME_SLOT TIME_SLOT_ID="ts1015" TIME_VALUE="678637"/>
         <TIME_SLOT TIME_SLOT_ID="ts1016" TIME_VALUE="680016"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1017" TIME_VALUE="680016"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1018" TIME_VALUE="680886"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1019" TIME_VALUE="681924"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1020" TIME_VALUE="681924"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1021" TIME_VALUE="682266"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1022" TIME_VALUE="683010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1023" TIME_VALUE="683010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1024" TIME_VALUE="684736"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1798,8 +1806,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1122"
-                TIME_SLOT_REF1="ts1008" TIME_SLOT_REF2="ts1016">
+                TIME_SLOT_REF1="ts1008" TIME_SLOT_REF2="ts1017">
                 <ANNOTATION_VALUE>Fragment 129</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1131"
+                TIME_SLOT_REF1="ts1016" TIME_SLOT_REF2="ts1024">
+                <ANNOTATION_VALUE>Fragment 130</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2528,6 +2542,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1123"
                 TIME_SLOT_REF1="ts1012" TIME_SLOT_REF2="ts1014">
                 <ANNOTATION_VALUE>visat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1132"
+                TIME_SLOT_REF1="ts1019" TIME_SLOT_REF2="ts1022">
+                <ANNOTATION_VALUE>sitto</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3355,6 +3375,12 @@
                 <ANNOTATION_VALUE>visat</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1133"
+                TIME_SLOT_REF1="ts1020" TIME_SLOT_REF2="ts1023">
+                <ANNOTATION_VALUE>sitto</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4036,6 +4062,11 @@
                 <ANNOTATION_VALUE>to throw</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1134" ANNOTATION_REF="a1133">
+                <ANNOTATION_VALUE>to tie</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4699,6 +4730,11 @@
                 <ANNOTATION_VALUE>бросать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1135" ANNOTATION_REF="a1133">
+                <ANNOTATION_VALUE>привязать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4785,6 +4821,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1117" ANNOTATION_REF="a1114">
                 <ANNOTATION_VALUE>check this word</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1136" ANNOTATION_REF="a1133">
+                <ANNOTATION_VALUE>sound overlay</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5355,6 +5396,11 @@
                 <ANNOTATION_VALUE>to throw</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1137" ANNOTATION_REF="a1132">
+                <ANNOTATION_VALUE>to tie</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5911,6 +5957,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1128" ANNOTATION_REF="a1123">
                 <ANNOTATION_VALUE>бросать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1138" ANNOTATION_REF="a1132">
+                <ANNOTATION_VALUE>привязать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6645,6 +6696,12 @@
                 <ANNOTATION_VALUE>бросать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1139"
+                TIME_SLOT_REF1="ts1018" TIME_SLOT_REF2="ts1021">
+                <ANNOTATION_VALUE>привязать верёвкой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7226,6 +7283,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1130" ANNOTATION_REF="a1129">
                 <ANNOTATION_VALUE>to throw</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1140" ANNOTATION_REF="a1139">
+                <ANNOTATION_VALUE>tie with a rope</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
