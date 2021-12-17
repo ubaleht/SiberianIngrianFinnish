@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-16T23:56:16+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-17T23:55:21+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1140</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1149</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1034,6 +1034,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1022" TIME_VALUE="683010"/>
         <TIME_SLOT TIME_SLOT_ID="ts1023" TIME_VALUE="683010"/>
         <TIME_SLOT TIME_SLOT_ID="ts1024" TIME_VALUE="684736"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1025" TIME_VALUE="684736"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1026" TIME_VALUE="684860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1027" TIME_VALUE="685482"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1028" TIME_VALUE="685751"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1029" TIME_VALUE="685751"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1030" TIME_VALUE="686712"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1031" TIME_VALUE="686712"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1032" TIME_VALUE="687830"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1812,8 +1820,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1131"
-                TIME_SLOT_REF1="ts1016" TIME_SLOT_REF2="ts1024">
+                TIME_SLOT_REF1="ts1016" TIME_SLOT_REF2="ts1025">
                 <ANNOTATION_VALUE>Fragment 130</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1141"
+                TIME_SLOT_REF1="ts1024" TIME_SLOT_REF2="ts1032">
+                <ANNOTATION_VALUE>Fragment 131</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2548,6 +2562,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1132"
                 TIME_SLOT_REF1="ts1019" TIME_SLOT_REF2="ts1022">
                 <ANNOTATION_VALUE>sitto</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1142"
+                TIME_SLOT_REF1="ts1028" TIME_SLOT_REF2="ts1030">
+                <ANNOTATION_VALUE>omenl</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3381,6 +3401,12 @@
                 <ANNOTATION_VALUE>sitto</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1143"
+                TIME_SLOT_REF1="ts1029" TIME_SLOT_REF2="ts1031">
+                <ANNOTATION_VALUE>omenl</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4067,6 +4093,11 @@
                 <ANNOTATION_VALUE>to tie</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1144" ANNOTATION_REF="a1143">
+                <ANNOTATION_VALUE>to sew</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4735,6 +4766,11 @@
                 <ANNOTATION_VALUE>привязать</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1145" ANNOTATION_REF="a1143">
+                <ANNOTATION_VALUE>шить</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -5401,6 +5437,11 @@
                 <ANNOTATION_VALUE>to tie</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1146" ANNOTATION_REF="a1142">
+                <ANNOTATION_VALUE>to sew</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -5962,6 +6003,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1138" ANNOTATION_REF="a1132">
                 <ANNOTATION_VALUE>привязать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1147" ANNOTATION_REF="a1142">
+                <ANNOTATION_VALUE>шить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6702,6 +6748,12 @@
                 <ANNOTATION_VALUE>привязать верёвкой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1148"
+                TIME_SLOT_REF1="ts1026" TIME_SLOT_REF2="ts1027">
+                <ANNOTATION_VALUE>шить</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7288,6 +7340,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1140" ANNOTATION_REF="a1139">
                 <ANNOTATION_VALUE>tie with a rope</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1149" ANNOTATION_REF="a1148">
+                <ANNOTATION_VALUE>to sew</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
