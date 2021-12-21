@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-20T23:57:44+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-21T23:35:09+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1169</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1178</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1058,6 +1058,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1046" TIME_VALUE="696578"/>
         <TIME_SLOT TIME_SLOT_ID="ts1047" TIME_VALUE="696578"/>
         <TIME_SLOT TIME_SLOT_ID="ts1048" TIME_VALUE="697203"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1049" TIME_VALUE="697203"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1050" TIME_VALUE="697338"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1051" TIME_VALUE="697840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1052" TIME_VALUE="698144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1053" TIME_VALUE="698144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1054" TIME_VALUE="699101"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1055" TIME_VALUE="699101"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1056" TIME_VALUE="701291"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1854,8 +1862,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1160"
-                TIME_SLOT_REF1="ts1040" TIME_SLOT_REF2="ts1048">
+                TIME_SLOT_REF1="ts1040" TIME_SLOT_REF2="ts1049">
                 <ANNOTATION_VALUE>Fragment 133</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1170"
+                TIME_SLOT_REF1="ts1048" TIME_SLOT_REF2="ts1056">
+                <ANNOTATION_VALUE>Fragment 134</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2608,6 +2622,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1161"
                 TIME_SLOT_REF1="ts1044" TIME_SLOT_REF2="ts1046">
                 <ANNOTATION_VALUE>sanno</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1171"
+                TIME_SLOT_REF1="ts1052" TIME_SLOT_REF2="ts1054">
+                <ANNOTATION_VALUE>laula</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3459,6 +3479,12 @@
                 <ANNOTATION_VALUE>sanno</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1172"
+                TIME_SLOT_REF1="ts1053" TIME_SLOT_REF2="ts1055">
+                <ANNOTATION_VALUE>laula</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4160,6 +4186,11 @@
                 <ANNOTATION_VALUE>to say or he said (3 SG Past)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1173" ANNOTATION_REF="a1172">
+                <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4841,6 +4872,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1164" ANNOTATION_REF="a1162">
                 <ANNOTATION_VALUE>сказать или сказал(а)?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1174" ANNOTATION_REF="a1172">
+                <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5534,6 +5570,11 @@
                 <ANNOTATION_VALUE>to say or he said (3 SG Past)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1175" ANNOTATION_REF="a1171">
+                <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6110,6 +6151,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1167" ANNOTATION_REF="a1161">
                 <ANNOTATION_VALUE>сказать или сказал(а)?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1176" ANNOTATION_REF="a1171">
+                <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6868,6 +6914,12 @@
                 <ANNOTATION_VALUE>сказать</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1177"
+                TIME_SLOT_REF1="ts1050" TIME_SLOT_REF2="ts1051">
+                <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7469,6 +7521,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1169" ANNOTATION_REF="a1168">
                 <ANNOTATION_VALUE>to say</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1178" ANNOTATION_REF="a1177">
+                <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
