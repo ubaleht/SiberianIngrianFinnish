@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-21T23:35:09+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-23T23:47:34+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1178</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1188</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1066,6 +1066,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1054" TIME_VALUE="699101"/>
         <TIME_SLOT TIME_SLOT_ID="ts1055" TIME_VALUE="699101"/>
         <TIME_SLOT TIME_SLOT_ID="ts1056" TIME_VALUE="701291"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1057" TIME_VALUE="701291"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1058" TIME_VALUE="701849"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1059" TIME_VALUE="702688"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1060" TIME_VALUE="703426"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1061" TIME_VALUE="703426"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1062" TIME_VALUE="704373"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1063" TIME_VALUE="704373"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1064" TIME_VALUE="706822"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1868,8 +1876,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1170"
-                TIME_SLOT_REF1="ts1048" TIME_SLOT_REF2="ts1056">
+                TIME_SLOT_REF1="ts1048" TIME_SLOT_REF2="ts1057">
                 <ANNOTATION_VALUE>Fragment 134</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1179"
+                TIME_SLOT_REF1="ts1056" TIME_SLOT_REF2="ts1064">
+                <ANNOTATION_VALUE>Fragment 135</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2628,6 +2642,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1171"
                 TIME_SLOT_REF1="ts1052" TIME_SLOT_REF2="ts1054">
                 <ANNOTATION_VALUE>laula</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1180"
+                TIME_SLOT_REF1="ts1060" TIME_SLOT_REF2="ts1062">
+                <ANNOTATION_VALUE>kykka</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3485,6 +3505,12 @@
                 <ANNOTATION_VALUE>laula</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1181"
+                TIME_SLOT_REF1="ts1061" TIME_SLOT_REF2="ts1063">
+                <ANNOTATION_VALUE>kykka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4191,6 +4217,11 @@
                 <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1182" ANNOTATION_REF="a1181">
+                <ANNOTATION_VALUE>to play</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -4879,6 +4910,11 @@
                 <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1183" ANNOTATION_REF="a1181">
+                <ANNOTATION_VALUE>играть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -4980,6 +5016,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1165" ANNOTATION_REF="a1162">
                 <ANNOTATION_VALUE>3 SG Past?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1184" ANNOTATION_REF="a1181">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5575,6 +5616,11 @@
                 <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1185" ANNOTATION_REF="a1180">
+                <ANNOTATION_VALUE>to play</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6156,6 +6202,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1176" ANNOTATION_REF="a1171">
                 <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1186" ANNOTATION_REF="a1180">
+                <ANNOTATION_VALUE>играть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6920,6 +6971,12 @@
                 <ANNOTATION_VALUE>петь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1187"
+                TIME_SLOT_REF1="ts1058" TIME_SLOT_REF2="ts1059">
+                <ANNOTATION_VALUE>играть</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7526,6 +7583,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1178" ANNOTATION_REF="a1177">
                 <ANNOTATION_VALUE>to sing</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1188" ANNOTATION_REF="a1187">
+                <ANNOTATION_VALUE>to play</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
