@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-27T23:28:03+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-28T23:54:14+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1216</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1225</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1098,6 +1098,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1086" TIME_VALUE="718681"/>
         <TIME_SLOT TIME_SLOT_ID="ts1087" TIME_VALUE="718681"/>
         <TIME_SLOT TIME_SLOT_ID="ts1088" TIME_VALUE="718735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1089" TIME_VALUE="718735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1090" TIME_VALUE="720216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1091" TIME_VALUE="722214"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1092" TIME_VALUE="723022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1093" TIME_VALUE="723022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1094" TIME_VALUE="724063"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1095" TIME_VALUE="724063"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1096" TIME_VALUE="725012"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1924,8 +1932,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1208"
-                TIME_SLOT_REF1="ts1080" TIME_SLOT_REF2="ts1088">
+                TIME_SLOT_REF1="ts1080" TIME_SLOT_REF2="ts1089">
                 <ANNOTATION_VALUE>Fragment 138</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1217"
+                TIME_SLOT_REF1="ts1088" TIME_SLOT_REF2="ts1096">
+                <ANNOTATION_VALUE>Fragment 139</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2708,6 +2722,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1209"
                 TIME_SLOT_REF1="ts1084" TIME_SLOT_REF2="ts1086">
                 <ANNOTATION_VALUE>jääkky</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1218"
+                TIME_SLOT_REF1="ts1092" TIME_SLOT_REF2="ts1094">
+                <ANNOTATION_VALUE>paisetu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3589,6 +3609,12 @@
                 <ANNOTATION_VALUE>jääkky</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1219"
+                TIME_SLOT_REF1="ts1093" TIME_SLOT_REF2="ts1095">
+                <ANNOTATION_VALUE>paisetu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4315,6 +4341,11 @@
                 <ANNOTATION_VALUE>to freeze</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1220" ANNOTATION_REF="a1219">
+                <ANNOTATION_VALUE>to swell</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5021,6 +5052,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1212" ANNOTATION_REF="a1210">
                 <ANNOTATION_VALUE>замёрзнуть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1221" ANNOTATION_REF="a1219">
+                <ANNOTATION_VALUE>разбухнуть, раздуваться</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5749,6 +5785,11 @@
                 <ANNOTATION_VALUE>to freeze</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1222" ANNOTATION_REF="a1218">
+                <ANNOTATION_VALUE>to swell</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6350,6 +6391,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1214" ANNOTATION_REF="a1209">
                 <ANNOTATION_VALUE>замёрзнуть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1223" ANNOTATION_REF="a1218">
+                <ANNOTATION_VALUE>разбухнуть, раздуваться</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7138,6 +7184,12 @@
                 <ANNOTATION_VALUE>замёрзнуть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1224"
+                TIME_SLOT_REF1="ts1090" TIME_SLOT_REF2="ts1091">
+                <ANNOTATION_VALUE>ну, вот, распухнуть </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7764,6 +7816,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1216" ANNOTATION_REF="a1215">
                 <ANNOTATION_VALUE>to freeze</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1225" ANNOTATION_REF="a1224">
+                <ANNOTATION_VALUE>well, to swell</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
