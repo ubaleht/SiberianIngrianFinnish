@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-28T23:54:14+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-29T23:49:37+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1225</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1235</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1106,6 +1106,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1094" TIME_VALUE="724063"/>
         <TIME_SLOT TIME_SLOT_ID="ts1095" TIME_VALUE="724063"/>
         <TIME_SLOT TIME_SLOT_ID="ts1096" TIME_VALUE="725012"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1097" TIME_VALUE="725012"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1098" TIME_VALUE="730400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1099" TIME_VALUE="730400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1100" TIME_VALUE="730917"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1101" TIME_VALUE="731502"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1102" TIME_VALUE="732215"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1103" TIME_VALUE="732215"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1104" TIME_VALUE="732930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1105" TIME_VALUE="732930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1106" TIME_VALUE="733428"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1938,8 +1948,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1217"
-                TIME_SLOT_REF1="ts1088" TIME_SLOT_REF2="ts1096">
+                TIME_SLOT_REF1="ts1088" TIME_SLOT_REF2="ts1097">
                 <ANNOTATION_VALUE>Fragment 139</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1226"
+                TIME_SLOT_REF1="ts1096" TIME_SLOT_REF2="ts1098">
+                <ANNOTATION_VALUE>Fragment 140</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1227"
+                TIME_SLOT_REF1="ts1099" TIME_SLOT_REF2="ts1106">
+                <ANNOTATION_VALUE>Fragment 141</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2728,6 +2750,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1218"
                 TIME_SLOT_REF1="ts1092" TIME_SLOT_REF2="ts1094">
                 <ANNOTATION_VALUE>paisetu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1228"
+                TIME_SLOT_REF1="ts1102" TIME_SLOT_REF2="ts1104">
+                <ANNOTATION_VALUE>kuu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3615,6 +3643,12 @@
                 <ANNOTATION_VALUE>paisetu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1229"
+                TIME_SLOT_REF1="ts1103" TIME_SLOT_REF2="ts1105">
+                <ANNOTATION_VALUE>kuu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4346,6 +4380,11 @@
                 <ANNOTATION_VALUE>to swell</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1230" ANNOTATION_REF="a1229">
+                <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5057,6 +5096,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1221" ANNOTATION_REF="a1219">
                 <ANNOTATION_VALUE>разбухнуть, раздуваться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1231" ANNOTATION_REF="a1229">
+                <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5790,6 +5834,11 @@
                 <ANNOTATION_VALUE>to swell</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1232" ANNOTATION_REF="a1228">
+                <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6396,6 +6445,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1223" ANNOTATION_REF="a1218">
                 <ANNOTATION_VALUE>разбухнуть, раздуваться</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1233" ANNOTATION_REF="a1228">
+                <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7190,6 +7244,12 @@
                 <ANNOTATION_VALUE>ну, вот, распухнуть </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1234"
+                TIME_SLOT_REF1="ts1100" TIME_SLOT_REF2="ts1101">
+                <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7821,6 +7881,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1225" ANNOTATION_REF="a1224">
                 <ANNOTATION_VALUE>well, to swell</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1235" ANNOTATION_REF="a1234">
+                <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
