@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-29T23:49:37+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-31T23:59:36+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1235</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1244</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1116,6 +1116,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1104" TIME_VALUE="732930"/>
         <TIME_SLOT TIME_SLOT_ID="ts1105" TIME_VALUE="732930"/>
         <TIME_SLOT TIME_SLOT_ID="ts1106" TIME_VALUE="733428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1107" TIME_VALUE="733428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1108" TIME_VALUE="733472"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1109" TIME_VALUE="734147"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1110" TIME_VALUE="734884"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1111" TIME_VALUE="734884"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1112" TIME_VALUE="735575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1113" TIME_VALUE="735575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1114" TIME_VALUE="737247"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1960,8 +1968,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1227"
-                TIME_SLOT_REF1="ts1099" TIME_SLOT_REF2="ts1106">
+                TIME_SLOT_REF1="ts1099" TIME_SLOT_REF2="ts1107">
                 <ANNOTATION_VALUE>Fragment 141</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1236"
+                TIME_SLOT_REF1="ts1106" TIME_SLOT_REF2="ts1114">
+                <ANNOTATION_VALUE>Fragment 142</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2756,6 +2770,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1228"
                 TIME_SLOT_REF1="ts1102" TIME_SLOT_REF2="ts1104">
                 <ANNOTATION_VALUE>kuu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1237"
+                TIME_SLOT_REF1="ts1110" TIME_SLOT_REF2="ts1112">
+                <ANNOTATION_VALUE>täht</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3649,6 +3669,12 @@
                 <ANNOTATION_VALUE>kuu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1238"
+                TIME_SLOT_REF1="ts1111" TIME_SLOT_REF2="ts1113">
+                <ANNOTATION_VALUE>täht</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4385,6 +4411,11 @@
                 <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1239" ANNOTATION_REF="a1238">
+                <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5101,6 +5132,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1231" ANNOTATION_REF="a1229">
                 <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1240" ANNOTATION_REF="a1238">
+                <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5839,6 +5875,11 @@
                 <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1241" ANNOTATION_REF="a1237">
+                <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6450,6 +6491,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1233" ANNOTATION_REF="a1228">
                 <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1242" ANNOTATION_REF="a1237">
+                <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7250,6 +7296,12 @@
                 <ANNOTATION_VALUE>луна</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1243"
+                TIME_SLOT_REF1="ts1108" TIME_SLOT_REF2="ts1109">
+                <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7886,6 +7938,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1235" ANNOTATION_REF="a1234">
                 <ANNOTATION_VALUE>moon</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1244" ANNOTATION_REF="a1243">
+                <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
