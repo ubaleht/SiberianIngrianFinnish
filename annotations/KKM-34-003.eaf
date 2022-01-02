@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-31T23:59:36+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-02T23:58:13+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1244</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1253</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1124,6 +1124,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1112" TIME_VALUE="735575"/>
         <TIME_SLOT TIME_SLOT_ID="ts1113" TIME_VALUE="735575"/>
         <TIME_SLOT TIME_SLOT_ID="ts1114" TIME_VALUE="737247"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1115" TIME_VALUE="737247"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1116" TIME_VALUE="737296"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1117" TIME_VALUE="738057"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1118" TIME_VALUE="738388"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1119" TIME_VALUE="738388"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1120" TIME_VALUE="739384"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1121" TIME_VALUE="739384"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1122" TIME_VALUE="740556"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -1974,8 +1982,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1236"
-                TIME_SLOT_REF1="ts1106" TIME_SLOT_REF2="ts1114">
+                TIME_SLOT_REF1="ts1106" TIME_SLOT_REF2="ts1115">
                 <ANNOTATION_VALUE>Fragment 142</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1245"
+                TIME_SLOT_REF1="ts1114" TIME_SLOT_REF2="ts1122">
+                <ANNOTATION_VALUE>Fragment 143</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2776,6 +2790,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1237"
                 TIME_SLOT_REF1="ts1110" TIME_SLOT_REF2="ts1112">
                 <ANNOTATION_VALUE>täht</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1246"
+                TIME_SLOT_REF1="ts1118" TIME_SLOT_REF2="ts1120">
+                <ANNOTATION_VALUE>vesi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3675,6 +3695,12 @@
                 <ANNOTATION_VALUE>täht</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1247"
+                TIME_SLOT_REF1="ts1119" TIME_SLOT_REF2="ts1121">
+                <ANNOTATION_VALUE>vesi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4416,6 +4442,11 @@
                 <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1248" ANNOTATION_REF="a1247">
+                <ANNOTATION_VALUE>water</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5137,6 +5168,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1240" ANNOTATION_REF="a1238">
                 <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1249" ANNOTATION_REF="a1247">
+                <ANNOTATION_VALUE>вода</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5880,6 +5916,11 @@
                 <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1250" ANNOTATION_REF="a1246">
+                <ANNOTATION_VALUE>water</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6496,6 +6537,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1242" ANNOTATION_REF="a1237">
                 <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1251" ANNOTATION_REF="a1246">
+                <ANNOTATION_VALUE>вода</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7302,6 +7348,12 @@
                 <ANNOTATION_VALUE>звезда</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1252"
+                TIME_SLOT_REF1="ts1116" TIME_SLOT_REF2="ts1117">
+                <ANNOTATION_VALUE>вода</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -7943,6 +7995,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1244" ANNOTATION_REF="a1243">
                 <ANNOTATION_VALUE>star</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1253" ANNOTATION_REF="a1252">
+                <ANNOTATION_VALUE>water</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
