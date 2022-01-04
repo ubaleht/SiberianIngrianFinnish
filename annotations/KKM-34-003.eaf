@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-03T23:49:52+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-04T23:56:52+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1262</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1271</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1140,6 +1140,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1128" TIME_VALUE="742802"/>
         <TIME_SLOT TIME_SLOT_ID="ts1129" TIME_VALUE="742802"/>
         <TIME_SLOT TIME_SLOT_ID="ts1130" TIME_VALUE="743735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1131" TIME_VALUE="743735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1132" TIME_VALUE="743836"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1133" TIME_VALUE="744679"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1134" TIME_VALUE="744954"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1135" TIME_VALUE="744954"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1136" TIME_VALUE="745875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1137" TIME_VALUE="745875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1138" TIME_VALUE="746727"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2002,8 +2010,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1254"
-                TIME_SLOT_REF1="ts1122" TIME_SLOT_REF2="ts1130">
+                TIME_SLOT_REF1="ts1122" TIME_SLOT_REF2="ts1131">
                 <ANNOTATION_VALUE>Fragment 144</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1263"
+                TIME_SLOT_REF1="ts1130" TIME_SLOT_REF2="ts1138">
+                <ANNOTATION_VALUE>Fragment</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2816,6 +2830,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1255"
                 TIME_SLOT_REF1="ts1126" TIME_SLOT_REF2="ts1128">
                 <ANNOTATION_VALUE>vihm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1264"
+                TIME_SLOT_REF1="ts1134" TIME_SLOT_REF2="ts1136">
+                <ANNOTATION_VALUE>joki</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3727,6 +3747,12 @@
                 <ANNOTATION_VALUE>vihm</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1265"
+                TIME_SLOT_REF1="ts1135" TIME_SLOT_REF2="ts1137">
+                <ANNOTATION_VALUE>joki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4478,6 +4504,11 @@
                 <ANNOTATION_VALUE>rain</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1266" ANNOTATION_REF="a1265">
+                <ANNOTATION_VALUE>river</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5209,6 +5240,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1258" ANNOTATION_REF="a1256">
                 <ANNOTATION_VALUE>дождь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1267" ANNOTATION_REF="a1265">
+                <ANNOTATION_VALUE>река</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5962,6 +5998,11 @@
                 <ANNOTATION_VALUE>rain</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1268" ANNOTATION_REF="a1264">
+                <ANNOTATION_VALUE>river</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6588,6 +6629,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1260" ANNOTATION_REF="a1255">
                 <ANNOTATION_VALUE>дождь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1269" ANNOTATION_REF="a1264">
+                <ANNOTATION_VALUE>река</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7406,6 +7452,12 @@
                 <ANNOTATION_VALUE>дождь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1270"
+                TIME_SLOT_REF1="ts1132" TIME_SLOT_REF2="ts1133">
+                <ANNOTATION_VALUE>река</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8057,6 +8109,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1262" ANNOTATION_REF="a1261">
                 <ANNOTATION_VALUE>rain</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1271" ANNOTATION_REF="a1270">
+                <ANNOTATION_VALUE>river</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
