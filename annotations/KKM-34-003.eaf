@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-05T22:54:52+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-06T23:52:34+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1280</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1289</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1156,6 +1156,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1144" TIME_VALUE="749000"/>
         <TIME_SLOT TIME_SLOT_ID="ts1145" TIME_VALUE="749000"/>
         <TIME_SLOT TIME_SLOT_ID="ts1146" TIME_VALUE="749965"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1147" TIME_VALUE="749965"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1148" TIME_VALUE="750049"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1149" TIME_VALUE="750831"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1150" TIME_VALUE="752719"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1151" TIME_VALUE="752719"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1152" TIME_VALUE="753506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1153" TIME_VALUE="753506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1154" TIME_VALUE="754238"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2030,8 +2038,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1272"
-                TIME_SLOT_REF1="ts1138" TIME_SLOT_REF2="ts1146">
+                TIME_SLOT_REF1="ts1138" TIME_SLOT_REF2="ts1147">
                 <ANNOTATION_VALUE>Fragment 146</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1281"
+                TIME_SLOT_REF1="ts1146" TIME_SLOT_REF2="ts1154">
+                <ANNOTATION_VALUE>Fragment 147</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2856,6 +2870,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1273"
                 TIME_SLOT_REF1="ts1142" TIME_SLOT_REF2="ts1144">
                 <ANNOTATION_VALUE>jarv (jarvv)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1282"
+                TIME_SLOT_REF1="ts1150" TIME_SLOT_REF2="ts1152">
+                <ANNOTATION_VALUE>meri</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3779,6 +3799,12 @@
                 <ANNOTATION_VALUE>jarv (jarvv)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1283"
+                TIME_SLOT_REF1="ts1151" TIME_SLOT_REF2="ts1153">
+                <ANNOTATION_VALUE>meri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4540,6 +4566,11 @@
                 <ANNOTATION_VALUE>lake</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1284" ANNOTATION_REF="a1283">
+                <ANNOTATION_VALUE>sea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5281,6 +5312,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1276" ANNOTATION_REF="a1274">
                 <ANNOTATION_VALUE>озеро</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1285" ANNOTATION_REF="a1283">
+                <ANNOTATION_VALUE>море</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6044,6 +6080,11 @@
                 <ANNOTATION_VALUE>lake</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1286" ANNOTATION_REF="a1282">
+                <ANNOTATION_VALUE>sea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6680,6 +6721,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1278" ANNOTATION_REF="a1273">
                 <ANNOTATION_VALUE>озеро</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1287" ANNOTATION_REF="a1282">
+                <ANNOTATION_VALUE>море</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7510,6 +7556,12 @@
                 <ANNOTATION_VALUE>озеро</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1288"
+                TIME_SLOT_REF1="ts1148" TIME_SLOT_REF2="ts1149">
+                <ANNOTATION_VALUE>море</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8171,6 +8223,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1280" ANNOTATION_REF="a1279">
                 <ANNOTATION_VALUE>lake</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1289" ANNOTATION_REF="a1288">
+                <ANNOTATION_VALUE>sea</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
