@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-07T23:49:05+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-08T23:46:15+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1298</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1312</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1172,6 +1172,20 @@
         <TIME_SLOT TIME_SLOT_ID="ts1160" TIME_VALUE="756369"/>
         <TIME_SLOT TIME_SLOT_ID="ts1161" TIME_VALUE="756369"/>
         <TIME_SLOT TIME_SLOT_ID="ts1162" TIME_VALUE="757525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1163" TIME_VALUE="757525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1164" TIME_VALUE="757754"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1165" TIME_VALUE="758464"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1166" TIME_VALUE="759040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1167" TIME_VALUE="759040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1168" TIME_VALUE="759703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1169" TIME_VALUE="759703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1170" TIME_VALUE="759758"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1171" TIME_VALUE="761029"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1172" TIME_VALUE="761171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1173" TIME_VALUE="761527"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1174" TIME_VALUE="762310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1175" TIME_VALUE="762392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1176" TIME_VALUE="765702"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2058,8 +2072,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1290"
-                TIME_SLOT_REF1="ts1154" TIME_SLOT_REF2="ts1162">
+                TIME_SLOT_REF1="ts1154" TIME_SLOT_REF2="ts1163">
                 <ANNOTATION_VALUE>Fragment 148</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1299"
+                TIME_SLOT_REF1="ts1162" TIME_SLOT_REF2="ts1176">
+                <ANNOTATION_VALUE>Fragment 149</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2896,6 +2916,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1291"
                 TIME_SLOT_REF1="ts1158" TIME_SLOT_REF2="ts1160">
                 <ANNOTATION_VALUE>sual</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1300"
+                TIME_SLOT_REF1="ts1166" TIME_SLOT_REF2="ts1168">
+                <ANNOTATION_VALUE>камень</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1301"
+                TIME_SLOT_REF1="ts1172" TIME_SLOT_REF2="ts1175">
+                <ANNOTATION_VALUE>a... kivi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3831,6 +3863,18 @@
                 <ANNOTATION_VALUE>sual</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1302"
+                TIME_SLOT_REF1="ts1167" TIME_SLOT_REF2="ts1169">
+                <ANNOTATION_VALUE>камень</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1303"
+                TIME_SLOT_REF1="ts1173" TIME_SLOT_REF2="ts1174">
+                <ANNOTATION_VALUE>kivi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4602,6 +4646,11 @@
                 <ANNOTATION_VALUE>salt</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1304" ANNOTATION_REF="a1303">
+                <ANNOTATION_VALUE>stone</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5353,6 +5402,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1294" ANNOTATION_REF="a1292">
                 <ANNOTATION_VALUE>соль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1305" ANNOTATION_REF="a1303">
+                <ANNOTATION_VALUE>камень</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6126,6 +6180,11 @@
                 <ANNOTATION_VALUE>salt</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1306" ANNOTATION_REF="a1301">
+                <ANNOTATION_VALUE>a... kivi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6774,9 +6833,20 @@
                 <ANNOTATION_VALUE>соль</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1307" ANNOTATION_REF="a1301">
+                <ANNOTATION_VALUE>а... камень</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
-        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechLanguage"/>
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechLanguage">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1308" ANNOTATION_REF="a1300">
+                <ANNOTATION_VALUE>Russian</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Relations"/>
     <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="Interviewer-Speech">
@@ -7614,6 +7684,18 @@
                 <ANNOTATION_VALUE>соль</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1309"
+                TIME_SLOT_REF1="ts1164" TIME_SLOT_REF2="ts1165">
+                <ANNOTATION_VALUE>камень</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1310"
+                TIME_SLOT_REF1="ts1170" TIME_SLOT_REF2="ts1171">
+                <ANNOTATION_VALUE>камень, ну камень</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8285,6 +8367,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1298" ANNOTATION_REF="a1297">
                 <ANNOTATION_VALUE>salt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1311" ANNOTATION_REF="a1309">
+                <ANNOTATION_VALUE>stone</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1312" ANNOTATION_REF="a1310">
+                <ANNOTATION_VALUE>stone, well stone</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
