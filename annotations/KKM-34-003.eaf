@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-08T23:46:15+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-09T23:58:53+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1312</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1322</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1186,6 +1186,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1174" TIME_VALUE="762310"/>
         <TIME_SLOT TIME_SLOT_ID="ts1175" TIME_VALUE="762392"/>
         <TIME_SLOT TIME_SLOT_ID="ts1176" TIME_VALUE="765702"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1177" TIME_VALUE="765702"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1178" TIME_VALUE="771276"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1179" TIME_VALUE="771276"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1180" TIME_VALUE="771385"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1181" TIME_VALUE="771912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1182" TIME_VALUE="772549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1183" TIME_VALUE="772549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1184" TIME_VALUE="773411"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1185" TIME_VALUE="773411"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1186" TIME_VALUE="775182"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2078,8 +2088,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1299"
-                TIME_SLOT_REF1="ts1162" TIME_SLOT_REF2="ts1176">
+                TIME_SLOT_REF1="ts1162" TIME_SLOT_REF2="ts1177">
                 <ANNOTATION_VALUE>Fragment 149</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1313"
+                TIME_SLOT_REF1="ts1176" TIME_SLOT_REF2="ts1179">
+                <ANNOTATION_VALUE>Fragment 150</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1314"
+                TIME_SLOT_REF1="ts1178" TIME_SLOT_REF2="ts1186">
+                <ANNOTATION_VALUE>Fragment 151</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2928,6 +2950,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1301"
                 TIME_SLOT_REF1="ts1172" TIME_SLOT_REF2="ts1175">
                 <ANNOTATION_VALUE>a... kivi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1315"
+                TIME_SLOT_REF1="ts1182" TIME_SLOT_REF2="ts1184">
+                <ANNOTATION_VALUE>põõll</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3875,6 +3903,12 @@
                 <ANNOTATION_VALUE>kivi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1316"
+                TIME_SLOT_REF1="ts1183" TIME_SLOT_REF2="ts1185">
+                <ANNOTATION_VALUE>põõll</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4651,6 +4685,11 @@
                 <ANNOTATION_VALUE>stone</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1317" ANNOTATION_REF="a1316">
+                <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5407,6 +5446,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1305" ANNOTATION_REF="a1303">
                 <ANNOTATION_VALUE>камень</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1318" ANNOTATION_REF="a1316">
+                <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6185,6 +6229,11 @@
                 <ANNOTATION_VALUE>a... kivi</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1319" ANNOTATION_REF="a1315">
+                <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6836,6 +6885,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1307" ANNOTATION_REF="a1301">
                 <ANNOTATION_VALUE>а... камень</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1320" ANNOTATION_REF="a1315">
+                <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7696,6 +7750,12 @@
                 <ANNOTATION_VALUE>камень, ну камень</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1321"
+                TIME_SLOT_REF1="ts1180" TIME_SLOT_REF2="ts1181">
+                <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8377,6 +8437,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1312" ANNOTATION_REF="a1310">
                 <ANNOTATION_VALUE>stone, well stone</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1322" ANNOTATION_REF="a1321">
+                <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
