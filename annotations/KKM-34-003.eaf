@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-09T23:58:53+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-11T00:14:03+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1322</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1333</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1196,6 +1196,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1184" TIME_VALUE="773411"/>
         <TIME_SLOT TIME_SLOT_ID="ts1185" TIME_VALUE="773411"/>
         <TIME_SLOT TIME_SLOT_ID="ts1186" TIME_VALUE="775182"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1187" TIME_VALUE="775182"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1188" TIME_VALUE="775375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1189" TIME_VALUE="777830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1190" TIME_VALUE="777830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1191" TIME_VALUE="777830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1192" TIME_VALUE="778695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1193" TIME_VALUE="778695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1194" TIME_VALUE="779209"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1195" TIME_VALUE="788727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1196" TIME_VALUE="792942"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2100,8 +2110,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1314"
-                TIME_SLOT_REF1="ts1178" TIME_SLOT_REF2="ts1186">
+                TIME_SLOT_REF1="ts1178" TIME_SLOT_REF2="ts1187">
                 <ANNOTATION_VALUE>Fragment 151</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1323"
+                TIME_SLOT_REF1="ts1186" TIME_SLOT_REF2="ts1196">
+                <ANNOTATION_VALUE>Fragment 152</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2956,6 +2972,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1315"
                 TIME_SLOT_REF1="ts1182" TIME_SLOT_REF2="ts1184">
                 <ANNOTATION_VALUE>põõll</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1324"
+                TIME_SLOT_REF1="ts1189" TIME_SLOT_REF2="ts1192">
+                <ANNOTATION_VALUE>maa</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3909,6 +3931,12 @@
                 <ANNOTATION_VALUE>põõll</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1325"
+                TIME_SLOT_REF1="ts1191" TIME_SLOT_REF2="ts1193">
+                <ANNOTATION_VALUE>maa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4690,6 +4718,11 @@
                 <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1326" ANNOTATION_REF="a1325">
+                <ANNOTATION_VALUE>earth (ground, soil)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5451,6 +5484,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1318" ANNOTATION_REF="a1316">
                 <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1327" ANNOTATION_REF="a1325">
+                <ANNOTATION_VALUE>земля (грунт, почва)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6234,6 +6272,11 @@
                 <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1328" ANNOTATION_REF="a1324">
+                <ANNOTATION_VALUE>earth (ground, soil)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -6890,6 +6933,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1320" ANNOTATION_REF="a1315">
                 <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1329" ANNOTATION_REF="a1324">
+                <ANNOTATION_VALUE>земля (грунт, почва)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7756,6 +7804,18 @@
                 <ANNOTATION_VALUE>пыль</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1330"
+                TIME_SLOT_REF1="ts1188" TIME_SLOT_REF2="ts1190">
+                <ANNOTATION_VALUE>земля, грунт, вот такое вот</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1331"
+                TIME_SLOT_REF1="ts1194" TIME_SLOT_REF2="ts1195">
+                <ANNOTATION_VALUE>Ну то есть земля - "маа" как некая территория и земля - "маа" как вот если взять... (взять ее в руку). Спикер согласился с этой фразой.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8442,6 +8502,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1322" ANNOTATION_REF="a1321">
                 <ANNOTATION_VALUE>dust</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1332" ANNOTATION_REF="a1330">
+                <ANNOTATION_VALUE>earth (ground, soil)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1333" ANNOTATION_REF="a1331">
+                <ANNOTATION_VALUE>"Maa" - as a kind of territory and "maa" is like ... if you take it ... (take it in hand). Speaker agreed.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
