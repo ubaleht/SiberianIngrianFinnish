@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-13T23:57:50+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-14T23:39:24+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1364</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1373</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1234,6 +1234,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1222" TIME_VALUE="815289"/>
         <TIME_SLOT TIME_SLOT_ID="ts1223" TIME_VALUE="815305"/>
         <TIME_SLOT TIME_SLOT_ID="ts1224" TIME_VALUE="816598"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1225" TIME_VALUE="816598"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1226" TIME_VALUE="816683"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1227" TIME_VALUE="817723"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1228" TIME_VALUE="818060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1229" TIME_VALUE="818060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1230" TIME_VALUE="819004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1231" TIME_VALUE="819004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1232" TIME_VALUE="819809"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2168,8 +2176,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1353"
-                TIME_SLOT_REF1="ts1214" TIME_SLOT_REF2="ts1224">
+                TIME_SLOT_REF1="ts1214" TIME_SLOT_REF2="ts1225">
                 <ANNOTATION_VALUE>Fragment 156</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1365"
+                TIME_SLOT_REF1="ts1224" TIME_SLOT_REF2="ts1232">
+                <ANNOTATION_VALUE>Fragment 157</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3048,6 +3062,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1354"
                 TIME_SLOT_REF1="ts1218" TIME_SLOT_REF2="ts1223">
                 <ANNOTATION_VALUE>tuul tul (tuul)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1366"
+                TIME_SLOT_REF1="ts1228" TIME_SLOT_REF2="ts1230">
+                <ANNOTATION_VALUE>lumi</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4031,6 +4051,12 @@
                 <ANNOTATION_VALUE>tul (tuul)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1367"
+                TIME_SLOT_REF1="ts1229" TIME_SLOT_REF2="ts1231">
+                <ANNOTATION_VALUE>lumi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4837,6 +4863,11 @@
                 <ANNOTATION_VALUE>wind</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1368" ANNOTATION_REF="a1367">
+                <ANNOTATION_VALUE>snow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5623,6 +5654,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1360" ANNOTATION_REF="a1356">
                 <ANNOTATION_VALUE>ветер</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1369" ANNOTATION_REF="a1367">
+                <ANNOTATION_VALUE>снег</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6426,6 +6462,11 @@
                 <ANNOTATION_VALUE>wind wind</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1370" ANNOTATION_REF="a1366">
+                <ANNOTATION_VALUE>snow</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7102,6 +7143,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1362" ANNOTATION_REF="a1354">
                 <ANNOTATION_VALUE>ветер ветер</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1371" ANNOTATION_REF="a1366">
+                <ANNOTATION_VALUE>снег</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7998,6 +8044,12 @@
                 <ANNOTATION_VALUE>ветер</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1372"
+                TIME_SLOT_REF1="ts1226" TIME_SLOT_REF2="ts1227">
+                <ANNOTATION_VALUE>снег</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8709,6 +8761,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1364" ANNOTATION_REF="a1363">
                 <ANNOTATION_VALUE>wind</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1373" ANNOTATION_REF="a1372">
+                <ANNOTATION_VALUE>snow</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
