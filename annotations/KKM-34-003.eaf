@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-15T23:30:30+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-16T23:50:18+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1382</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1391</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1250,6 +1250,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1238" TIME_VALUE="821675"/>
         <TIME_SLOT TIME_SLOT_ID="ts1239" TIME_VALUE="821675"/>
         <TIME_SLOT TIME_SLOT_ID="ts1240" TIME_VALUE="822842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1241" TIME_VALUE="822842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1242" TIME_VALUE="822887"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1243" TIME_VALUE="823557"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1244" TIME_VALUE="824463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1245" TIME_VALUE="824463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1246" TIME_VALUE="825475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1247" TIME_VALUE="825475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1248" TIME_VALUE="826409"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2196,8 +2204,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1374"
-                TIME_SLOT_REF1="ts1232" TIME_SLOT_REF2="ts1240">
+                TIME_SLOT_REF1="ts1232" TIME_SLOT_REF2="ts1241">
                 <ANNOTATION_VALUE>Fragment 158</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1383"
+                TIME_SLOT_REF1="ts1240" TIME_SLOT_REF2="ts1248">
+                <ANNOTATION_VALUE>Fragment 159</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3088,6 +3102,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1375"
                 TIME_SLOT_REF1="ts1236" TIME_SLOT_REF2="ts1238">
                 <ANNOTATION_VALUE>jää</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1384"
+                TIME_SLOT_REF1="ts1244" TIME_SLOT_REF2="ts1246">
+                <ANNOTATION_VALUE>savvu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4083,6 +4103,12 @@
                 <ANNOTATION_VALUE>jää</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1385"
+                TIME_SLOT_REF1="ts1245" TIME_SLOT_REF2="ts1247">
+                <ANNOTATION_VALUE>savvu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4899,6 +4925,11 @@
                 <ANNOTATION_VALUE>ice</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1386" ANNOTATION_REF="a1385">
+                <ANNOTATION_VALUE>smoke</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5695,6 +5726,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1378" ANNOTATION_REF="a1376">
                 <ANNOTATION_VALUE>лёд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1387" ANNOTATION_REF="a1385">
+                <ANNOTATION_VALUE>дым</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6508,6 +6544,11 @@
                 <ANNOTATION_VALUE>ice</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1388" ANNOTATION_REF="a1384">
+                <ANNOTATION_VALUE>smoke</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7194,6 +7235,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1380" ANNOTATION_REF="a1375">
                 <ANNOTATION_VALUE>лёд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1389" ANNOTATION_REF="a1384">
+                <ANNOTATION_VALUE>дым</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8102,6 +8148,12 @@
                 <ANNOTATION_VALUE>лёд</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1390"
+                TIME_SLOT_REF1="ts1242" TIME_SLOT_REF2="ts1243">
+                <ANNOTATION_VALUE>дым</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8823,6 +8875,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1382" ANNOTATION_REF="a1381">
                 <ANNOTATION_VALUE>ice</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1391" ANNOTATION_REF="a1390">
+                <ANNOTATION_VALUE>smoke</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
