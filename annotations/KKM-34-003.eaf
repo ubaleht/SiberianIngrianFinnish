@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-17T23:56:16+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-18T23:34:45+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1400</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1409</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1266,6 +1266,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1254" TIME_VALUE="828359"/>
         <TIME_SLOT TIME_SLOT_ID="ts1255" TIME_VALUE="828359"/>
         <TIME_SLOT TIME_SLOT_ID="ts1256" TIME_VALUE="829217"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1257" TIME_VALUE="829217"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1258" TIME_VALUE="829279"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1259" TIME_VALUE="831289"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1260" TIME_VALUE="831787"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1261" TIME_VALUE="831787"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1262" TIME_VALUE="832865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1263" TIME_VALUE="832865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1264" TIME_VALUE="833578"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2224,8 +2232,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1392"
-                TIME_SLOT_REF1="ts1248" TIME_SLOT_REF2="ts1256">
+                TIME_SLOT_REF1="ts1248" TIME_SLOT_REF2="ts1257">
                 <ANNOTATION_VALUE>Fragment 160</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1401"
+                TIME_SLOT_REF1="ts1256" TIME_SLOT_REF2="ts1264">
+                <ANNOTATION_VALUE>Fragment 161</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3128,6 +3142,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1393"
                 TIME_SLOT_REF1="ts1252" TIME_SLOT_REF2="ts1254">
                 <ANNOTATION_VALUE>valke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1402"
+                TIME_SLOT_REF1="ts1260" TIME_SLOT_REF2="ts1262">
+                <ANNOTATION_VALUE>tuhkk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4135,6 +4155,12 @@
                 <ANNOTATION_VALUE>valke</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1403"
+                TIME_SLOT_REF1="ts1261" TIME_SLOT_REF2="ts1263">
+                <ANNOTATION_VALUE>tuhkk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -4961,6 +4987,11 @@
                 <ANNOTATION_VALUE>fire</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1404" ANNOTATION_REF="a1403">
+                <ANNOTATION_VALUE>ash</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5767,6 +5798,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1396" ANNOTATION_REF="a1394">
                 <ANNOTATION_VALUE>огонь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1405" ANNOTATION_REF="a1403">
+                <ANNOTATION_VALUE>пепел, зола</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6590,6 +6626,11 @@
                 <ANNOTATION_VALUE>fire</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1406" ANNOTATION_REF="a1402">
+                <ANNOTATION_VALUE>ash</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7286,6 +7327,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1398" ANNOTATION_REF="a1393">
                 <ANNOTATION_VALUE>огонь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1407" ANNOTATION_REF="a1402">
+                <ANNOTATION_VALUE>пепел, зола</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8206,6 +8252,12 @@
                 <ANNOTATION_VALUE>огонь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1408"
+                TIME_SLOT_REF1="ts1258" TIME_SLOT_REF2="ts1259">
+                <ANNOTATION_VALUE>ну, зола, пепел</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -8937,6 +8989,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1400" ANNOTATION_REF="a1399">
                 <ANNOTATION_VALUE>fire</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1409" ANNOTATION_REF="a1408">
+                <ANNOTATION_VALUE>well, ash</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
