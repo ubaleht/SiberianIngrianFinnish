@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-19T23:30:50+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-20T23:44:22+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1418</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1428</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1282,6 +1282,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1270" TIME_VALUE="835853"/>
         <TIME_SLOT TIME_SLOT_ID="ts1271" TIME_VALUE="835853"/>
         <TIME_SLOT TIME_SLOT_ID="ts1272" TIME_VALUE="836759"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1273" TIME_VALUE="836759"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1274" TIME_VALUE="837663"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1275" TIME_VALUE="838607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1276" TIME_VALUE="838839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1277" TIME_VALUE="838839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1278" TIME_VALUE="839593"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1279" TIME_VALUE="839593"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1280" TIME_VALUE="840887"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2252,8 +2260,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1410"
-                TIME_SLOT_REF1="ts1264" TIME_SLOT_REF2="ts1272">
+                TIME_SLOT_REF1="ts1264" TIME_SLOT_REF2="ts1273">
                 <ANNOTATION_VALUE>Fragment 162</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1419"
+                TIME_SLOT_REF1="ts1272" TIME_SLOT_REF2="ts1280">
+                <ANNOTATION_VALUE>Fragment 163</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3168,6 +3182,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1411"
                 TIME_SLOT_REF1="ts1268" TIME_SLOT_REF2="ts1270">
                 <ANNOTATION_VALUE>p.. palla</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1420"
+                TIME_SLOT_REF1="ts1276" TIME_SLOT_REF2="ts1278">
+                <ANNOTATION_VALUE>tie (kie)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4187,6 +4207,12 @@
                 <ANNOTATION_VALUE>palla</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1421"
+                TIME_SLOT_REF1="ts1277" TIME_SLOT_REF2="ts1279">
+                <ANNOTATION_VALUE>tie (kie)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5023,6 +5049,11 @@
                 <ANNOTATION_VALUE>to burn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1422" ANNOTATION_REF="a1421">
+                <ANNOTATION_VALUE>road</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5841,6 +5872,11 @@
                 <ANNOTATION_VALUE>гореть</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1423" ANNOTATION_REF="a1421">
+                <ANNOTATION_VALUE>дорога</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -5952,6 +5988,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1203" ANNOTATION_REF="a1200">
                 <ANNOTATION_VALUE>translation is not reliable</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1424" ANNOTATION_REF="a1421">
+                <ANNOTATION_VALUE>should be "tie", but heard "kie"</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6672,6 +6713,11 @@
                 <ANNOTATION_VALUE>to burn</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1425" ANNOTATION_REF="a1420">
+                <ANNOTATION_VALUE>road</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7378,6 +7424,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1416" ANNOTATION_REF="a1411">
                 <ANNOTATION_VALUE>гореть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1426" ANNOTATION_REF="a1420">
+                <ANNOTATION_VALUE>дорога</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8310,6 +8361,12 @@
                 <ANNOTATION_VALUE>гореть</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1427"
+                TIME_SLOT_REF1="ts1274" TIME_SLOT_REF2="ts1275">
+                <ANNOTATION_VALUE>дорога</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9051,6 +9108,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1418" ANNOTATION_REF="a1417">
                 <ANNOTATION_VALUE>to burn</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1428" ANNOTATION_REF="a1427">
+                <ANNOTATION_VALUE>road</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
