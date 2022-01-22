@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-21T21:36:10+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-22T23:58:58+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1437</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1447</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1298,6 +1298,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1286" TIME_VALUE="842897"/>
         <TIME_SLOT TIME_SLOT_ID="ts1287" TIME_VALUE="842897"/>
         <TIME_SLOT TIME_SLOT_ID="ts1288" TIME_VALUE="844908"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1289" TIME_VALUE="844908"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1290" TIME_VALUE="849899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1291" TIME_VALUE="849899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1292" TIME_VALUE="849943"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1293" TIME_VALUE="850768"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1294" TIME_VALUE="851644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1295" TIME_VALUE="851644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1296" TIME_VALUE="852563"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1297" TIME_VALUE="852563"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1298" TIME_VALUE="853772"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2280,8 +2290,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1429"
-                TIME_SLOT_REF1="ts1280" TIME_SLOT_REF2="ts1288">
+                TIME_SLOT_REF1="ts1280" TIME_SLOT_REF2="ts1289">
                 <ANNOTATION_VALUE>Fragment 164</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1438"
+                TIME_SLOT_REF1="ts1288" TIME_SLOT_REF2="ts1291">
+                <ANNOTATION_VALUE>Fragment 165</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1439"
+                TIME_SLOT_REF1="ts1290" TIME_SLOT_REF2="ts1298">
+                <ANNOTATION_VALUE>Fragment 166</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3208,6 +3230,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1430"
                 TIME_SLOT_REF1="ts1284" TIME_SLOT_REF2="ts1286">
                 <ANNOTATION_VALUE>mäki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1440"
+                TIME_SLOT_REF1="ts1294" TIME_SLOT_REF2="ts1296">
+                <ANNOTATION_VALUE>zelön</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4239,6 +4267,12 @@
                 <ANNOTATION_VALUE>mäki</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1441"
+                TIME_SLOT_REF1="ts1295" TIME_SLOT_REF2="ts1297">
+                <ANNOTATION_VALUE>zelön</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5085,6 +5119,11 @@
                 <ANNOTATION_VALUE>mountain</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1442" ANNOTATION_REF="a1441">
+                <ANNOTATION_VALUE>green</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -5911,6 +5950,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1433" ANNOTATION_REF="a1431">
                 <ANNOTATION_VALUE>гора</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1443" ANNOTATION_REF="a1441">
+                <ANNOTATION_VALUE>зелёный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6759,6 +6803,11 @@
                 <ANNOTATION_VALUE>mountain</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1444" ANNOTATION_REF="a1440">
+                <ANNOTATION_VALUE>green</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7475,6 +7524,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1435" ANNOTATION_REF="a1430">
                 <ANNOTATION_VALUE>гора</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1445" ANNOTATION_REF="a1440">
+                <ANNOTATION_VALUE>зелёный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8419,6 +8473,12 @@
                 <ANNOTATION_VALUE>гора</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1446"
+                TIME_SLOT_REF1="ts1292" TIME_SLOT_REF2="ts1293">
+                <ANNOTATION_VALUE>зелёный</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9170,6 +9230,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1437" ANNOTATION_REF="a1436">
                 <ANNOTATION_VALUE>mountain</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1447" ANNOTATION_REF="a1446">
+                <ANNOTATION_VALUE>green</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
