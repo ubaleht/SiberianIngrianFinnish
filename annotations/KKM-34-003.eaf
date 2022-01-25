@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-24T23:35:21+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-25T23:56:40+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1465</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1474</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1324,6 +1324,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1312" TIME_VALUE="858162"/>
         <TIME_SLOT TIME_SLOT_ID="ts1313" TIME_VALUE="858162"/>
         <TIME_SLOT TIME_SLOT_ID="ts1314" TIME_VALUE="858917"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1315" TIME_VALUE="858917"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1316" TIME_VALUE="859008"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1317" TIME_VALUE="859833"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1318" TIME_VALUE="859858"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1319" TIME_VALUE="859858"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1320" TIME_VALUE="860941"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1321" TIME_VALUE="860941"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1322" TIME_VALUE="863251"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2330,8 +2338,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1457"
-                TIME_SLOT_REF1="ts1306" TIME_SLOT_REF2="ts1314">
+                TIME_SLOT_REF1="ts1306" TIME_SLOT_REF2="ts1315">
                 <ANNOTATION_VALUE>Fragment 168</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1466"
+                TIME_SLOT_REF1="ts1314" TIME_SLOT_REF2="ts1322">
+                <ANNOTATION_VALUE>Fragment 169</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3276,6 +3290,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1458"
                 TIME_SLOT_REF1="ts1310" TIME_SLOT_REF2="ts1312">
                 <ANNOTATION_VALUE>valke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1467"
+                TIME_SLOT_REF1="ts1318" TIME_SLOT_REF2="ts1320">
+                <ANNOTATION_VALUE>musst</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4325,6 +4345,12 @@
                 <ANNOTATION_VALUE>valke</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1468"
+                TIME_SLOT_REF1="ts1319" TIME_SLOT_REF2="ts1321">
+                <ANNOTATION_VALUE>musst</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5186,6 +5212,11 @@
                 <ANNOTATION_VALUE>white</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1469" ANNOTATION_REF="a1468">
+                <ANNOTATION_VALUE>black</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6027,6 +6058,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1461" ANNOTATION_REF="a1459">
                 <ANNOTATION_VALUE>белый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1470" ANNOTATION_REF="a1468">
+                <ANNOTATION_VALUE>чёрный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6890,6 +6926,11 @@
                 <ANNOTATION_VALUE>white</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1471" ANNOTATION_REF="a1467">
+                <ANNOTATION_VALUE>black</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7621,6 +7662,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1463" ANNOTATION_REF="a1458">
                 <ANNOTATION_VALUE>белый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1472" ANNOTATION_REF="a1467">
+                <ANNOTATION_VALUE>чёрный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8583,6 +8629,12 @@
                 <ANNOTATION_VALUE>белый</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1473"
+                TIME_SLOT_REF1="ts1316" TIME_SLOT_REF2="ts1317">
+                <ANNOTATION_VALUE>чёрный</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9349,6 +9401,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1465" ANNOTATION_REF="a1464">
                 <ANNOTATION_VALUE>white</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1474" ANNOTATION_REF="a1473">
+                <ANNOTATION_VALUE>black</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
