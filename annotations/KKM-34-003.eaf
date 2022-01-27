@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-26T23:51:00+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-27T23:53:59+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1483</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1492</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1340,6 +1340,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1328" TIME_VALUE="865866"/>
         <TIME_SLOT TIME_SLOT_ID="ts1329" TIME_VALUE="865866"/>
         <TIME_SLOT TIME_SLOT_ID="ts1330" TIME_VALUE="866359"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1331" TIME_VALUE="866359"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1332" TIME_VALUE="866484"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1333" TIME_VALUE="867362"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1334" TIME_VALUE="867598"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1335" TIME_VALUE="867598"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1336" TIME_VALUE="868354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1337" TIME_VALUE="868354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1338" TIME_VALUE="869176"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2358,8 +2366,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1475"
-                TIME_SLOT_REF1="ts1322" TIME_SLOT_REF2="ts1330">
+                TIME_SLOT_REF1="ts1322" TIME_SLOT_REF2="ts1331">
                 <ANNOTATION_VALUE>Fragment 170</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1484"
+                TIME_SLOT_REF1="ts1330" TIME_SLOT_REF2="ts1338">
+                <ANNOTATION_VALUE>Fragment 171</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3316,6 +3330,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1476"
                 TIME_SLOT_REF1="ts1326" TIME_SLOT_REF2="ts1328">
                 <ANNOTATION_VALUE>üä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1485"
+                TIME_SLOT_REF1="ts1334" TIME_SLOT_REF2="ts1336">
+                <ANNOTATION_VALUE>päivv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4377,6 +4397,12 @@
                 <ANNOTATION_VALUE>üä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1486"
+                TIME_SLOT_REF1="ts1335" TIME_SLOT_REF2="ts1337">
+                <ANNOTATION_VALUE>päivv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5248,6 +5274,11 @@
                 <ANNOTATION_VALUE>night</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1487" ANNOTATION_REF="a1486">
+                <ANNOTATION_VALUE>day</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6099,6 +6130,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1479" ANNOTATION_REF="a1477">
                 <ANNOTATION_VALUE>ночь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1488" ANNOTATION_REF="a1486">
+                <ANNOTATION_VALUE>день</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -6972,6 +7008,11 @@
                 <ANNOTATION_VALUE>night</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1489" ANNOTATION_REF="a1485">
+                <ANNOTATION_VALUE>day</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7713,6 +7754,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1481" ANNOTATION_REF="a1476">
                 <ANNOTATION_VALUE>ночь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1490" ANNOTATION_REF="a1485">
+                <ANNOTATION_VALUE>день</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8687,6 +8733,12 @@
                 <ANNOTATION_VALUE>ночь</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1491"
+                TIME_SLOT_REF1="ts1332" TIME_SLOT_REF2="ts1333">
+                <ANNOTATION_VALUE>день</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9463,6 +9515,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1483" ANNOTATION_REF="a1482">
                 <ANNOTATION_VALUE>night</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1492" ANNOTATION_REF="a1491">
+                <ANNOTATION_VALUE>day</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
