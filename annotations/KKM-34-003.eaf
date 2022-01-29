@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-28T23:56:57+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-29T23:46:58+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1501</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1510</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1356,6 +1356,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1344" TIME_VALUE="871092"/>
         <TIME_SLOT TIME_SLOT_ID="ts1345" TIME_VALUE="871092"/>
         <TIME_SLOT TIME_SLOT_ID="ts1346" TIME_VALUE="872102"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1347" TIME_VALUE="872102"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1348" TIME_VALUE="872518"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1349" TIME_VALUE="873261"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1350" TIME_VALUE="873390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1351" TIME_VALUE="873390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1352" TIME_VALUE="874185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1353" TIME_VALUE="874185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1354" TIME_VALUE="875062"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2386,8 +2394,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1493"
-                TIME_SLOT_REF1="ts1338" TIME_SLOT_REF2="ts1346">
+                TIME_SLOT_REF1="ts1338" TIME_SLOT_REF2="ts1347">
                 <ANNOTATION_VALUE>Fragment 172</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1502"
+                TIME_SLOT_REF1="ts1346" TIME_SLOT_REF2="ts1354">
+                <ANNOTATION_VALUE>Fragment 173</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3356,6 +3370,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1494"
                 TIME_SLOT_REF1="ts1342" TIME_SLOT_REF2="ts1344">
                 <ANNOTATION_VALUE>aastaik</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1503"
+                TIME_SLOT_REF1="ts1350" TIME_SLOT_REF2="ts1352">
+                <ANNOTATION_VALUE>suai</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4429,6 +4449,12 @@
                 <ANNOTATION_VALUE>aastaik</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1504"
+                TIME_SLOT_REF1="ts1351" TIME_SLOT_REF2="ts1353">
+                <ANNOTATION_VALUE>suai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5310,6 +5336,11 @@
                 <ANNOTATION_VALUE>year</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1505" ANNOTATION_REF="a1504">
+                <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6171,6 +6202,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1497" ANNOTATION_REF="a1495">
                 <ANNOTATION_VALUE>год</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1506" ANNOTATION_REF="a1504">
+                <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7054,6 +7090,11 @@
                 <ANNOTATION_VALUE>year</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1507" ANNOTATION_REF="a1503">
+                <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7805,6 +7846,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1499" ANNOTATION_REF="a1494">
                 <ANNOTATION_VALUE>год</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1508" ANNOTATION_REF="a1503">
+                <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8791,6 +8837,12 @@
                 <ANNOTATION_VALUE>год</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1509"
+                TIME_SLOT_REF1="ts1348" TIME_SLOT_REF2="ts1349">
+                <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9577,6 +9629,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1501" ANNOTATION_REF="a1500">
                 <ANNOTATION_VALUE>year</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1510" ANNOTATION_REF="a1509">
+                <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
