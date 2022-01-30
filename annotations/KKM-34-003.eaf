@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-29T23:46:58+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-30T23:46:21+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1510</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1520</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1364,6 +1364,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1352" TIME_VALUE="874185"/>
         <TIME_SLOT TIME_SLOT_ID="ts1353" TIME_VALUE="874185"/>
         <TIME_SLOT TIME_SLOT_ID="ts1354" TIME_VALUE="875062"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1355" TIME_VALUE="875062"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1356" TIME_VALUE="875132"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1357" TIME_VALUE="876293"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1358" TIME_VALUE="876293"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1359" TIME_VALUE="876359"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1360" TIME_VALUE="877052"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1361" TIME_VALUE="877052"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1362" TIME_VALUE="878196"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2400,8 +2408,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1502"
-                TIME_SLOT_REF1="ts1346" TIME_SLOT_REF2="ts1354">
+                TIME_SLOT_REF1="ts1346" TIME_SLOT_REF2="ts1355">
                 <ANNOTATION_VALUE>Fragment 173</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1511"
+                TIME_SLOT_REF1="ts1354" TIME_SLOT_REF2="ts1362">
+                <ANNOTATION_VALUE>Fragment 174</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3376,6 +3390,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1503"
                 TIME_SLOT_REF1="ts1350" TIME_SLOT_REF2="ts1352">
                 <ANNOTATION_VALUE>suai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1512"
+                TIME_SLOT_REF1="ts1357" TIME_SLOT_REF2="ts1360">
+                <ANNOTATION_VALUE>külm (küülm)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4455,6 +4475,12 @@
                 <ANNOTATION_VALUE>suai</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1513"
+                TIME_SLOT_REF1="ts1358" TIME_SLOT_REF2="ts1361">
+                <ANNOTATION_VALUE>külm (küülm)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5341,6 +5367,11 @@
                 <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1514" ANNOTATION_REF="a1513">
+                <ANNOTATION_VALUE>cold</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6209,6 +6240,11 @@
                 <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1515" ANNOTATION_REF="a1513">
+                <ANNOTATION_VALUE>холодный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -6325,6 +6361,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1424" ANNOTATION_REF="a1421">
                 <ANNOTATION_VALUE>should be "tie", but heard "kie"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1516" ANNOTATION_REF="a1513">
+                <ANNOTATION_VALUE>sound overlay</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7095,6 +7136,11 @@
                 <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1517" ANNOTATION_REF="a1512">
+                <ANNOTATION_VALUE>cold</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7851,6 +7897,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1508" ANNOTATION_REF="a1503">
                 <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1518" ANNOTATION_REF="a1512">
+                <ANNOTATION_VALUE>холодный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8843,6 +8894,12 @@
                 <ANNOTATION_VALUE>тёплый</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1519"
+                TIME_SLOT_REF1="ts1356" TIME_SLOT_REF2="ts1359">
+                <ANNOTATION_VALUE>холодный, о погоде</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9634,6 +9691,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1510" ANNOTATION_REF="a1509">
                 <ANNOTATION_VALUE>warm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1520" ANNOTATION_REF="a1519">
+                <ANNOTATION_VALUE>cold, about the weather</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
