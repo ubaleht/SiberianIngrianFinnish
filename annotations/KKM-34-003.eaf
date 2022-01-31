@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-30T23:46:21+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-31T23:58:25+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1520</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1524</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1372,6 +1372,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts1360" TIME_VALUE="877052"/>
         <TIME_SLOT TIME_SLOT_ID="ts1361" TIME_VALUE="877052"/>
         <TIME_SLOT TIME_SLOT_ID="ts1362" TIME_VALUE="878196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1363" TIME_VALUE="878196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1364" TIME_VALUE="878891"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1365" TIME_VALUE="880722"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1366" TIME_VALUE="880827"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1367" TIME_VALUE="882121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1368" TIME_VALUE="882636"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2414,8 +2420,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1511"
-                TIME_SLOT_REF1="ts1354" TIME_SLOT_REF2="ts1362">
+                TIME_SLOT_REF1="ts1354" TIME_SLOT_REF2="ts1363">
                 <ANNOTATION_VALUE>Fragment 174</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1521"
+                TIME_SLOT_REF1="ts1362" TIME_SLOT_REF2="ts1368">
+                <ANNOTATION_VALUE>Fragment 175</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3396,6 +3408,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1512"
                 TIME_SLOT_REF1="ts1357" TIME_SLOT_REF2="ts1360">
                 <ANNOTATION_VALUE>külm (küülm)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1522"
+                TIME_SLOT_REF1="ts1366" TIME_SLOT_REF2="ts1367">
+                <ANNOTATION_VALUE>Tervon pess</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8900,6 +8918,12 @@
                 <ANNOTATION_VALUE>холодный, о погоде</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1523"
+                TIME_SLOT_REF1="ts1364" TIME_SLOT_REF2="ts1365">
+                <ANNOTATION_VALUE>Полный. Ну, стакан полный, например.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9696,6 +9720,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1520" ANNOTATION_REF="a1519">
                 <ANNOTATION_VALUE>cold, about the weather</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1524" ANNOTATION_REF="a1523">
+                <ANNOTATION_VALUE>Full. Well, for example, the glass is full.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
