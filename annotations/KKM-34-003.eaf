@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-01-31T23:58:25+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-01T23:55:36+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1524</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1533</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1378,6 +1378,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1366" TIME_VALUE="880827"/>
         <TIME_SLOT TIME_SLOT_ID="ts1367" TIME_VALUE="882121"/>
         <TIME_SLOT TIME_SLOT_ID="ts1368" TIME_VALUE="882636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1369" TIME_VALUE="882636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1370" TIME_VALUE="882978"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1371" TIME_VALUE="883745"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1372" TIME_VALUE="883976"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1373" TIME_VALUE="883976"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1374" TIME_VALUE="884848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1375" TIME_VALUE="884848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1376" TIME_VALUE="885437"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2426,8 +2434,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1521"
-                TIME_SLOT_REF1="ts1362" TIME_SLOT_REF2="ts1368">
+                TIME_SLOT_REF1="ts1362" TIME_SLOT_REF2="ts1369">
                 <ANNOTATION_VALUE>Fragment 175</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1525"
+                TIME_SLOT_REF1="ts1368" TIME_SLOT_REF2="ts1376">
+                <ANNOTATION_VALUE>Fragment 176</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3414,6 +3428,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1522"
                 TIME_SLOT_REF1="ts1366" TIME_SLOT_REF2="ts1367">
                 <ANNOTATION_VALUE>Tervon pess</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1526"
+                TIME_SLOT_REF1="ts1372" TIME_SLOT_REF2="ts1374">
+                <ANNOTATION_VALUE>uus (uus')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4499,6 +4519,12 @@
                 <ANNOTATION_VALUE>külm (küülm)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1527"
+                TIME_SLOT_REF1="ts1373" TIME_SLOT_REF2="ts1375">
+                <ANNOTATION_VALUE>uus (uus')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5390,6 +5416,11 @@
                 <ANNOTATION_VALUE>cold</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1528" ANNOTATION_REF="a1527">
+                <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6261,6 +6292,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1515" ANNOTATION_REF="a1513">
                 <ANNOTATION_VALUE>холодный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1529" ANNOTATION_REF="a1527">
+                <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7159,6 +7195,11 @@
                 <ANNOTATION_VALUE>cold</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1530" ANNOTATION_REF="a1526">
+                <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7920,6 +7961,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1518" ANNOTATION_REF="a1512">
                 <ANNOTATION_VALUE>холодный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1531" ANNOTATION_REF="a1526">
+                <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8924,6 +8970,12 @@
                 <ANNOTATION_VALUE>Полный. Ну, стакан полный, например.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1532"
+                TIME_SLOT_REF1="ts1370" TIME_SLOT_REF2="ts1371">
+                <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9725,6 +9777,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1524" ANNOTATION_REF="a1523">
                 <ANNOTATION_VALUE>Full. Well, for example, the glass is full.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1533" ANNOTATION_REF="a1532">
+                <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
