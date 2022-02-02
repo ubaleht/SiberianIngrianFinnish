@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-02T23:37:35+06:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">12</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="4495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="4495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="4531"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="8797"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="9013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="10415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="11009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="11009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="12085"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>Fragment 01</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Fragment 02</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="Speaker-Speech">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>a.., miä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Words">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts11">
+                <ANNOTATION_VALUE>miä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Morphemes" TIER_ID="Speaker-MorphemeType"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-Phonemes"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Phonemes" TIER_ID="Speaker-PhonemeComments"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-GrammaticalCategories"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsComments"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>a.., I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>а.., я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechLanguage"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Speaker-Speech" TIER_ID="Speaker-Relations"/>
+    <TIER LINGUISTIC_TYPE_REF="CommonIncludedIn" PARENT_REF="General" TIER_ID="Interviewer-Speech">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>сейчас я буду просто по русски говорить слова</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>ну слово "я", ну "я"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>now I will speak Russian words</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>well, word "I", well "I"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
+        PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-Relations"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="GeneralType" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="CommonIncludedIn" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="CommonTimeSubdivision" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="CommonSymbolicAssociation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
