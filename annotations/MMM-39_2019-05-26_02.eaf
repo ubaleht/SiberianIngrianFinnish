@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-12T23:24:20+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-13T23:55:00+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">109</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">120</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -105,7 +105,15 @@
         <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="81380"/>
         <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="85018"/>
         <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="85018"/>
-        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="91477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="85206"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="86952"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="86957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="86996"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="87596"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="87614"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="88209"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="89979"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="91477"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -182,7 +190,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109"
-                TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts96">
+                TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts104">
                 <ANNOTATION_VALUE>Fragment 13</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -246,6 +254,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89"
                 TIME_SLOT_REF1="ts90" TIME_SLOT_REF2="ts93">
                 <ANNOTATION_VALUE>бзизко - like.. likkel'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110"
+                TIME_SLOT_REF1="ts98" TIME_SLOT_REF2="ts103">
+                <ANNOTATION_VALUE>sie'l', sie'l' это далеко где-то</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -320,13 +334,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a96"
                 TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
-                <ANNOTATION_VALUE>siel'</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>sie'l'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100"
                 TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
-                <ANNOTATION_VALUE>siel'</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>sie'l'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -339,6 +353,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a102"
                 TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
                 <ANNOTATION_VALUE>likkel'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111"
+                TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>sie'l'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112"
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>sie'l'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -427,6 +453,16 @@
                 <ANNOTATION_VALUE>close | near</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>there | far away?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>there | far away?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -505,6 +541,16 @@
                 <ANNOTATION_VALUE>близко</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>там | где-то далеко?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>там | где-то далеко?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -576,6 +622,11 @@
                 <ANNOTATION_VALUE>tut (here in Russian) is here, sial', siel' - eto tuda ("it is there" in Russian), siin - eto zdes' ("it is here" in Russian)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>sie'l', sie'l' eto daleko gdeto (sie'l', sie'l' - it's "somewhere far away")</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -622,6 +673,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a88">
                 <ANNOTATION_VALUE>тут siin, siel', siel' это туда, siin - это здесь, вот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>sie'l', sie'l' это далеко где-то</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -690,6 +746,12 @@
                 <ANNOTATION_VALUE>"здесь", "тут", "близко", что-то вот: "здесь", "тут"</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119"
+                TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>там, где-то там /далеко/</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -741,6 +803,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a94">
                 <ANNOTATION_VALUE>"here", "close", something like this: "here"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>there, somewhere /far/</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
