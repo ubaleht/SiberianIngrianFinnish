@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-16T23:58:26+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-17T23:59:18+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">145</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">156</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -140,6 +140,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="116212"/>
         <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="119650"/>
         <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="119764"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="119764"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="119813"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="121009"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="121480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="122310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="122796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="122803"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="124427"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -240,8 +248,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a139"
-                TIME_SLOT_REF1="ts122" TIME_SLOT_REF2="ts130">
+                TIME_SLOT_REF1="ts122" TIME_SLOT_REF2="ts131">
                 <ANNOTATION_VALUE>Fragment 17</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a146"
+                TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -327,7 +341,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a140"
                 TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts129">
-                <ANNOTATION_VALUE>kosk</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kus, kus, когда, kosk, kosk когда, коsk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a147"
+                TIME_SLOT_REF1="ts134" TIME_SLOT_REF2="ts137">
+                <ANNOTATION_VALUE>как? kui</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -453,6 +473,12 @@
                 <ANNOTATION_VALUE>kosk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a148"
+                TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>kui</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -564,6 +590,11 @@
                 <ANNOTATION_VALUE>when</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a149" ANNOTATION_REF="a148">
+                <ANNOTATION_VALUE>how</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -667,6 +698,11 @@
                 <ANNOTATION_VALUE>когда</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a150" ANNOTATION_REF="a148">
+                <ANNOTATION_VALUE>как</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -753,6 +789,16 @@
                 <ANNOTATION_VALUE>where</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a151" ANNOTATION_REF="a140">
+                <ANNOTATION_VALUE>kus, kus, when, kosk, kosk when, коsk</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a147">
+                <ANNOTATION_VALUE>how? kui</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -809,6 +855,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a131">
                 <ANNOTATION_VALUE>где</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a140">
+                <ANNOTATION_VALUE>kus, kus, когда, kosk, kosk когда, коsk</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a147">
+                <ANNOTATION_VALUE>как? kui</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -901,6 +957,12 @@
                 <ANNOTATION_VALUE>когда</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a155"
+                TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>как</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -972,6 +1034,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a145" ANNOTATION_REF="a144">
                 <ANNOTATION_VALUE>when</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE>how</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
