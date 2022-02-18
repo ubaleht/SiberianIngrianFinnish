@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-17T23:59:18+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-18T23:51:06+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">156</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">162</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -148,6 +148,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="122796"/>
         <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="122803"/>
         <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="124427"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="124427"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="124641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="127322"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="129861"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="134418"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="134432"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="137720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="138494"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -254,8 +262,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a146"
-                TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts138">
+                TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts139">
                 <ANNOTATION_VALUE>Fragment 18</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a157"
+                TIME_SLOT_REF1="ts138" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>Fragment 19</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -348,6 +362,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a147"
                 TIME_SLOT_REF1="ts134" TIME_SLOT_REF2="ts137">
                 <ANNOTATION_VALUE>как? kui</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a158"
+                TIME_SLOT_REF1="ts144" TIME_SLOT_REF2="ts145">
+                <ANNOTATION_VALUE>а... не твоё, ei miul, ei miun</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -796,7 +816,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a147">
-                <ANNOTATION_VALUE>how? kui</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>how? (in Russian) kui</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -963,6 +983,18 @@
                 <ANNOTATION_VALUE>как</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a159"
+                TIME_SLOT_REF1="ts140" TIME_SLOT_REF2="ts141">
+                <ANNOTATION_VALUE>ну отрицание, "не", отрицание</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a160"
+                TIME_SLOT_REF1="ts142" TIME_SLOT_REF2="ts143">
+                <ANNOTATION_VALUE>Ну "ei" наверно, да? Отрицать, ну что-то: "не моё" там...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1039,6 +1071,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a155">
                 <ANNOTATION_VALUE>how</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a159">
+                <ANNOTATION_VALUE>well negation, "not", negation</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>Well "ei" maybe, yes? Negation, well, for example "not mine"</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
