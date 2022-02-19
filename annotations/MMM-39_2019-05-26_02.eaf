@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-18T23:51:06+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-19T23:58:13+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">162</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">170</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -154,8 +154,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="129861"/>
         <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="134418"/>
         <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="134432"/>
-        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="137720"/>
-        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="138494"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="135529"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="135710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="135716"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="136005"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="136005"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="136553"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="136565"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="138494"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -268,7 +274,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a157"
-                TIME_SLOT_REF1="ts138" TIME_SLOT_REF2="ts146">
+                TIME_SLOT_REF1="ts138" TIME_SLOT_REF2="ts152">
                 <ANNOTATION_VALUE>Fragment 19</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -367,7 +373,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a158"
                 TIME_SLOT_REF1="ts144" TIME_SLOT_REF2="ts145">
-                <ANNOTATION_VALUE>а... не твоё, ei miul, ei miun</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а... не твоё</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a163"
+                TIME_SLOT_REF1="ts146" TIME_SLOT_REF2="ts151">
+                <ANNOTATION_VALUE>ei miul</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -499,6 +511,18 @@
                 <ANNOTATION_VALUE>kui</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a164"
+                TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts149">
+                <ANNOTATION_VALUE>ei</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a165"
+                TIME_SLOT_REF1="ts148" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>miul</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -557,7 +581,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a79">
-                <ANNOTATION_VALUE>me | to me | on me | I have (?)</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>me | to me | on me (?) | I have</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -615,6 +639,16 @@
                 <ANNOTATION_VALUE>how</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a166" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>not</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>to me | I have | on me</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -665,7 +699,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a79">
-                <ANNOTATION_VALUE>мне | на меня | у меня (?)</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мне | на меня (?) | у меня</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -723,12 +757,27 @@
                 <ANNOTATION_VALUE>как</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a167" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>не | нет</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>мне | на меня | у меня есть</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a79">
-                <ANNOTATION_VALUE>1SG-ADE|ALL</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>1SG-ADE | 1SG-ALL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>1SG-ADE | 1SG-ALL</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
