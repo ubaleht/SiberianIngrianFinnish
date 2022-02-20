@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-01T23:55:36+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-20T23:51:45+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1533</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1544</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1386,6 +1386,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1374" TIME_VALUE="884848"/>
         <TIME_SLOT TIME_SLOT_ID="ts1375" TIME_VALUE="884848"/>
         <TIME_SLOT TIME_SLOT_ID="ts1376" TIME_VALUE="885437"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1377" TIME_VALUE="885437"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1378" TIME_VALUE="885643"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1379" TIME_VALUE="886541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1380" TIME_VALUE="886575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1381" TIME_VALUE="886575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1382" TIME_VALUE="887432"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1383" TIME_VALUE="887432"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1384" TIME_VALUE="887931"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2440,8 +2448,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1525"
-                TIME_SLOT_REF1="ts1368" TIME_SLOT_REF2="ts1376">
+                TIME_SLOT_REF1="ts1368" TIME_SLOT_REF2="ts1377">
                 <ANNOTATION_VALUE>Fragment 176</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1536"
+                TIME_SLOT_REF1="ts1376" TIME_SLOT_REF2="ts1384">
+                <ANNOTATION_VALUE>Fragment 177</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3434,6 +3448,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1526"
                 TIME_SLOT_REF1="ts1372" TIME_SLOT_REF2="ts1374">
                 <ANNOTATION_VALUE>uus (uus')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1537"
+                TIME_SLOT_REF1="ts1380" TIME_SLOT_REF2="ts1382">
+                <ANNOTATION_VALUE>vana</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4525,6 +4545,12 @@
                 <ANNOTATION_VALUE>uus (uus')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1538"
+                TIME_SLOT_REF1="ts1381" TIME_SLOT_REF2="ts1383">
+                <ANNOTATION_VALUE>vana</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5421,6 +5447,11 @@
                 <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1539" ANNOTATION_REF="a1538">
+                <ANNOTATION_VALUE>old</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6297,6 +6328,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1529" ANNOTATION_REF="a1527">
                 <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1540" ANNOTATION_REF="a1538">
+                <ANNOTATION_VALUE>старый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7200,6 +7236,11 @@
                 <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1541" ANNOTATION_REF="a1537">
+                <ANNOTATION_VALUE>old</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -7966,6 +8007,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1531" ANNOTATION_REF="a1526">
                 <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1542" ANNOTATION_REF="a1537">
+                <ANNOTATION_VALUE>старый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8976,6 +9022,12 @@
                 <ANNOTATION_VALUE>новый</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1543"
+                TIME_SLOT_REF1="ts1378" TIME_SLOT_REF2="ts1379">
+                <ANNOTATION_VALUE>старый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9782,6 +9834,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1533" ANNOTATION_REF="a1532">
                 <ANNOTATION_VALUE>new</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1544" ANNOTATION_REF="a1543">
+                <ANNOTATION_VALUE>old</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
