@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-21T23:20:03+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-22T23:56:03+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1553</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1571</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1402,6 +1402,22 @@
         <TIME_SLOT TIME_SLOT_ID="ts1390" TIME_VALUE="890954"/>
         <TIME_SLOT TIME_SLOT_ID="ts1391" TIME_VALUE="890954"/>
         <TIME_SLOT TIME_SLOT_ID="ts1392" TIME_VALUE="891394"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1393" TIME_VALUE="891394"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1394" TIME_VALUE="891819"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1395" TIME_VALUE="892469"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1396" TIME_VALUE="892830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1397" TIME_VALUE="892830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1398" TIME_VALUE="893599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1399" TIME_VALUE="893599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1400" TIME_VALUE="893912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1401" TIME_VALUE="893912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1402" TIME_VALUE="893941"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1403" TIME_VALUE="895872"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1404" TIME_VALUE="896439"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1405" TIME_VALUE="896439"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1406" TIME_VALUE="897330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1407" TIME_VALUE="897330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1408" TIME_VALUE="897335"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2468,8 +2484,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1545"
-                TIME_SLOT_REF1="ts1384" TIME_SLOT_REF2="ts1392">
+                TIME_SLOT_REF1="ts1384" TIME_SLOT_REF2="ts1393">
                 <ANNOTATION_VALUE>Fragment 178</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1554"
+                TIME_SLOT_REF1="ts1392" TIME_SLOT_REF2="ts1401">
+                <ANNOTATION_VALUE>Fragment 179</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1563"
+                TIME_SLOT_REF1="ts1400" TIME_SLOT_REF2="ts1408">
+                <ANNOTATION_VALUE>Fragment 180</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3474,6 +3502,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1546"
                 TIME_SLOT_REF1="ts1388" TIME_SLOT_REF2="ts1390">
                 <ANNOTATION_VALUE>hüva (hüvvä)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1555"
+                TIME_SLOT_REF1="ts1396" TIME_SLOT_REF2="ts1398">
+                <ANNOTATION_VALUE>paha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1564"
+                TIME_SLOT_REF1="ts1404" TIME_SLOT_REF2="ts1406">
+                <ANNOTATION_VALUE>märänt' (märäntu')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4577,6 +4617,18 @@
                 <ANNOTATION_VALUE>hüva (hüvvä)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1556"
+                TIME_SLOT_REF1="ts1397" TIME_SLOT_REF2="ts1399">
+                <ANNOTATION_VALUE>paha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1565"
+                TIME_SLOT_REF1="ts1405" TIME_SLOT_REF2="ts1407">
+                <ANNOTATION_VALUE>märänt' (märäntu')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5483,6 +5535,16 @@
                 <ANNOTATION_VALUE>good</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1557" ANNOTATION_REF="a1556">
+                <ANNOTATION_VALUE>bad</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1566" ANNOTATION_REF="a1565">
+                <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6369,6 +6431,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1549" ANNOTATION_REF="a1547">
                 <ANNOTATION_VALUE>хороший</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1558" ANNOTATION_REF="a1556">
+                <ANNOTATION_VALUE>плохой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1567" ANNOTATION_REF="a1565">
+                <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7282,6 +7354,16 @@
                 <ANNOTATION_VALUE>good</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1559" ANNOTATION_REF="a1555">
+                <ANNOTATION_VALUE>bad</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1568" ANNOTATION_REF="a1564">
+                <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -8058,6 +8140,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1551" ANNOTATION_REF="a1546">
                 <ANNOTATION_VALUE>хороший</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1560" ANNOTATION_REF="a1555">
+                <ANNOTATION_VALUE>плохой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1569" ANNOTATION_REF="a1564">
+                <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -9080,6 +9172,18 @@
                 <ANNOTATION_VALUE>хороший</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1561"
+                TIME_SLOT_REF1="ts1394" TIME_SLOT_REF2="ts1395">
+                <ANNOTATION_VALUE>плохой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1570"
+                TIME_SLOT_REF1="ts1402" TIME_SLOT_REF2="ts1403">
+                <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -9896,6 +10000,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1553" ANNOTATION_REF="a1552">
                 <ANNOTATION_VALUE>good</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1562" ANNOTATION_REF="a1561">
+                <ANNOTATION_VALUE>bad</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1571" ANNOTATION_REF="a1570">
+                <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
