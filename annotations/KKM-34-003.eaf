@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-22T23:56:03+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-23T23:57:41+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1571</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1598</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1418,6 +1418,30 @@
         <TIME_SLOT TIME_SLOT_ID="ts1406" TIME_VALUE="897330"/>
         <TIME_SLOT TIME_SLOT_ID="ts1407" TIME_VALUE="897330"/>
         <TIME_SLOT TIME_SLOT_ID="ts1408" TIME_VALUE="897335"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1409" TIME_VALUE="897335"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1410" TIME_VALUE="897929"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1411" TIME_VALUE="898870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1412" TIME_VALUE="899272"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1413" TIME_VALUE="899272"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1414" TIME_VALUE="900331"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1415" TIME_VALUE="900331"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1416" TIME_VALUE="900812"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1417" TIME_VALUE="900812"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1418" TIME_VALUE="901306"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1419" TIME_VALUE="902168"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1420" TIME_VALUE="902200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1421" TIME_VALUE="902200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1422" TIME_VALUE="903174"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1423" TIME_VALUE="903174"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1424" TIME_VALUE="903178"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1425" TIME_VALUE="903178"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1426" TIME_VALUE="904081"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1427" TIME_VALUE="904926"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1428" TIME_VALUE="905392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1429" TIME_VALUE="905392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1430" TIME_VALUE="906550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1431" TIME_VALUE="906550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1432" TIME_VALUE="906996"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2496,8 +2520,26 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1563"
-                TIME_SLOT_REF1="ts1400" TIME_SLOT_REF2="ts1408">
+                TIME_SLOT_REF1="ts1400" TIME_SLOT_REF2="ts1409">
                 <ANNOTATION_VALUE>Fragment 180</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1572"
+                TIME_SLOT_REF1="ts1408" TIME_SLOT_REF2="ts1417">
+                <ANNOTATION_VALUE>Fragment 181</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1581"
+                TIME_SLOT_REF1="ts1416" TIME_SLOT_REF2="ts1425">
+                <ANNOTATION_VALUE>Fragment 182</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1590"
+                TIME_SLOT_REF1="ts1424" TIME_SLOT_REF2="ts1432">
+                <ANNOTATION_VALUE>Fragment 183</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3514,6 +3556,24 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1564"
                 TIME_SLOT_REF1="ts1404" TIME_SLOT_REF2="ts1406">
                 <ANNOTATION_VALUE>märänt' (märäntu')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1573"
+                TIME_SLOT_REF1="ts1412" TIME_SLOT_REF2="ts1414">
+                <ANNOTATION_VALUE>liakas (?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1582"
+                TIME_SLOT_REF1="ts1420" TIME_SLOT_REF2="ts1422">
+                <ANNOTATION_VALUE>suara</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1591"
+                TIME_SLOT_REF1="ts1428" TIME_SLOT_REF2="ts1430">
+                <ANNOTATION_VALUE>ümerkäin (?)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4629,6 +4689,24 @@
                 <ANNOTATION_VALUE>märänt' (märäntu')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1574"
+                TIME_SLOT_REF1="ts1413" TIME_SLOT_REF2="ts1415">
+                <ANNOTATION_VALUE>liakas (?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1583"
+                TIME_SLOT_REF1="ts1421" TIME_SLOT_REF2="ts1423">
+                <ANNOTATION_VALUE>suara</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1592"
+                TIME_SLOT_REF1="ts1429" TIME_SLOT_REF2="ts1431">
+                <ANNOTATION_VALUE>ümerkäin (?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5545,6 +5623,21 @@
                 <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1575" ANNOTATION_REF="a1574">
+                <ANNOTATION_VALUE>dirty</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1584" ANNOTATION_REF="a1583">
+                <ANNOTATION_VALUE>straight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1593" ANNOTATION_REF="a1592">
+                <ANNOTATION_VALUE>round</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6441,6 +6534,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1567" ANNOTATION_REF="a1565">
                 <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1576" ANNOTATION_REF="a1574">
+                <ANNOTATION_VALUE>грязный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1585" ANNOTATION_REF="a1583">
+                <ANNOTATION_VALUE>прямой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1594" ANNOTATION_REF="a1592">
+                <ANNOTATION_VALUE>круглый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7364,6 +7472,21 @@
                 <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1577" ANNOTATION_REF="a1573">
+                <ANNOTATION_VALUE>dirty</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1586" ANNOTATION_REF="a1582">
+                <ANNOTATION_VALUE>straight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1595" ANNOTATION_REF="a1591">
+                <ANNOTATION_VALUE>round</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -8150,6 +8273,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1569" ANNOTATION_REF="a1564">
                 <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1578" ANNOTATION_REF="a1573">
+                <ANNOTATION_VALUE>грязный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1587" ANNOTATION_REF="a1582">
+                <ANNOTATION_VALUE>прямой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1596" ANNOTATION_REF="a1591">
+                <ANNOTATION_VALUE>круглый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -9184,6 +9322,24 @@
                 <ANNOTATION_VALUE>гнилой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1579"
+                TIME_SLOT_REF1="ts1410" TIME_SLOT_REF2="ts1411">
+                <ANNOTATION_VALUE>грязный</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1588"
+                TIME_SLOT_REF1="ts1418" TIME_SLOT_REF2="ts1419">
+                <ANNOTATION_VALUE>прямой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1597"
+                TIME_SLOT_REF1="ts1426" TIME_SLOT_REF2="ts1427">
+                <ANNOTATION_VALUE>круглый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -10010,6 +10166,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1571" ANNOTATION_REF="a1570">
                 <ANNOTATION_VALUE>rotten</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1580" ANNOTATION_REF="a1579">
+                <ANNOTATION_VALUE>dirty</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1589" ANNOTATION_REF="a1588">
+                <ANNOTATION_VALUE>straight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1598" ANNOTATION_REF="a1597">
+                <ANNOTATION_VALUE>round</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
