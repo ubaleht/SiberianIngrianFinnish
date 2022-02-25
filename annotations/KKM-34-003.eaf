@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-24T23:58:43+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-25T23:57:40+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1611</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1626</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1454,8 +1454,20 @@
         <TIME_SLOT TIME_SLOT_ID="ts1442" TIME_VALUE="910289"/>
         <TIME_SLOT TIME_SLOT_ID="ts1443" TIME_VALUE="911104"/>
         <TIME_SLOT TIME_SLOT_ID="ts1444" TIME_VALUE="911209"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1445" TIME_VALUE="912382"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1446" TIME_VALUE="912957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1445" TIME_VALUE="911533"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1446" TIME_VALUE="912354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1447" TIME_VALUE="912382"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1448" TIME_VALUE="912957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1449" TIME_VALUE="912957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1450" TIME_VALUE="927760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1451" TIME_VALUE="927760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1452" TIME_VALUE="928200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1453" TIME_VALUE="929550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1454" TIME_VALUE="929578"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1455" TIME_VALUE="929578"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1456" TIME_VALUE="930447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1457" TIME_VALUE="930447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1458" TIME_VALUE="930836"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2564,8 +2576,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1608"
-                TIME_SLOT_REF1="ts1441" TIME_SLOT_REF2="ts1446">
+                TIME_SLOT_REF1="ts1441" TIME_SLOT_REF2="ts1449">
                 <ANNOTATION_VALUE>Fragment 185</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1617"
+                TIME_SLOT_REF1="ts1448" TIME_SLOT_REF2="ts1451">
+                <ANNOTATION_VALUE>Fragment 186</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1618"
+                TIME_SLOT_REF1="ts1450" TIME_SLOT_REF2="ts1458">
+                <ANNOTATION_VALUE>Fragment 187</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3610,8 +3634,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1609"
-                TIME_SLOT_REF1="ts1444" TIME_SLOT_REF2="ts1445">
-                <ANNOTATION_VALUE>nü.. nürri</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts1444" TIME_SLOT_REF2="ts1447">
+                <ANNOTATION_VALUE>nü.. nürii</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1619"
+                TIME_SLOT_REF1="ts1454" TIME_SLOT_REF2="ts1456">
+                <ANNOTATION_VALUE>märrk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4751,6 +4781,18 @@
                 <ANNOTATION_VALUE>teräv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1612"
+                TIME_SLOT_REF1="ts1445" TIME_SLOT_REF2="ts1446">
+                <ANNOTATION_VALUE>nürii</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1620"
+                TIME_SLOT_REF1="ts1455" TIME_SLOT_REF2="ts1457">
+                <ANNOTATION_VALUE>märrk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5687,6 +5729,16 @@
                 <ANNOTATION_VALUE>sharp</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1613" ANNOTATION_REF="a1612">
+                <ANNOTATION_VALUE>dull</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1621" ANNOTATION_REF="a1620">
+                <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6603,6 +6655,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1603" ANNOTATION_REF="a1601">
                 <ANNOTATION_VALUE>острый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1614" ANNOTATION_REF="a1612">
+                <ANNOTATION_VALUE>тупой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1622" ANNOTATION_REF="a1620">
+                <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7546,6 +7608,16 @@
                 <ANNOTATION_VALUE>sharp</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1615" ANNOTATION_REF="a1609">
+                <ANNOTATION_VALUE>dull</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1623" ANNOTATION_REF="a1619">
+                <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -8352,6 +8424,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1605" ANNOTATION_REF="a1600">
                 <ANNOTATION_VALUE>острый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1616" ANNOTATION_REF="a1609">
+                <ANNOTATION_VALUE>тупой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1624" ANNOTATION_REF="a1619">
+                <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -9416,6 +9498,12 @@
                 <ANNOTATION_VALUE>тупой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1625"
+                TIME_SLOT_REF1="ts1452" TIME_SLOT_REF2="ts1453">
+                <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -10267,6 +10355,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1611" ANNOTATION_REF="a1610">
                 <ANNOTATION_VALUE>dull</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1626" ANNOTATION_REF="a1625">
+                <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
