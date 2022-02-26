@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-25T23:57:40+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-26T23:58:03+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1626</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1636</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1468,6 +1468,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1456" TIME_VALUE="930447"/>
         <TIME_SLOT TIME_SLOT_ID="ts1457" TIME_VALUE="930447"/>
         <TIME_SLOT TIME_SLOT_ID="ts1458" TIME_VALUE="930836"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1459" TIME_VALUE="930836"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1460" TIME_VALUE="931138"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1461" TIME_VALUE="931893"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1462" TIME_VALUE="932204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1463" TIME_VALUE="932204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1464" TIME_VALUE="932977"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1465" TIME_VALUE="932977"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1466" TIME_VALUE="932980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1467" TIME_VALUE="932980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1468" TIME_VALUE="942686"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2588,8 +2598,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1618"
-                TIME_SLOT_REF1="ts1450" TIME_SLOT_REF2="ts1458">
+                TIME_SLOT_REF1="ts1450" TIME_SLOT_REF2="ts1459">
                 <ANNOTATION_VALUE>Fragment 187</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1627"
+                TIME_SLOT_REF1="ts1458" TIME_SLOT_REF2="ts1467">
+                <ANNOTATION_VALUE>Fragment 188</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1628"
+                TIME_SLOT_REF1="ts1466" TIME_SLOT_REF2="ts1468">
+                <ANNOTATION_VALUE>Fragment 189</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3642,6 +3664,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1619"
                 TIME_SLOT_REF1="ts1454" TIME_SLOT_REF2="ts1456">
                 <ANNOTATION_VALUE>märrk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1629"
+                TIME_SLOT_REF1="ts1462" TIME_SLOT_REF2="ts1464">
+                <ANNOTATION_VALUE>kuiv</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4793,6 +4821,12 @@
                 <ANNOTATION_VALUE>märrk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1630"
+                TIME_SLOT_REF1="ts1463" TIME_SLOT_REF2="ts1465">
+                <ANNOTATION_VALUE>kuiv</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5739,6 +5773,11 @@
                 <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1631" ANNOTATION_REF="a1630">
+                <ANNOTATION_VALUE>dry</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6665,6 +6704,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1622" ANNOTATION_REF="a1620">
                 <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1632" ANNOTATION_REF="a1630">
+                <ANNOTATION_VALUE>сухой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7618,6 +7662,11 @@
                 <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1633" ANNOTATION_REF="a1629">
+                <ANNOTATION_VALUE>dry</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -8434,6 +8483,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1624" ANNOTATION_REF="a1619">
                 <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1634" ANNOTATION_REF="a1629">
+                <ANNOTATION_VALUE>сухой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -9504,6 +9558,12 @@
                 <ANNOTATION_VALUE>мокрый</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1635"
+                TIME_SLOT_REF1="ts1460" TIME_SLOT_REF2="ts1461">
+                <ANNOTATION_VALUE>сухой</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -10360,6 +10420,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1626" ANNOTATION_REF="a1625">
                 <ANNOTATION_VALUE>wet</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1636" ANNOTATION_REF="a1635">
+                <ANNOTATION_VALUE>dry</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
