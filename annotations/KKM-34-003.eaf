@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-02-28T23:55:13+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-02T23:54:38+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/KKM-34-003.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./KKM-34-003.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:74c839e7-5332-4b67-9aec-b1dd52f21893</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">1655</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1665</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -1496,6 +1496,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts1484" TIME_VALUE="956111"/>
         <TIME_SLOT TIME_SLOT_ID="ts1485" TIME_VALUE="956111"/>
         <TIME_SLOT TIME_SLOT_ID="ts1486" TIME_VALUE="957000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1487" TIME_VALUE="957000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1488" TIME_VALUE="957032"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1489" TIME_VALUE="957703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1490" TIME_VALUE="959450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1491" TIME_VALUE="959450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1492" TIME_VALUE="960073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1493" TIME_VALUE="960073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1494" TIME_VALUE="960641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1495" TIME_VALUE="960641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1496" TIME_VALUE="980493"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -2646,8 +2656,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1647"
-                TIME_SLOT_REF1="ts1478" TIME_SLOT_REF2="ts1486">
+                TIME_SLOT_REF1="ts1478" TIME_SLOT_REF2="ts1487">
                 <ANNOTATION_VALUE>Fragment 192</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1656"
+                TIME_SLOT_REF1="ts1486" TIME_SLOT_REF2="ts1495">
+                <ANNOTATION_VALUE>Fragment 193</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1657"
+                TIME_SLOT_REF1="ts1494" TIME_SLOT_REF2="ts1496">
+                <ANNOTATION_VALUE>Fragment 194</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -3718,6 +3740,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1648"
                 TIME_SLOT_REF1="ts1482" TIME_SLOT_REF2="ts1484">
                 <ANNOTATION_VALUE>paremp (parempu')</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1658"
+                TIME_SLOT_REF1="ts1490" TIME_SLOT_REF2="ts1492">
+                <ANNOTATION_VALUE>kura (kuraa)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -4887,6 +4915,12 @@
                 <ANNOTATION_VALUE>paremp (parempu')</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1659"
+                TIME_SLOT_REF1="ts1491" TIME_SLOT_REF2="ts1493">
+                <ANNOTATION_VALUE>kura (kuraa)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -5848,6 +5882,11 @@
                 <ANNOTATION_VALUE>right</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1660" ANNOTATION_REF="a1659">
+                <ANNOTATION_VALUE>left</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -6789,6 +6828,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1651" ANNOTATION_REF="a1649">
                 <ANNOTATION_VALUE>правый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1661" ANNOTATION_REF="a1659">
+                <ANNOTATION_VALUE>левый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -7757,6 +7801,11 @@
                 <ANNOTATION_VALUE>right</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1662" ANNOTATION_REF="a1658">
+                <ANNOTATION_VALUE>left</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -8588,6 +8637,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1653" ANNOTATION_REF="a1648">
                 <ANNOTATION_VALUE>правый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1663" ANNOTATION_REF="a1658">
+                <ANNOTATION_VALUE>левый</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -9676,6 +9730,12 @@
                 <ANNOTATION_VALUE>правый, ну правая рука там... прав...</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1664"
+                TIME_SLOT_REF1="ts1488" TIME_SLOT_REF2="ts1489">
+                <ANNOTATION_VALUE>левый</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -10547,6 +10607,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1655" ANNOTATION_REF="a1654">
                 <ANNOTATION_VALUE>right, right hand, right</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1665" ANNOTATION_REF="a1664">
+                <ANNOTATION_VALUE>left</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
