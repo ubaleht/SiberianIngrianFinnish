@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-07T00:55:39+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-07T23:59:01+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MMM-39_2019-05-26_02.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MMM-39_2019-05-26_02.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:51fc3f56-56d0-416d-a2cb-4c9631cfb867</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">179</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">186</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -168,8 +168,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="146988"/>
         <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="146991"/>
         <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="147525"/>
-        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="163648"/>
-        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="170099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="147557"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="148134"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="148162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="148800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="163648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="170099"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -288,7 +292,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171"
-                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts160">
+                TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts164">
                 <ANNOTATION_VALUE>Fragment 21</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -398,7 +402,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172"
-                TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts159">
+                TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts163">
                 <ANNOTATION_VALUE>üks, kaks, kolm, neli, viis, kuus, seitsen, kaheksan, üheksan, kümmen, ükstoist, kakstoist, koltoist, nelitoist, viistoist, kuustoist, seitsetoist, kaeksatoist, üeksatoist, kaks kumment, kaks kumment üks, kaks kümment kaks</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -549,6 +553,18 @@
                 <ANNOTATION_VALUE>üks</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a180"
+                TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>kaks</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
+                TIME_SLOT_REF1="ts161" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>kolm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -680,6 +696,16 @@
                 <ANNOTATION_VALUE>one</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a180">
+                <ANNOTATION_VALUE>two</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>three</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -803,6 +829,16 @@
                 <ANNOTATION_VALUE>один</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a180">
+                <ANNOTATION_VALUE>два</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a185" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>три</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -834,6 +870,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a123">
                 <ANNOTATION_VALUE>may be a mistake</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>must be "koit", "kolm" - say the Estonians in his village</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
