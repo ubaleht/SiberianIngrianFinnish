@@ -1,0 +1,2 @@
+In files: SIFSpeechDBData_2022-03-24_KKM-34_Update.sql and SIFSpeechDBData_2022-03-24.sql. In these files data from file KKM-34-003.eaf.
+The state of file KKM-34-003.eaf (by Template-01.etf) was on the date 12 March 2022.
