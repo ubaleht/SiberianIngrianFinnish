@@ -36,7 +36,7 @@ https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
 
 or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngrianFinnish
 
-##Software
+## Software
 
 - The source code of the parser for ELAN (\*.eaf) files  with annotations: https://github.com/ubaleht/ELAN
 - The source code of the talking dictionary site: https://github.com/ubaleht/Lexeme
