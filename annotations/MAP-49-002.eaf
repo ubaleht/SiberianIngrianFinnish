@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-24T23:28:00+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-16T23:34:13+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">115</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">125</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -120,6 +120,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="280802"/>
         <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="282992"/>
         <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="285380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="285380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="285446"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="287890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="288174"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="288218"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="288400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="296327"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="298558"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -262,7 +270,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
-                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts110">
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts111">
+                <ANNOTATION_VALUE>Fragment 24</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116"
+                TIME_SLOT_REF1="ts110" TIME_SLOT_REF2="ts118">
                 <ANNOTATION_VALUE>Fragment 25</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -302,6 +316,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33"
                 TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts109">
                 <ANNOTATION_VALUE>Hää mäni mittaki ei ostant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117"
+                TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts117">
+                <ANNOTATION_VALUE>Hä mäni ei sa... ei ssaa...s.. eei sannon miul üht sanno</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -421,6 +441,12 @@
                 <ANNOTATION_VALUE>mäni (männi)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a118"
+                TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>Hä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -522,6 +548,11 @@
                 <ANNOTATION_VALUE>To go</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>She/He</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -615,6 +646,11 @@
                 <ANNOTATION_VALUE>Ходить</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>Она/Он</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -683,6 +719,11 @@
                 <ANNOTATION_VALUE>Go.PST-3SG</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>3SG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-GrammaticalCategories"/>
@@ -705,6 +746,11 @@
                 <ANNOTATION_VALUE>I am writing a letter without listening to anyone</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>he left without saying one word to me</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -721,6 +767,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a46">
                 <ANNOTATION_VALUE>Я пишу письмо никого не слушая</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>Он ушёл не сказав мне одного слова</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -765,6 +816,12 @@
                 <ANNOTATION_VALUE>Он ушёл ни чего не купив</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a124"
+                TIME_SLOT_REF1="ts112" TIME_SLOT_REF2="ts113">
+                <ANNOTATION_VALUE>Он ушёл не сказав мне ни слова </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -791,6 +848,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a42">
                 <ANNOTATION_VALUE>He left without buying anything</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a124">
+                <ANNOTATION_VALUE>He left without saying a word to me</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
