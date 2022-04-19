@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-18T23:58:19+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-19T23:57:33+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">145</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">148</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -139,7 +139,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="296327"/>
         <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="298558"/>
         <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="298558"/>
-        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="317807"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="299777"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="302618"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="302793"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="308521"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="317807"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -294,7 +298,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a144"
-                TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts130">
+                TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts134">
                 <ANNOTATION_VALUE>Fragment 26</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -340,6 +344,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117"
                 TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts127">
                 <ANNOTATION_VALUE>Hä mäni ei sa... ei ssaa...s.. eei sannon miul üht sanno</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a146"
+                TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>Miä mäni tüäl ei en sööatan kissa</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -940,6 +950,12 @@
                 <ANNOTATION_VALUE>Он ушёл не сказав мне ни слова </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a147"
+                TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts131">
+                <ANNOTATION_VALUE>Я ушёл на работу не покормив кота</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -971,6 +987,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a124">
                 <ANNOTATION_VALUE>He left without saying a word to me</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a148" ANNOTATION_REF="a147">
+                <ANNOTATION_VALUE>I had gone to work without feeding the cat</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
