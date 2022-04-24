@@ -38,8 +38,8 @@ or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngri
 
 ## Software
 
-- The source code of the parser for ELAN (\*.eaf) files  with annotations: https://github.com/ubaleht/ELAN
-- The source code of the talking dictionary site: https://github.com/ubaleht/Lexeme
+- The source code of the parser for ELAN (\*.eaf) files: https://github.com/ubaleht/LexemeELAN
+- The source code of the web application of the corpus : https://github.com/ubaleht/Lexeme
 
 
 ## Description of the Speakers
