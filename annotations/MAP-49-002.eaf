@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-22T00:47:56+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-25T23:57:34+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">170</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">179</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -155,7 +155,17 @@
         <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="307051"/>
         <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="307664"/>
         <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="308521"/>
-        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="317807"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="311035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="312190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="312240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="313251"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="313291"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="314744"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="315049"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="315067"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="315601"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="315607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="317807"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -310,7 +320,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a144"
-                TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts146">
+                TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts156">
                 <ANNOTATION_VALUE>Fragment 26</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -362,6 +372,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a146"
                 TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts145">
                 <ANNOTATION_VALUE>Miä mäni tüe'l' e-en ei en sööatan kissa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171"
+                TIME_SLOT_REF1="ts146" TIME_SLOT_REF2="ts147">
+                <ANNOTATION_VALUE>Кот не знаю как</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172"
+                TIME_SLOT_REF1="ts150" TIME_SLOT_REF2="ts155">
+                <ANNOTATION_VALUE>ki.. ki.. kiss.. kiss košk</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -553,6 +575,18 @@
                 <ANNOTATION_VALUE>Süötan</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a173"
+                TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts152">
+                <ANNOTATION_VALUE>Kiss</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a174"
+                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>Košk</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -714,6 +748,16 @@
                 <ANNOTATION_VALUE>Feed</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>Cat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>Cat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -865,6 +909,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a156">
                 <ANNOTATION_VALUE>Кормить (Кормлю)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>Кошка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>Кошка</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1083,6 +1137,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a147"
                 TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts131">
                 <ANNOTATION_VALUE>Я ушёл на работу не покормив кота</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a179"
+                TIME_SLOT_REF1="ts148" TIME_SLOT_REF2="ts149">
+                <ANNOTATION_VALUE>Ну kissa да</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
