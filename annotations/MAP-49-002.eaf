@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-28T23:58:15+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-29T23:48:49+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">195</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">204</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -172,14 +172,20 @@
         <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="317985"/>
         <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="322561"/>
         <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="322773"/>
-        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="325584"/>
-        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="325715"/>
-        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="325715"/>
-        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="326137"/>
-        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="326139"/>
-        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="326639"/>
-        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="326779"/>
-        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="328796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="323373"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="324056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="324139"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="324589"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="324652"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="325197"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="325584"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="325715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="325715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="326137"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="326139"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="326639"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="326779"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="328796"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -340,7 +346,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
-                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts170">
+                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts176">
                 <ANNOTATION_VALUE>Fragment 27</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -408,8 +414,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a183"
-                TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts169">
-                <ANNOTATION_VALUE>Miä en kirjutan isäl kirja i männen kotti</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts175">
+                <ANNOTATION_VALUE>Miä en kirjutan isäl' kirja i männen kotti</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -620,20 +626,38 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a196"
+                TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>Kirjjutan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a197"
+                TIME_SLOT_REF1="ts165" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>Isäl'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a198"
+                TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts168">
+                <ANNOTATION_VALUE>Kirja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a190"
-                TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts165">
+                TIME_SLOT_REF1="ts169" TIME_SLOT_REF2="ts171">
                 <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a191"
-                TIME_SLOT_REF1="ts164" TIME_SLOT_REF2="ts166">
+                TIME_SLOT_REF1="ts170" TIME_SLOT_REF2="ts172">
                 <ANNOTATION_VALUE>männin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a184"
-                TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts168">
+                TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts174">
                 <ANNOTATION_VALUE>Kotti</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -806,6 +830,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a174">
                 <ANNOTATION_VALUE>Cat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a199" ANNOTATION_REF="a196">
+                <ANNOTATION_VALUE>Write</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a200" ANNOTATION_REF="a197">
+                <ANNOTATION_VALUE>Father</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a201" ANNOTATION_REF="a198">
+                <ANNOTATION_VALUE>Letter</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -987,13 +1026,28 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a202" ANNOTATION_REF="a196">
+                <ANNOTATION_VALUE>Писать | Писал ? | Пишу ?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a203" ANNOTATION_REF="a197">
+                <ANNOTATION_VALUE>Отец | Отцу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a204" ANNOTATION_REF="a198">
+                <ANNOTATION_VALUE>Письмо</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a190">
                 <ANNOTATION_VALUE>И</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a191">
-                <ANNOTATION_VALUE>Идти</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Идти | Иду</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
