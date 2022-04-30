@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-29T23:48:49+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-30T23:57:15+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">204</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">207</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -186,6 +186,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="326639"/>
         <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="326779"/>
         <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="328796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="328796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="328902"/>
+        <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="331246"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="338608"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -346,8 +350,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
-                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts176">
+                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts177">
                 <ANNOTATION_VALUE>Fragment 27</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a205"
+                TIME_SLOT_REF1="ts176" TIME_SLOT_REF2="ts180">
+                <ANNOTATION_VALUE>Fragment 28</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1295,6 +1305,12 @@
                 <ANNOTATION_VALUE>Не написав отцу письмо, я ушёл домой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a206"
+                TIME_SLOT_REF1="ts178" TIME_SLOT_REF2="ts179">
+                <ANNOTATION_VALUE>Гости пришли без приглашения</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1336,6 +1352,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a182">
                 <ANNOTATION_VALUE>Without writing a letter to the father, I went to home</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a207" ANNOTATION_REF="a206">
+                <ANNOTATION_VALUE>Guests came without invite</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
