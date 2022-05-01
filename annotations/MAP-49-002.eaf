@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-04-30T23:57:15+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-01T23:58:56+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">207</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">213</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -189,7 +189,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="328796"/>
         <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="328902"/>
         <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="331246"/>
-        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="338608"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="331414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="333621"/>
+        <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="334436"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="336534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="338608"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -356,7 +360,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a205"
-                TIME_SLOT_REF1="ts176" TIME_SLOT_REF2="ts180">
+                TIME_SLOT_REF1="ts176" TIME_SLOT_REF2="ts184">
                 <ANNOTATION_VALUE>Fragment 28</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -426,6 +430,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a183"
                 TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts175">
                 <ANNOTATION_VALUE>Miä en kirjutan isäl' kirja i männen kotti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a208"
+                TIME_SLOT_REF1="ts180" TIME_SLOT_REF2="ts183">
+                <ANNOTATION_VALUE>Gosti tulevat ilm kutsuvat</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -671,6 +681,12 @@
                 <ANNOTATION_VALUE>Kotti</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a209"
+                TIME_SLOT_REF1="ts181" TIME_SLOT_REF2="ts182">
+                <ANNOTATION_VALUE>Gosti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -872,6 +888,11 @@
                 <ANNOTATION_VALUE>Home</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a210" ANNOTATION_REF="a209">
+                <ANNOTATION_VALUE>Guests</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1065,6 +1086,11 @@
                 <ANNOTATION_VALUE>Дом</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a211" ANNOTATION_REF="a209">
+                <ANNOTATION_VALUE>Гости</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1206,6 +1232,11 @@
                 <ANNOTATION_VALUE>I haven't written a letter to the father and went home</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a212" ANNOTATION_REF="a208">
+                <ANNOTATION_VALUE>Guests came without invite</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1237,6 +1268,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a183">
                 <ANNOTATION_VALUE>Я не написал письмо отцу и пошёл домой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a213" ANNOTATION_REF="a208">
+                <ANNOTATION_VALUE>Гости пришли без приглашения</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
