@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-01T23:58:56+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-02T23:58:08+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">213</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">222</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -192,8 +192,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="331414"/>
         <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="333621"/>
         <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="334436"/>
-        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="336534"/>
-        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="338608"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="334463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="335018"/>
+        <TIME_SLOT TIME_SLOT_ID="ts185" TIME_VALUE="335027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts186" TIME_VALUE="335459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts187" TIME_VALUE="335471"/>
+        <TIME_SLOT TIME_SLOT_ID="ts188" TIME_VALUE="336368"/>
+        <TIME_SLOT TIME_SLOT_ID="ts189" TIME_VALUE="336534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts190" TIME_VALUE="338608"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -354,13 +360,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181"
-                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts177">
+                TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts176">
                 <ANNOTATION_VALUE>Fragment 27</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a205"
-                TIME_SLOT_REF1="ts176" TIME_SLOT_REF2="ts184">
+                TIME_SLOT_REF1="ts177" TIME_SLOT_REF2="ts190">
                 <ANNOTATION_VALUE>Fragment 28</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -434,7 +440,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a208"
-                TIME_SLOT_REF1="ts180" TIME_SLOT_REF2="ts183">
+                TIME_SLOT_REF1="ts180" TIME_SLOT_REF2="ts189">
                 <ANNOTATION_VALUE>Gosti tulevat ilm kutsuvat</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -687,6 +693,24 @@
                 <ANNOTATION_VALUE>Gosti</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a214"
+                TIME_SLOT_REF1="ts183" TIME_SLOT_REF2="ts184">
+                <ANNOTATION_VALUE>Tulevat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a215"
+                TIME_SLOT_REF1="ts185" TIME_SLOT_REF2="ts186">
+                <ANNOTATION_VALUE>Ilm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a216"
+                TIME_SLOT_REF1="ts187" TIME_SLOT_REF2="ts188">
+                <ANNOTATION_VALUE>Kutsuvat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -893,6 +917,21 @@
                 <ANNOTATION_VALUE>Guests</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a217" ANNOTATION_REF="a214">
+                <ANNOTATION_VALUE>Came</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a218" ANNOTATION_REF="a215">
+                <ANNOTATION_VALUE>Without</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a219" ANNOTATION_REF="a216">
+                <ANNOTATION_VALUE>Invite</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1089,6 +1128,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a211" ANNOTATION_REF="a209">
                 <ANNOTATION_VALUE>Гости</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a220" ANNOTATION_REF="a214">
+                <ANNOTATION_VALUE>Придти | Пришли</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a221" ANNOTATION_REF="a215">
+                <ANNOTATION_VALUE>Без</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a222" ANNOTATION_REF="a216">
+                <ANNOTATION_VALUE>Приглашение | Приглашения</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
