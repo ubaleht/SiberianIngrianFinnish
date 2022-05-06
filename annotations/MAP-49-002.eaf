@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-05T23:58:36+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-06T22:49:29+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">245</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">256</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -222,8 +222,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts210" TIME_VALUE="358403"/>
         <TIME_SLOT TIME_SLOT_ID="ts211" TIME_VALUE="360153"/>
         <TIME_SLOT TIME_SLOT_ID="ts212" TIME_VALUE="360288"/>
-        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="363228"/>
-        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="363893"/>
+        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="360644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="361658"/>
+        <TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="361661"/>
+        <TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="362176"/>
+        <TIME_SLOT TIME_SLOT_ID="ts217" TIME_VALUE="362233"/>
+        <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="363144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts219" TIME_VALUE="363228"/>
+        <TIME_SLOT TIME_SLOT_ID="ts220" TIME_VALUE="363893"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -408,7 +414,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a239"
-                TIME_SLOT_REF1="ts208" TIME_SLOT_REF2="ts214">
+                TIME_SLOT_REF1="ts208" TIME_SLOT_REF2="ts220">
                 <ANNOTATION_VALUE>Fragment 31</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -500,8 +506,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a241"
-                TIME_SLOT_REF1="ts212" TIME_SLOT_REF2="ts213">
-                <ANNOTATION_VALUE>Permontnot jäivet pesemet</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts212" TIME_SLOT_REF2="ts219">
+                <ANNOTATION_VALUE>Permonntnot jäivet pesemettu'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -789,6 +795,24 @@
                 <ANNOTATION_VALUE>süе'mett</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a246"
+                TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts214">
+                <ANNOTATION_VALUE>Permonntnot</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a247"
+                TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts216">
+                <ANNOTATION_VALUE>Jäivet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a248"
+                TIME_SLOT_REF1="ts217" TIME_SLOT_REF2="ts218">
+                <ANNOTATION_VALUE>Pesemettu'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1025,6 +1049,21 @@
                 <ANNOTATION_VALUE>Uneaten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a246">
+                <ANNOTATION_VALUE>Floors</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a247">
+                <ANNOTATION_VALUE>Left</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a251" ANNOTATION_REF="a248">
+                <ANNOTATION_VALUE>Not washed</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1253,6 +1292,21 @@
                 <ANNOTATION_VALUE>Несъеденный</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a252" ANNOTATION_REF="a246">
+                <ANNOTATION_VALUE>Полы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a253" ANNOTATION_REF="a247">
+                <ANNOTATION_VALUE>Остались</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a254" ANNOTATION_REF="a248">
+                <ANNOTATION_VALUE>Немытыми</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1404,6 +1458,11 @@
                 <ANNOTATION_VALUE>A breakfast left uneaten | A breakfast was not eaten</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a241">
+                <ANNOTATION_VALUE>Floors left not washed</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1445,6 +1504,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a237" ANNOTATION_REF="a224">
                 <ANNOTATION_VALUE>Завтрак остался несъеденным</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a256" ANNOTATION_REF="a241">
+                <ANNOTATION_VALUE>Полы остались немытыми</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1597,7 +1661,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a245" ANNOTATION_REF="a243">
-                <ANNOTATION_VALUE>Floors were not washed</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Floors left not washed</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
