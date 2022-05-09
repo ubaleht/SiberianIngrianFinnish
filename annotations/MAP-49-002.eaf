@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-07T23:52:20+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-09T21:28:45+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">265</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">277</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -234,10 +234,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="365385"/>
         <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="368876"/>
         <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="368994"/>
-        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="373391"/>
-        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="374206"/>
-        <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="374339"/>
-        <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="377952"/>
+        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="369455"/>
+        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="369735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="369735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="370347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts229" TIME_VALUE="372083"/>
+        <TIME_SLOT TIME_SLOT_ID="ts230" TIME_VALUE="372594"/>
+        <TIME_SLOT TIME_SLOT_ID="ts231" TIME_VALUE="372597"/>
+        <TIME_SLOT TIME_SLOT_ID="ts232" TIME_VALUE="372997"/>
+        <TIME_SLOT TIME_SLOT_ID="ts233" TIME_VALUE="373391"/>
+        <TIME_SLOT TIME_SLOT_ID="ts234" TIME_VALUE="374206"/>
+        <TIME_SLOT TIME_SLOT_ID="ts235" TIME_VALUE="374339"/>
+        <TIME_SLOT TIME_SLOT_ID="ts236" TIME_VALUE="377952"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -428,7 +436,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a257"
-                TIME_SLOT_REF1="ts220" TIME_SLOT_REF2="ts228">
+                TIME_SLOT_REF1="ts220" TIME_SLOT_REF2="ts236">
                 <ANNOTATION_VALUE>Fragment 32</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -526,7 +534,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a258"
-                TIME_SLOT_REF1="ts224" TIME_SLOT_REF2="ts227">
+                TIME_SLOT_REF1="ts224" TIME_SLOT_REF2="ts235">
                 <ANNOTATION_VALUE>Hää müüj mmm... tsalon ilm minnu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -834,8 +842,32 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a266"
+                TIME_SLOT_REF1="ts225" TIME_SLOT_REF2="ts227">
+                <ANNOTATION_VALUE>Hää</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a267"
+                TIME_SLOT_REF1="ts226" TIME_SLOT_REF2="ts228">
+                <ANNOTATION_VALUE>Müüj</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a268"
+                TIME_SLOT_REF1="ts229" TIME_SLOT_REF2="ts230">
+                <ANNOTATION_VALUE>Talon</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a269"
+                TIME_SLOT_REF1="ts231" TIME_SLOT_REF2="ts232">
+                <ANNOTATION_VALUE>Ilm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259"
-                TIME_SLOT_REF1="ts225" TIME_SLOT_REF2="ts226">
+                TIME_SLOT_REF1="ts233" TIME_SLOT_REF2="ts234">
                 <ANNOTATION_VALUE>Minnu</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1091,6 +1123,26 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a270" ANNOTATION_REF="a266">
+                <ANNOTATION_VALUE>She | He | It</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a271" ANNOTATION_REF="a267">
+                <ANNOTATION_VALUE>Sold</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a272" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>House</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a273" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>Without</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a260" ANNOTATION_REF="a259">
                 <ANNOTATION_VALUE>Me</ANNOTATION_VALUE>
             </REF_ANNOTATION>
@@ -1336,6 +1388,26 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a254" ANNOTATION_REF="a248">
                 <ANNOTATION_VALUE>Немытыми</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a274" ANNOTATION_REF="a266">
+                <ANNOTATION_VALUE>Он | Она | Оно</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a267">
+                <ANNOTATION_VALUE>Продал | Продала</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a276" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>Дом</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a277" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>Без</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
