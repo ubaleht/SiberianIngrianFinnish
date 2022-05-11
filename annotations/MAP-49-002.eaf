@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-10T23:57:53+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-05-11T23:00:21+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">283</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">287</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -250,8 +250,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts238" TIME_VALUE="378040"/>
         <TIME_SLOT TIME_SLOT_ID="ts239" TIME_VALUE="380240"/>
         <TIME_SLOT TIME_SLOT_ID="ts240" TIME_VALUE="380527"/>
-        <TIME_SLOT TIME_SLOT_ID="ts241" TIME_VALUE="383602"/>
-        <TIME_SLOT TIME_SLOT_ID="ts242" TIME_VALUE="385354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts241" TIME_VALUE="382566"/>
+        <TIME_SLOT TIME_SLOT_ID="ts242" TIME_VALUE="383524"/>
+        <TIME_SLOT TIME_SLOT_ID="ts243" TIME_VALUE="383602"/>
+        <TIME_SLOT TIME_SLOT_ID="ts244" TIME_VALUE="385354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts245" TIME_VALUE="385354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts246" TIME_VALUE="385948"/>
+        <TIME_SLOT TIME_SLOT_ID="ts247" TIME_VALUE="389537"/>
+        <TIME_SLOT TIME_SLOT_ID="ts248" TIME_VALUE="403381"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -448,8 +454,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a278"
-                TIME_SLOT_REF1="ts236" TIME_SLOT_REF2="ts242">
+                TIME_SLOT_REF1="ts236" TIME_SLOT_REF2="ts245">
                 <ANNOTATION_VALUE>Fragment 33</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a284"
+                TIME_SLOT_REF1="ts244" TIME_SLOT_REF2="ts248">
+                <ANNOTATION_VALUE>Fragment 34</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -552,7 +564,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a279"
-                TIME_SLOT_REF1="ts240" TIME_SLOT_REF2="ts241">
+                TIME_SLOT_REF1="ts240" TIME_SLOT_REF2="ts243">
                 <ANNOTATION_VALUE>Miä jätin lapsen pesemett</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -887,6 +899,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259"
                 TIME_SLOT_REF1="ts233" TIME_SLOT_REF2="ts234">
                 <ANNOTATION_VALUE>Minnu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a285"
+                TIME_SLOT_REF1="ts241" TIME_SLOT_REF2="ts242">
+                <ANNOTATION_VALUE>Pesemett</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1759,6 +1777,12 @@
                 <ANNOTATION_VALUE>Я оставил ребёнка немытым</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a286"
+                TIME_SLOT_REF1="ts246" TIME_SLOT_REF2="ts247">
+                <ANNOTATION_VALUE>Он пошёл на работу не выспавшись</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -1830,6 +1854,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a283" ANNOTATION_REF="a282">
                 <ANNOTATION_VALUE>I left the baby unwashed</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a287" ANNOTATION_REF="a286">
+                <ANNOTATION_VALUE>He went to work without sleep</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
