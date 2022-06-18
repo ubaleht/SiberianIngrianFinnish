@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-16T23:59:19+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-18T23:59:08+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">335</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">337</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -292,8 +292,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts280" TIME_VALUE="412584"/>
         <TIME_SLOT TIME_SLOT_ID="ts281" TIME_VALUE="415817"/>
         <TIME_SLOT TIME_SLOT_ID="ts282" TIME_VALUE="417033"/>
-        <TIME_SLOT TIME_SLOT_ID="ts283" TIME_VALUE="421622"/>
-        <TIME_SLOT TIME_SLOT_ID="ts284" TIME_VALUE="422734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts283" TIME_VALUE="420129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts284" TIME_VALUE="420559"/>
+        <TIME_SLOT TIME_SLOT_ID="ts285" TIME_VALUE="421622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts286" TIME_VALUE="422734"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -502,13 +504,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a313"
-                TIME_SLOT_REF1="ts264" TIME_SLOT_REF2="ts279">
+                TIME_SLOT_REF1="ts264" TIME_SLOT_REF2="ts278">
                 <ANNOTATION_VALUE>Fragment 36</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a332"
-                TIME_SLOT_REF1="ts278" TIME_SLOT_REF2="ts284">
+                TIME_SLOT_REF1="ts279" TIME_SLOT_REF2="ts286">
                 <ANNOTATION_VALUE>Fragment36</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -636,8 +638,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a333"
-                TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts283">
-                <ANNOTATION_VALUE>Kokko läin mant, me'ni tüe'l</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts285">
+                <ANNOTATION_VALUE>Kokko läin män... mant, mäni tüe'l</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1037,6 +1039,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a327"
                 TIME_SLOT_REF1="ts274" TIME_SLOT_REF2="ts276">
                 <ANNOTATION_VALUE>väse'met</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a336"
+                TIME_SLOT_REF1="ts283" TIME_SLOT_REF2="ts284">
+                <ANNOTATION_VALUE>mäni</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1691,6 +1699,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a329" ANNOTATION_REF="a327">
                 <ANNOTATION_VALUE>уставая | устать</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a337" ANNOTATION_REF="a336">
+                <ANNOTATION_VALUE>пошёл | пошла</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
