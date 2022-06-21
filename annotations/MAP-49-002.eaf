@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-18T23:59:08+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-21T23:56:51+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">337</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">346</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -292,10 +292,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts280" TIME_VALUE="412584"/>
         <TIME_SLOT TIME_SLOT_ID="ts281" TIME_VALUE="415817"/>
         <TIME_SLOT TIME_SLOT_ID="ts282" TIME_VALUE="417033"/>
-        <TIME_SLOT TIME_SLOT_ID="ts283" TIME_VALUE="420129"/>
-        <TIME_SLOT TIME_SLOT_ID="ts284" TIME_VALUE="420559"/>
-        <TIME_SLOT TIME_SLOT_ID="ts285" TIME_VALUE="421622"/>
-        <TIME_SLOT TIME_SLOT_ID="ts286" TIME_VALUE="422734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts283" TIME_VALUE="419019"/>
+        <TIME_SLOT TIME_SLOT_ID="ts284" TIME_VALUE="419829"/>
+        <TIME_SLOT TIME_SLOT_ID="ts285" TIME_VALUE="420129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts286" TIME_VALUE="420559"/>
+        <TIME_SLOT TIME_SLOT_ID="ts287" TIME_VALUE="420559"/>
+        <TIME_SLOT TIME_SLOT_ID="ts288" TIME_VALUE="421162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts289" TIME_VALUE="421622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts290" TIME_VALUE="422734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts291" TIME_VALUE="422734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts292" TIME_VALUE="430045"/>
+        <TIME_SLOT TIME_SLOT_ID="ts293" TIME_VALUE="430045"/>
+        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="440844"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -510,8 +518,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a332"
-                TIME_SLOT_REF1="ts279" TIME_SLOT_REF2="ts286">
+                TIME_SLOT_REF1="ts279" TIME_SLOT_REF2="ts291">
                 <ANNOTATION_VALUE>Fragment36</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a345"
+                TIME_SLOT_REF1="ts290" TIME_SLOT_REF2="ts293">
+                <ANNOTATION_VALUE>Fragment37</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a346"
+                TIME_SLOT_REF1="ts292" TIME_SLOT_REF2="ts294">
+                <ANNOTATION_VALUE>Fragment38</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -638,8 +658,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a333"
-                TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts285">
-                <ANNOTATION_VALUE>Kokko läin män... mant, mäni tüe'l</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts289">
+                <ANNOTATION_VALUE>Kokko läin män... maant, mäni tüe'l</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1042,9 +1062,21 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a336"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a342"
                 TIME_SLOT_REF1="ts283" TIME_SLOT_REF2="ts284">
+                <ANNOTATION_VALUE>maant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a336"
+                TIME_SLOT_REF1="ts285" TIME_SLOT_REF2="ts287">
                 <ANNOTATION_VALUE>mäni</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a338"
+                TIME_SLOT_REF1="ts286" TIME_SLOT_REF2="ts288">
+                <ANNOTATION_VALUE>tüe'l</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1378,6 +1410,16 @@
                 <ANNOTATION_VALUE>tired | to tire</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a339" ANNOTATION_REF="a336">
+                <ANNOTATION_VALUE>went</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a340" ANNOTATION_REF="a338">
+                <ANNOTATION_VALUE>to work</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1706,6 +1748,11 @@
                 <ANNOTATION_VALUE>пошёл | пошла</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a341" ANNOTATION_REF="a338">
+                <ANNOTATION_VALUE>на работу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -1892,6 +1939,11 @@
                 <ANNOTATION_VALUE>He works tirelessly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a343" ANNOTATION_REF="a333">
+                <ANNOTATION_VALUE>He didn't sleep all night, he went to work</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -1958,6 +2010,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a331" ANNOTATION_REF="a314">
                 <ANNOTATION_VALUE>Он работает не уставая</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a344" ANNOTATION_REF="a333">
+                <ANNOTATION_VALUE>Всю ночь не спав, он пошёл на работу</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
