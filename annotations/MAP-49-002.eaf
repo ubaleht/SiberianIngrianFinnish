@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-21T23:56:51+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-06-23T23:42:07+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">346</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">349</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -303,7 +303,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts291" TIME_VALUE="422734"/>
         <TIME_SLOT TIME_SLOT_ID="ts292" TIME_VALUE="430045"/>
         <TIME_SLOT TIME_SLOT_ID="ts293" TIME_VALUE="430045"/>
-        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="440844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="430060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts295" TIME_VALUE="432778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts296" TIME_VALUE="433329"/>
+        <TIME_SLOT TIME_SLOT_ID="ts297" TIME_VALUE="439963"/>
+        <TIME_SLOT TIME_SLOT_ID="ts298" TIME_VALUE="440844"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -530,7 +534,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a346"
-                TIME_SLOT_REF1="ts292" TIME_SLOT_REF2="ts294">
+                TIME_SLOT_REF1="ts292" TIME_SLOT_REF2="ts298">
                 <ANNOTATION_VALUE>Fragment38</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -660,6 +664,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a333"
                 TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts289">
                 <ANNOTATION_VALUE>Kokko läin män... maant, mäni tüe'l</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a347"
+                TIME_SLOT_REF1="ts296" TIME_SLOT_REF2="ts297">
+                <ANNOTATION_VALUE>Školus istud e... ei... ei makame't lapsed</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2137,6 +2147,12 @@
                 <ANNOTATION_VALUE>Всю ночь не спав, он пошёл на работу</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a348"
+                TIME_SLOT_REF1="ts294" TIME_SLOT_REF2="ts295">
+                <ANNOTATION_VALUE>В школе сидят невыспавшиеся дети</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2223,6 +2239,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a335" ANNOTATION_REF="a334">
                 <ANNOTATION_VALUE>He didn't sleep all night, he went to work</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a349" ANNOTATION_REF="a348">
+                <ANNOTATION_VALUE>Sleepy children are at school</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
