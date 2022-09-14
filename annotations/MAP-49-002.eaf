@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-07-03T23:58:55+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-14T23:58:27+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">369</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">375</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -323,9 +323,19 @@
         <TIME_SLOT TIME_SLOT_ID="ts311" TIME_VALUE="447976"/>
         <TIME_SLOT TIME_SLOT_ID="ts312" TIME_VALUE="448415"/>
         <TIME_SLOT TIME_SLOT_ID="ts313" TIME_VALUE="448417"/>
-        <TIME_SLOT TIME_SLOT_ID="ts314" TIME_VALUE="449381"/>
-        <TIME_SLOT TIME_SLOT_ID="ts315" TIME_VALUE="449692"/>
-        <TIME_SLOT TIME_SLOT_ID="ts316" TIME_VALUE="450406"/>
+        <TIME_SLOT TIME_SLOT_ID="ts314" TIME_VALUE="448836"/>
+        <TIME_SLOT TIME_SLOT_ID="ts315" TIME_VALUE="448883"/>
+        <TIME_SLOT TIME_SLOT_ID="ts316" TIME_VALUE="449481"/>
+        <TIME_SLOT TIME_SLOT_ID="ts317" TIME_VALUE="449692"/>
+        <TIME_SLOT TIME_SLOT_ID="ts318" TIME_VALUE="450406"/>
+        <TIME_SLOT TIME_SLOT_ID="ts319" TIME_VALUE="450406"/>
+        <TIME_SLOT TIME_SLOT_ID="ts320" TIME_VALUE="450953"/>
+        <TIME_SLOT TIME_SLOT_ID="ts321" TIME_VALUE="452595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts322" TIME_VALUE="455480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts323" TIME_VALUE="455480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts324" TIME_VALUE="456246"/>
+        <TIME_SLOT TIME_SLOT_ID="ts325" TIME_VALUE="456246"/>
+        <TIME_SLOT TIME_SLOT_ID="ts326" TIME_VALUE="467330"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -558,8 +568,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a360"
-                TIME_SLOT_REF1="ts306" TIME_SLOT_REF2="ts316">
+                TIME_SLOT_REF1="ts306" TIME_SLOT_REF2="ts319">
                 <ANNOTATION_VALUE>Fragment 39</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a371"
+                TIME_SLOT_REF1="ts318" TIME_SLOT_REF2="ts326">
+                <ANNOTATION_VALUE>Fragment 40</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -698,8 +714,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a361"
-                TIME_SLOT_REF1="ts310" TIME_SLOT_REF2="ts315">
+                TIME_SLOT_REF1="ts310" TIME_SLOT_REF2="ts317">
                 <ANNOTATION_VALUE>Üä ilm unt</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a372"
+                TIME_SLOT_REF1="ts322" TIME_SLOT_REF2="ts324">
+                <ANNOTATION_VALUE>tie'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1153,6 +1175,18 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a369"
                 TIME_SLOT_REF1="ts313" TIME_SLOT_REF2="ts314">
                 <ANNOTATION_VALUE>Ilm</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a370"
+                TIME_SLOT_REF1="ts315" TIME_SLOT_REF2="ts316">
+                <ANNOTATION_VALUE>Unt</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a373"
+                TIME_SLOT_REF1="ts323" TIME_SLOT_REF2="ts325">
+                <ANNOTATION_VALUE>tie'</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2275,6 +2309,12 @@
                 <ANNOTATION_VALUE>Теперь просто такое словосочетание: "Бессонная ночь"</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a374"
+                TIME_SLOT_REF1="ts320" TIME_SLOT_REF2="ts321">
+                <ANNOTATION_VALUE>непроходимая дорога</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2371,6 +2411,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a365" ANNOTATION_REF="a364">
                 <ANNOTATION_VALUE>Now this phrase: "Sleepless night"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a375" ANNOTATION_REF="a374">
+                <ANNOTATION_VALUE>impassable road</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
