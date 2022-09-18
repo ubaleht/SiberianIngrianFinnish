@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-14T23:58:27+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-18T23:58:30+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">375</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">379</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -335,7 +335,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts323" TIME_VALUE="455480"/>
         <TIME_SLOT TIME_SLOT_ID="ts324" TIME_VALUE="456246"/>
         <TIME_SLOT TIME_SLOT_ID="ts325" TIME_VALUE="456246"/>
-        <TIME_SLOT TIME_SLOT_ID="ts326" TIME_VALUE="467330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts326" TIME_VALUE="463362"/>
+        <TIME_SLOT TIME_SLOT_ID="ts327" TIME_VALUE="464541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts328" TIME_VALUE="465018"/>
+        <TIME_SLOT TIME_SLOT_ID="ts329" TIME_VALUE="465099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts330" TIME_VALUE="467330"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -574,7 +578,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a371"
-                TIME_SLOT_REF1="ts318" TIME_SLOT_REF2="ts326">
+                TIME_SLOT_REF1="ts318" TIME_SLOT_REF2="ts330">
                 <ANNOTATION_VALUE>Fragment 40</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -721,7 +725,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a372"
                 TIME_SLOT_REF1="ts322" TIME_SLOT_REF2="ts324">
-                <ANNOTATION_VALUE>tie'</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>tiä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a376"
+                TIME_SLOT_REF1="ts326" TIME_SLOT_REF2="ts329">
+                <ANNOTATION_VALUE>paha tiä tiä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1186,7 +1196,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a373"
                 TIME_SLOT_REF1="ts323" TIME_SLOT_REF2="ts325">
-                <ANNOTATION_VALUE>tie'</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>tiä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a377"
+                TIME_SLOT_REF1="ts327" TIME_SLOT_REF2="ts328">
+                <ANNOTATION_VALUE>tiä</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1550,6 +1566,11 @@
                 <ANNOTATION_VALUE>Night</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a378" ANNOTATION_REF="a377">
+                <ANNOTATION_VALUE>road</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -1901,6 +1922,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a368" ANNOTATION_REF="a366">
                 <ANNOTATION_VALUE>Ночь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a379" ANNOTATION_REF="a377">
+                <ANNOTATION_VALUE>дорога</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
