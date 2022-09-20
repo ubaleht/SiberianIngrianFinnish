@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-19T23:36:26+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-20T23:59:11+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">387</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">391</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -344,6 +344,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts332" TIME_VALUE="465018"/>
         <TIME_SLOT TIME_SLOT_ID="ts333" TIME_VALUE="465099"/>
         <TIME_SLOT TIME_SLOT_ID="ts334" TIME_VALUE="467330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts335" TIME_VALUE="467330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts336" TIME_VALUE="469330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts337" TIME_VALUE="472272"/>
+        <TIME_SLOT TIME_SLOT_ID="ts338" TIME_VALUE="472429"/>
+        <TIME_SLOT TIME_SLOT_ID="ts339" TIME_VALUE="476991"/>
+        <TIME_SLOT TIME_SLOT_ID="ts340" TIME_VALUE="483173"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -582,8 +588,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a371"
-                TIME_SLOT_REF1="ts318" TIME_SLOT_REF2="ts334">
+                TIME_SLOT_REF1="ts318" TIME_SLOT_REF2="ts335">
                 <ANNOTATION_VALUE>Fragment 40</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a388"
+                TIME_SLOT_REF1="ts334" TIME_SLOT_REF2="ts340">
+                <ANNOTATION_VALUE>Fragment 41</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -736,6 +748,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a376"
                 TIME_SLOT_REF1="ts326" TIME_SLOT_REF2="ts333">
                 <ANNOTATION_VALUE>paha tiä, tiä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a389"
+                TIME_SLOT_REF1="ts338" TIME_SLOT_REF2="ts339">
+                <ANNOTATION_VALUE>mia elän ilm kutsumat gostij</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2387,6 +2405,12 @@
                 <ANNOTATION_VALUE>непроходимая дорога</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a390"
+                TIME_SLOT_REF1="ts336" TIME_SLOT_REF2="ts337">
+                <ANNOTATION_VALUE>я живу без незваных гостей</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2488,6 +2512,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a375" ANNOTATION_REF="a374">
                 <ANNOTATION_VALUE>impassable road</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a390">
+                <ANNOTATION_VALUE>I live without uninvited guests</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
