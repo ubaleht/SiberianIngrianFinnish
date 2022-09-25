@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-22T23:58:43+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-25T23:56:37+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">407</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">410</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -360,6 +360,10 @@
         <TIME_SLOT TIME_SLOT_ID="ts348" TIME_VALUE="476767"/>
         <TIME_SLOT TIME_SLOT_ID="ts349" TIME_VALUE="476991"/>
         <TIME_SLOT TIME_SLOT_ID="ts350" TIME_VALUE="483173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts351" TIME_VALUE="483173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts352" TIME_VALUE="484383"/>
+        <TIME_SLOT TIME_SLOT_ID="ts353" TIME_VALUE="487911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts354" TIME_VALUE="504454"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -604,8 +608,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a388"
-                TIME_SLOT_REF1="ts334" TIME_SLOT_REF2="ts350">
+                TIME_SLOT_REF1="ts334" TIME_SLOT_REF2="ts351">
                 <ANNOTATION_VALUE>Fragment 41</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a408"
+                TIME_SLOT_REF1="ts350" TIME_SLOT_REF2="ts354">
+                <ANNOTATION_VALUE>Fragment 42</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2506,6 +2516,12 @@
                 <ANNOTATION_VALUE>я живу без незваных гостей</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a409"
+                TIME_SLOT_REF1="ts352" TIME_SLOT_REF2="ts353">
+                <ANNOTATION_VALUE>некормленные коты громко кричат</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2612,6 +2628,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a390">
                 <ANNOTATION_VALUE>I live without uninvited guests</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a409">
+                <ANNOTATION_VALUE>unfed cats scream loudly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
