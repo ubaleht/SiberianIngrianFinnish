@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-01T23:57:24+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-03T23:53:55+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">423</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">432</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -371,7 +371,13 @@
         <TIME_SLOT TIME_SLOT_ID="ts359" TIME_VALUE="483173"/>
         <TIME_SLOT TIME_SLOT_ID="ts360" TIME_VALUE="484383"/>
         <TIME_SLOT TIME_SLOT_ID="ts361" TIME_VALUE="487911"/>
-        <TIME_SLOT TIME_SLOT_ID="ts362" TIME_VALUE="504454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts362" TIME_VALUE="488293"/>
+        <TIME_SLOT TIME_SLOT_ID="ts363" TIME_VALUE="489692"/>
+        <TIME_SLOT TIME_SLOT_ID="ts364" TIME_VALUE="490732"/>
+        <TIME_SLOT TIME_SLOT_ID="ts365" TIME_VALUE="491015"/>
+        <TIME_SLOT TIME_SLOT_ID="ts366" TIME_VALUE="491725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts367" TIME_VALUE="504415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts368" TIME_VALUE="504454"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -622,7 +628,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a408"
-                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts362">
+                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts368">
                 <ANNOTATION_VALUE>Fragment 42</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -782,6 +788,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a389"
                 TIME_SLOT_REF1="ts346" TIME_SLOT_REF2="ts357">
                 <ANNOTATION_VALUE>mia elän ilm kutsumat gostij</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a424"
+                TIME_SLOT_REF1="ts362" TIME_SLOT_REF2="ts367">
+                <ANNOTATION_VALUE>e... sü... süe'mett kssat ... kil'jut ... koaski kil'jut ... kovasta kil'jut</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1321,6 +1333,18 @@
                 <ANNOTATION_VALUE>gostij</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a426"
+                TIME_SLOT_REF1="ts363" TIME_SLOT_REF2="ts364">
+                <ANNOTATION_VALUE>süe'mett</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a430"
+                TIME_SLOT_REF1="ts365" TIME_SLOT_REF2="ts366">
+                <ANNOTATION_VALUE>kissat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1742,6 +1766,16 @@
                 <ANNOTATION_VALUE>guests</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a427" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>unfed</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a431" ANNOTATION_REF="a430">
+                <ANNOTATION_VALUE>cats</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2155,6 +2189,16 @@
                 <ANNOTATION_VALUE>гостей</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a428" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>некормленные</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a432" ANNOTATION_REF="a430">
+                <ANNOTATION_VALUE>кошки | коты</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2366,6 +2410,11 @@
                 <ANNOTATION_VALUE>bad road, road</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a425" ANNOTATION_REF="a424">
+                <ANNOTATION_VALUE>unfed cats scream loudly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2447,6 +2496,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a387" ANNOTATION_REF="a376">
                 <ANNOTATION_VALUE>плохая дорога, дорога</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a429" ANNOTATION_REF="a424">
+                <ANNOTATION_VALUE>некормленные коты громко кричат</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
