@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-03T23:53:55+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-05T23:50:01+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">432</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">438</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -376,8 +376,18 @@
         <TIME_SLOT TIME_SLOT_ID="ts364" TIME_VALUE="490732"/>
         <TIME_SLOT TIME_SLOT_ID="ts365" TIME_VALUE="491015"/>
         <TIME_SLOT TIME_SLOT_ID="ts366" TIME_VALUE="491725"/>
-        <TIME_SLOT TIME_SLOT_ID="ts367" TIME_VALUE="504415"/>
-        <TIME_SLOT TIME_SLOT_ID="ts368" TIME_VALUE="504454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts367" TIME_VALUE="497931"/>
+        <TIME_SLOT TIME_SLOT_ID="ts368" TIME_VALUE="498960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts369" TIME_VALUE="500418"/>
+        <TIME_SLOT TIME_SLOT_ID="ts370" TIME_VALUE="500910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts371" TIME_VALUE="500978"/>
+        <TIME_SLOT TIME_SLOT_ID="ts372" TIME_VALUE="501532"/>
+        <TIME_SLOT TIME_SLOT_ID="ts373" TIME_VALUE="502372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts374" TIME_VALUE="503092"/>
+        <TIME_SLOT TIME_SLOT_ID="ts375" TIME_VALUE="503096"/>
+        <TIME_SLOT TIME_SLOT_ID="ts376" TIME_VALUE="503585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts377" TIME_VALUE="504415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts378" TIME_VALUE="504454"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -628,7 +638,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a408"
-                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts368">
+                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts378">
                 <ANNOTATION_VALUE>Fragment 42</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -792,7 +802,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a424"
-                TIME_SLOT_REF1="ts362" TIME_SLOT_REF2="ts367">
+                TIME_SLOT_REF1="ts362" TIME_SLOT_REF2="ts377">
                 <ANNOTATION_VALUE>e... sü... süe'mett kssat ... kil'jut ... koaski kil'jut ... kovasta kil'jut</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1343,6 +1353,36 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a430"
                 TIME_SLOT_REF1="ts365" TIME_SLOT_REF2="ts366">
                 <ANNOTATION_VALUE>kissat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a433"
+                TIME_SLOT_REF1="ts367" TIME_SLOT_REF2="ts368">
+                <ANNOTATION_VALUE>kil'jut</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a434"
+                TIME_SLOT_REF1="ts369" TIME_SLOT_REF2="ts370">
+                <ANNOTATION_VALUE>koaski</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a435"
+                TIME_SLOT_REF1="ts371" TIME_SLOT_REF2="ts372">
+                <ANNOTATION_VALUE>kil'jut</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a436"
+                TIME_SLOT_REF1="ts373" TIME_SLOT_REF2="ts374">
+                <ANNOTATION_VALUE>kovasta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a437"
+                TIME_SLOT_REF1="ts375" TIME_SLOT_REF2="ts376">
+                <ANNOTATION_VALUE>kil'jut</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2325,6 +2365,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a398" ANNOTATION_REF="a393">
                 <ANNOTATION_VALUE>audio interference</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a438" ANNOTATION_REF="a436">
+                <ANNOTATION_VALUE>poor quality</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
