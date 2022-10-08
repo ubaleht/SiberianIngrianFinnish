@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-05T23:50:01+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-10-08T23:57:55+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">438</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">444</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -388,6 +388,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts376" TIME_VALUE="503585"/>
         <TIME_SLOT TIME_SLOT_ID="ts377" TIME_VALUE="504415"/>
         <TIME_SLOT TIME_SLOT_ID="ts378" TIME_VALUE="504454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts379" TIME_VALUE="504454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts380" TIME_VALUE="507761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts381" TIME_VALUE="510474"/>
+        <TIME_SLOT TIME_SLOT_ID="ts382" TIME_VALUE="511186"/>
+        <TIME_SLOT TIME_SLOT_ID="ts383" TIME_VALUE="516778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts384" TIME_VALUE="519019"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -638,8 +644,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a408"
-                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts378">
+                TIME_SLOT_REF1="ts358" TIME_SLOT_REF2="ts379">
                 <ANNOTATION_VALUE>Fragment 42</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a439"
+                TIME_SLOT_REF1="ts378" TIME_SLOT_REF2="ts384">
+                <ANNOTATION_VALUE>Fragment 43</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -804,6 +816,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a424"
                 TIME_SLOT_REF1="ts362" TIME_SLOT_REF2="ts377">
                 <ANNOTATION_VALUE>e... sü... süe'mett kssat ... kil'jut ... koaski kil'jut ... kovasta kil'jut</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a440"
+                TIME_SLOT_REF1="ts382" TIME_SLOT_REF2="ts383">
+                <ANNOTATION_VALUE>mia tian tüät tüntmant maauh ... maauh</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2460,6 +2478,11 @@
                 <ANNOTATION_VALUE>unfed cats scream loudly</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a441" ANNOTATION_REF="a440">
+                <ANNOTATION_VALUE>I'm doing work on an uncultivated field</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Speech" TIER_ID="Speaker-SpeechRuTranslation">
@@ -2546,6 +2569,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a429" ANNOTATION_REF="a424">
                 <ANNOTATION_VALUE>некормленные коты громко кричат</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a442" ANNOTATION_REF="a440">
+                <ANNOTATION_VALUE>я делаю работу на необработанном поле ... на поле</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2698,6 +2726,12 @@
                 <ANNOTATION_VALUE>некормленные коты громко кричат</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a443"
+                TIME_SLOT_REF1="ts380" TIME_SLOT_REF2="ts381">
+                <ANNOTATION_VALUE>Я работаю на непаханном поле</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -2809,6 +2843,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a409">
                 <ANNOTATION_VALUE>unfed cats scream loudly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a444" ANNOTATION_REF="a443">
+                <ANNOTATION_VALUE>I'm working in an unplowed field</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
