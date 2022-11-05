@@ -9,6 +9,9 @@ This project is devoted to the Siberian Ingrian Finnish language. Siberian Ingri
 5. Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
 https://journals.colorado.edu/index.php/computel/article/view/981 
 https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
+6. Ivan Ubaleht and Taisto-Kalevi Raudalainen. 2022. Development of the Siberian Ingrian Finnish Speech Corpus. In Proceedings of the Fifth Workshop on the Use of Computational Methods in the Study of Endangered Languages, pages 1–4, Dublin, Ireland. Association for Computational Linguistics.
+DOI: 10.18653/v1/2022.computel-1.1
+https://aclanthology.org/2022.computel-1.1.pdf
 
 ## Speech data of Siberian Ingrian Finnish
 
@@ -25,14 +28,9 @@ Speaker JuMS-28: https://www.youtube.com/watch?v=YqwrK6sItHI
 
 All data of Siberian Ingrian Finnish in this repository are licensed under the CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
-If you use this material, please publish reference to paper: 
-Ubaleht, I. (2021, March). Lexeme: the Concept of System and the Creation of Speech Corpora for Two Endangered Languages. In Proceedings of the Workshop on Computational Methods for Endangered Languages (Vol. 2, pp. 20-23).
-
-or
-
-https://journals.colorado.edu/index.php/computel/article/view/981 
-
-https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
+If you use these materials, please publish reference to paper: 
+Ivan Ubaleht and Taisto-Kalevi Raudalainen. 2022. Development of the Siberian Ingrian Finnish Speech Corpus. In Proceedings of the Fifth Workshop on the Use of Computational Methods in the Study of Endangered Languages, pages 1–4, Dublin, Ireland. Association for Computational Linguistics.
+DOI: 10.18653/v1/2022.computel-1.1
 
 or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngrianFinnish
 
