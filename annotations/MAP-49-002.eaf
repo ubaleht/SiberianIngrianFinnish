@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-12-28T00:34:33+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-03-06T21:12:02+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">453</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">464</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -398,8 +398,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts386" TIME_VALUE="512107"/>
         <TIME_SLOT TIME_SLOT_ID="ts387" TIME_VALUE="512118"/>
         <TIME_SLOT TIME_SLOT_ID="ts388" TIME_VALUE="512587"/>
-        <TIME_SLOT TIME_SLOT_ID="ts389" TIME_VALUE="516778"/>
-        <TIME_SLOT TIME_SLOT_ID="ts390" TIME_VALUE="519019"/>
+        <TIME_SLOT TIME_SLOT_ID="ts389" TIME_VALUE="513618"/>
+        <TIME_SLOT TIME_SLOT_ID="ts390" TIME_VALUE="514739"/>
+        <TIME_SLOT TIME_SLOT_ID="ts391" TIME_VALUE="514739"/>
+        <TIME_SLOT TIME_SLOT_ID="ts392" TIME_VALUE="515283"/>
+        <TIME_SLOT TIME_SLOT_ID="ts393" TIME_VALUE="515796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts394" TIME_VALUE="516277"/>
+        <TIME_SLOT TIME_SLOT_ID="ts395" TIME_VALUE="516778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts396" TIME_VALUE="519019"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -656,7 +662,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a439"
-                TIME_SLOT_REF1="ts378" TIME_SLOT_REF2="ts390">
+                TIME_SLOT_REF1="ts378" TIME_SLOT_REF2="ts396">
                 <ANNOTATION_VALUE>Fragment 43</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -826,8 +832,8 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a440"
-                TIME_SLOT_REF1="ts382" TIME_SLOT_REF2="ts389">
-                <ANNOTATION_VALUE>mia tie'n tüöt tüntmant maauh ... maauh</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts382" TIME_SLOT_REF2="ts395">
+                <ANNOTATION_VALUE>mia tie'n tüöt tüntmant maauh (maaulà) ... maauh (maant)</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1427,6 +1433,24 @@
                 <ANNOTATION_VALUE>tüöt</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a454"
+                TIME_SLOT_REF1="ts389" TIME_SLOT_REF2="ts391">
+                <ANNOTATION_VALUE>tüntmant (?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a455"
+                TIME_SLOT_REF1="ts390" TIME_SLOT_REF2="ts392">
+                <ANNOTATION_VALUE>maauh (maaulà)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a456"
+                TIME_SLOT_REF1="ts393" TIME_SLOT_REF2="ts394">
+                <ANNOTATION_VALUE>maant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -1873,6 +1897,21 @@
                 <ANNOTATION_VALUE>work</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a457" ANNOTATION_REF="a454">
+                <ANNOTATION_VALUE>uncultivated</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a458" ANNOTATION_REF="a455">
+                <ANNOTATION_VALUE>field</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a459" ANNOTATION_REF="a456">
+                <ANNOTATION_VALUE>field</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2311,6 +2350,21 @@
                 <ANNOTATION_VALUE>работа</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a460" ANNOTATION_REF="a454">
+                <ANNOTATION_VALUE>необработанный</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a461" ANNOTATION_REF="a455">
+                <ANNOTATION_VALUE>поле</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a462" ANNOTATION_REF="a456">
+                <ANNOTATION_VALUE>поле</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-PartOfSpeech">
@@ -2412,6 +2466,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a323" ANNOTATION_REF="a317">
                 <ANNOTATION_VALUE>3SG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a463" ANNOTATION_REF="a455">
+                <ANNOTATION_VALUE>Noun.ADE-ALL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a464" ANNOTATION_REF="a456">
+                <ANNOTATION_VALUE>Noum.ADE-ALL</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
