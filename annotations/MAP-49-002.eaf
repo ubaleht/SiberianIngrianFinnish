@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-04-16T23:56:45+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-04-19T23:54:35+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">471</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">477</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -412,8 +412,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts400" TIME_VALUE="522927"/>
         <TIME_SLOT TIME_SLOT_ID="ts401" TIME_VALUE="523403"/>
         <TIME_SLOT TIME_SLOT_ID="ts402" TIME_VALUE="523650"/>
-        <TIME_SLOT TIME_SLOT_ID="ts403" TIME_VALUE="527325"/>
-        <TIME_SLOT TIME_SLOT_ID="ts404" TIME_VALUE="528890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts403" TIME_VALUE="523650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts404" TIME_VALUE="524380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts405" TIME_VALUE="524731"/>
+        <TIME_SLOT TIME_SLOT_ID="ts406" TIME_VALUE="525253"/>
+        <TIME_SLOT TIME_SLOT_ID="ts407" TIME_VALUE="527325"/>
+        <TIME_SLOT TIME_SLOT_ID="ts408" TIME_VALUE="528890"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -676,7 +680,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a465"
-                TIME_SLOT_REF1="ts396" TIME_SLOT_REF2="ts404">
+                TIME_SLOT_REF1="ts396" TIME_SLOT_REF2="ts408">
                 <ANNOTATION_VALUE>Fragment 44</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -852,7 +856,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a466"
-                TIME_SLOT_REF1="ts400" TIME_SLOT_REF2="ts403">
+                TIME_SLOT_REF1="ts400" TIME_SLOT_REF2="ts407">
                 <ANNOTATION_VALUE>Hä haasta ei tuttava miul kielt</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1473,8 +1477,20 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a467"
-                TIME_SLOT_REF1="ts401" TIME_SLOT_REF2="ts402">
+                TIME_SLOT_REF1="ts401" TIME_SLOT_REF2="ts403">
                 <ANNOTATION_VALUE>hä</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a472"
+                TIME_SLOT_REF1="ts402" TIME_SLOT_REF2="ts404">
+                <ANNOTATION_VALUE>haasta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a473"
+                TIME_SLOT_REF1="ts405" TIME_SLOT_REF2="ts406">
+                <ANNOTATION_VALUE>ei</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1943,6 +1959,16 @@
                 <ANNOTATION_VALUE>he/she</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a474" ANNOTATION_REF="a472">
+                <ANNOTATION_VALUE>speaks</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a475" ANNOTATION_REF="a473">
+                <ANNOTATION_VALUE>no</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-WordsRuTranslation">
@@ -2399,6 +2425,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a469" ANNOTATION_REF="a467">
                 <ANNOTATION_VALUE>он</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a476" ANNOTATION_REF="a472">
+                <ANNOTATION_VALUE>говорит</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a477" ANNOTATION_REF="a473">
+                <ANNOTATION_VALUE>нет</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
