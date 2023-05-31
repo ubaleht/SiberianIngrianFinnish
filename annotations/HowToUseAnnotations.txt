@@ -9,5 +9,3 @@ We use ELAN version 6.0
 Audio file names must match *.eaf file names. (for example, copy the AAK-47-001.WAV file to the directory with the AAK-47_001.eaf file).
 
 4. Run the any *.eaf file in the Elan program.
-
-For test
