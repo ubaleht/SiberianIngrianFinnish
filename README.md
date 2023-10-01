@@ -12,6 +12,10 @@ https://computel-workshop.org/wp-content/uploads/2021/03/2021.computel-2.5.pdf
 6. Ivan Ubaleht and Taisto-Kalevi Raudalainen. 2022. Development of the Siberian Ingrian Finnish Speech Corpus. In Proceedings of the Fifth Workshop on the Use of Computational Methods in the Study of Endangered Languages, pages 1–4, Dublin, Ireland. Association for Computational Linguistics.
 DOI: 10.18653/v1/2022.computel-1.1
 https://aclanthology.org/2022.computel-1.1.pdf
+7. Злобина, Виено (Zlobina, Vieno) (1971). "Кто такие корлаки?" [Who are Korlaks?]. Советское финно-угроведение, 2, pp. 87–91. (In Russian)
+8. Zlobina, Vieno (1972). "Mitä alkujuurta Siperian suomalaiset ja korlakat ovat". Kotiseutu, 2 (3), pp. 86–92. (In Finnish)
+9. Nirvi, Ruben (1972). "Siperian inkeriläisten murteesta ja alkuperästä". Kotiseutu, 2 (3), pp. 92–95. (In Finnish)
+
 
 ## Speech data of Siberian Ingrian Finnish
 
