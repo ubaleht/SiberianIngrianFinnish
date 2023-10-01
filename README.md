@@ -56,3 +56,4 @@ or reference to the corpus' repository: https://github.com/ubaleht/SiberianIngri
 |MMM-39 (M)|1939|Ryzhkovo|Ryzhkovo|both parents: Ryzhkovo|62 min 20 s|
 |PGM-56 (F)|1956|Omsk|Finy|both parents: Finy|8 min 20 s
 |SVM-29 (M)|1929|Mikhailovka (died)|Larionovka|both parents: Yamburgsky Uyezd, Saint Petersburg Governorate|10 min 36 s|
+|KZM-51 (F)|1951|Ryzhkovo (died)|Ryzhkovo|mother: Ryzhkovo, father: no data|3 min 35 s|
