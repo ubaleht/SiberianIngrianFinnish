@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-05-13T22:46:57+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-02T23:44:16+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">485</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">489</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -424,6 +424,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts412" TIME_VALUE="527237"/>
         <TIME_SLOT TIME_SLOT_ID="ts413" TIME_VALUE="527325"/>
         <TIME_SLOT TIME_SLOT_ID="ts414" TIME_VALUE="528890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts415" TIME_VALUE="528890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts416" TIME_VALUE="529750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts417" TIME_VALUE="532834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts418" TIME_VALUE="533348"/>
+        <TIME_SLOT TIME_SLOT_ID="ts419" TIME_VALUE="539306"/>
+        <TIME_SLOT TIME_SLOT_ID="ts420" TIME_VALUE="540501"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -686,8 +692,14 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a465"
-                TIME_SLOT_REF1="ts396" TIME_SLOT_REF2="ts414">
+                TIME_SLOT_REF1="ts396" TIME_SLOT_REF2="ts415">
                 <ANNOTATION_VALUE>Fragment 44</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a486"
+                TIME_SLOT_REF1="ts414" TIME_SLOT_REF2="ts420">
+                <ANNOTATION_VALUE>Fragment 45</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -864,6 +876,12 @@
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a466"
                 TIME_SLOT_REF1="ts400" TIME_SLOT_REF2="ts413">
                 <ANNOTATION_VALUE>Hä haasta ei tuttava miul kielt</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a487"
+                TIME_SLOT_REF1="ts418" TIME_SLOT_REF2="ts419">
+                <ANNOTATION_VALUE>Mié e... vien ei s'... sö... sömet siun murkin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2977,6 +2995,12 @@
                 <ANNOTATION_VALUE>Он говорит на не знакомом мне языке</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a488"
+                TIME_SLOT_REF1="ts416" TIME_SLOT_REF2="ts417">
+                <ANNOTATION_VALUE>Я унесу не съеденный тобой завтрак</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonSymbolicAssociation"
         PARENT_REF="Interviewer-Speech" TIER_ID="Interviewer-SpeechEnTranslation">
@@ -3098,6 +3122,11 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a471" ANNOTATION_REF="a470">
                 <ANNOTATION_VALUE>He speaks a language I don't know</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a489" ANNOTATION_REF="a488">
+                <ANNOTATION_VALUE>I'll take away the breakfast, that you didn't eat</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
