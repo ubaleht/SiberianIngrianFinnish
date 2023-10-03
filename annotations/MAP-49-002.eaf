@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-02T23:44:16+06:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-03T23:36:33+06:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///D:/Proj/Under-ResourcedLanguages/SIF/SiberianIngrianFinnish/annotations/MAP-49-002.WAV"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./MAP-49-002.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:267aa7e4-a177-49da-bedb-c448b0884cf5</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">489</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">498</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -428,8 +428,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts416" TIME_VALUE="529750"/>
         <TIME_SLOT TIME_SLOT_ID="ts417" TIME_VALUE="532834"/>
         <TIME_SLOT TIME_SLOT_ID="ts418" TIME_VALUE="533348"/>
-        <TIME_SLOT TIME_SLOT_ID="ts419" TIME_VALUE="539306"/>
-        <TIME_SLOT TIME_SLOT_ID="ts420" TIME_VALUE="540501"/>
+        <TIME_SLOT TIME_SLOT_ID="ts419" TIME_VALUE="533370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts420" TIME_VALUE="533966"/>
+        <TIME_SLOT TIME_SLOT_ID="ts421" TIME_VALUE="537541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts422" TIME_VALUE="538199"/>
+        <TIME_SLOT TIME_SLOT_ID="ts423" TIME_VALUE="538456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts424" TIME_VALUE="539235"/>
+        <TIME_SLOT TIME_SLOT_ID="ts425" TIME_VALUE="539306"/>
+        <TIME_SLOT TIME_SLOT_ID="ts426" TIME_VALUE="540501"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="GeneralType" TIER_ID="General">
         <ANNOTATION>
@@ -698,7 +704,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a486"
-                TIME_SLOT_REF1="ts414" TIME_SLOT_REF2="ts420">
+                TIME_SLOT_REF1="ts414" TIME_SLOT_REF2="ts426">
                 <ANNOTATION_VALUE>Fragment 45</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -880,7 +886,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a487"
-                TIME_SLOT_REF1="ts418" TIME_SLOT_REF2="ts419">
+                TIME_SLOT_REF1="ts418" TIME_SLOT_REF2="ts425">
                 <ANNOTATION_VALUE>Mié e... vien ei s'... sö... sömet siun murkin</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1535,6 +1541,24 @@
                 <ANNOTATION_VALUE>kieltà</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a490"
+                TIME_SLOT_REF1="ts419" TIME_SLOT_REF2="ts420">
+                <ANNOTATION_VALUE>mié</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a491"
+                TIME_SLOT_REF1="ts421" TIME_SLOT_REF2="ts422">
+                <ANNOTATION_VALUE>Siun</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a492"
+                TIME_SLOT_REF1="ts423" TIME_SLOT_REF2="ts424">
+                <ANNOTATION_VALUE>Murkin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER LINGUISTIC_TYPE_REF="CommonTimeSubdivision"
         PARENT_REF="Speaker-Words" TIER_ID="Speaker-Morphemes"/>
@@ -2009,6 +2033,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a475" ANNOTATION_REF="a473">
                 <ANNOTATION_VALUE>no</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a493" ANNOTATION_REF="a490">
+                <ANNOTATION_VALUE>I</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a494" ANNOTATION_REF="a491">
+                <ANNOTATION_VALUE>your</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a495" ANNOTATION_REF="a492">
+                <ANNOTATION_VALUE>breakfast</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2492,6 +2531,21 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a483" ANNOTATION_REF="a480">
                 <ANNOTATION_VALUE>языке</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a496" ANNOTATION_REF="a490">
+                <ANNOTATION_VALUE>я</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a497" ANNOTATION_REF="a491">
+                <ANNOTATION_VALUE>твой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a498" ANNOTATION_REF="a492">
+                <ANNOTATION_VALUE>завтрак</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
