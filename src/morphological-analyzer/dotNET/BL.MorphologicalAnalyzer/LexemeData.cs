@@ -8,11 +8,19 @@ namespace BL.MorphologicalAnalyzer
 {
     public class LexemeData
     {
-        public string Nomenal { get; set; }
-        public string Genetive { get; set; }
-        public string Partitive { get; set; }
+        public string NomenalSingular { get; set; }
+        public string GenetiveSingular { get; set; }
+        public string PartitiveSingular { get; set; }
+        public string IllativeSingular { get; set; }
+        public string InessiveSingular { get; set; }
+        public string ElativeSingular { get; set; }
+        public string AdessiveAllativeSingular { get; set; }
+        public string AblativeSingular { get; set; }
+        public string TranslativeSingular { get; set; }
+        public string ComitativeSingular { get; set; }
 
-        //TODO: Add all cases
+
+        //TODO: Add cases for plural
 
         public LexemeData() { }
     }
