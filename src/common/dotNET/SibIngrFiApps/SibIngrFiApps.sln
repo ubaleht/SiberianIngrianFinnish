@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.WinCorpusEditor", "..\..\..\corpus-editor\dotNET\UI.WinCorpusEditor\UI.WinCorpusEditor.csproj", "{0CF99037-8E15-4C3F-A3F8-BA13A69C5FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.MorphologicalAnalyzer", "..\..\..\morphological-analyzer\dotNET\BL.MorphologicalAnalyzer\BL.MorphologicalAnalyzer.csproj", "{3CDC8090-EACF-4ED5-8BC6-5CD47C1B59A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF99037-8E15-4C3F-A3F8-BA13A69C5FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF99037-8E15-4C3F-A3F8-BA13A69C5FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF99037-8E15-4C3F-A3F8-BA13A69C5FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF99037-8E15-4C3F-A3F8-BA13A69C5FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDC8090-EACF-4ED5-8BC6-5CD47C1B59A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDC8090-EACF-4ED5-8BC6-5CD47C1B59A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDC8090-EACF-4ED5-8BC6-5CD47C1B59A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDC8090-EACF-4ED5-8BC6-5CD47C1B59A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5899A2E5-CA74-4CEC-B93B-E80C9BDB4ADD}
+	EndGlobalSection
+EndGlobal
