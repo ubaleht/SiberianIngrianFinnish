@@ -15,6 +15,7 @@ https://aclanthology.org/2022.computel-1.1.pdf
 7. Злобина, Виено (Zlobina, Vieno) (1971). "Кто такие корлаки?" [Who are Korlaks?]. Советское финно-угроведение, 2, pp. 87–91. (In Russian)
 8. Zlobina, Vieno (1972). "Mitä alkujuurta Siperian suomalaiset ja korlakat ovat". Kotiseutu, 2 (3), pp. 86–92. (In Finnish)
 9. Nirvi, Ruben (1972). "Siperian inkeriläisten murteesta ja alkuperästä". Kotiseutu, 2 (3), pp. 92–95. (In Finnish)
+10. Wikipedia article about Siberian Ingrian Finnish https://en.wikipedia.org/wiki/Siberian_Ingrian_Finnish 
 
 
 ## Speech data of Siberian Ingrian Finnish
