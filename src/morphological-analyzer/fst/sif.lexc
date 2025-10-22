@@ -1,0 +1,65 @@
+Multichar_Symbols
+
++N +V
+
++Sg +Pl
+
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+
++Nom +Gen +Prt +Ill +Ine +Ela +All +Ade +Abl +Tra +Com
+
+LEXICON Root
+
+NounStems ;
+
+LEXICON NounStems
+
+käsi:käsi NomSgStem ;
+käsi:käe OblSgStem ;
+käsi:kätt PrtSgStem ;
+käsi:kätte IllSgStem ;
+käsi:kässi OblPlStem ;
+kukk:kukk NomSgStem ;
+kukk:kuka OblSgStem ;
+kukk:kukka PrtSgStem ;
+kukk:kukka IllSgStem ;
+kukk:kukki OblPlStem ;
+
+LEXICON NomSgStem
+
++Nom+Sg:0 # ;
+
+LEXICON OblSgStem
+
++Gen+Sg:n # ;
++Ine+Sg:s # ;
++Ela+Sg:st # ;
++All+Sg:l # ;
++Ade+Sg:l # ;
++Abl+Sg:lt # ;
++Tra+Sg:ks # ;
+!Vowel harmony will be implemented in TwolC
++Com+Sg:n'ka # ;
+
++Nom+Pl: t # ;
+
+LEXICON PrtSgStem
+
++Prt+Sg:0 # ;
+
+LEXICON IllSgStem
+
++Ill+Sg:0 # ;
+
+LEXICON OblPlStem
+
++Gen+Pl:n # ;
++Prt+Pl:j # ;
++Ill+Pl:s # ;
++Ine+Pl:s # ;
++Ela+Pl:st # ;
++All+Pl:l # ;
++Ade+Pl:l # ;
++Abl+Pl:lt # ;
++Tra+Pl:ks # ;
++Com+Pl:n'kä # ;
