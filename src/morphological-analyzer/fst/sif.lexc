@@ -8,7 +8,14 @@ Multichar_Symbols
 
 +Nom +Gen +Prt +Ill +Ine +Ela +All +Ade +Abl +Tra +Com
 
+%{A%}
+
 LEXICON Root
+
+Nouns ;
+Verbs ;
+
+LEXICON Nouns
 
 NounStems ;
 
@@ -27,39 +34,37 @@ kukk:kukki OblPlStem ;
 
 LEXICON NomSgStem
 
-+Nom+Sg:0 # ;
++N+Nom+Sg:0 # ;
 
 LEXICON OblSgStem
 
-+Gen+Sg:n # ;
-+Ine+Sg:s # ;
-+Ela+Sg:st # ;
-+All+Sg:l # ;
-+Ade+Sg:l # ;
-+Abl+Sg:lt # ;
-+Tra+Sg:ks # ;
-!Vowel harmony will be implemented in TwolC
-+Com+Sg:n'ka # ;
-
-+Nom+Pl: t # ;
++N+Gen+Sg:n # ;
++N+Ine+Sg:s # ;
++N+Ela+Sg:st # ;
++N+All+Sg:l # ;
++N+Ade+Sg:l # ;
++N+Abl+Sg:lt # ;
++N+Tra+Sg:ks # ;
++N+Com+Sg:n'k%{A%} # ;
++N+Nom+Pl: t # ;
 
 LEXICON PrtSgStem
 
-+Prt+Sg:0 # ;
++N+Prt+Sg:0 # ;
 
 LEXICON IllSgStem
 
-+Ill+Sg:0 # ;
++N+Ill+Sg:0 # ;
 
 LEXICON OblPlStem
 
-+Gen+Pl:n # ;
-+Prt+Pl:j # ;
-+Ill+Pl:s # ;
-+Ine+Pl:s # ;
-+Ela+Pl:st # ;
-+All+Pl:l # ;
-+Ade+Pl:l # ;
-+Abl+Pl:lt # ;
-+Tra+Pl:ks # ;
-+Com+Pl:n'kä # ;
++N+Gen+Pl:n # ;
++N+Prt+Pl:j # ;
++N+Ill+Pl:s # ;
++N+Ine+Pl:s # ;
++N+Ela+Pl:st # ;
++N+All+Pl:l # ;
++N+Ade+Pl:l # ;
++N+Abl+Pl:lt # ;
++N+Tra+Pl:ks # ;
++N+Com+Pl:n'k%{A%} # ;
