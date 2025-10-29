@@ -10,28 +10,6 @@ Multichar_Symbols
 
 %{A%}
 
-LEXICON Root
-
-Nouns ;
-Verbs ;
-
-LEXICON Nouns
-
-NounStems ;
-
-LEXICON NounStems
-
-käsi:käsi NomSgStem ;
-käsi:käe OblSgStem ;
-käsi:kätt PrtSgStem ;
-käsi:kätte IllSgStem ;
-käsi:kässi OblPlStem ;
-kukk:kukk NomSgStem ;
-kukk:kuka OblSgStem ;
-kukk:kukka PrtSgStem ;
-kukk:kukka IllSgStem ;
-kukk:kukki OblPlStem ;
-
 LEXICON NomSgStem
 
 +N+Nom+Sg:0 # ;
@@ -68,3 +46,40 @@ LEXICON OblPlStem
 +N+Abl+Pl:lt # ;
 +N+Tra+Pl:ks # ;
 +N+Com+Pl:n'k%{A%} # ;
+
+LEXICON Root
+
+Nouns ;
+Verbs ;
+
+LEXICON Nouns
+
+NounStems ;
+
+LEXICON NounStems
+
+käsi:käsi NomSgStem ;
+käsi:käe OblSgStem ;
+käsi:kätt PrtSgStem ;
+käsi:kätte IllSgStem ;
+käsi:kässi OblPlStem ;
+kukk:kukk NomSgStem ;
+kukk:kuka OblSgStem ;
+kukk:kukka PrtSgStem ;
+kukk:kukka IllSgStem ;
+kukk:kukki OblPlStem ;
+razv:razv NomSgStem ;
+razv:razva OblSgStem ;
+razv:razva PrtSgStem ;
+razv:razva IllSgStem ;
+razv:razvo OblPlStem ;
+uus:uus NomSgStem ;
+uus:uvve OblSgStem ;
+uus:uutt PrtSgStem ;
+uus:uuvves IllSgStem ;
+uus:uusi OblPlStem ;
+jänis:jänis NomSgStem ;
+jänis:jänikse OblSgStem ;
+jänis:jänist PrtSgStem ;
+jänis:jänikse IllSgStem ;
+jänis:jäniksi OblPlStem ;
