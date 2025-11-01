@@ -10,6 +10,8 @@ Multichar_Symbols
 
 %{A%}
 
+%{A1%}
+
 LEXICON NomSgStem
 
 +N+Nom+Sg:0 # ;
@@ -47,6 +49,23 @@ LEXICON OblPlStem
 +N+Tra+Pl:ks # ;
 +N+Com+Pl:n'k%{A%} # ;
 
+LEXICON CS-2-All-Stems-Without-OblPlStem
+
+:0 NomSgStem ;
+:%{A%} OblSgStem ;
+:%{A%} PrtSgStem ;
+:%{A%} IllSgStem ;
+
+LEXICON CS2-I ! Morphological type "CS2", alternation of the final vowel of the stem "a/ä" into "i" in OblPlStem. See Sidorkevich's PhD thesis, p. 172. 
+
+CS-2-All-Stems-Without-OblPlStem ;
+:i OblPlStem ;
+
+LEXICON CS2-O ! Morphological type "CS2", alternation of the final vowel of the stem "a" into "o" and "ä" into "ö" in OblPlStem. See Sidorkevich's PhD thesis, p. 172. 
+
+CS-2-All-Stems-Without-OblPlStem ;
+:%{A1%} OblPlStem ;
+
 LEXICON Root
 
 Nouns ;
@@ -83,3 +102,7 @@ jänis:jänikse OblSgStem ;
 jänis:jänist PrtSgStem ;
 jänis:jänikse IllSgStem ;
 jänis:jäniksi OblPlStem ;
+koir:koir CS2-I ;
+vasar:vasar CS2-O ;
+
+

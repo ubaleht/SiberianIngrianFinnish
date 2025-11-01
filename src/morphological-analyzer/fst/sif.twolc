@@ -2,7 +2,9 @@ Alphabet
 A B C D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž Ä É Ö Ü
 a b c d e f g h i j k l m n o p q r s š t u v w x y z ž ä é ö ü '
 
-%{A%}:a
+%{A%}:a 
+
+%{A1%}:o
 
 ;
   
@@ -22,3 +24,6 @@ Rules
 
 "Vowels harmony"
 %{A%}:ä <=> FrontVowels [ Cnst | NeutralVow ]* _ ;
+
+"Mutation of final volwel to o in context of back vowels and to ö in context of front vowels"
+%{A1%}:ö <=> FrontVowels [ Cnst | NeutralVow ]* _ ;
