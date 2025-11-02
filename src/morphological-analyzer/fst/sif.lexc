@@ -25,7 +25,7 @@ LEXICON OblSgStem
 +N+Ade+Sg:l # ;
 +N+Abl+Sg:lt # ;
 +N+Tra+Sg:ks # ;
-+N+Com+Sg:n'k%{A%} # ;
++N+Com+Sg:nk%{A%} # ;
 +N+Nom+Pl: t # ;
 
 LEXICON PrtSgStem
@@ -47,7 +47,7 @@ LEXICON OblPlStem
 +N+Ade+Pl:l # ;
 +N+Abl+Pl:lt # ;
 +N+Tra+Pl:ks # ;
-+N+Com+Pl:n'k%{A%} # ;
++N+Com+Pl:nk%{A%} # ;
 
 LEXICON CS-2-All-Stems-Without-OblPlStem
 
@@ -74,31 +74,33 @@ PersonalPronouns ;
 
 LEXICON PersonalPronouns
 
+!1Sg
 mié:mié NomSgStem ;
 mié:minnu PrtSgStem ;
-mié:mint PrtSgStem ; 
+mié:mint PrtSgStem ; !The second variant of this word form 
 mié:minnu IllSgStem ;
+mié+N+Gen+Sg:miun # ;
+mié+N+Ine+Sg:mius # ;
+mié+N+Ela+Sg:miust # ;
+mié+N+All+Sg:miul # ;
+mié+N+Ade+Sg:miul # ;
+mié+N+Abl+Sg:miult # ;
+mié+N+Tra+Sg:miuks # ;
+mié+N+Com+Sg:miunka # ;
 
-mié:miu+N+Gen+Sg:n # ;
-mié:miu+N+Ine+Sg:s # ;
-mié:miu+N+Ela+Sg:st # ;
-mié:miu+N+All+Sg:l # ;
-mié:miu+N+Ade+Sg:l # ;
-mié:miu+N+Abl+Sg:lt # ;
-mié:miu+N+Tra+Sg:ks # ;
-mié:miu+N+Com+Sg:nka # ;
-
-mié:müé+N+Nom+Pl: 0 # ;
-mié:mejje+N+Gen+Pl:n # ;
-mié:mejje+N+Prt+Pl:j # ;
-mié:mejje+N+Ill+Pl:s # ;
-mié:mejje+N+Ine+Pl:s # ;
-mié:mejje+N+Ela+Pl:st # ;
-mié:mejje+N+All+Pl:l' # ;
-mié:mejje+N+Ade+Pl:l' # ;
-mié:mejje+N+Abl+Pl:l't # ;
-mié:mejje+N+Tra+Pl:ks # ;
-mié:mejje+N+Com+Pl:nkä # ;
+!1Pl
+mié+N+Nom+Pl:müé # ;
+mié+N+Gen+Pl:mejjen # ;
+mié+N+Acc+Pl:mejjet # ;
+mié+N+Prt+Pl:meit # ;
+mié+N+Ill+Pl:mejjes # ;
+mié+N+Ine+Pl:mejjes # ;
+mié+N+Ela+Pl:mejjest # ;
+mié+N+All+Pl:meil' # ;
+mié+N+Ade+Pl:meil' # ;
+mié+N+Abl+Pl:mejjel't # ;
+mié+N+Tra+Pl:mejjeks # ;
+mié+N+Com+Pl:mejjenkä # ;
 
 
 LEXICON Nouns
