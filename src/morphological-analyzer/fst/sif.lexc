@@ -70,6 +70,36 @@ LEXICON Root
 
 Nouns ;
 Verbs ;
+PersonalPronouns ;
+
+LEXICON PersonalPronouns
+
+mié:mié NomSgStem ;
+mié:minnu PrtSgStem ;
+mié:mint PrtSgStem ; 
+mié:minnu IllSgStem ;
+
+mié:miu+N+Gen+Sg:n # ;
+mié:miu+N+Ine+Sg:s # ;
+mié:miu+N+Ela+Sg:st # ;
+mié:miu+N+All+Sg:l # ;
+mié:miu+N+Ade+Sg:l # ;
+mié:miu+N+Abl+Sg:lt # ;
+mié:miu+N+Tra+Sg:ks # ;
+mié:miu+N+Com+Sg:nka # ;
+
+mié:müé+N+Nom+Pl: 0 # ;
+mié:mejje+N+Gen+Pl:n # ;
+mié:mejje+N+Prt+Pl:j # ;
+mié:mejje+N+Ill+Pl:s # ;
+mié:mejje+N+Ine+Pl:s # ;
+mié:mejje+N+Ela+Pl:st # ;
+mié:mejje+N+All+Pl:l' # ;
+mié:mejje+N+Ade+Pl:l' # ;
+mié:mejje+N+Abl+Pl:l't # ;
+mié:mejje+N+Tra+Pl:ks # ;
+mié:mejje+N+Com+Pl:nkä # ;
+
 
 LEXICON Nouns
 
