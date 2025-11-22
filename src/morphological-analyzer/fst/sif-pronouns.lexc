@@ -1,206 +1,243 @@
+LEXICON NomSgStemForPRO
+
++PRO+Nom+Sg:0 # ;
+
+LEXICON OblSgStemForPRO
+
++PRO+Gen+Sg:n # ;
++PRO+Ine+Sg:s # ;
++PRO+Ela+Sg:st # ;
++PRO+All+Sg:l # ;
++PRO+Ade+Sg:l # ;
++PRO+Abl+Sg:lt # ;
++PRO+Tra+Sg:ks # ;
++PRO+Com+Sg:nk%{A%} # ;
++PRO+Nom+Pl: t # ;
+
+LEXICON PrtSgStemForPRO
+
++PRO+Prt+Sg:0 # ;
+
+LEXICON IllSgStemForPRO
+
++PRO+Ill+Sg:0 # ;
+
+LEXICON OblPlStemForPRO
+
++PRO+Gen+Pl:n # ;
++PRO+Prt+Pl:j # ;
++PRO+Ill+Pl:s # ;
++PRO+Ine+Pl:s # ;
++PRO+Ela+Pl:st # ;
++PRO+All+Pl:l # ;
++PRO+Ade+Pl:l # ;
++PRO+Abl+Pl:lt # ;
++PRO+Tra+Pl:ks # ;
++PRO+Com+Pl:nk%{A%} # ;
+
 LEXICON Pronouns
 
 !1Sg
-mié:mié NomSgStem ;
-mié:minnu PrtSgStem ;
-mié:mint PrtSgStem ; !The second variant of this word form 
-mié:minnu IllSgStem ;
-mié+N+Gen+Sg:miun # ;
-mié+N+Ine+Sg:mius # ;
-mié+N+Ela+Sg:miust # ;
-mié+N+All+Sg:miul # ;
-mié+N+Ade+Sg:miul # ;
-mié+N+Abl+Sg:miult # ;
-mié+N+Tra+Sg:miuks # ;
-mié+N+Com+Sg:miunka # ;
+mié:mié NomSgStemForPRO ;
+mié:minnu PrtSgStemForPRO ;
+mié:mint PrtSgStemForPRO ; !The second variant of this word form 
+mié:minnu IllSgStemForPRO ;
+mié+PRO+Gen+Sg:miun # ;
+mié+PRO+Ine+Sg:mius # ;
+mié+PRO+Ela+Sg:miust # ;
+mié+PRO+All+Sg:miul # ;
+mié+PRO+Ade+Sg:miul # ;
+mié+PRO+Abl+Sg:miult # ;
+mié+PRO+Tra+Sg:miuks # ;
+mié+PRO+Com+Sg:miunka # ;
 
 !1Pl
-mié+N+Nom+Pl:müé # ;
-mié+N+Gen+Pl:mejjen # ;
-mié+N+Acc+Pl:mejjet # ;
-mié+N+Prt+Pl:meit # ;
-mié+N+Ill+Pl:mejjes # ;
-mié+N+Ine+Pl:mejjes # ;
-mié+N+Ela+Pl:mejjest # ;
-mié+N+All+Pl:meil' # ;
-mié+N+Ade+Pl:meil' # ;
-mié+N+Abl+Pl:mejjel't # ;
-mié+N+Tra+Pl:mejjeks # ;
-mié+N+Com+Pl:mejjenkä # ;
+mié+PRO+Nom+Pl:müé # ;
+mié+PRO+Gen+Pl:mejjen # ;
+mié+PRO+Acc+Pl:mejjet # ;
+mié+PRO+Prt+Pl:meit # ;
+mié+PRO+Ill+Pl:mejjes # ;
+mié+PRO+Ine+Pl:mejjes # ;
+mié+PRO+Ela+Pl:mejjest # ;
+mié+PRO+All+Pl:meil' # ;
+mié+PRO+Ade+Pl:meil' # ;
+mié+PRO+Abl+Pl:mejjel't # ;
+mié+PRO+Tra+Pl:mejjeks # ;
+mié+PRO+Com+Pl:mejjenkä # ;
 
 !2Sg
-sié:sié NomSgStem ;
-sié:sinnu PrtSgStem ;
-sié:sint PrtSgStem ; !The second variant of this word form
-sié:sinnu IllSgStem ;
-sié+N+Gen+Sg:siun # ;
-sié+N+Ine+Sg:sius # ;
-sié+N+Ela+Sg:siust # ;
-sié+N+All+Sg:siul # ;
-sié+N+Ade+Sg:siul # ;
-sié+N+Abl+Sg:siult # ;
-sié+N+Tra+Sg:siuks # ;
-sié+N+Com+Sg:siunka # ;
+sié:sié NomSgStemForPRO ;
+sié:sinnu PrtSgStemForPRO ;
+sié:sint PrtSgStemForPRO ; !The second variant of this word form
+sié:sinnu IllSgStemForPRO ;
+sié+PRO+Gen+Sg:siun # ;
+sié+PRO+Ine+Sg:sius # ;
+sié+PRO+Ela+Sg:siust # ;
+sié+PRO+All+Sg:siul # ;
+sié+PRO+Ade+Sg:siul # ;
+sié+PRO+Abl+Sg:siult # ;
+sié+PRO+Tra+Sg:siuks # ;
+sié+PRO+Com+Sg:siunka # ;
 
 !2Pl
-sié+N+Nom+Pl:tüé # ;
-sié+N+Gen+Pl:tejjen # ;
-sié+N+Acc+Pl:tejjet # ;
-sié+N+Prt+Pl:teit # ;
-sié+N+Ill+Pl:tejjes # ;
-sié+N+Ine+Pl:tejjes # ;
-sié+N+Ela+Pl:tejjest # ;
-sié+N+All+Pl:teil' # ;
-sié+N+Ade+Pl:teil' # ;
-sié+N+Abl+Pl:tejjel't # ;
-sié+N+Tra+Pl:tejjeks # ;
-sié+N+Com+Pl:tejjenka # ;
+sié+PRO+Nom+Pl:tüé # ;
+sié+PRO+Gen+Pl:tejjen # ;
+sié+PRO+Acc+Pl:tejjet # ;
+sié+PRO+Prt+Pl:teit # ;
+sié+PRO+Ill+Pl:tejjes # ;
+sié+PRO+Ine+Pl:tejjes # ;
+sié+PRO+Ela+Pl:tejjest # ;
+sié+PRO+All+Pl:teil' # ;
+sié+PRO+Ade+Pl:teil' # ;
+sié+PRO+Abl+Pl:tejjel't # ;
+sié+PRO+Tra+Pl:tejjeks # ;
+sié+PRO+Com+Pl:tejjenka # ;
 
 !3Sg
-hä:hä NomSgStem ;
-hän:hän NomSgStem ; !The second variant of this word form
-hä:hänt PrtSgStem ;
-hä:hänt IllSgStem ;
-hä+N+Gen+Sg:hänen # ;
-hä+N+Ine+Sg:hänes # ;
-hä+N+Ela+Sg:hänest # ;
-hä+N+All+Sg:hänel # ;
-hä+N+All+Sg:häl # ; !The second variant of this word form
-hä+N+Ade+Sg:hänel # ;
-hä+N+Ade+Sg:häl # ; !The second variant of this word form
-hä+N+Abl+Sg:hänelt # ;
-hä+N+Abl+Sg:hält # ; !The second variant of this word form
-hä+N+Tra+Sg:häneks # ;
-hä+N+Com+Sg:hänenkä # ;
+hä:hä NomSgStemForPRO ;
+hän:hän NomSgStemForPRO ; !The second variant of this word form
+hä:hänt PrtSgStemForPRO ;
+hä:hänt IllSgStemForPRO ;
+hä+PRO+Gen+Sg:hänen # ;
+hä+PRO+Ine+Sg:hänes # ;
+hä+PRO+Ela+Sg:hänest # ;
+hä+PRO+All+Sg:hänel # ;
+hä+PRO+All+Sg:häl # ; !The second variant of this word form
+hä+PRO+Ade+Sg:hänel # ;
+hä+PRO+Ade+Sg:häl # ; !The second variant of this word form
+hä+PRO+Abl+Sg:hänelt # ;
+hä+PRO+Abl+Sg:hält # ; !The second variant of this word form
+hä+PRO+Tra+Sg:häneks # ;
+hä+PRO+Com+Sg:hänenkä # ;
 
 !3Pl
-hä+N+Nom+Pl:hüé # ;
-hä+N+Gen+Pl:hejjen # ;
-hä+N+Acc+Pl:hejjet # ;
-hä+N+Prt+Pl:heit # ;
-hä+N+Ill+Pl:hejjes # ;
-hä+N+Ine+Pl:hejjes # ;
-hä+N+Ela+Pl:hejjest # ;
-hä+N+All+Pl:hejjel' # ;
-hä+N+All+Pl:heil' # ; !The second variant of this word form
-hä+N+Ade+Pl:hejjel' # ;
-hä+N+Ade+Pl:heil' # ; !The second variant of this word form
-hä+N+Abl+Pl:hejjel't # ;
-hä+N+Tra+Pl:hejjeks # ;
-hä+N+Com+Pl:hejjenka # ;
+hä+PRO+Nom+Pl:hüé # ;
+hä+PRO+Gen+Pl:hejjen # ;
+hä+PRO+Acc+Pl:hejjet # ;
+hä+PRO+Prt+Pl:heit # ;
+hä+PRO+Ill+Pl:hejjes # ;
+hä+PRO+Ine+Pl:hejjes # ;
+hä+PRO+Ela+Pl:hejjest # ;
+hä+PRO+All+Pl:hejjel' # ;
+hä+PRO+All+Pl:heil' # ; !The second variant of this word form
+hä+PRO+Ade+Pl:hejjel' # ;
+hä+PRO+Ade+Pl:heil' # ; !The second variant of this word form
+hä+PRO+Abl+Pl:hejjel't # ;
+hä+PRO+Tra+Pl:hejjeks # ;
+hä+PRO+Com+Pl:hejjenka # ;
 
-oma:oma NomSgStem ; !own, свой, Sidorkevich's PhD thesis, pp. 184-185
-oma:omma PrtSgStem ;
-oma:omma IllSgStem ;
-oma:oma OblSgStem ;
-oma:ommi OblPlStem ;
+oma:oma NomSgStemForPRO ; !own, свой, Sidorkevich's PhD thesis, pp. 184-185
+oma:omma PrtSgStemForPRO ;
+oma:omma IllSgStemForPRO ;
+oma:oma OblSgStemForPRO ;
+oma:ommi OblPlStemForPRO ;
 
-its:its NomSgStem ; !Reflexive pronoun, Sidorkevich's PhD thesis, pp. 186-187
-its:itset PrtSgStem ;
-its:itse IllSgStem ;
-its+N+Gen+Sg:itsen # ;
-its+N+Ine+Sg:itses # ;
-its+N+Ela+Sg:itsest # ;
-its+N+All+Sg:itsel # ;
-its+N+Ade+Sg:itsel # ;
-its+N+Abl+Sg:itselt # ;
-its+N+Tra+Sg:itseks # ;
-its+N+Com+Sg:itsenkä # ;
-its+N+Nom+Pl:itset # ;
+its:its NomSgStemForPRO ; !Reflexive pronoun, Sidorkevich's PhD thesis, pp. 186-187
+its:itset PrtSgStemForPRO ;
+its:itse IllSgStemForPRO ;
+its+PRO+Gen+Sg:itsen # ;
+its+PRO+Ine+Sg:itses # ;
+its+PRO+Ela+Sg:itsest # ;
+its+PRO+All+Sg:itsel # ;
+its+PRO+Ade+Sg:itsel # ;
+its+PRO+Abl+Sg:itselt # ;
+its+PRO+Tra+Sg:itseks # ;
+its+PRO+Com+Sg:itsenkä # ;
+its+PRO+Nom+Pl:itset # ;
 
-tointoiset:tointoiset NomSgStem ; !Reciprocal pronoun (themselves, each other), друг друга
-tointoiset:tointoist PrtSgStem ;
-tointoiset:tointoise IllSgStem ;
-tointoiset:tointoise OblSgStem ; ! verification is needed, in Sidorkevich's PhD thesis, p. 187 inessive is tointoise
+tointoiset:tointoiset NomSgStemForPRO ; !Reciprocal pronoun (themselves, each other), друг друга
+tointoiset:tointoist PrtSgStemForPRO ;
+tointoiset:tointoise IllSgStemForPRO ;
+tointoiset:tointoise OblSgStemForPRO ; ! verification is needed, in Sidorkevich's PhD thesis, p. 187 inessive is tointoise
 
-tämä:tämä NomSgStem ; !этот, Sidorkevich's PhD thesis, pp. 185-186
-tämä:tätä PrtSgStem ;
-tämä:tähä IllSgStem ;
-tämä+N+Gen+Sg:tämän # ;
-tämä+N+Acc+Sg:tätä # ;
-tämä+N+Ine+Sg:tämäs # ;
-tämä+N+Ela+Sg:tamest # ; ! Verification is needed
-tämä+N+All+Sg:tämäl # ;
-tämä+N+All+Sg:täl # ; !The second variant of this word form
-tämä+N+Ade+Sg:tämäl # ;
-tämä+N+Ade+Sg:täl # ; !The second variant of this word form
-tämä+N+Abl+Sg:tämält # ;
-tämä+N+Tra+Sg:tämäks # ;
-tämä+N+Com+Sg:tämänkä # ;
-tämä+N+Nom+Pl:nämät # ;
-tämä+N+Nom+Pl:nämä # ; !The second variant of this word form
-tämä+N+Gen+Pl:nämmin # ;
-tämä+N+Gen+Pl:näin # ; !The second variant of this word form
-tämä+N+Acc+Pl:näit # ;
-tämä+N+Prt+Pl:näit # ;
-tämä+N+Ill+Pl:nämmis # ;
-tämä+N+Ill+Pl:näis # ; !The second variant of this word form
-tämä+N+Ill+Pl:näjjis # ; !The thrid variant of this word form
-tämä+N+Ine+Pl:nämmis # ;
-tämä+N+Ine+Pl:näis # ; !The second variant of this word form
-tämä+N+Ela+Pl:nämmist # ;
-tämä+N+Ela+Pl:näist # ; !The second variant of this word form
-tämä+N+All+Pl:nämmil # ;
-tämä+N+All+Pl:näil # ; !The second variant of this word form, verification is needed
-tämä+N+Ade+Pl:nämmil # ;
-tämä+N+Ade+Pl:näil # ; !The second variant of this word form, verification is needed
-tämä+N+Abl+Pl:nämmilt # ;
-tämä+N+Abl+Pl:näilt # ; !The second variant of this word form
-tämä+N+Tra+Pl:nämmiks # ;
-tämä+N+Tra+Pl:näiks # ; !The second variant of this word form
-tämä+N+Com+Pl:nämminkä # ;
-tämä+N+Com+Pl:näinkä # ; !The second variant of this word form
+tämä:tämä NomSgStemForPRO ; !этот, Sidorkevich's PhD thesis, pp. 185-186
+tämä:tätä PrtSgStemForPRO ;
+tämä:tähä IllSgStemForPRO ;
+tämä+PRO+Gen+Sg:tämän # ;
+tämä+PRO+Acc+Sg:tätä # ;
+tämä+PRO+Ine+Sg:tämäs # ;
+tämä+PRO+Ela+Sg:tamest # ; ! Verification is needed
+tämä+PRO+All+Sg:tämäl # ;
+tämä+PRO+All+Sg:täl # ; !The second variant of this word form
+tämä+PRO+Ade+Sg:tämäl # ;
+tämä+PRO+Ade+Sg:täl # ; !The second variant of this word form
+tämä+PRO+Abl+Sg:tämält # ;
+tämä+PRO+Tra+Sg:tämäks # ;
+tämä+PRO+Com+Sg:tämänkä # ;
+tämä+PRO+Nom+Pl:nämät # ;
+tämä+PRO+Nom+Pl:nämä # ; !The second variant of this word form
+tämä+PRO+Gen+Pl:nämmin # ;
+tämä+PRO+Gen+Pl:näin # ; !The second variant of this word form
+tämä+PRO+Acc+Pl:näit # ;
+tämä+PRO+Prt+Pl:näit # ;
+tämä+PRO+Ill+Pl:nämmis # ;
+tämä+PRO+Ill+Pl:näis # ; !The second variant of this word form
+tämä+PRO+Ill+Pl:näjjis # ; !The thrid variant of this word form
+tämä+PRO+Ine+Pl:nämmis # ;
+tämä+PRO+Ine+Pl:näis # ; !The second variant of this word form
+tämä+PRO+Ela+Pl:nämmist # ;
+tämä+PRO+Ela+Pl:näist # ; !The second variant of this word form
+tämä+PRO+All+Pl:nämmil # ;
+tämä+PRO+All+Pl:näil # ; !The second variant of this word form, verification is needed
+tämä+PRO+Ade+Pl:nämmil # ;
+tämä+PRO+Ade+Pl:näil # ; !The second variant of this word form, verification is needed
+tämä+PRO+Abl+Pl:nämmilt # ;
+tämä+PRO+Abl+Pl:näilt # ; !The second variant of this word form
+tämä+PRO+Tra+Pl:nämmiks # ;
+tämä+PRO+Tra+Pl:näiks # ; !The second variant of this word form
+tämä+PRO+Com+Pl:nämminkä # ;
+tämä+PRO+Com+Pl:näinkä # ; !The second variant of this word form
 
-se:se NomSgStem ; !тот, Sidorkevich's PhD thesis, pp. 185-186
-se:setä PrtSgStem ;
-se:setä IllSgStem ;
-se+N+Gen+Sg:senen # ;
-se+N+Gen+Sg:sen # ; !The second variant of this word form
-se+N+Acc+Sg:setä # ;
-se+N+Ine+Sg:senes # ;
-se+N+Ine+Sg:ses # ; !The second variant of this word form
-se+N+Ela+Sg:senest # ; 
-se+N+All+Sg:senel # ;
-se+N+All+Sg:sel # ; !The second variant of this word form
-se+N+Ade+Sg:senel # ;
-se+N+Ade+Sg:sel # ; !The second variant of this word form
-se+N+Abl+Sg:senelt # ;
-se+N+Tra+Sg:seneks # ;
-se+N+Com+Sg:senenkä # ;
-se+N+Nom+Pl:net # ;
-se+N+Nom+Pl:ne # ; !The second variant of this word form
-se+N+Gen+Pl:nejjen # ;
-se+N+Gen+Pl:nen # ; !The second variant of this word form
-se+N+Acc+Pl:nejjet # ;
-se+N+Prt+Pl:neit # ;
-se+N+Ill+Pl:nejjes # ;
-se+N+Ill+Pl:neis # ; !The second variant of this word form
-se+N+Ine+Pl:nejjes # ;
-se+N+Ine+Pl:neis # ; !The second variant of this word form
-se+N+Ela+Pl:nejjest # ;
-se+N+Ela+Pl:neist # ; !The second variant of this word form
-se+N+All+Pl:nejjel # ;
-se+N+All+Pl:neil # ; !The second variant of this word form
-se+N+Ade+Pl:nejjel # ;
-se+N+Ade+Pl:neil # ; !The second variant of this word form
-se+N+Abl+Pl:nejjelt # ;
-se+N+Abl+Pl:neilt # ; !The second variant of this word form
-se+N+Tra+Pl:nejjeks # ;
-se+N+Tra+Pl:neiks # ; !The second variant of this word form
-se+N+Com+Pl:nejjenkä # ;
-se+N+Com+Pl:neinkä # ; !The second variant of this word form
+se:se NomSgStemForPRO ; !тот, Sidorkevich's PhD thesis, pp. 185-186
+se:setä PrtSgStemForPRO ;
+se:setä IllSgStemForPRO ;
+se+PRO+Gen+Sg:senen # ;
+se+PRO+Gen+Sg:sen # ; !The second variant of this word form
+se+PRO+Acc+Sg:setä # ;
+se+PRO+Ine+Sg:senes # ;
+se+PRO+Ine+Sg:ses # ; !The second variant of this word form
+se+PRO+Ela+Sg:senest # ; 
+se+PRO+All+Sg:senel # ;
+se+PRO+All+Sg:sel # ; !The second variant of this word form
+se+PRO+Ade+Sg:senel # ;
+se+PRO+Ade+Sg:sel # ; !The second variant of this word form
+se+PRO+Abl+Sg:senelt # ;
+se+PRO+Tra+Sg:seneks # ;
+se+PRO+Com+Sg:senenkä # ;
+se+PRO+Nom+Pl:net # ;
+se+PRO+Nom+Pl:ne # ; !The second variant of this word form
+se+PRO+Gen+Pl:nejjen # ;
+se+PRO+Gen+Pl:nen # ; !The second variant of this word form
+se+PRO+Acc+Pl:nejjet # ;
+se+PRO+Prt+Pl:neit # ;
+se+PRO+Ill+Pl:nejjes # ;
+se+PRO+Ill+Pl:neis # ; !The second variant of this word form
+se+PRO+Ine+Pl:nejjes # ;
+se+PRO+Ine+Pl:neis # ; !The second variant of this word form
+se+PRO+Ela+Pl:nejjest # ;
+se+PRO+Ela+Pl:neist # ; !The second variant of this word form
+se+PRO+All+Pl:nejjel # ;
+se+PRO+All+Pl:neil # ; !The second variant of this word form
+se+PRO+Ade+Pl:nejjel # ;
+se+PRO+Ade+Pl:neil # ; !The second variant of this word form
+se+PRO+Abl+Pl:nejjelt # ;
+se+PRO+Abl+Pl:neilt # ; !The second variant of this word form
+se+PRO+Tra+Pl:nejjeks # ;
+se+PRO+Tra+Pl:neiks # ; !The second variant of this word form
+se+PRO+Com+Pl:nejjenkä # ;
+se+PRO+Com+Pl:neinkä # ; !The second variant of this word form
 
-kene:kene NomSgStem ; !who, кто 
-kene:ketä PrtSgStem ;
-kene+N+Gen+Sg:kenen # ;
-kene+N+Ine+Sg:kenes # ;
-kene+N+Ela+Sg:kenest # ;
-kene+N+All+Sg:kenel # ;
-kene+N+All+Sg:kel' # ;
-kene+N+Ade+Sg:kenel # ;
-kene+N+Ade+Sg:kel' # ;
-kene+N+Com+Sg:kenenkä # ;
-kene+N+Nom+Pl:kenet # ;
+kene:kene NomSgStemForPRO ; !who, кто 
+kene:ketä PrtSgStemForPRO ;
+kene+PRO+Gen+Sg:kenen # ;
+kene+PRO+Ine+Sg:kenes # ;
+kene+PRO+Ela+Sg:kenest # ;
+kene+PRO+All+Sg:kenel # ;
+kene+PRO+All+Sg:kel' # ;
+kene+PRO+Ade+Sg:kenel # ;
+kene+PRO+Ade+Sg:kel' # ;
+kene+PRO+Com+Sg:kenenkä # ;
+kene+PRO+Nom+Pl:kenet # ;
 
-mikä:mikä NomSgStem ; !what, что
-mikä:mitä PrtSgStem ;
+mikä:mikä NomSgStemForPRO ; !what, что
+mikä:mitä PrtSgStemForPRO ;
