@@ -6,6 +6,9 @@ LEXICON NounStems
 
 ! 1. The natural world: natural phenomena, flora, fauna, etc.
 
+haut:haut NomSgStem ;
+haut:havva OblSgStem ;
+
 jänis:jänis NomSgStem ;
 jänis:jänikse OblSgStem ;
 jänis:jänist PrtSgStem ;
@@ -14,11 +17,20 @@ jänis:jäniksi OblPlStem ;
 
 koir:koir CS2-I ;
 
+kirppw:kirppw NomSgStem ;
+kirppw:kripu OblSgStem ;
+
 kukk:kukk NomSgStem ;
 kukk:kuka OblSgStem ;
 kukk:kukka PrtSgStem ;
 kukk:kukka IllSgStem ;
 kukk:kukki OblPlStem ;
+
+kukkw:kukkw NomSgStem ;
+kukkw:kuko OblSgStem ;
+
+lanttw:lanttw NomSgStem ; !{lemma: "lanttw", pos: N, morphType: "", translations: [{value: "swede", lang: en}, {value: "rutabaga", lang: en}, {value: "брюква", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "147", units: page}]}
+lanttw:lantu OblSgStem ;
 
 razv:razv NomSgStem ;
 razv:razva OblSgStem ;
@@ -29,7 +41,19 @@ razv:razvo OblPlStem ;
 sika:sika NomSgStem ;
 sika:sia OblSgStem ;
 
+vesi:vesi NomSgStem ;
+vesi:vee OblSgStem ;
+
 ! 2. The human individual: human anatomy, kinship relations, etc.
+
+halkw:halkw NomSgStem ;
+haklw:halo OblSgStem ;
+
+hammas:hammas NomSgStem ;
+hammas:hampa OblSgStem ;
+hammas:hammast PrtSgStem ;
+hammas:hampa IllSgStem ; ! There is wordform "hampas", see Sidorkevich's PhD thesis, p. 174
+hammas:hampa OblPlStem ; ! There is wordform "hampo-n" Pl-Gen, see Sidorkevich's PhD thesis, p. 174
 
 käsi:käsi NomSgStem ;
 käsi:käe OblSgStem ;
@@ -37,11 +61,70 @@ käsi:kätt PrtSgStem ;
 käsi:kätte IllSgStem ;
 käsi:kässi OblPlStem ;
 
+nahk:nahk NomSgStem ;
+nahk:naha OblSgStem ;
+
+napa:napa NomSgStem ;
+
+part:part NomSgStem ;
+part:parra OblSgStem ;
+
 süän:süän NomSgStem ;
+
+tüten:tüten NomSgStem ; !{lemma: "tüten", pos: N, morphType: "CS7", translations: [{value: "little girl", lang: en}, {value: "девочка", lang: ru}], sources: [{fileName: "KKM-34_2025-11-19_02.WAV", location: "09:11-15:15", units: time}], comments: "May be tütten for Nom.Sg?"}
+tüten:tütse OblSgStem ;
+tüten:tütest PrtSgStem ;
+tüten:tütest IllSgStem ; ! verification is needed
+tüten:tütsi OblPlStem ;
+
+tüttw:tüttw NomSgStem ; !{lemma: "tüttw", pos: N, translations: [{value: "girl", lang: en}, {value: "young woman", lang: en}, {value: "девушка", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "93 147 215", units: page}, {fileName: "KKM-34_2025-11-19_02.WAV", location: "09:11-15:15", units: time}]}
+tüttw:tütö OblSgStem ;
+tüttw:tütto PrtSgStem ;
+tüttw:tütto IllSgStem ;
+tüttw:tüttö OblPlStem ;
 
 ! 3. Human activities: terms related to economic (instrumental) activities, agriculture, the home, home interior, clothing, household items, art, etc.
 
-tupa:tupa NomSgStem ; !{lemma: "tupa", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page}], comments: "tuva-n, see page 147"}
+ait:ait NomSgStem ;
+ait:ajja OblSgStem ;
+
+krampp':krampp' NomSgStem ;
+krampp':krampi OblSgStem ;
+
+leip:leip NomSgStem ;
+leip:leivä OblSgStem ;
+
+palkk':palkk' NomSgStem ;
+palkk':palki OblSgStem ;
+
+pank':pank' NomSgStem ;
+pank':pangi OblSgStem ;
+
+penkk':penkk' NomSgStem ;
+penkk':panki OblSgStem ;
+
+piippw:piippw NomSgStem ;
+piippw:piipu OblSgStem ;
+
+purkk':purkk' NomSgStem ;
+purkk':purki OblSgStem ;
+
+püss'w:püss'w NomSgStem ;
+püss'w:püsü OblSgStem ;
+
+reki:reki NomSgStem ;
+reki:reje OblSgStem ;
+reki:rekke PrtSgStem ;
+reki:rekke IllSgStem ;
+reki:rekki OblPlStem ;
+
+riuk:riuk NomSgStem ;
+riuk:rivvu OblSgStem ;
+
+rohtw:rohtw NomSgStem ; ! слово "трава" также будет?
+rohtw:roho OblSgStem ;
+
+tupa:tupa NomSgStem ; !{lemma: "tupa", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}, {value: "дом", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page}], comments: "tuva-n, see page 147"}
 tupa:tua OblSgStem ;
 tupa: tuppa PrtSgStem ;
 
@@ -49,15 +132,24 @@ vasar:vasar CS2-O ;
 
 ! 4. People in society: professions, holidays, traditions, religion, etc.
 
+pulma:pulma NomSgStem ; ! verification is needed
+
+sota:sota NomSgStem ;
+sota:soa OblSgStem ;
+
 ! 5. Abstract concepts
-
-pohé:pohé NomSgStem ; !{lemma: "pohé", translations: [{value: "bottom", lang: en}, {value: "north", lang: en}, {value: "дно", lang: ru}, {value: "север", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "73", units: page}]}
-
-! 6. Units of time
 
 uus:uus NomSgStem ;
 uus:uvve OblSgStem ;
 uus:uutt PrtSgStem ;
 uus:uuvves IllSgStem ;
 uus:uusi OblPlStem ;
+
+pohé:pohé NomSgStem ; !{lemma: "pohé", translations: [{value: "bottom", lang: en}, {value: "north", lang: en}, {value: "дно", lang: ru}, {value: "север", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "73", units: page}]}
+
+! 6. Units of time
+
+ilt:ilt NomSgStem ;
+ilt:illa OblSgStem ;
+
 
