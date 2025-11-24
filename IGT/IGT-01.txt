@@ -1,0 +1,112 @@
+#001
+
+\t Lustit tütöt, lintw lentijä hejjen ümper.
+
+\m lusti-t tütö-t lintw lenti-jä hejje-n ümper
+
+\g beautiful-NOM.PL girl-NOM.PL bird.NOM.SG fly-PRS.3SG 3PL-GEN around
+
+\l-en A bird is flying around the beautiful girls.
+
+\l-ru Над карасивыми девушками летает птица.
+
+\ref Sidorkevich's PhD thesis, p. 180.
+
+#002
+
+\t Sisarat, hä ono kaikkist tarkemp hejjen siés.
+
+\m sisara-t hä ono kaikki-st tarke-mp hejje-n siés
+		
+\g sister-NOM.PL 3SG be.PRS.3SG all.PL-ELA smart-CMP 3PL-GEN inside
+
+\l-en She is the smartest of all her sisters.
+ 	
+\l-ru Она самая умная из всех своих сестер.
+
+\ref Sidorkevich's PhD thesis, p. 182.
+
+#003
+
+\t Siun piirikk ono makkemp' kaikkist paremman.
+
+\m siu-n piirikk ono makke-mp' kaikki-st paremma-n
+
+\g 2SG-GEN pie be.PRS.3SG tasty-CMP all-ELA good-ESS
+
+\l-en Your pie is the most delicious of all.
+
+\l-ru Твой пирог вообще самый вкусный.
+
+\ref Sidorkevich's PhD thesis, p. 183.
+
+#004
+
+\t Hüé harva kosk harjat itsen.
+
+\m hüé harva kosk harja-t itse-n
+
+\g 3PL rarely when brush-3PL RFL-GEN
+
+\l-en They almost never brush their own hair.
+
+\l-ru Они почти никогда не причесываются.
+
+\ref Sidorkevich's PhD thesis, p. 187.
+
+#005
+
+\t Ann se mikä oikest käest ono.
+
+\m ann se mikä oike-st käe-st ono
+
+\g give.IMP.2SG that what right-ELA hand-ELA be.PRS.3SG
+
+\l-en Give me what’s in your right hand.
+
+\l-ru Дай то, что в правой руке.
+
+\ref Sidorkevich's PhD thesis, p. 188-189.
+
+#006
+
+\t Miltajn aftobusan nummer?
+
+\g miltajn aftobusa-n nummer
+
+\m what bus-GEN number
+
+\l-en What is the bus number?
+
+\l-ru Какой номер автобуса?
+
+\ref Sidorkevich's PhD thesis, p. 189.
+
+#007
+
+\t Millajn on siun?
+
+\g millajn on siu-n
+ 
+\m which be.PRS.3SG 2SG-GEN
+
+\l-en Which one is yours?
+
+\l-ru Какой из них твой?
+
+\ref Sidorkevich's PhD thesis, p. 189.
+
+#008
+
+\t Miltajs-t	sié	kahest		podarkast	tahot?
+
+\g miltajs-t	sié	kahe-st		podarka-st	taho-t
+
+\m which-PRT 	2SG 	two-ELT 	gift-ELA 	want-2SG
+
+\l-en Which of the two gifts do you want?
+
+\l-ru Какой из двух подарков ты хочешь?
+
+\ref Sidorkevich's PhD thesis, p. 189.
+
