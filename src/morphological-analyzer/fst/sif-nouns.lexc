@@ -32,6 +32,18 @@ kukkw:kuko OblSgStem ;
 lanttw:lanttw NomSgStem ; !{lemma: "lanttw", pos: N, morphType: "", translations: [{value: "swede", lang: en}, {value: "rutabaga", lang: en}, {value: "брюква", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "147", units: page}]}
 lanttw:lantu OblSgStem ;
 
+laulmine:laulmine NomSgStem ; ! {lemma: "laulmine", pos: N, morphType: "CS7", translations: [{value: "singing", lang: en}, {value: "пение (отглагольное имя)", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "175", units: page}]}
+laulmine:laulmise OblSgStem ; ! All stems except NomSgStem require verification.
+laulmine:laulmist PrtSgStem ;
+laulmine:laulmise IllSgStem ;
+laulmine:laulmisi OblPlStem ;
+
+makkamine:makkamine NomSgStem ; ! {lemma: "makkamine", pos: N, morphType: "CS7", translations: [{value: "sleep", lang: en}, {value: "сон (отглагольное имя)", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "175", units: page}]}
+makkamine:makkamise OblSgStem ; ! All stems except NomSgStem require verification.
+makkamine:makkamist PrtSgStem ;
+makkamine:makkamise IllSgStem ;
+makkamine:makkamisi OblPlStem ;
+
 razv:razv NomSgStem ;
 razv:razva OblSgStem ;
 razv:razva PrtSgStem ;
@@ -45,6 +57,12 @@ vesi:vesi NomSgStem ;
 vesi:vee OblSgStem ;
 
 ! 2. The human individual: human anatomy, kinship relations, etc.
+
+ihmen:ihmen NomSgStem ; ! {lemma: "ihmen", pos: N, morphType: "CS7", translations: [{value: "person", lang: en}, {value: "human", lang: en}, {value: "man", lang: en}, {value: "человек", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "72 108 109 175 190", units: page}]}
+ihmen:ihmése OblSgStem ;
+ihmen:ihmest PrtSgStem ; ! verification is needed
+ihmen:ihmese IllSgStem ; ! verification is needed 
+ihmen:ihmési OblPlStem ;
 
 halkw:halkw NomSgStem ;
 haklw:halo OblSgStem ;
@@ -63,6 +81,12 @@ käsi:kässi OblPlStem ;
 
 nahk:nahk NomSgStem ;
 nahk:naha OblSgStem ;
+
+nain:nain NomSgStem ; ! {lemma: "nain", pos: N, morphType: "CS7", translations: [{value: "woman", lang: en}, {value: "женщина", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "175", units: page}]}
+nain:naise OblSgStem ; ! ! All stems except NomSgStem require verification.
+nain:naist PrtSgStem ;
+nain:naise IllSgStem ;
+nain:naisi OblPlStem ;
 
 napa:napa NomSgStem ;
 

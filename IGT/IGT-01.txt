@@ -98,11 +98,11 @@
 
 #008
 
-\t Miltajs-t	sié	kahest		podarkast	tahot?
+\t Miltajs-t sié kahest podarkast tahot?
 
-\g miltajs-t	sié	kahe-st		podarka-st	taho-t
+\g miltajs-t sié kahe-st podarka-st taho-t
 
-\m which-PRT 	2SG 	two-ELT 	gift-ELA 	want-2SG
+\m which-PRT 2SG two-ELT gift-ELA want-2SG
 
 \l-en Which of the two gifts do you want?
 
@@ -110,3 +110,30 @@
 
 \ref Sidorkevich's PhD thesis, p. 189.
 
+#009
+
+\t Miltsel aja-l hä siul tuli?
+
+\g miltse-l aja-l hä siu-l tuli
+
+\m what-ALL time-ALL 3SG 2SG-ALL come.PST.3SG
+
+\l-en What time did he come to you?
+
+\l-ru В какое время он к тебе пришел?
+
+\ref Sidorkevich's PhD thesis, p. 189.
+
+#010
+
+\t Kumpasel aika sié tulit?
+
+\g kumpase-l aika sié tuli-t
+
+\m what-ALL time.PRT 2SG come.PST-2SG
+
+\l-en What time did you arrive?
+
+\l-ru В какое время ты пришел?
+
+\ref Sidorkevich's PhD thesis, p. 190.
