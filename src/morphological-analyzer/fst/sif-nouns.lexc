@@ -9,6 +9,11 @@ LEXICON NounStems
 haut:haut NomSgStem ;
 haut:havva OblSgStem ;
 
+joki:joki NomSgStem ; ! {lemma: "joki", pos: N, morphType: "VS4", translations: [{value: "river", lang: en}, {value: "река", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 71 165", units: page}]}
+joki:joe OblSgStem ;
+joki:jokke PrtSgStem ; ! verification is needed
+joki:jokke IllSgStem ; ! verification is needed 
+
 jänis:jänis NomSgStem ;
 jänis:jänikse OblSgStem ;
 jänis:jänist PrtSgStem ;
@@ -44,6 +49,11 @@ makkamine:makkamist PrtSgStem ;
 makkamine:makkamise IllSgStem ;
 makkamine:makkamisi OblPlStem ;
 
+mäki:mäki NomSgStem ; {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
+mäki:mäe OblSgStem ; 
+mäki:mäkke PrtSgStem ; ! verification is needed 
+mäki:mäkkke IllSgStem ;
+
 razv:razv NomSgStem ;
 razv:razva OblSgStem ;
 razv:razva PrtSgStem ;
@@ -72,6 +82,12 @@ hammas:hampa OblSgStem ;
 hammas:hammast PrtSgStem ;
 hammas:hampa IllSgStem ; ! There is wordform "hampas", see Sidorkevich's PhD thesis, p. 174
 hammas:hampa OblPlStem ; ! There is wordform "hampo-n" Pl-Gen, see Sidorkevich's PhD thesis, p. 174
+
+hius:hius NomSgStem ; ! {lemma: "hius", pos: N, morphType: "CS6", translations: [{value: "hair", lang: en}, {value: "волос", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 164 174", units: page}]}
+hius:hiukse OblSgStem ; ! All stems except NomSgStem require verification.
+hius:hiust PrtSgStem ;
+hius:hiukse IllSgStem ;
+hius:hiuksi OblPlStem ;
 
 käsi:käsi NomSgStem ;
 käsi:käe OblSgStem ;
