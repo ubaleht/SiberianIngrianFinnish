@@ -34,7 +34,7 @@ kukk:kukki OblPlStem ;
 kukkw:kukkw NomSgStem ;
 kukkw:kuko OblSgStem ;
 
-lanttw:lanttw NomSgStem ; !{lemma: "lanttw", pos: N, morphType: "", translations: [{value: "swede", lang: en}, {value: "rutabaga", lang: en}, {value: "брюква", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "147", units: page}]}
+lanttw:lanttw NomSgStem ; ! {lemma: "lanttw", pos: N, morphType: "", translations: [{value: "swede", lang: en}, {value: "rutabaga", lang: en}, {value: "брюква", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "147", units: page}]}
 lanttw:lantu OblSgStem ;
 
 laulmine:laulmine NomSgStem ; ! {lemma: "laulmine", pos: N, morphType: "CS7", translations: [{value: "singing", lang: en}, {value: "пение (отглагольное имя)", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "175", units: page}]}
@@ -49,7 +49,7 @@ makkamine:makkamist PrtSgStem ;
 makkamine:makkamise IllSgStem ;
 makkamine:makkamisi OblPlStem ;
 
-mäki:mäki NomSgStem ; {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
+mäki:mäki NomSgStem ; ! {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
 mäki:mäe OblSgStem ; 
 mäki:mäkke PrtSgStem ; ! verification is needed 
 mäki:mäkkke IllSgStem ;
@@ -75,7 +75,7 @@ ihmen:ihmese IllSgStem ; ! verification is needed
 ihmen:ihmési OblPlStem ;
 
 halkw:halkw NomSgStem ;
-haklw:halo OblSgStem ;
+halkw:halo OblSgStem ;
 
 hammas:hammas NomSgStem ;
 hammas:hampa OblSgStem ;
@@ -83,7 +83,7 @@ hammas:hammast PrtSgStem ;
 hammas:hampa IllSgStem ; ! There is wordform "hampas", see Sidorkevich's PhD thesis, p. 174
 hammas:hampa OblPlStem ; ! There is wordform "hampo-n" Pl-Gen, see Sidorkevich's PhD thesis, p. 174
 
-hius:hius NomSgStem ; ! {lemma: "hius", pos: N, morphType: "CS6", translations: [{value: "hair", lang: en}, {value: "волос", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 164 174", units: page}]}
+hius:hius NomSgStem ; ! ! {lemma: "hius", pos: N, morphType: "CS6", translations: [{value: "hair", lang: en}, {value: "волос", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 164 174", units: page}]}
 hius:hiukse OblSgStem ; ! All stems except NomSgStem require verification.
 hius:hiust PrtSgStem ;
 hius:hiukse IllSgStem ;
@@ -164,7 +164,7 @@ riuk:rivvu OblSgStem ;
 rohtw:rohtw NomSgStem ; ! слово "трава" также будет?
 rohtw:roho OblSgStem ;
 
-tupa:tupa NomSgStem ; !{lemma: "tupa", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}, {value: "дом", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page}], comments: "tuva-n, see page 147"}
+tupa:tupa NomSgStem ; ! {lemma: "tupa", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}, {value: "дом", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page}], comments: "tuva-n, see page 147"}
 tupa:tua OblSgStem ;
 tupa: tuppa PrtSgStem ;
 
