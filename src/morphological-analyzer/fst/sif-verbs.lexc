@@ -1,0 +1,8 @@
+LEXICON Verbs
+
+VerbStems ;
+
+LEXICON VerbStems
+
+korja:korja VerbTypeKorja ;
+harja:harja VerbTypeKorja ;

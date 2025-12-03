@@ -2,11 +2,26 @@ Multichar_Symbols
 
 +N +V +PRO
 
-+Sg +Pl
-
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 
 +Nom +Gen +Prt +Ill +Ine +Ela +All +Ade +Abl +Tra +Com
+
+! For verbs
+
++Inf +Sup +Ips +Ptcp
+
++Ind +Imp +Cond
+
++Sg +Pl
+
++1 +2 +3
+
++Pos +Neg
+
++Act +Pass
+
++Pst +Prs +Fut
+
 
 %{A%}
 
@@ -71,6 +86,105 @@ LEXICON CS2-O ! Morphological type "CS2", alternation of the final vowel of the 
 
 CS-2-All-Stems-Without-OblPlStem ;
 :%{A1%} OblPlStem ;
+
+LEXICON Infinitive
++V+Inf:0 # ;
+
+LEXICON InfinitiveWithT
++V+Inf:t # ;
+
+LEXICON Supine
++V+Sup:m%{A%} # ;
+
+LEXICON Impersonal
++V+Ips+Pst:tti # ; ! (t)ti
+
+LEXICON Imperative2Sg
++V+Imp+Sg+2+Pos:0 ;
+
+LEXICON Imperative2Pl
++V+Imp+Pl+2+Pos:k%{A%} #;
+
+LEXICON 1-2-Prs
+
++V+Ind+Sg+1+Pos+Prs:n # ;
++V+Ind+Sg+2+Pos+Prs:t # ;
++V+Ind+Pl+1+Pos+Prs:m # ;
++V+Ind+Pl+2+Pos+Prs:t # ;
+
+LEXICON 3-Prs
+
++V+Ind+Sg+3+Pos+Prs:0 # ;
++V+Ind+Pl+3+Pos+Prs:t # ;
+
+LEXICON 3-Prs-Ja-Jat
+
++V+Ind+Sg+3+Pos+Prs:ja # ;
++V+Ind+Pl+3+Pos+Prs:jat # ;
+
+LEXICON Prs-Neg
+
++V+Ind+Sg+1+Neg+Prs:0 # ;
++V+Ind+Sg+2+Neg+Prs:0 # ;
++V+Ind+Sg+3+Neg+Prs:0 # ;
++V+Ind+Pl+1+Neg+Prs:0 # ;
++V+Ind+Pl+2+Neg+Prs:0 # ;
++V+Ind+Pl+3+Neg+Prs:0 # ;
+
+LEXICON 1-2-Pst
+
++V+Ind+Sg+1+Pos+Pst:n # ;
++V+Ind+Sg+2+Pos+Pst:t # ;
++V+Ind+Pl+1+Pos+Pst:m # ;
++V+Ind+Pl+2+Pos+Pst:t # ;
+
+LEXICON 3Sg-Pst
++V+Ind+Sg+3+Pos+Pst:s' # ;
+
+LEXICON 3Pl-Pst
++V+Ind+Pl+3+Pos+Pst:v%{A%}t # ;
+
+LEXICON Sg-Pst-Neg
+
++V+Ind+Sg+1+Neg+Pst:nt # ; ! "n" can be assimilated, make the rule in Twolc
++V+Ind+Sg+2+Neg+Pst:nt # ;
++V+Ind+Sg+3+Neg+Pst:nt # ;
+
+LEXICON Pl-Pst-Neg
+
++V+Ind+Pl+1+Neg+Pst:net # ; ! "n" can be assimilated, make the rule in Twolc
++V+Ind+Pl+2+Neg+Pst:net # ;
++V+Ind+Pl+3+Neg+Pst:net # ;
+
+LEXICON Ptsp-Pass
++V+Ptsp+Pass:ttw # ;
+
+LEXICON Ptsp-Act-Sg
++V+Ptsp+Act+Sg:nt # ;
+
+LEXICON Ptsp-Act-Pl
++V+Ptsp+Act+Pl:net # ;
+
+LEXICON VerbTypeKorja
+
+:0 Infinitive ;
+:0 InfinitiveWithT ;
+:0 Supine ;
+:0 Impersonal ;
+:0 Imperative2Sg ;
+:0 Imperative2Pl ;
+:0 1-2-Prs ;
+:0 3-Prs ;
+:0 Prs-Neg ;
+:si 1-2-Pst ;
+:0 3Sg-Pst ;
+:si 3Pl-Pst ;
+:0 Sg-Pst-Neg ;
+:0 Pl-Pst-Neg ;
+:0 Ptsp-Pass ;
+:0 Ptsp-Act-Sg ;
+:0 Ptsp-Act-Pl ;
+
 
 
 
