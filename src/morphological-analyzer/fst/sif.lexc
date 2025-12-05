@@ -122,6 +122,11 @@ LEXICON 3-Prs-Ja-Jat
 +V+Ind+Sg+3+Pos+Prs:ja # ;
 +V+Ind+Pl+3+Pos+Prs:jat # ;
 
+LEXICON 3-Prs-P-Vat
+
++V+Ind+Sg+3+Pos+Prs:p # ;
++V+Ind+Pl+3+Pos+Prs:v%{A%}t # ;
+
 LEXICON Prs-Neg
 
 +V+Ind+Sg+1+Neg+Prs:0 # ;
@@ -139,6 +144,9 @@ LEXICON 1-2-Pst
 +V+Ind+Pl+2+Pos+Pst:t # ;
 
 LEXICON 3Sg-Pst
++V+Ind+Sg+3+Pos+Pst:0 # ;
+
+LEXICON 3Sg-Pst-Suffix-S
 +V+Ind+Sg+3+Pos+Pst:s' # ;
 
 LEXICON 3Pl-Pst
@@ -159,6 +167,9 @@ LEXICON Pl-Pst-Neg
 LEXICON Ptsp-Pass
 +V+Ptsp+Pass:ttw # ;
 
+LEXICON Ptsp-Pass-Palatalized ! Create rule in Twolc
++V+Ptsp+Pass:tt'w # ;
+
 LEXICON Ptsp-Act-Sg
 +V+Ptsp+Act+Sg:nt # ;
 
@@ -177,7 +188,7 @@ LEXICON VerbTypeKorja
 :0 3-Prs ;
 :0 Prs-Neg ;
 :si 1-2-Pst ;
-:0 3Sg-Pst ;
+:0 3Sg-Pst-Suffix-S ;
 :si 3Pl-Pst ;
 :0 Sg-Pst-Neg ;
 :0 Pl-Pst-Neg ;

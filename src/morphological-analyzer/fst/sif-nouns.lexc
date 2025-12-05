@@ -9,6 +9,12 @@ LEXICON NounStems
 haut:haut NomSgStem ;
 haut:havva OblSgStem ;
 
+hevon:hevon NomSgStem ;  ! CS7
+hevon:hevose OblSgStem ;
+hevon:hevost PrtSgStem ;
+hevon:hevose IllSgStem ;
+hevon:hevosi OblPlStem ;
+
 joki:joki NomSgStem ; ! {lemma: "joki", pos: N, morphType: "VS4", translations: [{value: "river", lang: en}, {value: "река", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 71 165", units: page}]}
 joki:joe OblSgStem ;
 joki:jokke PrtSgStem ; ! verification is needed
@@ -19,6 +25,18 @@ jänis:jänikse OblSgStem ;
 jänis:jänist PrtSgStem ;
 jänis:jänikse IllSgStem ;
 jänis:jäniksi OblPlStem ;
+
+kala:kala NomSgStem ; ! VS7
+kala:kala OblSgStem ;
+kala:kalla PrtSgStem ;
+kala:kalla IllSgStem ;
+kala:kallo OblPlStem ;
+
+kana:kana NomSgStem ; ! VS7
+kana:kana OblSgStem ;
+kana:kanna PrtSgStem ;
+kana:kanna IllSgStem ;
+kana:kanno OblPlStem ;
 
 koir:koir CS2-I ;
 
@@ -54,6 +72,12 @@ mäki:mäe OblSgStem ;
 mäki:mäkke PrtSgStem ; ! verification is needed 
 mäki:mäkkke IllSgStem ;
 
+muna:muma NomSgStem ; ! VS7
+muna:muna OblSgStem ;
+muna:munna PrtSgStem ;
+muna:munna IllSgStem ;
+muna:munno OblPlStem ;
+
 razv:razv NomSgStem ;
 razv:razva OblSgStem ;
 razv:razva PrtSgStem ;
@@ -62,6 +86,12 @@ razv:razvo OblPlStem ;
 
 sika:sika NomSgStem ;
 sika:sia OblSgStem ;
+
+taivas:taivas NomSgStem ; ! CS8, Sky
+taivas:taiva OblSgStem ;
+taivas:taivast PrtSgStem ;
+taivas:taivas IllSgStem ;
+taivas:taivos OblPlStem ;
 
 vesi:vesi NomSgStem ;
 vesi:vee OblSgStem ;
@@ -128,6 +158,12 @@ tüttw:tüttö OblPlStem ;
 ait:ait NomSgStem ;
 ait:ajja OblSgStem ;
 
+kiuka:kiuka NomSgStem ; ! VS2
+kiuka:kiuka OblSgStem ;
+kiuka:kiukatt PrtSgStem ;
+kiuka:kiuka IllSgStem ;
+kiuka:kiuka OblPlStem ;
+
 krampp':krampp' NomSgStem ;
 krampp':krampi OblSgStem ;
 
@@ -139,6 +175,12 @@ palkk':palki OblSgStem ;
 
 pank':pank' NomSgStem ;
 pank':pangi OblSgStem ;
+
+pata:pata NomSgStem ; ! VS6
+pata:paa OblSgStem ;
+pata:patta PrtSgStem ;
+pata:patta IllSgStem ;
+pata:pato OblPlStem ;
 
 penkk':penkk' NomSgStem ;
 penkk':panki OblSgStem ;
