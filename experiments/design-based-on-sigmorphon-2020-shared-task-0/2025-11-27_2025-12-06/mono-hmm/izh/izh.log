@@ -1,0 +1,210 @@
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: seed - 0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: train - ['task0-data/processed/izh.trn']
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: dev - ['task0-data/processed/izh.dev']
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: test - ['task0-data/processed/izh.tst']
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: model - 'checkpoints/sigmorphon20-task0/mono-hmm/default/izh'
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: load - ''
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: bs - 50
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: epochs - 50
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: max_steps - 0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: total_eval - -1
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: scheduler - <Scheduler.reducewhenstuck: 'reducewhenstuck'>
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: lr - 0.001
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: beta2 - 0.999
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: cooldown - 0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: patience - 0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: max_norm - 5.0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: saveall - False
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: shuffle - True
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: cleanup_anyway - False
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: max_decode_len - 128
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: init - ''
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: dropout - 0.4
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: embed_dim - 200
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: src_layer - 2
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: trg_layer - 1
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: src_hs - 400
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: trg_hs - 400
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: label_smooth - 0.0
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: arch - <Arch.hmm: 'hmm'>
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: indtag - True
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: mono - True
+INFO - 12/05/25 06:02:01 - 0:00:00 - command line argument: bestacc - True
+INFO - 12/05/25 06:02:01 - 0:00:00 - src vocab size 42
+INFO - 12/05/25 06:02:01 - 0:00:00 - trg vocab size 27
+INFO - 12/05/25 06:02:01 - 0:00:00 - number of attribute 16
+INFO - 12/05/25 06:02:01 - 0:00:00 - dec 1st rnn LSTMCell(240, 400)
+INFO - 12/05/25 06:02:01 - 0:00:00 - model: MonoTagHMMTransducer(
+                                       (src_embed): Embedding(27, 200, padding_idx=0)
+                                       (trg_embed): Embedding(27, 200, padding_idx=0)
+                                       (enc_rnn): LSTM(200, 400, num_layers=2, dropout=0.4, bidirectional=True)
+                                       (dec_rnn): StackedLSTM(
+                                         (layers): ModuleList(
+                                           (0): LSTMCell(240, 400)
+                                         )
+                                         (dropout): Dropout(p=0.4, inplace=False)
+                                       )
+                                       (scale_enc_hs): Linear(in_features=800, out_features=400, bias=True)
+                                       (linear_out): Linear(in_features=1200, out_features=1200, bias=True)
+                                       (final_out): Linear(in_features=1200, out_features=27, bias=True)
+                                       (dropout): Dropout(p=0.4, inplace=False)
+                                       (attr_embed): Embedding(17, 40, padding_idx=0)
+                                       (merge_attr): Linear(in_features=640, out_features=40, bias=True)
+                                     )
+INFO - 12/05/25 06:02:01 - 0:00:00 - number of parameter 8631147
+INFO - 12/05/25 06:02:01 - 0:00:00 - maximum training 800 steps (50 epochs)
+INFO - 12/05/25 06:02:01 - 0:00:00 - evaluate every 1 epochs
+INFO - 12/05/25 06:02:01 - 0:00:00 - At 0-th epoch with lr 0.001000.
+INFO - 12/05/25 06:02:12 - 0:00:11 - Running average train loss is 1.4712155014276505 at epoch 0
+INFO - 12/05/25 06:02:12 - 0:00:11 - At 1-th epoch with lr 0.001000.
+INFO - 12/05/25 06:02:22 - 0:00:22 - Running average train loss is 0.7784513980150223 at epoch 1
+INFO - 12/05/25 06:02:23 - 0:00:22 - Average dev loss is 0.5191274583339691 at epoch 1
+INFO - 12/05/25 06:02:23 - 0:00:23 - dev accuracy is 0.8929 at epoch 1
+INFO - 12/05/25 06:02:23 - 0:00:23 - dev average edit distance is 3.0089 at epoch 1
+INFO - 12/05/25 06:02:23 - 0:00:23 - At 2-th epoch with lr 0.001000.
+INFO - 12/05/25 06:02:34 - 0:00:33 - Running average train loss is 0.4644841905683279 at epoch 2
+INFO - 12/05/25 06:02:35 - 0:00:34 - Average dev loss is 0.34122900168100995 at epoch 2
+INFO - 12/05/25 06:02:35 - 0:00:34 - dev accuracy is 14.2857 at epoch 2
+INFO - 12/05/25 06:02:35 - 0:00:34 - dev average edit distance is 2.0893 at epoch 2
+INFO - 12/05/25 06:02:35 - 0:00:34 - At 3-th epoch with lr 0.001000.
+INFO - 12/05/25 06:02:46 - 0:00:45 - Running average train loss is 0.33331120386719704 at epoch 3
+INFO - 12/05/25 06:02:46 - 0:00:46 - Average dev loss is 0.2670239706834157 at epoch 3
+INFO - 12/05/25 06:02:47 - 0:00:46 - dev accuracy is 30.3571 at epoch 3
+INFO - 12/05/25 06:02:47 - 0:00:46 - dev average edit distance is 1.4554 at epoch 3
+INFO - 12/05/25 06:02:47 - 0:00:46 - At 4-th epoch with lr 0.001000.
+INFO - 12/05/25 06:02:57 - 0:00:56 - Running average train loss is 0.24017676431685686 at epoch 4
+INFO - 12/05/25 06:02:58 - 0:00:57 - Average dev loss is 0.20680436491966248 at epoch 4
+INFO - 12/05/25 06:02:58 - 0:00:57 - dev accuracy is 41.9643 at epoch 4
+INFO - 12/05/25 06:02:58 - 0:00:57 - dev average edit distance is 1.2857 at epoch 4
+INFO - 12/05/25 06:02:58 - 0:00:58 - At 5-th epoch with lr 0.001000.
+INFO - 12/05/25 06:03:09 - 0:01:09 - Running average train loss is 0.17927642911672592 at epoch 5
+INFO - 12/05/25 06:03:10 - 0:01:09 - Average dev loss is 0.180807925760746 at epoch 5
+INFO - 12/05/25 06:03:10 - 0:01:10 - dev accuracy is 51.7857 at epoch 5
+INFO - 12/05/25 06:03:10 - 0:01:10 - dev average edit distance is 0.9821 at epoch 5
+INFO - 12/05/25 06:03:10 - 0:01:10 - At 6-th epoch with lr 0.001000.
+INFO - 12/05/25 06:03:21 - 0:01:21 - Running average train loss is 0.1496395831927657 at epoch 6
+INFO - 12/05/25 06:03:22 - 0:01:21 - Average dev loss is 0.17381366093953451 at epoch 6
+INFO - 12/05/25 06:03:22 - 0:01:22 - dev accuracy is 58.0357 at epoch 6
+INFO - 12/05/25 06:03:22 - 0:01:22 - dev average edit distance is 0.8571 at epoch 6
+INFO - 12/05/25 06:03:22 - 0:01:22 - At 7-th epoch with lr 0.001000.
+INFO - 12/05/25 06:03:33 - 0:01:33 - Running average train loss is 0.1262172139249742 at epoch 7
+INFO - 12/05/25 06:03:34 - 0:01:33 - Average dev loss is 0.15550698836644491 at epoch 7
+INFO - 12/05/25 06:03:34 - 0:01:34 - dev accuracy is 56.25 at epoch 7
+INFO - 12/05/25 06:03:34 - 0:01:34 - dev average edit distance is 0.8125 at epoch 7
+INFO - 12/05/25 06:03:34 - 0:01:34 - At 8-th epoch with lr 0.001000.
+INFO - 12/05/25 06:03:45 - 0:01:45 - Running average train loss is 0.11622053850442171 at epoch 8
+INFO - 12/05/25 06:03:46 - 0:01:45 - Average dev loss is 0.1549616033832232 at epoch 8
+INFO - 12/05/25 06:03:46 - 0:01:45 - dev accuracy is 56.25 at epoch 8
+INFO - 12/05/25 06:03:46 - 0:01:45 - dev average edit distance is 0.8304 at epoch 8
+INFO - 12/05/25 06:03:46 - 0:01:46 - At 9-th epoch with lr 0.001000.
+INFO - 12/05/25 06:03:57 - 0:01:57 - Running average train loss is 0.10347289382480085 at epoch 9
+INFO - 12/05/25 06:03:58 - 0:01:57 - Average dev loss is 0.1577309121688207 at epoch 9
+INFO - 12/05/25 06:03:58 - 0:01:58 - dev accuracy is 61.6071 at epoch 9
+INFO - 12/05/25 06:03:58 - 0:01:58 - dev average edit distance is 0.7857 at epoch 9
+INFO - 12/05/25 06:03:58 - 0:01:58 - At 10-th epoch with lr 0.000500.
+INFO - 12/05/25 06:04:10 - 0:02:09 - Running average train loss is 0.07553480356000364 at epoch 10
+INFO - 12/05/25 06:04:10 - 0:02:09 - Average dev loss is 0.15448994934558868 at epoch 10
+INFO - 12/05/25 06:04:10 - 0:02:10 - dev accuracy is 62.5 at epoch 10
+INFO - 12/05/25 06:04:10 - 0:02:10 - dev average edit distance is 0.7321 at epoch 10
+INFO - 12/05/25 06:04:11 - 0:02:10 - At 11-th epoch with lr 0.000500.
+INFO - 12/05/25 06:04:22 - 0:02:21 - Running average train loss is 0.06254372233524919 at epoch 11
+INFO - 12/05/25 06:04:22 - 0:02:22 - Average dev loss is 0.14823989321788153 at epoch 11
+INFO - 12/05/25 06:04:23 - 0:02:22 - dev accuracy is 65.1786 at epoch 11
+INFO - 12/05/25 06:04:23 - 0:02:22 - dev average edit distance is 0.6429 at epoch 11
+INFO - 12/05/25 06:04:23 - 0:02:22 - At 12-th epoch with lr 0.000500.
+INFO - 12/05/25 06:04:33 - 0:02:33 - Running average train loss is 0.05115876509808004 at epoch 12
+INFO - 12/05/25 06:04:34 - 0:02:33 - Average dev loss is 0.14457611739635468 at epoch 12
+INFO - 12/05/25 06:04:34 - 0:02:34 - dev accuracy is 64.2857 at epoch 12
+INFO - 12/05/25 06:04:34 - 0:02:34 - dev average edit distance is 0.6518 at epoch 12
+INFO - 12/05/25 06:04:35 - 0:02:34 - At 13-th epoch with lr 0.000500.
+INFO - 12/05/25 06:04:45 - 0:02:45 - Running average train loss is 0.05017254617996514 at epoch 13
+INFO - 12/05/25 06:04:46 - 0:02:45 - Average dev loss is 0.15197070191303888 at epoch 13
+INFO - 12/05/25 06:04:46 - 0:02:45 - dev accuracy is 65.1786 at epoch 13
+INFO - 12/05/25 06:04:46 - 0:02:45 - dev average edit distance is 0.6696 at epoch 13
+INFO - 12/05/25 06:04:46 - 0:02:46 - At 14-th epoch with lr 0.000250.
+INFO - 12/05/25 06:04:57 - 0:02:56 - Running average train loss is 0.04324088676366955 at epoch 14
+INFO - 12/05/25 06:04:57 - 0:02:56 - Average dev loss is 0.14676111688216528 at epoch 14
+INFO - 12/05/25 06:04:58 - 0:02:57 - dev accuracy is 68.75 at epoch 14
+INFO - 12/05/25 06:04:58 - 0:02:57 - dev average edit distance is 0.5893 at epoch 14
+INFO - 12/05/25 06:04:58 - 0:02:57 - At 15-th epoch with lr 0.000125.
+INFO - 12/05/25 06:05:09 - 0:03:08 - Running average train loss is 0.03671190037857741 at epoch 15
+INFO - 12/05/25 06:05:09 - 0:03:08 - Average dev loss is 0.14421463012695312 at epoch 15
+INFO - 12/05/25 06:05:10 - 0:03:09 - dev accuracy is 66.0714 at epoch 15
+INFO - 12/05/25 06:05:10 - 0:03:09 - dev average edit distance is 0.6339 at epoch 15
+INFO - 12/05/25 06:05:10 - 0:03:09 - At 16-th epoch with lr 0.000125.
+INFO - 12/05/25 06:05:21 - 0:03:20 - Running average train loss is 0.03998255298938602 at epoch 16
+INFO - 12/05/25 06:05:21 - 0:03:20 - Average dev loss is 0.14188048740228018 at epoch 16
+INFO - 12/05/25 06:05:22 - 0:03:21 - dev accuracy is 66.0714 at epoch 16
+INFO - 12/05/25 06:05:22 - 0:03:21 - dev average edit distance is 0.6518 at epoch 16
+INFO - 12/05/25 06:05:22 - 0:03:21 - At 17-th epoch with lr 0.000125.
+INFO - 12/05/25 06:05:33 - 0:03:32 - Running average train loss is 0.036146200029179454 at epoch 17
+INFO - 12/05/25 06:05:33 - 0:03:32 - Average dev loss is 0.13886859764655432 at epoch 17
+INFO - 12/05/25 06:05:33 - 0:03:33 - dev accuracy is 67.8571 at epoch 17
+INFO - 12/05/25 06:05:33 - 0:03:33 - dev average edit distance is 0.6071 at epoch 17
+INFO - 12/05/25 06:05:34 - 0:03:33 - At 18-th epoch with lr 0.000125.
+INFO - 12/05/25 06:05:45 - 0:03:44 - Running average train loss is 0.031671067234128714 at epoch 18
+INFO - 12/05/25 06:05:45 - 0:03:44 - Average dev loss is 0.1396176666021347 at epoch 18
+INFO - 12/05/25 06:05:46 - 0:03:45 - dev accuracy is 68.75 at epoch 18
+INFO - 12/05/25 06:05:46 - 0:03:45 - dev average edit distance is 0.5982 at epoch 18
+INFO - 12/05/25 06:05:46 - 0:03:45 - At 19-th epoch with lr 0.000063.
+INFO - 12/05/25 06:05:57 - 0:03:56 - Running average train loss is 0.030309174209833145 at epoch 19
+INFO - 12/05/25 06:05:57 - 0:03:56 - Average dev loss is 0.13849113881587982 at epoch 19
+INFO - 12/05/25 06:05:57 - 0:03:57 - dev accuracy is 68.75 at epoch 19
+INFO - 12/05/25 06:05:57 - 0:03:57 - dev average edit distance is 0.5982 at epoch 19
+INFO - 12/05/25 06:05:58 - 0:03:57 - At 20-th epoch with lr 0.000063.
+INFO - 12/05/25 06:06:09 - 0:04:08 - Running average train loss is 0.031768961576744914 at epoch 20
+INFO - 12/05/25 06:06:09 - 0:04:09 - Average dev loss is 0.13946793973445892 at epoch 20
+INFO - 12/05/25 06:06:10 - 0:04:09 - dev accuracy is 68.75 at epoch 20
+INFO - 12/05/25 06:06:10 - 0:04:09 - dev average edit distance is 0.6071 at epoch 20
+INFO - 12/05/25 06:06:10 - 0:04:09 - At 21-th epoch with lr 0.000031.
+INFO - 12/05/25 06:06:21 - 0:04:20 - Running average train loss is 0.03220657666679472 at epoch 21
+INFO - 12/05/25 06:06:21 - 0:04:20 - Average dev loss is 0.13906162728865942 at epoch 21
+INFO - 12/05/25 06:06:22 - 0:04:21 - dev accuracy is 68.75 at epoch 21
+INFO - 12/05/25 06:06:22 - 0:04:21 - dev average edit distance is 0.5893 at epoch 21
+INFO - 12/05/25 06:06:22 - 0:04:21 - At 22-th epoch with lr 0.000016.
+INFO - 12/05/25 06:06:33 - 0:04:32 - Running average train loss is 0.03146968997316435 at epoch 22
+INFO - 12/05/25 06:06:33 - 0:04:32 - Average dev loss is 0.13895592838525772 at epoch 22
+INFO - 12/05/25 06:06:34 - 0:04:33 - dev accuracy is 68.75 at epoch 22
+INFO - 12/05/25 06:06:34 - 0:04:33 - dev average edit distance is 0.5893 at epoch 22
+INFO - 12/05/25 06:06:34 - 0:04:33 - At 23-th epoch with lr 0.000010.
+INFO - 12/05/25 06:06:44 - 0:04:43 - Running average train loss is 0.0330215502763167 at epoch 23
+INFO - 12/05/25 06:06:45 - 0:04:44 - Average dev loss is 0.13874459266662598 at epoch 23
+INFO - 12/05/25 06:06:45 - 0:04:44 - dev accuracy is 68.75 at epoch 23
+INFO - 12/05/25 06:06:45 - 0:04:44 - dev average edit distance is 0.5893 at epoch 23
+INFO - 12/05/25 06:06:45 - 0:04:45 - At 24-th epoch with lr 0.000010.
+INFO - 12/05/25 06:06:56 - 0:04:56 - Running average train loss is 0.03195532108657062 at epoch 24
+INFO - 12/05/25 06:06:57 - 0:04:56 - Average dev loss is 0.13874821613232294 at epoch 24
+INFO - 12/05/25 06:06:57 - 0:04:57 - dev accuracy is 70.5357 at epoch 24
+INFO - 12/05/25 06:06:57 - 0:04:57 - dev average edit distance is 0.5625 at epoch 24
+INFO - 12/05/25 06:06:57 - 0:04:57 - Early stopping triggered with epoch 24 (previous dev loss: 0.138745, current: 0.138748)
+INFO - 12/05/25 06:06:57 - 0:04:57 - loading checkpoints/sigmorphon20-task0/mono-hmm/default/izh.nll_0.1387.acc_68.75.dist_0.5893.epoch_23 for testing
+INFO - 12/05/25 06:06:57 - 0:04:57 - load model in checkpoints/sigmorphon20-task0/mono-hmm/default/izh.nll_0.1387.acc_68.75.dist_0.5893.epoch_23
+INFO - 12/05/25 06:06:58 - 0:04:57 - Average dev loss is 0.13874459266662598 at epoch -1
+INFO - 12/05/25 06:06:58 - 0:04:57 - decoding dev set
+INFO - 12/05/25 06:06:59 - 0:04:58 - finished decoding 112 dev instance
+INFO - 12/05/25 06:06:59 - 0:04:58 - DEV accuracy is 68.75 at epoch -1
+INFO - 12/05/25 06:06:59 - 0:04:58 - DEV average edit distance is 0.5893 at epoch -1
+INFO - 12/05/25 06:06:59 - 0:04:58 - DEV izh acc 68.75 dist 0.5893
+INFO - 12/05/25 06:07:00 - 0:04:59 - Average test loss is 0.10998081713914871 at epoch -1
+INFO - 12/05/25 06:07:00 - 0:04:59 - decoding test set
+INFO - 12/05/25 06:07:01 - 0:05:01 - finished decoding 224 test instance
+INFO - 12/05/25 06:07:01 - 0:05:01 - TEST accuracy is 74.1071 at epoch -1
+INFO - 12/05/25 06:07:01 - 0:05:01 - TEST average edit distance is 0.5089 at epoch -1
+INFO - 12/05/25 06:07:01 - 0:05:01 - TEST izh acc 74.1071 dist 0.5089
