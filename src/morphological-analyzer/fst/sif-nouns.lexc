@@ -67,12 +67,17 @@ makkamine:makkamist PrtSgStem ;
 makkamine:makkamise IllSgStem ;
 makkamine:makkamisi OblPlStem ;
 
+mato:mato NomSgStem ; ! {lemma: "mato", pos: N, morphType: "VS6", translations: [{value: "worm", lang: en}, {value: "червяк", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 71 179", units: page}]}
+mato:mao OblSgStem ;
+mato:matto PrtSgStem ; ! verification is needed 
+mato:matto IllSgStem ; ! verification is needed 
+
 mäki:mäki NomSgStem ; ! {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
 mäki:mäe OblSgStem ; 
 mäki:mäkke PrtSgStem ; ! verification is needed 
 mäki:mäkkke IllSgStem ;
 
-muna:muma NomSgStem ; ! VS7
+muna:muna NomSgStem ; ! VS7
 muna:muna OblSgStem ;
 muna:munna PrtSgStem ;
 muna:munna IllSgStem ;
@@ -84,8 +89,14 @@ razv:razva PrtSgStem ;
 razv:razva IllSgStem ;
 razv:razvo OblPlStem ;
 
-sika:sika NomSgStem ;
+sika:sika NomSgStem ; ! VS6
 sika:sia OblSgStem ;
+sika:sikka PrtSgStem ; ! verification is needed 
+sika:sikka IllSgStem ; ! verification is needed
+
+silm:silm NomSgStem ; ! {lemma: "silm", pos: N, morphType: "", translations: [{value: "eye", lang: en}, {value: "глаз", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "96 294", units: page}]}
+silm:silmä OblSgStem ;
+silm:silmä PrtSgStem ;
 
 taivas:taivas NomSgStem ; ! CS8, Sky
 taivas:taiva OblSgStem ;
@@ -129,12 +140,17 @@ nahk:nahk NomSgStem ;
 nahk:naha OblSgStem ;
 
 nain:nain NomSgStem ; ! {lemma: "nain", pos: N, morphType: "CS7", translations: [{value: "woman", lang: en}, {value: "женщина", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "175", units: page}]}
-nain:naise OblSgStem ; ! ! All stems except NomSgStem require verification.
+nain:naise OblSgStem ; ! All stems except NomSgStem require verification.
 nain:naist PrtSgStem ;
 nain:naise IllSgStem ;
 nain:naisi OblPlStem ;
 
 napa:napa NomSgStem ;
+
+näkö:näkö NomSgStem ; ! {lemma: "näkö", pos: N, morphType: "VS6", translations: [{value: "face", lang: en}, {value: "лицо", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179", units: page}]}
+näkö:näö OblSgStem ;
+näkö:näkkö PrtSgStem ; ! verification is needed
+näkö:näkkö IllSgStem ; ! verification is needed
 
 part:part NomSgStem ;
 part:parra OblSgStem ;
@@ -216,8 +232,15 @@ vasar:vasar CS2-O ;
 
 pulma:pulma NomSgStem ; ! verification is needed
 
-sota:sota NomSgStem ;
+sota:sota NomSgStem ; ! {lemma: "sota", pos: N, morphType: "VS6", translations: [{value: "war", lang: en}, {value: "война", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "66 144 147 166 179 323", units: page}]}
 sota:soa OblSgStem ;
+sota:sotta PrtSgStem ; ! verification is needed
+sota:sotta IllSgStem ;
+
+vako:vako NomSgStem ; ! {lemma: "vako", pos: N, morphType: "VS6", translations: [{value: "furrow", lang: en}, {value: "борозда", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179", units: page}]}
+vako:vao OblSgStem ;
+vako:vakko PrtSgStem ; ! verification is needed
+vako:vakko IllSgStem ; ! verification is needed
 
 ! 5. Abstract concepts
 
