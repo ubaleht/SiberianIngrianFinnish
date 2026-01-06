@@ -67,21 +67,31 @@ makkamine:makkamist PrtSgStem ;
 makkamine:makkamise IllSgStem ;
 makkamine:makkamisi OblPlStem ;
 
+maa:maa NomSgStem ; ! {lemma: "maa", pos: N, morphType: "VS8", translations: [{value: "ground", lang: en}, {value: "земля", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "119 121 159 166 167 180", units: page}, {fileName: "KKM-34_2021-11-05.WAV", location: "03:17-06:21", units: time}]}
+maa:maa OblSgStem ;
+maa:maat PrtSgStem ;
+maa:maan sisse IllSgStem ; maah ?
+
 mato:mato NomSgStem ; ! {lemma: "mato", pos: N, morphType: "VS6", translations: [{value: "worm", lang: en}, {value: "червяк", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 71 179", units: page}]}
 mato:mao OblSgStem ;
 mato:matto PrtSgStem ; ! verification is needed 
 mato:matto IllSgStem ; ! verification is needed 
-
-mäki:mäki NomSgStem ; ! {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
-mäki:mäe OblSgStem ; 
-mäki:mäkke PrtSgStem ; ! verification is needed 
-mäki:mäkkke IllSgStem ;
 
 muna:muna NomSgStem ; ! VS7
 muna:muna OblSgStem ;
 muna:munna PrtSgStem ;
 muna:munna IllSgStem ;
 muna:munno OblPlStem ;
+
+mäki:mäki NomSgStem ; ! {lemma: "mäki", pos: N, morphType: "VS4", translations: [{value: "mountain", lang: en}, {value: "hill", lang: en}, {value: "гора", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "145 148", units: page}]}
+mäki:mäe OblSgStem ; 
+mäki:mäkke PrtSgStem ; ! verification is needed 
+mäki:mäkkke IllSgStem ;
+
+meri:meri NomSgStem ; 
+meri:mere OblSgStem ; ! должно быть merenkä COM
+meri:merre PrtSgStem ;
+meri:merre IllSgStem ;
 
 razv:razv NomSgStem ;
 razv:razva OblSgStem ;
@@ -147,10 +157,10 @@ nain:naisi OblPlStem ;
 
 napa:napa NomSgStem ;
 
-näkö:näkö NomSgStem ; ! {lemma: "näkö", pos: N, morphType: "VS6", translations: [{value: "face", lang: en}, {value: "лицо", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179", units: page}]}
+näkö:näkö NomSgStem ; ! {lemma: "näkö", pos: N, morphType: "VS6", translations: [{value: "face", lang: en}, {value: "лицо", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179", units: page}, {fileName: "KKM-34_2021-11-02.WAV", location: "all", units: time}]}
 näkö:näö OblSgStem ;
-näkö:näkkö PrtSgStem ; ! verification is needed
-näkö:näkkö IllSgStem ; ! verification is needed
+näkö:näkkö PrtSgStem ; 
+näkö:näkkö IllSgStem ; 
 
 part:part NomSgStem ;
 part:parra OblSgStem ;
@@ -174,14 +184,24 @@ tüttw:tüttö OblPlStem ;
 ait:ait NomSgStem ;
 ait:ajja OblSgStem ;
 
-kiuka:kiuka NomSgStem ; ! VS2
+jahis:jahis NomSgStem ; ! {lemma: "jahis", pos: N, morphType: "?", translations: [{value: "hunt", lang: en}, {value: "охота", lang: ru}], sources: [{fileName: "KKM-34_2023-12-26.WAV", location: "01:50-03:05", units: time}]}
+jahis:jahi OblSgStem ;
+jahis:jahti PrtSgStem ; ! jahhti?
+
+kiuka:kiuka NomSgStem ; ! {lemma: "kiuka", pos: N, morphType: "", translations: [{value: "stove", lang: en}, {value: "печь (сущ. устройство для обогрева жилища и приготовления пищи)", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "129 165 171 176 311", units: page}]}
 kiuka:kiuka OblSgStem ;
 kiuka:kiukatt PrtSgStem ;
 kiuka:kiuka IllSgStem ;
 kiuka:kiuka OblPlStem ;
 
-krampp':krampp' NomSgStem ;
+krampp':krampp' NomSgStem ; ! {lemma: "krampp'", pos: N, morphType: "?", translations: [{value: "hook", lang: en}, {value: "крючок", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "147", units: page}]}
 krampp':krampi OblSgStem ;
+
+külä:külä NomSgStem ; ! {lemma: "külä", pos: N, morphType: "VS7", translations: [{value: "village", lang: en}, {value: "деревня", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179 215 233", units: page}, {fileName: "KKM-34_2021-11-05.WAV", location: "00:14-03:17", units: time}]}
+külä:külä OblSgStem ;
+külä:küllä PrtSgStem ;
+külä:küllä IllSgStem ;
+külä:külli OblPlStem ;
 
 leip:leip NomSgStem ;
 leip:leivä OblSgStem ;
