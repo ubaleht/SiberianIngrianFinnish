@@ -26,7 +26,7 @@ jänis:jänist PrtSgStem ;
 jänis:jänikse IllSgStem ;
 jänis:jäniksi OblPlStem ;
 
-kala:kala NomSgStem ; ! VS7
+kala:kala NomSgStem ; ! VS7 ! 009_ryzh_map_100707.doc
 kala:kala OblSgStem ;
 kala:kalla PrtSgStem ;
 kala:kalla IllSgStem ;
@@ -39,6 +39,9 @@ kana:kanna IllSgStem ;
 kana:kanno OblPlStem ;
 
 koir:koir CS2-I ;
+
+korv:korv NomSgStem ; ! {lemma: "korv", pos: N, morphType: "", translations: [{value: "ear", lang: en}, {value: "ухо", lang: ru}], sources: [{fileName: "002_ryzh_map_mii_090817.doc", location: "44", units: sentence}]} 
+korv:korva OblSgStem ;
 
 kirppw:kirppw NomSgStem ;
 kirppw:kripu OblSgStem ;
@@ -114,16 +117,13 @@ taivas:taivast PrtSgStem ;
 taivas:taivas IllSgStem ;
 taivas:taivos OblPlStem ;
 
+täht':täht' NomSgStem ; ! {lemma: "täht'", pos: N, morphType: "", translations: [{value: "star", lang: en}, {value: "звезда", lang: ru}], sources: [{fileName: "002_ryzh_map_mii_090817.doc", location: "45", units: sentence}]}
+täht':tähe OblSgStem ;
+
 vesi:vesi NomSgStem ;
 vesi:vee OblSgStem ;
 
 ! 2. The human individual: human anatomy, kinship relations, etc.
-
-ihmen:ihmen NomSgStem ; ! {lemma: "ihmen", pos: N, morphType: "CS7", translations: [{value: "person", lang: en}, {value: "human", lang: en}, {value: "man", lang: en}, {value: "человек", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "72 108 109 175 190", units: page}]}
-ihmen:ihmése OblSgStem ;
-ihmen:ihmest PrtSgStem ; ! verification is needed
-ihmen:ihmese IllSgStem ; ! verification is needed 
-ihmen:ihmési OblPlStem ;
 
 halkw:halkw NomSgStem ;
 halkw:halo OblSgStem ;
@@ -134,17 +134,30 @@ hammas:hammast PrtSgStem ;
 hammas:hampa IllSgStem ; ! There is wordform "hampas", see Sidorkevich's PhD thesis, p. 174
 hammas:hampa OblPlStem ; ! There is wordform "hampo-n" Pl-Gen, see Sidorkevich's PhD thesis, p. 174
 
-hius:hius NomSgStem ; ! ! {lemma: "hius", pos: N, morphType: "CS6", translations: [{value: "hair", lang: en}, {value: "волос", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 164 174", units: page}]}
+hius:hius NomSgStem ; ! {lemma: "hius", pos: N, morphType: "CS6", translations: [{value: "hair", lang: en}, {value: "волос", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67 164 174", units: page}]}
 hius:hiukse OblSgStem ; ! All stems except NomSgStem require verification.
 hius:hiust PrtSgStem ;
 hius:hiukse IllSgStem ;
 hius:hiuksi OblPlStem ;
+
+ihmen:ihmen NomSgStem ; ! {lemma: "ihmen", pos: N, morphType: "CS7", translations: [{value: "person", lang: en}, {value: "human", lang: en}, {value: "man", lang: en}, {value: "человек", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "72 108 109 175 190", units: page}]}
+ihmen:ihmése OblSgStem ;
+ihmen:ihmest PrtSgStem ; ! verification is needed
+ihmen:ihmese IllSgStem ; ! verification is needed 
+ihmen:ihmési OblPlStem ;
+
+jalk:jalk NomSgStem ; ! {lemma: "jalk", pos: N, morphType: "", translations: [{value: "leg", lang: en}, {value: "нога", lang: ru}], sources: [{fileName: "004_ryzh_kzm_121104.doc", location: "40 41", units: sentence}]}
+jalk:jala OblSgStem ;
+jalk:jalko OblPlStem ;
 
 käsi:käsi NomSgStem ;
 käsi:käe OblSgStem ;
 käsi:kätt PrtSgStem ;
 käsi:kätte IllSgStem ;
 käsi:kässi OblPlStem ;
+
+mamm:mamm NomSgStem ; ! {lemma: "mamm", pos: N, morphType: "", translations: [{value: "mother", lang: en}, {value: "мама", lang: ru}], sources: [{fileName: "004_ryzh_kzm_121104.doc", location: "33 34", units: sentence}]}
+mamm:mammo OblPlStem ;
 
 nahk:nahk NomSgStem ;
 nahk:naha OblSgStem ;
@@ -156,6 +169,9 @@ nain:naise IllSgStem ;
 nain:naisi OblPlStem ;
 
 napa:napa NomSgStem ;
+
+nisk:nisk NomSgStem ; ! {lemma: "nisk", pos: N, morphType: "", translations: [{value: "back of the head", lang: en}, {value: "nape", lang: en}, {value: "затылок", lang: ru}], sources: [{fileName: "004_ryzh_kzm_121104.doc", location: "44 45 46", units: sentence}]}
+nisk:nisko OblPlStem ;
 
 näkö:näkö NomSgStem ; ! {lemma: "näkö", pos: N, morphType: "VS6", translations: [{value: "face", lang: en}, {value: "лицо", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "179", units: page}, {fileName: "KKM-34_2021-11-02.WAV", location: "all", units: time}]}
 näkö:näö OblSgStem ;
@@ -242,9 +258,17 @@ riuk:rivvu OblSgStem ;
 rohtw:rohtw NomSgStem ; ! слово "трава" также будет?
 rohtw:roho OblSgStem ;
 
-tupa:tupa NomSgStem ; ! {lemma: "tupa", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}, {value: "дом", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page}], comments: "tuva-n, see page 147"}
+tarhat:tarhat NomSgStem ; ! {lemma: "tarhat", pos: N, morphType: "", translations: [{value: "garden", lang: en}, {value: "огород", lang: ru}], sources: [{fileName: "KKM-34_2021-11-05.WAV", location: "08:50-10:00", units: time}, {fileName: "Sidorkevich's PhD thesis", location: "83", units: page}], comments: "For Nom.Sg else form is tarhas"}
+tarhat:tarha OblSgStem ;
+tarhat:tarhatt PrtSgStem ; ! tarhattq (aspirated tt)?
+tarhat:tarhatt IllSgStem ; 
+! tarhat:tarh(h)a? tarh(h)o? OblPlStem ;
+
+tupa:tupa NomSgStem ; ! {lemma: "tupa", pos: N, morphType: "?", translations: [{value: "hut", lang: en}, {value: "hous", lang: en}, {value: "изба", lang: ru}, {value: "дом", lang: ru}], sources: [{fileName: "Sidorkevich's PhD thesis", location: "67", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "124", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "144", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "147", units: page}, {fileName: "Sidorkevich's PhD thesis", location: "262", units: page},{fileName: "KKM-34_2021-11-05.WAV", location: "06:28-08:49", units: time}], comments: "tuva-n, see page 147"}
 tupa:tua OblSgStem ;
 tupa: tuppa PrtSgStem ;
+tupa: tuppa IllSgStem ;
+tupa: tuppi OblPlStem ; ! verification is needed
 
 vasar:vasar CS2-O ;
 
